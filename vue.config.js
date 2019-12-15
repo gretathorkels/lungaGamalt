@@ -1,6 +1,6 @@
 module.exports = {
    
-   publicPath: "/lunga",
+   //publicPath: "/lunga",
     outputDir: "docs"
   }
   
