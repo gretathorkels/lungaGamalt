@@ -1,4 +1,55 @@
 ---
 label: Workshop
 hide_body: false
-fields: []
+fields:
+- name: workshop
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Workshop
+  description: workshops
+- name: dagsetning
+  type: datetime
+  label: dagsetning
+  description: dagsetning
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: worksho
+  type: field_group_list
+  fields:
+  - name: dagsetning
+    type: datetime
+    label: dagsetning
+    description: dd
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: skyring
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: skyring
+    description: desskyring
+  - name: nafn
+    type: text
+    config:
+      required: false
+    label: nafn
+    description: nafn
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: worksho
+  description: fullatfow
