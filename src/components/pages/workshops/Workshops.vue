@@ -1,14 +1,20 @@
 <template>
-  <div class="hello">
-    Hæ
+  <div class="workshops">
+    Workshops
+    <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Navigation',
-  props: {
-    msg: String
+  name: 'workshops',
+  // props: {
+  //   msg: String
+  // }
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
   }
 }
 
