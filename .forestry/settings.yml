@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _posts
   label: Blogs
-  match: "**/*"
 - type: directory
   path: static
   label: Workshops
