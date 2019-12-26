@@ -2,6 +2,7 @@
   <div class="workshops">
     Workshops
     <h1>{{ msg }}</h1>
+    <a href="/admin/">Admin</a>
   </div>
 </template>
 

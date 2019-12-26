@@ -3,7 +3,7 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
-  branch: master # Branch to update (master by default)
+  branch: V1-admin-access # Branch to update (master by default)
 
 media_folder: "static/img/uploads"
 
