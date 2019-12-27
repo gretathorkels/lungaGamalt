@@ -17,7 +17,7 @@ sections:
   label: Workshops
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 upload_dir: static/img/upload
 public_path: static/img/upload
 front_matter_path: ''
