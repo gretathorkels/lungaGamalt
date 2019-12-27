@@ -8,7 +8,7 @@ sections:
   path: _posts
   label: Blogs
 - type: directory
-  path: static
+  path: workshops
   label: Workshops
   create: all
   match: "**/*"
