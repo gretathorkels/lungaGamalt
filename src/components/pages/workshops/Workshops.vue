@@ -3,12 +3,15 @@
     Workshops
     <h1>{{ msg }}</h1>
     <a href="/admin/">Admin</a>
+    
   </div>
 </template>
 
 <script>
+//import Markdown from '../../../../static/fyrstatest.md'
 export default {
   name: 'workshops',
+  //components: {Markdown},
   // props: {
   //   msg: String
   // }

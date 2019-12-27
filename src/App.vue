@@ -1,6 +1,7 @@
 
 <template>
   <div id="app">
+    <a href="/workshops">hæ</a>
     <router-view></router-view>
   </div>
 </template>
