@@ -19,37 +19,22 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: worksho
-  type: field_group_list
-  fields:
-  - name: dagsetning
-    type: datetime
-    label: dagsetning
-    description: dd
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-  - name: skyring
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: skyring
-    description: desskyring
-  - name: nafn
-    type: text
-    config:
-      required: false
-    label: nafn
-    description: nafn
+- name: timasetning
+  type: datetime
+  label: Timasetning
+  description: timasetning
   config:
-    min: 
-    max: 
-    labelField: 
-  label: worksho
-  description: fullatfow
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+  description: description
