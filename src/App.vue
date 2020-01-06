@@ -1,23 +1,25 @@
-
 <template>
   <div id="app">
-    <a href="/workshops">hæ</a>
+    
     <router-view></router-view>
+    <test/>
   </div>
 </template>
 
 <!-- JAVASCRIPT -->
 <script>
-
+//import Test from "./assets/test.md"
 export default {
   name: 'app',
+  //components: {Test},
+  
 }
 </script>
 
 <!-- STÍLL CSS -->
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Rather', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

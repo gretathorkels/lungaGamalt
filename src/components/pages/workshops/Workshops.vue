@@ -3,21 +3,22 @@
     Workshops
     <h1>{{ msg }}</h1>
     <a href="/admin/">Admin</a>
-    
+   
   </div>
 </template>
 
 <script>
-//import Markdown from '../../../../static/fyrstatest.md'
+//import Workshops from "../../test.md"
 export default {
   name: 'workshops',
-  //components: {Markdown},
+  //components: {Workshops},
   // props: {
   //   msg: String
-  // }
+  // },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      //workshops: {workshops}
     }
   }
 }
