@@ -1,9 +1,15 @@
 <template>
   <div class="workshops">
-    Workshops
-    <h1>{{ msg }}</h1>
-    <a href="/admin/">Admin</a>
-   
+    <div class="headline left-align">Listasmiðjur</div>
+    <div class="container">
+      <div>
+        <div class="sub-header">Apply</div>
+        <div class="sub-header">Here</div>
+      </div>
+      
+      <div class="sub-line">Listasmiðjur verða birtar í maí 2020</div>
+    </div>
+    
   </div>
 </template>
 
@@ -28,18 +34,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.container {
+  display: flex;
 }
 </style>

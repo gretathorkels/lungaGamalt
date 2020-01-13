@@ -1,6 +1,6 @@
 <template>
   <div class="applications">
-      Applications
+       <div class="headline left-align">Umsóknir</div>
   </div>
 </template>
 
