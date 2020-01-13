@@ -1,34 +1,30 @@
 <template>
   <div class="frontpage">
-      <div class="language-container">
-          <input type="checkbox" id="icelandic" value="icelandic" v-model="checked">
-          <label for="icelandic">Íslenska</label>
-          <br>
-          <input type="checkbox" id="english" value="english" v-model="checked">
-          <label for="english">English</label>
-          <br>
-          <span>{{checked}}</span>
+      <div class="language-container" @click.prevent="shiftLanguage">
+         
       </div>
     <div class="logo-container">
          <img src="../../../assets/LungaLogo.svg" />
     </div>
    <div class="navigation">
-       <a><span class="skew">Um LungA</span></a>
-       <a><span class="skew">Listasmiðjur</span></a>
-       <a><span class="skew">Tónleikar í Norðursíld</span></a>
-       <a><span class="little-nav">Fyrirlestraröð</span> <span class="skew">LungA LAB</span></a>
-       <a><span class="skew">Opnar vinnustofur</span></a>
-       <a><span class="skew">Viðburðarskrá</span></a>
-       <a><span class="skew">Umsóknir</span></a>
+       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/about">Um LungA</router-link></div></div>
+       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/workshops">Listasmiðjur</router-link></div></div>
+       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/concerts">Tónleikar í Norðursíld</router-link></div></div>
+       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/lungalab">LungA LAB</router-link></div></div>
+       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/openstudios">Opnar vinnustofur</router-link></div></div>
+      <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/eventindex">Viðburðarskrá</router-link></div></div>
+       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/applications">Umsóknir</router-link></div></div>
         </div>
        <div class="little-nav">
-           <a>Samstarfsaðilar</a>
-           <a>Hafðu samband</a>
+         <div class="grid-container">
+         <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/sponsors">Samstarfsaðilar</router-link></div></div>
+         <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/contact">Hafðu samband</router-link></div></div>
+         </div>
+         <div class="grid-container">
+          <div class="skew">Instagram</div>
+           <div class="skew">Facebook</div>
+           <div class="skew">Tumblr</div>
        </div>
-       <div class="social-media">
-           <a>Instagram</a>
-           <a>Facebook</a>
-           <a>Tumblr</a>
        </div>
   </div>
 </template>
@@ -39,12 +35,18 @@ export default {
 
   data() {
      return{
-         checked: []
+         isActive: [true, false],
      }       
   },
-  props: {
-    msg: String
-  },
+  
+  methods: {
+    shiftLanguage: function (){
+      this.isActive.forEach((element, index) => {
+        return this.$set(this.isActive, index, !this.isActive[index] )
+      });
+      
+    }
+  }
 }
 
 
@@ -52,70 +54,34 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.nav-link {
+  text-decoration: none;
 }
-.navigation{
-    display: flex;
-    flex-direction: column;
-    
+a:link, :visited{
+  color: inherit;
 }
-.navigation a{
+
+
+.little-nav .skew-container {
+  font-size: 48px;
+}
+.skew-container  {
     border-top: 2px solid #000;
-    width: 100%;
+    max-width: 99.9%;
     text-decoration: none;
     font-size: 96px;
-    font-weight: bold;
+    font-weight: 600;
+    text-align: left;
     color: black;
+}
+.skew-container .skew {
     -ms-transform: skew(10deg, 0); /* IE 9 */
     -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
     transform: skew(10deg, 0); /* Standard syntax */
 }
-.little-nav {
-     display: flex;
-     flex-direction: row;
-}
-.little-nav a {
-    font-size: 48px;
-    font-weight: bold;
-    color: #000;
-    border-top: 2px solid #000;
-    justify-content: space-evenly;
-    width: 100%;
-    -ms-transform: skew(10deg, 0); /* IE 9 */
-    -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
-    transform: skew(10deg, 0); /* Standard syntax */
-}
-.social-media {
-     display: flex;
-     flex-direction: row;
-}
-.social-media a {
-    font-size: 48px;
-    font-weight: bold;
-    color: #000;
-    border-top: 2px solid #000;
-    justify-content: space-evenly;
-    width: 100%;
-   
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.logo-container img {
-    width: 100%; 
-}
-.language-container input {
--webkit-appearance: checkbox;
-  -moz-appearance: checkbox;   
-  -ms-appearance: checkbox;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 </style>
