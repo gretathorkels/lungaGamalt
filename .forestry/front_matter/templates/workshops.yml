@@ -17,6 +17,11 @@ fields:
   config:
     required: false
   label: Höfundur/umsjónarfólk
+- name: annar_hofundur
+  type: text
+  config:
+    required: false
+  label: Annar Höfundur
 - name: lysing
   type: textarea
   default: ''
@@ -40,6 +45,15 @@ fields:
     schema:
       format: markdown
   label: Um höfundinn
+- name: um_annan_hofund
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Um annan höfund
 - name: twitter
   type: text
   config:
