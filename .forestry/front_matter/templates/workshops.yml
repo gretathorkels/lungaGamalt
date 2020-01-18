@@ -1,4 +1,62 @@
 ---
 label: Workshops
 hide_body: false
-fields: []
+fields:
+- name: lengd_a_workshoppi
+  type: text
+  config:
+    required: false
+  label: Lengd á workshoppi
+- name: nafn_a_workshoppi
+  type: text
+  config:
+    required: false
+  label: Nafn á workshoppi
+- name: hofundur
+  type: text
+  config:
+    required: false
+  label: Höfundur/umsjónarfólk
+- name: lysing
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Lýsing
+- name: mynd
+  type: file
+  config:
+    maxSize: 250
+  label: Mynd
+- name: um_hofundinn
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Um höfundinn
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: Twitter
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: Instagram
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+- name: annad
+  type: text
+  config:
+    required: false
+  label: Annað
