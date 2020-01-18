@@ -17,7 +17,7 @@ sections:
   label: Workshops
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - workshops
 upload_dir: static/img/upload
