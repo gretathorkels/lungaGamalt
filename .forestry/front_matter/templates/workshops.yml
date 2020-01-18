@@ -74,3 +74,5 @@ fields:
   config:
     required: false
   label: Annað
+pages:
+- workshops/Kristalsnáma1.html
