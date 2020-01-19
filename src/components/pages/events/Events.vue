@@ -1,15 +1,22 @@
 <template>
   <div class="hello">
     Hæ
+    <div v-html="compiledMarkdown"></div>
   </div>
 </template>
 
 <script>
+import marked from 'marked'
 export default {
   name: 'Events',
   props: {
     msg: String
-  }
+  },
+  computed: {
+    compiledMarkdown: function(){
+      return marked('../../../../workshops/krist2.md', { sanitize: true })
+    }
+  },
 }
 
 
