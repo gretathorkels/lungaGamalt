@@ -1,0 +1,28 @@
+{
+  "links" : {
+    "about": "About LungA",
+    "workshops": "Workshops",
+    "concerts": "concerts",
+    "lungalab": "LungA LAB",
+    "openstudios": "Open Studios",
+    "eventindex": "Event Index",
+    "applications": "Applications",
+    "sponsors": "Sponsors",
+    "contact": "Contact",
+    "menu": "Menu"
+
+  },
+  "title" : {
+    "about": "About LungA",
+    "workshops": "Workshops",
+    "concerts": "concerts",
+    "lungalab": "LungA LAB",
+    "openstudios": "Open Studios",
+    "eventindex": "Event Index",
+    "applications": "Applications",
+    "sponsors": "Sponsors",
+    "contact": "Contact"
+
+  }
+
+}

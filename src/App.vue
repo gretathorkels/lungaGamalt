@@ -1,34 +1,15 @@
 <template>
   <div id="app">
-    
-    <Header v-bind:isActive="isActive" v-on:shiftLanguage="shiftLanguage" v-bind:location="location"/>
     <router-view />
-
   </div>
 </template>
 
 <!-- JAVASCRIPT -->
 <script>
-import Header from './components/shared/header/Header'
+
 //import Test from "./assets/test.md"
 export default {
   name: 'app',
-  components: {
-    Header
-    },
-  data(){
-        return{
-            isActive: [true, false],
-            location: window.location.pathname === '/' ? false : true //þarf betri leið!
-        }
-    },
-    methods: {
-        shiftLanguage: function (){
-            this.isActive.forEach((element, index) => {
-                return this.$set(this.isActive, index, !this.isActive[index] )
-                });
-
-    }},
 }
 </script>
 
@@ -42,7 +23,15 @@ export default {
   color: #000;
   margin-top: 15px;
 }
-
+.pointer-mouse{
+   cursor: pointer;
+}
+.nav-link {
+  text-decoration: none;
+}
+a:link, :visited{
+  color: inherit;
+}
 .left-align {
     text-align: left;
 }
@@ -59,9 +48,14 @@ export default {
     max-width: 99%;
     font-size: 144px;
     font-weight: 600;
-     -ms-transform: skew(10deg, 0); /* IE 9 */
+    font-style: italic;
+    
+}
+.skewheader{
+   -ms-transform: skew(10deg, 0); /* IE 9 */
     -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
     transform: skew(10deg, 0); /* Standard syntax */
+    font-style: unset;
 }
 .sub-header{
   font-size: 96px;

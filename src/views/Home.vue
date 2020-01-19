@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Header from '../components/shared/header/Header';
+import Header from '../components/shared/Header';
 export default {
     name: 'Home',
     data(){
@@ -14,6 +14,7 @@ export default {
             isActive: [true, false]
         }
     },
+    components: {Header},
     methods: {
         shiftLanguage: function (){
             this.isActive.forEach((element, index) => {

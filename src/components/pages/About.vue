@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-     
-      <div class="headline left-align">Um Lunga</div>
+      <Header v-bind:menu="'menu'" />
+      <Headline v-bind:title="title"/>
       <div class="text-container">
           
           <div class="sub-line">Árið 2000 leit listahátíð LungA dagsins ljós í fyrsta sinn.</div>
@@ -14,7 +14,7 @@
               LungA „fjölskyldan“ samanstendur nú bæði af árlegri listahátíð og skóla. Dagsdaglega er þetta tvennt rekið sitt í hvoru lagi, en heitið, gildin og hugmyndafræðin eru af sama meiði.
           </div>
           
-          <div class="content-img"><img src="../../../../static/img/uploads/aboutlunga.jpg"/></div>
+          <div class="content-img"><img src="../../../static/img/uploads/aboutlunga.jpg"/></div>
           <div class="sub-line">
               Ungmennaskipti Erasmus+
           </div>
@@ -33,9 +33,21 @@
 </template>
 
 <script>
+import Header from '../shared/Header'
+import Headline from '../shared/Headline'
 
 export default {
   name: 'About',
+  components: {
+      Header,
+      Headline
+  },
+  data(){
+      return{
+          title: 'title.about'
+      }
+  }
+
 }
 
 </script>

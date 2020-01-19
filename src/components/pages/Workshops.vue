@@ -1,7 +1,9 @@
 <template>
   <div class="workshops">
-    <div class="headline left-align">Listasmiðjur</div>
-    <div class="container">
+      <Header v-bind:menu="'menu'" />
+    <Headline v-bind:title="title"/>
+
+   <div class="container">
       <div>
         <div class="sub-header">Apply</div>
         <div class="sub-header">Here</div>
@@ -14,16 +16,20 @@
 </template>
 
 <script>
+import Header from '../shared/Header'
+import Headline from '../shared/Headline'
+
 //import Workshops from "../../test.md"
 export default {
   name: 'workshops',
-  //components: {Workshops},
+  components: {Header, Headline},
   // props: {
   //   msg: String
   // },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
+      title: 'title.workshops'
       //workshops: {workshops}
     }
   }

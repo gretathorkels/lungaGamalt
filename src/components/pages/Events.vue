@@ -1,17 +1,20 @@
 <template>
   <div class="hello">
-    Hæ
+      <Header v-bind:menu="'menu'" />
+    
     <div v-html="compiledMarkdown"></div>
   </div>
 </template>
 
 <script>
 import marked from 'marked'
+import Header from '../shared/Header'
 export default {
   name: 'Events',
   props: {
     msg: String
   },
+  components: {Header},
   computed: {
     compiledMarkdown: function(){
       return marked('../../../../workshops/krist2.md', { sanitize: true })
