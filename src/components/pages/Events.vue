@@ -1,44 +1,27 @@
 <template>
-  <div class="hello">
-      <Header v-bind:menu="'menu'" />
-    
-    <div v-html="compiledMarkdown"></div>
-  </div>
+    <div>
+        <h1>My blog posts</h1>
+        <ul>
+            <li v-for="workshop in workshops" :key="workshop.attributes.hofundur">
+            {{workshop.attributes.hofundur}}
+            </li>
+        </ul>
+    </div>
 </template>
-
 <script>
-import marked from 'marked'
-import Header from '../shared/Header'
 export default {
-  name: 'Events',
-  props: {
-    msg: String
-  },
-  components: {Header},
-  computed: {
-    compiledMarkdown: function(){
-      return marked('../../../../workshops/krist2.md', { sanitize: true })
+  data() {
+   const resolve = require.context("../../../workshops", true, /\.md$/);
+    const imports = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+      return resolve(key);
+    })
+    return {
+      prefix: 'workshops',
+      workshops: imports
     }
   },
-}
-
-
+ 
+};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
