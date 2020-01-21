@@ -6,7 +6,7 @@
 
 <!-- JAVASCRIPT -->
 <script>
-
+//import Rather from "./assets/fonts/font.css"
 //import Test from "./assets/test.md"
 export default {
   name: 'app',
@@ -16,7 +16,7 @@ export default {
 <!-- STÍLL CSS -->
 <style>
 #app {
-  font-family: 'Rather', Helvetica, Arial, sans-serif;
+  font-family: Rather;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -76,5 +76,20 @@ a:link, :visited{
     
     width: 674px;
     height: 402px;
+}
+@font-face {
+    font-family: 'Rather';
+    src: url('./assets/fonts/Rather-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/Rather-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rather';
+    src: url('./assets/fonts/Rather-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Rather-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 </style>

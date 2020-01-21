@@ -32,7 +32,7 @@ const routes = [
   {path: '/:lang/events', component: Events },
   {path: '/events', component: Events },
   {path: '/:lang/workshops', component: Workshops },
-  {path: '/workshops', component: Events },
+  {path: '/workshops', component: Workshops },
   {path: '/en/concerts', component: Concerts },
   {path: '/concerts', component: Concerts },
   {path: '/en/lungalab', component: Lungalab },
