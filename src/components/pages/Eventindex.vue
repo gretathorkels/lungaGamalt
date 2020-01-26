@@ -4,7 +4,9 @@
       <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title"/>
  <div class="head-container">
-    </div>
+   <div class="sub-text">Skrá yfir viðburði birtist í maí 2020</div>
+ </div>
+
     <div class="workshops-container">
       <div class="table left-align">12.07 Sunnudagur</div>
       <div class="table left-align">13.07 Mánudagur</div>
