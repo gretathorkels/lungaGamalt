@@ -38,23 +38,24 @@
       <div><div class="sub-header">Apply</div>
         <div class="sub-header">Here</div></div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "../shared/Header";
+import Footer from '../shared/Footer'
 import Headline from "../shared/Headline";
 
 //import Workshops from "../../test.md"
 export default {
   name: "workshops",
-  components: { Header, Headline },
+  components: { Header, Footer, Headline },
   // props: {
   //   msg: String
   // },
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
       title: "title.workshops"
       //workshops: {workshops}
     };

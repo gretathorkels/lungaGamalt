@@ -23,6 +23,9 @@ export default {
   color: #000;
   margin-top: 15px;
 }
+.divider{
+  border-left: #000 2px solid;
+}
 .pointer-mouse{
    cursor: pointer;
 }
@@ -49,6 +52,7 @@ a:link, :visited{
     font-size: 144px;
     font-weight: 600;
     font-style: italic;
+    text-align: right;
     
 }
 .skewheader{
@@ -56,6 +60,7 @@ a:link, :visited{
     -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
     transform: skew(10deg, 0); /* Standard syntax */
     font-style: unset;
+    text-align: left;
 }
 .sub-header{
   font-size: 96px;
