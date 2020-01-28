@@ -24,19 +24,16 @@
       <div><div class="sub-header">Apply</div>
         <div class="sub-header">Here</div></div>
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
-import Footer from '../shared/Footer'
 import Headline from '../shared/Headline'
 export default {
   name: 'Applications',
   components: {
     Header,
-    Footer,
     Headline
   },
   data(){

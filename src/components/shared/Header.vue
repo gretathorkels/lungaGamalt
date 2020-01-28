@@ -32,6 +32,8 @@ export default {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  margin-top: -30px;
 }
 .nav-menu {
   font-size: 96px;
@@ -49,5 +51,6 @@ export default {
 }
 .language-options {
   display: flex;
+  font-weight: 600;
 }
 </style>

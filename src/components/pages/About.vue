@@ -29,19 +29,17 @@
           <div class="sub-line">Við vonumst til þess að sjá ykkur sem flest á LungA í ár.</div>
       </div>
       <div class="headline">Ást! LungA</div>
-      <Footer />
   </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
-import Footer from '../shared/Footer'
 import Headline from '../shared/Headline'
 
 export default {
   name: 'About',
   components: {
-      Header, Footer,
+      Header, 
       Headline
   },
   data(){

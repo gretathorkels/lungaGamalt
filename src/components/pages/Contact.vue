@@ -2,18 +2,16 @@
   <div class="contact">
     <Header v-bind:menu="'menu'"/>
     <Headline v-bind:title="title"/>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
-import Footer from '../shared/Footer'
 import Headline from '../shared/Headline'
 
 export default {
   name: 'Contact',
-  components: {Header, Footer, Headline},
+  components: {Header, Headline},
   data(){
     return {
       title: 'title.contact'

@@ -24,25 +24,23 @@
        aðgangur að öllum viðburðum <br/>
        hátíðarinnar.
         </div>
-      <div>
-        <a href="/frontpage" >
-        <span class="sub-header">Kaupa</span>
-        <span class="sub-header">Miða</span>
+      <div class="center sub-header nav-link">
+        <a href="/frontpage" class="nav-link" >
+        Kaupa<br/>
+        Miða
         </a>
       </div>
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
-import Footer from '../shared/Footer'
 import Headline from '../shared/Headline'
 
 export default {
   name: 'Concerts',
-  components: {Header, Footer, Headline},
+  components: {Header, Headline},
   data(){
     return {
       title: 'title.concerts'
@@ -57,6 +55,9 @@ export default {
 <style scoped>
 .head-container {
   display: flex;
+}
+.center{
+  text-align: center;
 }
 .footer-container {
   display: flex;

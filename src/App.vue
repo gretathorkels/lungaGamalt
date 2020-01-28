@@ -15,6 +15,11 @@ export default {
 
 <!-- STÍLL CSS -->
 <style>
+body{
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+}
 #app {
   font-family: Rather;
   -webkit-font-smoothing: antialiased;
@@ -22,9 +27,6 @@ export default {
   text-align: center;
   color: #000;
   margin-top: 15px;
-}
-.divider{
-  border-left: #000 2px solid;
 }
 .pointer-mouse{
    cursor: pointer;
@@ -51,15 +53,17 @@ a:link, :visited{
     max-width: 99%;
     font-size: 144px;
     font-weight: 600;
-    font-style: italic;
-    text-align: right;
+    
     
 }
-.skewheader{
+.english{
+  font-style: italic;
+  text-align: right;
+}
+.icelandic{
    -ms-transform: skew(10deg, 0); /* IE 9 */
     -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
     transform: skew(10deg, 0); /* Standard syntax */
-    font-style: unset;
     text-align: left;
 }
 .sub-header{

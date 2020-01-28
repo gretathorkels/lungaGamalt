@@ -17,21 +17,19 @@
     </div>
     <div class="footer-container">
     </div>
-    <Footer />
 </div>
 </template>
   
 <script>
 //import marked from 'marked'
 import Header from '../shared/Header'
-import Footer from '../shared/Footer'
 import Headline from '../shared/Headline'
 
 //import md from 'markdown-it';
 export default {
   name: 'Eventindex',
   components: {
-    Header, Footer, Headline
+    Header, Headline
   },
   data(){
     return {

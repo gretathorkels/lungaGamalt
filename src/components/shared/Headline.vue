@@ -1,13 +1,19 @@
 <template>
 <router-link class="nav-link" to="/">
-    <div class="headline" v-bind:class="{skewheader: this.$i18n.locale == 'isl'}">{{$t(title)}}</div>
+    <div v-if="this.$i18n.locale == 'isl'" class="headline icelandic" >
+        {{$t(subtitle)}} {{$t(title)}}
+    </div>
+    <div v-else class="headline english" >
+        {{$t(title)}}  {{$t(subtitle)}}
+    </div>
 </router-link>
 </template>
 <script>
 export default {
     name: "Headline",
     props:{
-        title: String
+        title: String,
+        subtitle: String,
     }
 }
 </script>

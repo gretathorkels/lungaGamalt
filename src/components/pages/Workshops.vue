@@ -38,26 +38,23 @@
       <div><div class="sub-header">Apply</div>
         <div class="sub-header">Here</div></div>
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "../shared/Header";
-import Footer from '../shared/Footer'
 import Headline from "../shared/Headline";
 
 //import Workshops from "../../test.md"
 export default {
   name: "workshops",
-  components: { Header, Footer, Headline },
+  components: { Header, Headline },
   // props: {
   //   msg: String
   // },
   data() {
     return {
       title: "title.workshops"
-      //workshops: {workshops}
     };
   }
 };

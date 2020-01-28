@@ -2,8 +2,10 @@
   "links" : {
     "about": "About LungA",
     "workshops": "Workshops",
-    "concerts": "concerts",
+    "concerts": "Concert at NordMarina",
     "lungalab": "LungA LAB",
+    "lungalab2": "Symposium",
+
     "openstudios": "Open Studios",
     "eventindex": "Event Index",
     "applications": "Applications",
@@ -15,8 +17,9 @@
   "title" : {
     "about": "About LungA",
     "workshops": "Workshops",
-    "concerts": "concerts",
+    "concerts": "Concert at NordMarina",
     "lungalab": "LungA LAB",
+    "lungalab2": "Symposium",
     "openstudios": "Open Studios",
     "eventindex": "Event Index",
     "applications": "Applications",

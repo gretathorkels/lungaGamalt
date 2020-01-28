@@ -1,16 +1,16 @@
 <template>
   <div class="frontpage">
       <Header v-bind:menu="'nomenu'" />
-      
+
     <div class="logo-container">
-         <img src="../../assets/LungaLogo.svg" />
+         <img src="../../assets/LungALogo2020.svg" />
     </div>
-   <div class="navigation">
+   <div class="navigation" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" >
        <div class="skew-container"><div class="skew"><router-link  class="nav-link" to="/about">{{ $t('links.about') }}</router-link> </div></div>
        <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/workshops">{{ $t('links.workshops') }}</router-link></div></div>
        <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/concerts">{{ $t('links.concerts') }}</router-link></div></div>
        <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/lungalab">{{ $t('links.lungalab') }}</router-link></div></div>
-       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/openstudios">{{ $t('links.openstudios') }}</router-link></div></div>
+       <!-- <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/openstudios">{{ $t('links.openstudios') }}</router-link></div></div> -->
       <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/eventindex">{{ $t('links.eventindex') }}</router-link></div></div>
        <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/applications">{{ $t('links.applications') }}</router-link></div></div>
         </div>
@@ -19,7 +19,7 @@
          <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/sponsors">{{ $t('links.sponsors') }}</router-link></div></div>
          <div class="skew-container divider"><div class="skew"><router-link class="nav-link" to="/contact">{{ $t('links.contact') }}</router-link></div></div>
          </div>
-        <Footer /> 
+        <Footer />
        </div>
   </div>
 </template>
@@ -37,6 +37,7 @@ export default {
 
 
 </script>
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .little-nav .skew-container {
@@ -46,16 +47,18 @@ export default {
     border-top: 2px solid #000;
     max-width: 99.9%;
     text-decoration: none;
+    box-sizing: border-box;
     font-size: 96px;
     font-weight: 600;
-    text-align: left;
+    
+    /* text-align: left; */
     color: black;
 }
-.skew-container .skew {
-    -ms-transform: skew(10deg, 0); /* IE 9 */
-    -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
-    transform: skew(10deg, 0); /* Standard syntax */
-}
+/* .skew-container .skew {
+    -ms-transform: skew(10deg, 0); 
+    -webkit-transform: skew(10deg, 0); 
+    transform: skew(10deg, 0);  
+} */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
@@ -64,5 +67,8 @@ export default {
   color: #000000;
   border-bottom: #000 2px solid;
 }
+/* .logo-container > img {
+  width: 80%;
+} */
 
 </style>

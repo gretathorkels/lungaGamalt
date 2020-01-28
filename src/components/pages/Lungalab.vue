@@ -1,23 +1,23 @@
 <template>
   <div class="lungalab">
     <Header v-bind:menu="'menu'" />
-    <Headline v-bind:title="title"/>
-    <Footer/>
+    <Headline v-bind:title="title" v-bind:subtitle="subtitle"/>
  </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
-import Footer from '../shared/Footer'
 import Headline from '../shared/Headline'
 
 export default {
   name: 'LungaLab',
-  components: {Header, Footer, Headline},
+  components: {Header,  Headline},
   data() {
      return{
          isActive: [true, false],
-         title: 'title.lungalab'
+         title: 'title.lungalab',
+         subtitle: 'title.lungalab2',
+
      }       
   },
   
