@@ -34,6 +34,10 @@ body{
 .nav-link {
   text-decoration: none;
 }
+::selection {
+  color: #fff;
+  background: #000;
+}
 a:link, :visited{
   color: inherit;
 }
