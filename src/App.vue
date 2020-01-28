@@ -60,6 +60,9 @@ a:link, :visited{
     
     
 }
+.center {
+  text-align: center;
+}
 .english{
   font-style: italic;
   text-align: right;

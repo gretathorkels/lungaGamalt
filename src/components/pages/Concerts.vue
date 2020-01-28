@@ -56,9 +56,7 @@ export default {
 .head-container {
   display: flex;
 }
-.center{
-  text-align: center;
-}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
