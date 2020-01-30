@@ -6,14 +6,16 @@
           <div v-bind:class="{ active: this.$i18n.locale == 'en' }" @click="changeLang('en')" class="checkbox" ></div>
           <span @click="changeLang('en')">English</span>
     </div>
-    <div v-if="menu === 'menu'" class="nav-menu">{{ $t('links.menu') }}</div>
+    
+    <Navigation v-bind:menu="menu"/>
   </div>
 </template>
 
 <script>
-
+import Navigation from './Navigation.vue';
 export default {
   name: "Header",
+  components: {Navigation},
   props: {
       //isActive: Array,
       menu: String
@@ -34,10 +36,13 @@ export default {
   justify-content: space-between;
   position: fixed;
   margin-top: -30px;
+  
+  z-index: 999;
 }
 .nav-menu {
   font-size: 96px;
   font-weight: 600;
+  background-color: white;
 }
 .checkbox {
   margin: 0 4px 0 15px;
@@ -51,6 +56,8 @@ export default {
 }
 .language-options {
   display: flex;
+  background-color: white;
   font-weight: 600;
+  max-height: 20px;
 }
 </style>

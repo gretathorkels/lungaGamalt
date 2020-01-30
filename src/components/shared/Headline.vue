@@ -1,10 +1,10 @@
 <template>
 <router-link class="nav-link" to="/">
     <div v-if="this.$i18n.locale == 'isl'" class="headline icelandic" >
-        {{$t(subtitle)}} {{$t(title)}}
+       <div class="subtitle"> {{$t(subtitle)}} </div> {{$t(title)}}
     </div>
     <div v-else class="headline english" >
-        {{$t(title)}}  {{$t(subtitle)}}
+        {{$t(title)}}  <div class="subtitle">{{$t(subtitle)}}</div>
     </div>
 </router-link>
 </template>
@@ -18,5 +18,7 @@ export default {
 }
 </script>
 <style scoped>
-
+.subtitle{
+    font-size: 40px;
+}
 </style>

@@ -1,20 +1,18 @@
 {
-  "links" : {
+  "links": {
     "about": "About LungA",
     "workshops": "Workshops",
     "concerts": "Concert at NordMarina",
     "lungalab": "LungA LAB",
     "lungalab2": "Symposium",
-
     "openstudios": "Open Studios",
     "eventindex": "Event Index",
     "applications": "Applications",
     "sponsors": "Sponsors",
     "contact": "Contact",
     "menu": "Menu"
-
   },
-  "title" : {
+  "title": {
     "about": "About LungA",
     "workshops": "Workshops",
     "concerts": "Concert at NordMarina",
@@ -25,7 +23,22 @@
     "applications": "Applications",
     "sponsors": "Sponsors",
     "contact": "Contact"
+  },
+  "roles": {
+    "director": "Festival Director",
+    "exhangeprogram": "Erasmus Youth exchange program",
+    "curator": "Curator",
+    "events": "Event manager",
+    "workshops": "Workshops",
+    "concerts": "Concerts",
 
+    "production": "Production",
+    "sponsors": "Sponsors",
+    "volunteers": "Volunteers",
+    "socialmedia": "Social Media Manager",
+    "pr": "PR Manager",
+    "booking": "Booking",
+    "graphics": "Graphic Design",
+    "programming": "Programming"
   }
-
 }

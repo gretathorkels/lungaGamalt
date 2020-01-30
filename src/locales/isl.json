@@ -24,5 +24,21 @@
       "applications": "Umsóknir",
       "sponsors": "Samstarfsaðilar",
       "contact": "Hafðu samband"
+    },
+    "roles": {
+      "director": "Framkvæmdastýra",
+      "exhangeprogram": "Ungmennaskipti Erasmus+",
+      "curator": "Sýningarstjóri",
+      "events": "Viðburðarstjóri",
+      "workshops": "Listasmiðjur",
+      "production": "Verkstjórn",
+      "concerts": "Tónleikar",
+      "sponsors": "Styrktaraðilar",
+      "volunteers": "Volunteers",
+      "socialmedia": "Samfélagsmiðlar",
+      "pr": "Almannatengsl",
+      "booking": "Bókanir",
+      "graphics": "Grafísk hönnun",
+      "programming": "Forritun"
     }
 }

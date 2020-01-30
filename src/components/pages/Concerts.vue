@@ -14,7 +14,7 @@
     
     <div class="footer-container">
       <div class="text">
-        Upplýsingar um tónleikana:
+        <!-- Upplýsingar um tónleikana: -->
       </div>
       <div class="text">
        Gjald fyrir Föstudagsnámskeið er <br/>
@@ -56,7 +56,9 @@ export default {
 .head-container {
   display: flex;
 }
-
+.center{
+  text-align: center;
+}
 .footer-container {
   display: flex;
   justify-content: space-between;

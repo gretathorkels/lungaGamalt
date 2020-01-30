@@ -2,6 +2,7 @@
   <div class="about">
       <Header v-bind:menu="'menu'" />
       <Headline v-bind:title="title"/>
+      
       <div class="text-container">
           
           <div class="sub-line">Árið 2000 leit listahátíð LungA dagsins ljós í fyrsta sinn.</div>

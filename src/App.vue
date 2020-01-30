@@ -24,15 +24,19 @@ body{
   font-family: Rather;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #000;
   margin-top: 15px;
+  position: relative;
 }
 .pointer-mouse{
    cursor: pointer;
 }
 .nav-link {
   text-decoration: none;
+}
+.subtitle{
+  font-size: 48px;
 }
 ::selection {
   color: #fff;
