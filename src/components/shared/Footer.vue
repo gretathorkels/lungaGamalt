@@ -15,12 +15,15 @@ export default {
 <style scoped>
 .footer{
   display: grid;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   grid-template-columns: 1fr 1fr auto;
   font-weight: 600;
   font-size: 48px;
   color: #000000;
-  border-bottom: #000 2px solid;
-  border-top: #000 2px solid;
+  /* border-bottom: #000 2px solid; */
+  /* border-top: #000 2px solid; */
+}
+.footer-item {
+  text-align: center;
 }
 </style>

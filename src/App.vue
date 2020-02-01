@@ -20,6 +20,10 @@ body{
   margin-left: 0;
   margin-right: 0;
 }
+.divider {
+  border-left: solid 2px #000;
+  padding-left: 20px;
+}
 #app {
   font-family: Rather;
   -webkit-font-smoothing: antialiased;
