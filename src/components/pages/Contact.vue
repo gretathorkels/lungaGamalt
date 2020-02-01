@@ -106,8 +106,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+table {
+  margin-top: 150px;
+  border-spacing: 0;
+  width: 100%;
+}
 td {
-  border-bottom: solid 1px #000;
+  border-bottom: solid 2px #000;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .head-container {
   display: flex;

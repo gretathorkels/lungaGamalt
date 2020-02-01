@@ -89,10 +89,7 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.navigation {
-  /* position: fixed; */
-  /* z-index: 99; */
-}
+
 .hidden {
   display: none;
 }

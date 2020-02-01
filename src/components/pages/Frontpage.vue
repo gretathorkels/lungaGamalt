@@ -6,9 +6,9 @@
          <img src="../../assets/LungALogo2020.svg" />
     </div>
    <div class="navigation"  >
-       <div class="skew-container"><div ><router-link  class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/about">{{ $t('links.about') }}</router-link> </div></div>
-       <div class="skew-container"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/workshops">{{ $t('links.workshops') }}</router-link></div></div>
-       <div class="skew-container"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/concerts">{{ $t('links.concerts') }}</router-link></div></div>
+       <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link  class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/about">{{ $t('links.about') }}</router-link> </div></div>
+       <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/workshops">{{ $t('links.workshops') }}</router-link></div></div>
+       <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/concerts">{{ $t('links.concerts') }}</router-link></div></div>
        <div class="skew-container"><div v-bind:class="{right: this.$i18n.locale=='isl', left: this.$i18n.locale=='en'}" >
          <router-link v-if="this.$i18n.locale=='isl'" class="nav-link" to="/lungalab">
          <span class="subtitle right icelandic">{{$t('links.lungalab2')}} </span>
@@ -20,13 +20,13 @@
          </div>
          </div>
        <!-- <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/openstudios">{{ $t('links.openstudios') }}</router-link></div></div> -->
-      <div class="skew-container"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/eventindex">{{ $t('links.eventindex') }}</router-link></div></div>
-       <div class="skew-container"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/applications">{{ $t('links.applications') }}</router-link></div></div>
+      <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/eventindex">{{ $t('links.eventindex') }}</router-link></div></div>
+       <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/applications">{{ $t('links.applications') }}</router-link></div></div>
         </div>
        <div class="little-nav">
          <div class="grid-container">
-         <div class="skew-container"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/sponsors">{{ $t('links.sponsors') }}</router-link></div></div>
-         <div class="skew-container divider"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/contact">{{ $t('links.contact') }}</router-link></div></div>
+         <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/sponsors">{{ $t('links.sponsors') }}</router-link></div></div>
+         <div class="skew-container divider" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/contact">{{ $t('links.contact') }}</router-link></div></div>
          </div>
         <Footer />
        </div>
@@ -59,6 +59,9 @@ export default {
 }
 .subtitle > .right {
   margin-left: 400px;
+}
+.rightalign {
+  text-align: right;
 }
 .left {
   padding-left: 400px;
@@ -98,8 +101,10 @@ export default {
   color: #000000;
   border-bottom: #000 2px solid;
 }
-/* .logo-container > img {
-  width: 80%;
-} */
-
+.logo-container > img {
+  max-width: 70%;
+}
+.logo-container{
+  text-align: center;
+}
 </style>

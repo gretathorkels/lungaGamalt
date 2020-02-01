@@ -40,5 +40,27 @@
       "booking": "Bókanir",
       "graphics": "Grafísk hönnun",
       "programming": "Forritun"
+    },
+    "applicationDesc":{
+      "title": "Hvað",
+      "show": "Viltu sýna á LungA",
+      "play": "Viltu spila á LungA?",
+      "host": "Viltu halda listasmiðju?",
+      "participate": "Viltu taka þátt í listasmiðju?",
+      "speak": "Viltu tala á lunga?"
+    },
+    "applicationLinks": {
+      "title": "Hlekkur",
+      "show": "Sækja um að vera með sýningu, danssýningu, gjörning yfir hátíðina",
+      "play": "Umsóknarform fyrir tónlistarfólk",
+      "host": "Umsóknarform fyrir listasmiðjukennara",
+      "participate": "Umsóknir fyrir þátttöku í listasmiðjum.",
+      "speak": "Umsóknarform fyrir fyrirlesara"
+    },
+    "applecationDeadline": {
+      "title": "Frestur",
+      "deadline": "20/02/2020",
+      "opensinfeb": "Opnar í febrúar",
+      "opensinmay": "Opnar í maí" 
     }
 }
