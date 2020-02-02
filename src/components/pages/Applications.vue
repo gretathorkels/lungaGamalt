@@ -20,7 +20,8 @@
       </tr>
       <tr>
         <td>{{$t("applicationDesc.show")}}</td>
-        <td>{{$t("applicationLinks.show")}}</td>
+        <td class="link-container"><a class="nav-link" href="https://podio.com/webforms/23952850/1741765?fbclid=IwAR1tD3HmG0pBpsFHloGldaNWJWK2bkG6XYofTbS1Pj7ksdyFzFZihbVLiPk" target="_blank">
+        {{$t("applicationLinks.show")}}</a></td>
         <td>{{$t("applecationDeadline.deadline")}}</td>
       </tr>
        <tr>

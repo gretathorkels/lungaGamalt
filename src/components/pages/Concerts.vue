@@ -8,7 +8,7 @@
         <div class="sub-header">Miða</div>
       </div>
       <div class="sub-text">
-        
+        {{$t("subtexts.concerts")}}
       </div>
     </div>
     <table>
@@ -30,20 +30,27 @@
           <td class="border-bottom normal">{{artist.time}}</td>
         </tr>
         <tr class="border" v-if="opened.includes(artist.id)" v-bind:key="artist.id2">
-          <td class="border-top" colspan="2">Icelandic DJ duo B1B2 creates unique performative club experience playing sets with a mix of afro house and ethno techno beats. <br/><br/> 
-           The duo has played at various underground events in Denmark and Cape Town as well as Iceland Airwaves & LungA.<br/> <br/>  
-           Playing on all your senses, B1B2 aims to create a dancefloor for you to feel free to dance while feeling loved and respected!!</td>
+          <td class="border-top" colspan="2">{{artist.descr}}</td>
           <td class="border-top" colspan="2">
-            <img :src="artist.img"/>
+            <img :src="artist.img" />
             <div class="grid-container">
-              <div v-if="artist.links.tumblr"> <a class="nav-link" :href="artist.links.tumblr" target="_blank">Tumblr</a></div>
-              <div v-if="artist.links.facebook"> <a class="nav-link" :href="artist.links.facebook" target="_blank">Facebook</a></div>
-              <div v-if="artist.links.website"> <a class="nav-link" :href="artist.links.website" target="_blank">Website</a></div>
-              <div v-if="artist.links.instagram"> <a class="nav-link" :href="artist.links.instagram" target="_blank">Instagram</a></div>
-              <div v-if="artist.links.spotify"> <a class="nav-link" :href="artist.links.spotify" target="_blank">Spotify</a></div>
+              <div v-if="artist.links.tumblr">
+                <a class="nav-link" :href="artist.links.tumblr" target="_blank">Tumblr</a>
+              </div>
+              <div v-if="artist.links.facebook">
+                <a class="nav-link" :href="artist.links.facebook" target="_blank">Facebook</a>
+              </div>
+              <div v-if="artist.links.website">
+                <a class="nav-link" :href="artist.links.website" target="_blank">Website</a>
+              </div>
+              <div v-if="artist.links.instagram">
+                <a class="nav-link" :href="artist.links.instagram" target="_blank">Instagram</a>
+              </div>
+              <div v-if="artist.links.spotify">
+                <a class="nav-link" :href="artist.links.spotify" target="_blank">Spotify</a>
+              </div>
             </div>
-            
-            </td>
+          </td>
         </tr>
       </template>
     </table>
@@ -51,9 +58,7 @@
       <div class="text">
         <!-- Upplýsingar um tónleikana: -->
       </div>
-      <div class="text">
-      
-      </div>
+      <div class="text"></div>
       <div class="center sub-header nav-link">
         <a href="/frontpage" class="nav-link">
           Kaupa
@@ -78,14 +83,14 @@ export default {
       artists: [
         {
           id: 1,
-          id2: '1b',
+          id2: "1b",
           date: "TBD",
           name: "Lena Willikens",
           stage: "tbd",
           time: "02:00",
-         img: require('../../assets/LungALogo2020.svg'),
-          // img: `../../assets/LungALogo2020.svg`,
-          
+          img: require("../../assets/LungALogo2020.svg"),
+          descr:
+            "Icelandic DJ duo B1B2 creates unique performative club experience playing sets with a mix of afro house and ethno techno beats. The duo has played at various underground events in Denmark and Cape Town as well as Iceland Airwaves & LungA. Playing on all your senses, B1B2 aims to create a dancefloor for you to feel free to dance while feeling loved and respected!!",
           links: {
             tumblr: "dd",
             spotify: "...",
@@ -94,16 +99,16 @@ export default {
         },
         {
           id: 2,
-          id2: '2b',
+          id2: "2b",
           date: "TBD",
           name: "Sturla Atlas",
           stage: "tbd",
           time: "02:00",
-         img: require('../../assets/LungALogo2020.svg'),
-          // img: `../../assets/LungALogo2020.svg`,
-          
+          descr:
+            "Icelandic DJ duo B1B2 creates unique performative club experience playing sets with a mix of afro house and ethno techno beats. The duo has played at various underground events in Denmark and Cape Town as well as Iceland Airwaves & LungA. Playing on all your senses, B1B2 aims to create a dancefloor for you to feel free to dance while feeling loved and respected!!",
+          img: require("../../assets/LungALogo2020.svg"),
           links: {
-            tumblr: "dd",
+            tumblr: "sdd",
             spotify: "...",
             facebook: "kk",
             website: ",,,"
@@ -133,18 +138,20 @@ export default {
   margin-bottom: 100px;
   /* margin-top: 20px; */
 }
-.border-top{
+.border-top {
   border-bottom: 2px solid #000;
 }
-.grid-container,tr{
+.grid-container,
+tr {
   vertical-align: top;
   /* padding-top: 20px; */
 }
-.grid-container,tr,td{
+.grid-container,
+tr,
+td {
   padding-top: 60px;
-
 }
-.grid-container.nav-link{
+.grid-container.nav-link {
   font-size: 13px;
   font-weight: 600;
 }
@@ -155,12 +162,12 @@ img {
 .head-container {
   display: flex;
 }
-.name{
+.name {
   font-size: 36px;
   font-weight: 600;
   text-align: center;
 }
-.normal{
+.normal {
   font-size: 24px;
   font-weight: 600;
   text-align: left;
@@ -172,7 +179,7 @@ th {
   font-size: 36px;
   font-weight: 600;
   padding-left: 20px;
-  
+
   text-align: left;
 }
 table {
@@ -202,7 +209,9 @@ td.border-bottom {
   font-weight: 600;
   font-size: 48px;
   margin-left: 40px;
+  width: 60%;
   text-align: left;
+  margin-top: 20px;
   color: #000000;
 }
 .table {

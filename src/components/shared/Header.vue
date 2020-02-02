@@ -2,9 +2,9 @@
   <div class="header">
     <div class="language-options pointer-mouse" >
         <div v-bind:class="{active: this.$i18n.locale == 'isl'}" @click="changeLang('isl')" class="checkbox"></div>
-          <span  @click="changeLang('isl')">Íslenska</span>
+          <span class="text"  @click="changeLang('isl')">Íslenska</span>
           <div v-bind:class="{ active: this.$i18n.locale == 'en' }" @click="changeLang('en')" class="checkbox" ></div>
-          <span @click="changeLang('en')">English</span>
+          <span class="text" @click="changeLang('en')">English</span>
     </div>
     
     <Navigation v-bind:menu="menu"/>
@@ -30,26 +30,32 @@ export default {
 };
 </script>
 <style>
+
+.text{
+  font-size: 1em;
+}
 .header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   position: fixed;
   margin-top: -30px;
-  
+  display: flex;
+  flex-direction: column;
   z-index: 999;
 }
 .nav-menu {
   font-size: 96px;
   font-weight: 600;
   background-color: white;
+  text-align: right;
 }
 .checkbox {
   margin: 0 4px 0 15px;
   border: 2px solid #000000;
   box-sizing: border-box;
-  width: 20px;
-  height: 20px;
+  width: 1.25em;
+  height: 1.25em;
 }
 .active {
   background: #00FF38;
@@ -59,5 +65,14 @@ export default {
   background-color: white;
   font-weight: 600;
   max-height: 20px;
+  font-size: 16px;
 }
+@media (max-width: 909px) {
+            .language-options {
+            font-size: 48px;
+            }
+            .header{
+              margin-top: -40px;
+            }
+    }
 </style>

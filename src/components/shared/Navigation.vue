@@ -1,75 +1,83 @@
 <template>
-  <div class="navigation">
+  <div class="navigation" :class="{open: !this.menuActive}">
     <div v-if="menu === 'menu'" class="nav-menu" @click="toggle()">{{ $t(title )}}</div>
     <div class="navigation-container" :class="{hidden: this.menuActive}" @click.prevent="toggle">
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
-          <router-link class="nav-link" to="/about">{{ $t('links.about') }}</router-link>
+          <router-link class="nav-link link-container" to="/">{{ $t('links.home') }}</router-link>
         </div>
       </div>
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
-          <router-link class="nav-link" to="/workshops">{{ $t('links.workshops') }}</router-link>
+          <router-link class="nav-link link-container" to="/about">{{ $t('links.about') }}</router-link>
         </div>
       </div>
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
-          <router-link class="nav-link" to="/concerts">{{ $t('links.concerts') }}</router-link>
+          <router-link class="nav-link link-container" to="/workshops">{{ $t('links.workshops') }}</router-link>
         </div>
       </div>
       <div class="skew-container">
-        <div
-          class="center"
-          v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
-        >
-          <router-link
-            v-if="this.$i18n.locale=='isl'"
-            class="nav-link center"
-            to="/lungalab"
-          >{{$t('links.lungalab2')}} {{ $t('links.lungalab') }}</router-link>
-          <router-link
-            v-else
-            class="nav-link center"
-            to="/lungalab"
-          >{{ $t('links.lungalab') }} {{$t('links.lungalab2')}}</router-link>
+        <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
+          <router-link class="nav-link link-container" to="/concerts">{{ $t('links.concerts') }}</router-link>
+        </div>
+      </div>
+      <div class="skew-container main-con">
+        <div v-bind:class="{right: this.$i18n.locale=='isl', rightalign: this.$i18n.locale=='en'}">
+          <router-link v-if="this.$i18n.locale=='isl'" class="nav-link main-con" to="/lungalab">
+            <span class="subtitle icelandic">{{$t('links.lungalab2')}}</span>
+            <span class="main-container">{{ $t('links.lungalab') }}</span>
+          </router-link>
+          <router-link v-else class="nav-link main-con" to="/lungalab">
+            <span class="main-container">{{ $t('links.lungalab') }}</span>
+            <span class="subtitle  english">{{$t('links.lungalab2')}}</span>
+          </router-link>
         </div>
       </div>
       <!-- <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/openstudios">{{ $t('links.openstudios') }}</router-link></div></div> -->
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
-          <router-link class="nav-link" to="/eventindex">{{ $t('links.eventindex') }}</router-link>
+          <router-link class="nav-link link-container" to="/eventindex">{{ $t('links.eventindex') }}</router-link>
         </div>
       </div>
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
-          <router-link class="nav-link" to="/applications">{{ $t('links.applications') }}</router-link>
+          <router-link
+            class="nav-link link-container"
+            to="/applications"
+          >{{ $t('links.applications') }}</router-link>
         </div>
       </div>
-    <div class="little-nav">
-      <div class="grid-container">
-        <div class="skew-container">
-          <div
-            v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
-          >
-            <router-link class="nav-link" to="/sponsors">{{ $t('links.sponsors') }}</router-link>
+      <div class="little-nav">
+        <div class="grid-container">
+          <!-- <div class="skew-container">
+            <div
+              v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
+            >
+              <router-link class="nav-link link-container" to="/sponsors">{{ $t('links.sponsors') }}</router-link>
+            </div>
+          </div> -->
+          <Footer v-if="this.$i18n.locale=='en'" class=" border-top"/>
+
+          <div class="skew-container">
+            <div
+              v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
+            >
+              <router-link class="nav-link link-container" to="/contact">{{ $t('links.contact') }}</router-link>
+            </div>
           </div>
-        </div>
-        <div class="skew-container divider">
-          <div
-            v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
-          >
-            <router-link class="nav-link" to="/contact">{{ $t('links.contact') }}</router-link>
-          </div>
+          <Footer v-if="this.$i18n.locale=='isl'" class="divider border-top"/>
         </div>
       </div>
-    </div>
     </div>
   </div>
 </template>
 
 <script>
+import Footer from '../shared/Footer'
 export default {
   name: "Navigation",
+  components: {Footer},
   props: {
     menu: String
   },
@@ -89,24 +97,48 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.border-top{
+  border-top: 2px solid #000;
 
+}
 .hidden {
   display: none;
+}
+.main-con{
+  width: 100%;
+}
+.subtitle {
+  display: inline-block;
+  font-size: 3rem;
+  width: 38%;
+  /* margin-right: 400px; */
+}
+.rightalign {
+  text-align: right;
 }
 .little-nav .skew-container {
   font-size: 48px;
 }
-.nav-link{
-  background-color: white;
+.nav-link {
+  /* background-color: white; */
   /* z-index: 99; */
   max-height: 20px;
+}
+.skew-container>div>a{
+  background-color: #fff;
+}
+.skew-container>div>a>span{
+  background-color: #fff;
+}
+.skew-container>div>a>span:hover{
+  background-color: #000;
+  color: white;
 }
 .skew-container {
   border-top: 2px solid #000;
   max-width: 99.9%;
   text-decoration: none;
   box-sizing: border-box;
-  font-size: 66px;
   font-weight: 600;
 
   /* text-align: left; */
@@ -124,6 +156,16 @@ export default {
   font-size: 48px;
   color: #000000;
   border-bottom: #000 2px solid;
+}
+.navigation {
+  font-size: 5rem;
+  margin-left: 70%;
+  width: fit-content;
+  align-self: flex-end;
+}
+.open {
+  width: 100%;
+  margin-left: 0;
 }
 /* .logo-container > img {
   width: 80%;

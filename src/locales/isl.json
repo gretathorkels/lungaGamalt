@@ -11,7 +11,9 @@
       "applications": "Umsóknir",
       "sponsors": "Samstarfsaðilar",
       "contact": "Hafðu samband",
-      "menu": "Valmynd"
+      "menu": "Menu",
+      "home": "Heim"
+
     },
     "title": {
       "about": "Um LungA",
@@ -64,7 +66,9 @@
       "opensinmay": "Opnar í maí" 
     },
   "subtexts": {
-    "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021."
+    "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021.",
+    "concerts": "Tónleikarnir verða veglegir í ár og spanna allt frá hágæða poppi, electronic soul og dark-wave/synth pönki"
+
   },
 
   "aboutlunga": {

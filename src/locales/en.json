@@ -10,7 +10,8 @@
     "applications": "Applications",
     "sponsors": "Sponsors",
     "contact": "Contact",
-    "menu": "Menu"
+    "menu": "Menu",
+    "home": "Homepage"
   },
   "title": {
     "about": "About LungA",
@@ -65,7 +66,8 @@
   },
 
   "subtexts":{
-    "application": "Here below are various things to apply to."
+    "application": "Here below are various things to apply to.",
+    "concerts": "Bringing music to the fjord for the 20th time! Go explore the artists for our 20th anniversary and buy your tickets here "
   },
   "aboutlunga": {
     "firstline": "In the year 2000 LungA Art festival was held for the first time.",
