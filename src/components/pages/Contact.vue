@@ -111,6 +111,7 @@ table {
   border-spacing: 0;
   width: 100%;
 }
+
 td {
   border-bottom: solid 2px #000;
   padding-left: 20px;

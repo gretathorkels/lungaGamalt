@@ -7,7 +7,7 @@ module.exports = {
 
   publicPath: "/",
   runtimeCompiler: true,
- 
+  
   pages: {
     index: {
       entry: 'src/main.js',

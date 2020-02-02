@@ -13,6 +13,7 @@ export default {
 };
 </script>
 <style scoped>
+
 .footer{
   display: grid;
   /* margin-top: 100px; */
