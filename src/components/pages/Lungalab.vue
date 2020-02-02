@@ -2,7 +2,35 @@
   <div class="lungalab">
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title" v-bind:subtitle="subtitle"/>
- </div>
+
+
+
+    <div class="text-container">
+
+              <div class="sub-line">
+                    {{$t("lungalab.firstline")}}
+               </div>
+              <div class="text-body">
+                    {{$t("lungalab.para1")}}
+                  </div>
+                  <div class="text-body">
+                  {{$t("aboutlunga.para2")}}
+                  </div>
+          </div>
+
+
+    <div class="workshops-container">
+      <div class="table">
+            {{$t("lungalab.tba")}}
+      </div>
+    </div>
+
+    <div class="footer-container">
+       <div class="text"> {{$t("lungalab.sponsors")}}  </div>
+       </div>
+
+</div>
+
 </template>
 
 <script>
@@ -30,6 +58,10 @@ export default {
     }
   }
 }
+
+
+
+
 
 
 </script>
@@ -71,5 +103,34 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.table {
 
+border-top: 2px solid #000000;
+border-bottom: 2px solid #000000;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+padding: 15px 0 15px 0;
+color: #000000;
+text-align: center;
+
+}
+.text{
+
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+margin: 50px 50px 50px 50px;
+text-align: center;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px 0px 10px;
+}
 </style>

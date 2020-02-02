@@ -8,6 +8,8 @@
  </div>
 
     <div class="workshops-container">
+
+
       <div class="table left-align">12.07 Sunnudagur</div>
       <div class="table left-align">13.07 Mánudagur</div>
       <div class="table left-align">14.07 Þriðjudagur</div>
