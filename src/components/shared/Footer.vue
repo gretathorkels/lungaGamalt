@@ -18,13 +18,13 @@ export default {
 .footer{
   display: grid;
   /* margin-top: 100px; */
-  grid-template-columns: 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
   font-weight: 600;
   background-color: white;
   font-size: 48px;
   color: #000000;
   /* border-bottom: #000 2px solid; */
-  /* border-top: #000 2px solid; */
+  border-top: #000 2px solid;
 }
 .footer-item {
   text-align: center;

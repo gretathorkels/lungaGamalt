@@ -57,7 +57,7 @@
               <router-link class="nav-link link-container" to="/sponsors">{{ $t('links.sponsors') }}</router-link>
             </div>
           </div> -->
-          <Footer v-if="this.$i18n.locale=='en'" class=" border-top"/>
+          <Footer v-if="this.$i18n.locale=='en'" />
 
           <div class="skew-container">
             <div
@@ -66,7 +66,7 @@
               <router-link class="nav-link link-container" to="/contact">{{ $t('links.contact') }}</router-link>
             </div>
           </div>
-          <Footer v-if="this.$i18n.locale=='isl'" class="divider border-top"/>
+          <Footer v-if="this.$i18n.locale=='isl'" class="divider"/>
         </div>
       </div>
     </div>
@@ -97,10 +97,6 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.border-top{
-  border-top: 2px solid #000;
-
-}
 .hidden {
   display: none;
 }

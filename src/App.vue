@@ -45,6 +45,7 @@ body{
 ::selection {
   color: #fff;
   background: #000;
+  opacity: 1;
 }
 a:link, :visited{
   color: inherit;
