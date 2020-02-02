@@ -14,7 +14,7 @@ import Frontpage from './components/pages/Frontpage';
 import Workshops from './components/pages/Workshops';
 import Concerts from './components/pages/Concerts';
 import Lungalab from './components/pages/Lungalab';
-import Openstudios from './components/pages/Openstudios';
+import Youthexchange from './components/pages/Youthexchange';
 import Eventindex from './components/pages/Eventindex';
 import Sponsors from './components/pages/Sponsors';
 import Contact from './components/pages/Contact';
@@ -37,8 +37,8 @@ const routes = [
   {path: '/concerts', component: Concerts },
   {path: '/en/lungalab', component: Lungalab },
   {path: '/lungalab', component: Lungalab },
-  {path: '/en/openstudios', component: Openstudios },
-  {path: '/openstudios', component: Openstudios },
+  {path: '/en/youthexchange', component: Youthexchange },
+  {path: '/youthexchange', component: Youthexchange },
   {path: '/en/eventindex', component: Eventindex },
   {path: '/eventindex', component: Eventindex },
   {path: '/en/sponsors', component: Sponsors },

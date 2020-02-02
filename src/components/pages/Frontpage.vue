@@ -19,7 +19,7 @@
          </router-link>
          </div>
          </div>
-       <!-- <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/openstudios">{{ $t('links.openstudios') }}</router-link></div></div> -->
+      <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/youthexchange">{{ $t('links.youthexchange') }}</router-link></div></div>
       <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/eventindex">{{ $t('links.eventindex') }}</router-link></div></div>
        <div class="skew-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/applications">{{ $t('links.applications') }}</router-link></div></div>
         </div>

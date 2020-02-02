@@ -3,13 +3,9 @@
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title"/>
     <div class="head-container">
-      <!-- <div>
-        <div class="sub-header">Apply</div>
-        <div class="sub-header">Here</div>
-      </div> -->
 
       <div class="sub-text">
-      {{$t("subtexts.application")}}
+      {{$t("application.headertext")}}
       </div>
     </div>
     <table class="workshops-container">
@@ -46,6 +42,7 @@
     </table>
     <div class="footer-container">
       <div class="text">
+      {{$t("application.footertext")}}
 
       </div>
       <div class="text">
