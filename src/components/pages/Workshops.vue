@@ -5,38 +5,33 @@
 
     <div class="head-container">
       <div>
-        <div class="sub-header">Apply</div>
-        <div class="sub-header">Here</div>
+        <div class="sub-header">
+              {{$t("workshops.applyhere")}}
+        </div>
       </div>
       <div class="sub-text">
-        Listasmiðjur LungA 2020 verða 9 talsins: <br/>
-        átta vikulangar listasmiðjur <br/>
-        og ein föstudags-listasmiðja
+      {{$t("workshops.firstline")}}
       </div>
     </div>
+
     <div class="workshops-container">
-      <div class="table">Listasmiðjur verða birtar í Maí 2020</div>
+      <div class="table">
+            {{$t("workshops.tba")}}
+      </div>
     </div>
     <div class="footer-container">
       <div class="text">
-        Gjald fyrir viku námskeið er 48.000kr <br/>
-        og innifalið í því verði er þátttaka í <br/>
-         listasmiðju, gisting í svefnpoka plássi, <br/>
-         fullt fæði og aðgangur að öllum <br/>
-         viðburðum hátíðarinnar. Það er einnig <br/>
-         möguleiki að skrá sig á LungA <br/>
-         tjaldsvæði eða þitt eigið húsnæði.
+                    {{$t("workshops.weekinfo")}}
       </div>
       <div class="text">
-       Gjald fyrir Föstudagsnámskeið er <br/>
-       20.000kr og innifalið í því verði er <br/>
-       þátttaka í listasmiðjuna, gisting, fæði <br/>
-       á meðan námskeiðinu stendur og <br/>
-       aðgangur að öllum viðburðum <br/>
-       hátíðarinnar.
+                          {{$t("workshops.fridayinfo")}}
+
         </div>
-      <div><div class="sub-header">Apply</div>
-        <div class="sub-header">Here</div></div>
+      <div>
+                <div class="sub-header">
+              {{$t("workshops.applyhere")}}
+        </div>
+        </div>
     </div>
   </div>
 </template>
@@ -68,7 +63,7 @@ export default {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 10px 0 10px;
+  margin: 0px 10px 0px 10px;
 }
 .sub-text{
 
@@ -101,7 +96,7 @@ font-size: 24px;
 line-height: 29px;
 
 color: #000000;
-margin: 50px 0px 0 0px;
+margin: 50px 50px 0 0px;
 text-align: left;
 
 }

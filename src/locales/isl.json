@@ -62,5 +62,38 @@
       "deadline": "20/02/2020",
       "opensinfeb": "Opnar í febrúar",
       "opensinmay": "Opnar í maí" 
-    }
+    },
+  "subtexts": {
+    "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021."
+  },
+
+  "aboutlunga": {
+    "firstline": "Árið 2000 leit listahátíð LungA dagsins ljós í fyrsta sinn.",
+    "para1":"Um er að ræða listahátíð þar sem sköpun, listum og menningu er fagnað með námskeiðum, fyrirlestrum og öðrum viðburðum og lýkur með uppskeruhelgi: sýningum og tónleikum.",
+    "para2":"Hátíðin er frábær blanda af listum, sköpun, tjáningu og stórbrotinni náttúru. Hún hefur getið sér gott orðspor, bæði á Ísland og út fyrir landsteinana fyrir frábært andrúmsloft, námskeið af miklum gæðum og með mikilli virkni þátttakenda. Ennfremur færir hátíðin gleði, sjálfsþekkingu, elskendur, nýja vini og góðar minningar fyrir þá sem sækja hátíðina heim.",
+    "para3":"LungA „fjölskyldan“ samanstendur nú bæði af árlegri listahátíð og skóla. Dagsdaglega er þetta tvennt rekið sitt í hvoru lagi, en heitið, gildin og hugmyndafræðin eru af sama meiði.",
+    "lastline":"Við vonumst til þess að sjá ykkur sem flest á LungA í ár.",
+    "footer": "Ást! LungA"
+  },
+  "workshops":{
+    "firstline":"Listasmiðjur LungA 2020 eru 9 talsins: átta (8) vikulangar listasmiðjur og ein (1) föstudags-listasmiðja.",
+    "tba":"Listasmiðjur verða birtar í Maí 2020 og þá opnast einnig fyrir umsóknir",
+    "applyhere":"Sæktu um",
+    "weekinfo":"Vikusmiðja: Innifalið í verðinu er þátttaka í listasmiðju, gisting í svefnpoka plássi, fullt fæði og aðgangur að öllum viðburðum hátíðarinnar. Það er einnig möguleiki að skrá sig á LungA tjaldsvæði eða þitt eigið húsnæði.",
+    "fridayinfo":"Föstudagssmiðja: Innifalið í verðinu er þátttaka í listasmiðjuna, gisting, fæði á meðan námskeiðinu stendur og aðgangur að öllum viðburðum hátíðarinnar."
+  },
+
+  "lungalab":{
+    "firstline": "LungA LAB er heitið fyrir tilrauna og upplýsingastofuna okkar.",
+    "para1":"Ár hvert veljum við þema, í ár er það framtíðarsýn eða “future perspectives”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
+    "para2":"Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
+    "tba":"Fyrirlesarar verða tilkynntir í Maí 2020.",
+    "sponsors":"LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
+  },
+
+  "eventindex":{
+    "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
+    "para2":""
+  }
+
 }

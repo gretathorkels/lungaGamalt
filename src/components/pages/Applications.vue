@@ -7,8 +7,9 @@
         <div class="sub-header">Apply</div>
         <div class="sub-header">Here</div>
       </div> -->
+
       <div class="sub-text">
-        
+      {{$t("subtexts.application")}}
       </div>
     </div>
     <table class="workshops-container">
@@ -45,7 +46,7 @@
     </table>
     <div class="footer-container">
       <div class="text">
-       
+
       </div>
       <div class="text">
       
