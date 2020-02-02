@@ -5,7 +5,7 @@
     "concerts": "Concert at NordMarina",
     "lungalab": "LungA LAB",
     "lungalab2": "Symposium",
-    "openstudios": "Open Studios",
+    "youthexchange": "Erasmus+ Youth Exchange",
     "eventindex": "Event Index",
     "applications": "Applications",
     "sponsors": "Sponsors",
@@ -19,7 +19,7 @@
     "concerts": "Concert at NordMarina",
     "lungalab": "LungA LAB",
     "lungalab2": "Symposium",
-    "openstudios": "Open Studios",
+    "youthexchange": "Erasmus+ Youth Exchange",
     "eventindex": "Event Index",
     "applications": "Applications",
     "sponsors": "Sponsors",
@@ -69,6 +69,11 @@
     "application": "Here below are various things to apply to.",
     "concerts": "Bringing music to the fjord for the 20th time! Go explore the artists for our 20th anniversary and buy your tickets here "
   },
+  "application":{
+    "headertext": "Here below are various ways to apply to be a part of the LungA festival 2020.",
+    "footertext":"Applications sent after the deadline will be moved to the 2021 submissions."
+
+  },
   "aboutlunga": {
     "firstline": "In the year 2000 LungA Art festival was held for the first time.",
     "para1":"It’s an intimate art festival where creativity, arts and culture are celebrated with workshops, lectures and events. The festival goes off with a bang in a culmination of exhibitions and concerts that take place over the final weekend.",
@@ -92,7 +97,10 @@
     "tba":"Speakers will be announced in May 2020",
     "sponsors":"LungA LAB is made in collaboration with Erasmus+, Kaospilot, Hyper Island, University of Brighton, Myndlistarskóli Reykjavíkur."
 
+  },
+  "youthexchange": {
+    "firstline":"Over the last decade we have offered a youth exchange program in collaboration with ERASMUS+.",
+    "para1":"The Youth Exchange project is built around a three day workshop where youth from 3-4 European countries meet and dive into the yearly theme of the festival. From the theme and collaboration stems an array of interesting lectures which aims to activate a dialogue about social and individual responsibility."
   }
-
  
 }

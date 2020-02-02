@@ -104,19 +104,21 @@ export default {
   grid-template-columns: 1fr 1fr;
 }
 .table {
-
 border-top: 2px solid #000000;
 border-bottom: 2px solid #000000;
 font-weight: 600;
 font-size: 36px;
 line-height: 43px;
 padding: 15px 0 15px 0;
+margin-top: 40px;
 color: #000000;
 text-align: center;
 
 }
-.text{
+.sub-line{
+text-align:center}
 
+.text{
 font-style: normal;
 font-weight: 600;
 font-size: 24px;

@@ -45,10 +45,17 @@ export default {
   z-index: 999;
 }
 .nav-menu {
-  font-size: 96px;
+  font-size: 30px;
   font-weight: 600;
   background-color: white;
   text-align: right;
+}
+
+.nav-menu:hover {
+  font-size: 30px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
 }
 .checkbox {
   margin: 0 4px 0 15px;

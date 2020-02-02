@@ -10,19 +10,19 @@
         <td>kt. 600201 2120</td>
       </tr>
       <tr>
-        <td>{{ $t('roles.director') }}<br/> {{ $t('roles.exhangeprogram') }}</td>
+        <td>{{ $t('roles.director') }}<br/>{{ $t('roles.exhangeprogram') }}</td>
         <td>Björt Sigfinnsdóttir</td>
         <td>bjort@lunga.is</td>
         <td>(+45) 28993633</td>
       </tr>
       <tr>
-        <td>{{ $t('roles.curator') }},{{ $t('roles.events') }}</td>
+        <td>{{ $t('roles.curator') }}<br>{{ $t('roles.events') }}</td>
         <td>Þórhildur Tinna Sigurðardóttir</td>
         <td>tinna@lunga.is</td>
         <td>(+354) 8486962</td>
       </tr>
       <tr>
-        <td>{{ $t('roles.workshops') }} {{ $t('roles.production') }}</td>
+        <td>{{ $t('roles.workshops') }}<br>{{ $t('roles.production') }}</td>
         <td>Sesselja Hlín Jónasardóttir</td>
         <td>sesselja@lunga.is</td>
         <td>(+354) 7702444</td>
@@ -46,7 +46,8 @@
         <td></td>
       </tr>
       <tr>
-        <td>{{ $t('roles.sponsors') }} {{ $t('roles.socialmedia') }}</td>
+        <td>{{ $t('roles.sponsors') }} <br>
+        {{ $t('roles.socialmedia') }}</td>
         <td>Birna Ketilsdóttir Schram</td>
         <td>birna@lunga.is</td>
         <td></td>
