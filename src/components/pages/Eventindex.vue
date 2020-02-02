@@ -4,20 +4,22 @@
       <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title"/>
  <div class="head-container">
-   <div class="sub-text">Skrá yfir viðburði birtist í maí 2020</div>
+   <div class="sub-text">{{$t("eventindex.para1")}}</div>
  </div>
 
-    <div class="workshops-container">
-
-
-      <div class="table left-align">12.07 Sunnudagur</div>
-      <div class="table left-align">13.07 Mánudagur</div>
-      <div class="table left-align">14.07 Þriðjudagur</div>
-      <div class="table left-align">15.07 Miðvikudagur</div>
-      <div class="table left-align">16.07 Fimmtudagur</div>
-     
+    <div class="eventindex-container">
+     <div class="table">
+        {{$t("eventindex.tba")}}
+      </div>
     </div>
     <div class="footer-container">
+      <div class="text">
+        {{$t("workshops.weekinfo")}}
+      </div>
+      <div class="text">
+        {{$t("workshops.fridayinfo")}}
+
+      </div>
     </div>
 </div>
 </template>
@@ -66,6 +68,7 @@ color: #000000;
 
 }
 .table {
+border-top: 2px solid #000000;
 
 border-bottom: 2px solid #000000;
 font-weight: 600;
