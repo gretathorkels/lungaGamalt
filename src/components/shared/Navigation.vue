@@ -34,7 +34,7 @@
           </router-link>
         </div>
       </div>
-      <div class="skew-container"><div class="skew"><router-link class="nav-link" to="/youthexchange">{{ $t('links.youthexchange') }}</router-link></div></div>
+      <div class="skew-container"><div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"><router-link class="nav-link link-container" to="/youthexchange">{{ $t('links.youthexchange') }}</router-link></div></div>
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/eventindex">{{ $t('links.eventindex') }}</router-link>
