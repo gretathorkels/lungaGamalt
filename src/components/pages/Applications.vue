@@ -90,7 +90,7 @@ th {
 td {
   border-bottom: solid 2px #000;
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
 }
 .head-container {
