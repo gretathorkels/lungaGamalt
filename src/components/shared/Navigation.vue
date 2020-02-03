@@ -154,7 +154,7 @@ export default {
   border-bottom: #000 2px solid;
 }
 .navigation {
-  font-size: 5rem;
+  font-size: 3.5rem;
   margin-left: 70%;
   width: fit-content;
   align-self: flex-end;
