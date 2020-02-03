@@ -92,30 +92,32 @@
 
   "lungalab":{
     "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
-    "para1":"Ár hvert veljum við þema, í ár er það framtíðarsýn eða “future perspectives”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
+    "para1":"Ár hvert veljum við þema, í ár er það Hegðun, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
     "para2":"Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
     "tba":"Fyrirlesarar verða tilkynntir í Maí 2020.",
     "sponsors":"LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
   },
 
-  "eventindex":{
-    "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-    "para2":""
-  },
+
 
   "youthexchange": {
-    "firstline":"Seinasta áratug höfum við þróað skiptinámskeið í samstarfi við Erasmus+.",
-    "para1":"Ungmennaskiptiverkefnið er byggt í kringum þriggja daga vinnusmiðju þar sem nemendur frá þrem til fjórum evrópskum löndum mætast og sökkva sér í rannsóknir tengdar þema hátíðarinnar að hverju sinni.",
-    "para2":"Þetta árið koma hópar frá Danmörk, Englandi, Svíþjóð og Íslandi. Við ætlum að ræða um hegðun, ekki út frá neinum fyrirfram ákveðnum skoðunum, heldur út frá öllum þeim mismunandi sjónarhornum sem upp koma þessa daga. Umræðan er byggð í kringum vinnu í minni hópum, pallborðsumræðum, mismunandi æfingum og allskonar skemmtilegum innslögum."
+    "firstline":"Frá árinu 2006 hefur LungA skipulagt ungmennaskipti á Seyðisfirði.",
+    "para1":"Í ár senda eftirtaldir skólar nemendur sína á LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
+    "para2":"Í ungmennaskiptunum er leitast við að bæta hæfni þátttakenda til þess að vinna í hópi með ólíku fólki  með mismunandi þarfir og frá ólíkum menningarheimum í gegnum samtöl og samvinnu út frá þema sem valið er hverju sinni. Þema ársins 2020 er Atferli: Hvers vegna gerum við það sem við gerum? Orsök og afleiðing.",
+    "para3": "Ungmennaskiptin eru mikil sjálfsskoðun og í þeim fær hver þátttakandi einstakt tækifæri til að líta inn á við og að kynnast sýnum styrk- og veikleikum og öðlast hugrekki til að takast á við áskoranir."
   },
 
   "concerts": {
-    "header": "17.–18. júlí mun LungA standa fyrir tveggja daga tónleikaveislu á Norðursíldar planinu á Seyðisfirði."
+    "header": "17.–18. júlí mun LungA standa fyrir tveggja daga tónleikaveislu á Norðursíldar planinu á Seyðisfirði.",
+    "ticket":"Kaupa miða"
+
   },
 
-  "event-index": {
-    "tba": "Viðburðir verða bættir við hér, frá maí 2020."
+  "eventindex":{
+    "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
+    "tba":"Viðburðir bætast hér við uppúr maí 2020"
   }
+
 
 
 }

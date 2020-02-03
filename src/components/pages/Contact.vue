@@ -42,7 +42,7 @@
       <tr>
         <td>{{ $t('roles.exhangeprogram') }} </td>
         <td>Minerva Pietilä</td>
-        <td></td>
+        <td>minerva@kaospilot.dk</td>
         <td></td>
       </tr>
       <tr>

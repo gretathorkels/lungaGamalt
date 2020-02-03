@@ -2,7 +2,11 @@
   <div class="about">
       <Header v-bind:menu="'menu'" />
       <Headline v-bind:title="title"/>
-      
+
+      <div class="img-container">
+                                <img class="img-child" src="../../assets/tumblr/14-2018.jpg">
+                   </div>
+
       <div class="text-container">
           
           <div class="sub-line">
@@ -25,6 +29,11 @@
       <div class="headline">
       {{$t("aboutlunga.footer")}}
 </div>
+
+    <div class="img-container">
+        <img class="img-child" src="../../assets/tumblr/5.jpg">
+    </div>
+
   </div>
 </template>
 
@@ -49,6 +58,27 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped> 
+<style scoped>
+
+.sub-line{
+text-align:center;
+}
+
+.img-container {
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: center;
+align-self: center;
+
+}
+
+.img-child {
+max-width: 80%;
+  height: auto;
+  align-self: center;
+margin:20px;
+}
+
 
 </style>

@@ -92,7 +92,7 @@
 
   "lungalab":{
     "firstline": "LungA LAB is what we call our informative experimental laboratory.",
-    "para1":"Each year we choose a theme. This year it is “Social Programming” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
+    "para1":"Each year we choose a theme. This year it is “Behaviour” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
     "para2":"This is LungA’s way to contribute to the awareness of social responsibility on individual and collective level, in hope to effect and inspire those involved to take action and be more open towards the diversity of others in general.",
     "tba":"Speakers will be announced in May 2020",
     "sponsors":"LungA LAB is made in collaboration with Erasmus+, Kaospilot, Hyper Island, University of Brighton, Myndlistarskóli Reykjavíkur."
@@ -106,15 +106,14 @@
   },
 
   "concerts": {
-    "header": "On the 17th and 18th of July 2020, LungA will host a two-day concert extravaganza on the NordMarina lot in Seyðisfjörður."
-
+    "header": "On the 17th and 18th of July 2020, LungA will host a two-day concert extravaganza on the NordMarina lot in Seyðisfjörður.",
+    "ticket":"Buy ticket"
   },
 
-  "event-index": {
-    "tba": "Events will be added here, starting from May 2020."
+  "eventindex":{
+    "para1":"LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the Concerts at NordMarina.",
+    "tba":"Events will be accessible here in May 2020"
   }
-
-
 
 
 }

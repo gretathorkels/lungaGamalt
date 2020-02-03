@@ -2,7 +2,9 @@
   <div class="workshops">
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title" />
-
+    <div class="img-container">
+            <img class="img-child" src="../../assets/tumblr/2.jpg">
+        </div>
     <div class="head-container">
       <div>
         <div class="sub-header">
@@ -85,8 +87,7 @@ font-size: 36px;
 line-height: 43px;
 padding: 15px 0 15px 0;
 color: #000000;
-
-
+text-align: center;
 }
 .text{
 
@@ -99,5 +100,21 @@ color: #000000;
 margin: 50px 50px 0 0px;
 text-align: left;
 
+}
+
+.img-container {
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: center;
+align-self: center;
+
+}
+
+.img-child {
+max-width: 80%;
+  height: auto;
+  align-self: center;
+margin:20px;
 }
 </style>

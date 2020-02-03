@@ -2,14 +2,27 @@
   <div class="concerts">
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title" />
+
+
+
+
+ <div class="img-container">
+                <img class="img-child" src="../../assets/tumblr/10.jpg">
+              </div>
+
     <div class="head-container">
+
       <div>
-        <div class="sub-header">Kaupa miða</div>
+        <div class="sub-header">
+            {{$t("concerts.ticket")}}
+        </div>
       </div>
       <div class="sub-text">
         {{$t("concerts.header")}}
       </div>
     </div>
+
+
     <table>
       <tr>
         <th>Date</th>
@@ -54,20 +67,23 @@
       </template>
     </table>
     <div class="footer-container">
+        <div class="text">
+        <!--Upplýsingar um tónleikana:--->
+        </div>
       <div class="text">
-        Upplýsingar um tónleikana:
+        <!--Upplýsingar um tónleikana:-->
       </div>
-      <div class="text">
-              Upplýsingar um tónleikana:
-
-      </div>
+         <div class="img-container">
+             <img class="img-child" src="../../assets/tumblr/12.jpg">
+         </div>
       <div class="center sub-header nav-link">
-        <a href="/frontpage" class="nav-link">
-          Kaupa
-          <br />Miða
-        </a>
+        <!--<a href="http://www.tix.is" class="nav-link">
+        </a>--->
+         {{$t("concerts.ticket")}}
       </div>
     </div>
+
+
   </div>
 </template>
 
@@ -236,4 +252,20 @@ text-align: center;
   margin: 50px 0px 0 0px;
   text-align: left;
 }
+
+.img-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.img-child {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    margin:20px;
+}
+
 </style>

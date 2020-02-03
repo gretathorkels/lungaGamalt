@@ -9,7 +9,7 @@
 
     <div class="eventindex-container">
      <div class="table">
-        {{$t("event-index.tba")}}
+        {{$t("eventindex.tba")}}
       </div>
     </div>
     <br>
@@ -19,9 +19,14 @@
       </div>
       <div class="text">
         {{$t("workshops.fridayinfo")}}
-
       </div>-->
     </div>
+    <div class="img-container">
+            <img class="img-child" src="../../assets/tumblr/15.jpg">
+        </div>
+
+
+
 </div>
 </template>
   
@@ -97,5 +102,21 @@ color: #000000;
 margin: 50px 0px 0 0px;
 text-align: left;
 
+}
+
+.img-container {
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: center;
+align-self: center;
+
+}
+
+.img-child {
+max-width: 80%;
+  height: auto;
+  align-self: center;
+margin:20px;
 }
 </style>
