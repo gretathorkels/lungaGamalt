@@ -21,6 +21,8 @@
           <div class="text-body">
           {{$t("aboutlunga.para3")}}
           </div>
+
+
          <div class="sub-line">
                         {{$t("aboutlunga.lastline")}}
                    </div>
