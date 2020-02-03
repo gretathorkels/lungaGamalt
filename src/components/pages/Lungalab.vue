@@ -3,7 +3,9 @@
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title" v-bind:subtitle="subtitle"/>
 
-
+<div class="img-container">
+             <img class="img-child" src="../../assets/tumblr/16.jpg">
+         </div>
 
     <div class="text-container">
 
@@ -28,6 +30,11 @@
     <div class="footer-container">
        <div class="text"> {{$t("lungalab.sponsors")}}  </div>
        </div>
+
+       <div class="img-container">
+                    <img class="img-child" src="../../assets/tumblr/13.jpg">
+                </div>
+
 
 </div>
 
@@ -134,5 +141,21 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   margin: 0px 10px 0px 10px;
+}
+
+.img-container {
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: center;
+align-self: center;
+
+}
+
+.img-child {
+max-width: 80%;
+  height: auto;
+  align-self: center;
+margin:20px;
 }
 </style>

@@ -2,15 +2,27 @@
   <div class="concerts">
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title" />
+
+
+
+
+ <div class="img-container">
+                <img class="img-child" src="../../assets/tumblr/10.jpg">
+              </div>
+
     <div class="head-container">
+
       <div>
-        <div class="sub-header">Kaupa</div>
-        <div class="sub-header">Miða</div>
+        <div class="sub-header">
+            {{$t("concerts.ticket")}}
+        </div>
       </div>
       <div class="sub-text">
-        {{$t("subtexts.concerts")}}
+        {{$t("concerts.header")}}
       </div>
     </div>
+
+
     <table>
       <tr>
         <th>Date</th>
@@ -55,17 +67,23 @@
       </template>
     </table>
     <div class="footer-container">
+        <div class="text">
+        <!--Upplýsingar um tónleikana:--->
+        </div>
       <div class="text">
-        <!-- Upplýsingar um tónleikana: -->
+        <!--Upplýsingar um tónleikana:-->
       </div>
-      <div class="text"></div>
+         <div class="img-container">
+             <img class="img-child" src="../../assets/tumblr/12.jpg">
+         </div>
       <div class="center sub-header nav-link">
-        <a href="/frontpage" class="nav-link">
-          Kaupa
-          <br />Miða
-        </a>
+        <!--<a href="http://www.tix.is" class="nav-link">
+        </a>--->
+         {{$t("concerts.ticket")}}
       </div>
     </div>
+
+
   </div>
 </template>
 
@@ -88,7 +106,7 @@ export default {
           name: "Lena Willikens",
           stage: "tbd",
           time: "02:00",
-          img: require("../../assets/LungALogo2020.svg"),
+          img: require("../../assets/artists/lenawillikens.jpg"),
           descr:
             "Icelandic DJ duo B1B2 creates unique performative club experience playing sets with a mix of afro house and ethno techno beats. The duo has played at various underground events in Denmark and Cape Town as well as Iceland Airwaves & LungA. Playing on all your senses, B1B2 aims to create a dancefloor for you to feel free to dance while feeling loved and respected!!",
           links: {
@@ -106,7 +124,7 @@ export default {
           time: "02:00",
           descr:
             "Icelandic DJ duo B1B2 creates unique performative club experience playing sets with a mix of afro house and ethno techno beats. The duo has played at various underground events in Denmark and Cape Town as well as Iceland Airwaves & LungA. Playing on all your senses, B1B2 aims to create a dancefloor for you to feel free to dance while feeling loved and respected!!",
-          img: require("../../assets/LungALogo2020.svg"),
+          img: require("../../assets/artists/sturlaatlas.jpg"),
           links: {
             tumblr: "sdd",
             spotify: "...",
@@ -135,7 +153,7 @@ export default {
 .grid-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   /* margin-top: 20px; */
 }
 .border-top {
@@ -149,7 +167,7 @@ tr {
 .grid-container,
 tr,
 td {
-  padding-top: 60px;
+  padding-top: 10px;
 }
 .grid-container.nav-link {
   font-size: 13px;
@@ -157,7 +175,6 @@ td {
 }
 img {
   width: 690px;
-  height: 484px;
 }
 .head-container {
   display: flex;
@@ -176,14 +193,13 @@ img {
 
 th {
   /* border-bottom: solid 2px #000; */
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 600;
   padding-left: 20px;
-
   text-align: left;
 }
 table {
-  margin-top: 150px;
+  margin-top: 100px;
   border-spacing: 0;
   width: 100%;
 }
@@ -209,10 +225,13 @@ td.border-bottom {
   font-weight: 600;
   font-size: 48px;
   margin-left: 40px;
-  width: 60%;
+  width: 80%;
   text-align: left;
   margin-top: 20px;
   color: #000000;
+}
+.sub-header{
+text-align: center;
 }
 .table {
   border-top: 2px solid #000000;
@@ -233,4 +252,20 @@ td.border-bottom {
   margin: 50px 0px 0 0px;
   text-align: left;
 }
+
+.img-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.img-child {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    margin:20px;
+}
+
 </style>

@@ -92,7 +92,7 @@
 
   "lungalab":{
     "firstline": "LungA LAB is what we call our informative experimental laboratory.",
-    "para1":"Each year we choose a theme. This year it is “Social Programming” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
+    "para1":"Each year we choose a theme. This year it is “Behaviour” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
     "para2":"This is LungA’s way to contribute to the awareness of social responsibility on individual and collective level, in hope to effect and inspire those involved to take action and be more open towards the diversity of others in general.",
     "tba":"Speakers will be announced in May 2020",
     "sponsors":"LungA LAB is made in collaboration with Erasmus+, Kaospilot, Hyper Island, University of Brighton, Myndlistarskóli Reykjavíkur."
@@ -100,8 +100,20 @@
   },
   "youthexchange": {
     "firstline":"Over the last decade we have offered a youth exchange program in collaboration with ERASMUS+.",
-    "para1":"The Youth Exchange project is built around a three day workshop where youth from 3-4 European countries meet and dive into the yearly theme of the festival. From the theme and collaboration stems an array of interesting lectures which aims to activate a dialogue about social and individual responsibility."
+    "para1":"The Youth Exchange project is built around a three day workshop where youth from 3-4 European countries meet and dive into the yearly theme of the festival. From the theme and collaboration stems an array of interesting lectures which aims to activate a dialogue about social and individual responsibility.",
+    "para2":"The Youth Exchange groups will participate from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. We’re going to attempt to discuss future perspectives away from any pre-conditioned beliefs. Rather we’re going to take a deep look into future perspectives from all of the contemporary vantage points that have come to the surface recently. The discourse is based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
+
+  },
+
+  "concerts": {
+    "header": "On the 17th and 18th of July 2020, LungA will host a two-day concert extravaganza on the NordMarina lot in Seyðisfjörður.",
+    "ticket":"Buy ticket"
+  },
+
+  "eventindex":{
+    "para1":"LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the Concerts at NordMarina.",
+    "tba":"Events will be accessible here in May 2020"
   }
 
- 
+
 }

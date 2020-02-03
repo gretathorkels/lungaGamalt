@@ -5,7 +5,9 @@
 
 
 
-
+<div class="img-container">
+                          <img class="img-child" src="../../assets/euf/5.jpg">
+             </div>
 
       <div class="text-container">
             <div class="sub-text">
@@ -13,11 +15,23 @@
             </div>
 
             <div class="text-body">
-             {{$t("youthexchange.para1")}}
+                    {{$t("youthexchange.para1")}}
+            </div>
+
+             <div class="text-body">
+                    {{$t("youthexchange.para2")}}
+            </div>
+
+            <div class="text-body">
+                {{$t("youthexchange.para3")}}
             </div>
 
 
       </div>
+            <div class="img-container">
+             <img class="img-child" src="../../assets/euf/1.jpg">
+
+             </div>
 
   </div>
 </template>
@@ -50,15 +64,28 @@ export default {
 }
 
 .sub-text{
-
 /* Headline 2 */
 font-weight: 600;
 font-size: 48px;
 margin-left: 40px;
 text-align: center;
 color: #000000;
+}
 
+.img-container {
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: center;
+align-self: center;
 
+}
+
+.img-child {
+max-width: 80%;
+  height: auto;
+  align-self: center;
+margin:20px;
 }
 
 </style>
