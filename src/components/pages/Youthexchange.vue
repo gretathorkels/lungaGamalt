@@ -15,7 +15,9 @@
             <div class="text-body">
              {{$t("youthexchange.para1")}}
             </div>
-
+ <div class="text-body">
+             {{$t("youthexchange.para2")}}
+            </div>
 
       </div>
 

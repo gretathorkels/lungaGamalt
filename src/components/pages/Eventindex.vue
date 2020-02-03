@@ -9,17 +9,18 @@
 
     <div class="eventindex-container">
      <div class="table">
-        {{$t("eventindex.tba")}}
+        {{$t("event-index.tba")}}
       </div>
     </div>
+    <br>
     <div class="footer-container">
-      <div class="text">
+     <!--<div class="text">
         {{$t("workshops.weekinfo")}}
       </div>
       <div class="text">
         {{$t("workshops.fridayinfo")}}
 
-      </div>
+      </div>-->
     </div>
 </div>
 </template>
@@ -69,13 +70,14 @@ color: #000000;
 }
 .table {
 border-top: 2px solid #000000;
-
+text-align:center;
 border-bottom: 2px solid #000000;
 font-weight: 600;
 font-size: 36px;
 line-height: 43px;
 padding: 15px 0 15px 0;
 color: #000000;
+
 }
 .subtext {
 font-weight: 600;

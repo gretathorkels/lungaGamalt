@@ -67,7 +67,7 @@
     },
   "subtexts": {
     "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021.",
-    "concerts": "Tónleikarnir verða veglegir í ár og spanna allt frá hágæða poppi, electronic soul og dark-wave/synth pönki"
+    "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
   },
   "application": {
     "headertext": "Hér fyrir neðan er hægt að sækja um að taka þátt í LungA hátíðinni á ýmsa vegu.",
@@ -104,10 +104,17 @@
   },
 
   "youthexchange": {
-    "firstline":"Seinasta áratug höfum við …",
-    "para1":"Seinasta áratug höfum við …",
-    "para2":"hellooooo"
+    "firstline":"Seinasta áratug höfum við þróað skiptinámskeið í samstarfi við Erasmus+.",
+    "para1":"Ungmennaskiptiverkefnið er byggt í kringum þriggja daga vinnusmiðju þar sem nemendur frá þrem til fjórum evrópskum löndum mætast og sökkva sér í rannsóknir tengdar þema hátíðarinnar að hverju sinni.",
+    "para2":"Þetta árið koma hópar frá Danmörk, Englandi, Svíþjóð og Íslandi. Við ætlum að ræða um hegðun, ekki út frá neinum fyrirfram ákveðnum skoðunum, heldur út frá öllum þeim mismunandi sjónarhornum sem upp koma þessa daga. Umræðan er byggð í kringum vinnu í minni hópum, pallborðsumræðum, mismunandi æfingum og allskonar skemmtilegum innslögum."
+  },
 
+  "concerts": {
+    "header": "17.–18. júlí mun LungA standa fyrir tveggja daga tónleikaveislu á Norðursíldar planinu á Seyðisfirði."
+  },
+
+  "event-index": {
+    "tba": "Viðburðir verða bættir við hér, frá maí 2020."
   }
 
 
