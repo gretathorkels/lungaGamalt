@@ -14,7 +14,9 @@
 
       <div>
         <div class="sub-header">
+           <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
             {{$t("concerts.ticket")}}
+          </a>
         </div>
       </div>
       <div class="sub-text">
@@ -80,9 +82,9 @@
              <img class="img-child" src="../../assets/tumblr/12.jpg">
          </div>
       <div class="center sub-header nav-link">
-        <!--<a href="http://www.tix.is" class="nav-link">
-        </a>--->
-         {{$t("concerts.ticket")}}
+       <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
+                   {{$t("concerts.ticket")}}
+                 </a>
       </div>
     </div>
 
@@ -117,8 +119,8 @@ export default {
 	descr3:
 "Still, it’s in the DJ booth where Willikens continues to make the biggest impact. Whether she’s playing alone or in tandem with fellow sonic explorer and Salon des Amateurs alum Vladimir Ivkovic, Willikens nimbly navigates electronic music’s darkest and most bizarre corners, sampling different temperatures, different moods and a dollop of chaos, just to keep things interesting. And although she herself doesn’t always know the final destination, when Willikens is at the helm, there’s no question that the journey is bound to be thrilling.",
           links: {
-            // tumblr: "dd",
-            // spotify: "...",
+            // instagram: "https://www.instagram.com/lena_willikens/",
+            // spotify: "https://open.spotify.com/artist/6ut6UGbmxITsrTO3byNE2E",
             // website: ",,,"
           }
         },
