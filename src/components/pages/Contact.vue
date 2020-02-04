@@ -31,7 +31,7 @@
         <td>{{ $t('roles.concerts') }}</td>
         <td>Hilmar Guðjónsson</td>
         <td>hilmar@lunga.is</td>
-        <td>(+354) 8955888</td>
+        <td>(+45) 53613527</td>
       </tr>
       <tr>
         <td>{{ $t('roles.volunteers') }}</td>

@@ -30,4 +30,5 @@ export default {
 .footer-item {
   text-align: center;
 }
+
 </style>

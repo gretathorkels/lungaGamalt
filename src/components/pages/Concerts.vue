@@ -51,21 +51,25 @@
           <td class="border-top" colspan="2">
             <img :src="artist.img" />
             <div class="grid-container">
-              <div v-if="artist.links.tumblr">
-                <a class="nav-link" :href="artist.links.tumblr" target="_blank">Tumblr</a>
-              </div>
+                  <div v-if="artist.links.soundcloud">
+                      <a class="nav-link" :href="artist.links.soundcloud" target="_blank">Soundcloud</a>
+                  </div>
+                  <div v-if="artist.links.spotify">
+                      <a class="nav-link" :href="artist.links.spotify" target="_blank">Spotify</a>
+                  </div>
+                  <div v-if="artist.links.instagram">
+                      <a class="nav-link" :href="artist.links.instagram" target="_blank">Instagram</a>
+                  </div>
+
               <div v-if="artist.links.facebook">
                 <a class="nav-link" :href="artist.links.facebook" target="_blank">Facebook</a>
               </div>
               <div v-if="artist.links.website">
                 <a class="nav-link" :href="artist.links.website" target="_blank">Website</a>
               </div>
-              <div v-if="artist.links.instagram">
-                <a class="nav-link" :href="artist.links.instagram" target="_blank">Instagram</a>
-              </div>
-              <div v-if="artist.links.spotify">
-                <a class="nav-link" :href="artist.links.spotify" target="_blank">Spotify</a>
-              </div>
+
+
+
             </div>
           </td>
         </tr>
@@ -119,9 +123,9 @@ export default {
 	descr3:
 "Still, it’s in the DJ booth where Willikens continues to make the biggest impact. Whether she’s playing alone or in tandem with fellow sonic explorer and Salon des Amateurs alum Vladimir Ivkovic, Willikens nimbly navigates electronic music’s darkest and most bizarre corners, sampling different temperatures, different moods and a dollop of chaos, just to keep things interesting. And although she herself doesn’t always know the final destination, when Willikens is at the helm, there’s no question that the journey is bound to be thrilling.",
           links: {
-            // instagram: "https://www.instagram.com/lena_willikens/",
-            // spotify: "https://open.spotify.com/artist/6ut6UGbmxITsrTO3byNE2E",
-            // website: ",,,"
+              soundcloud: "https://soundcloud.com/dkmntl/lena-willikens-at-dekmantel-festival-2017",
+              spotify: "https://open.spotify.com/artist/6ut6UGbmxITsrTO3byNE2E",
+              instagram: "https://www.instagram.com/lena_willikens/"
           }
         },
 
@@ -138,7 +142,7 @@ export default {
 	descr3:"Violet incorporates similar sounds from her production process into her DJing, melding breaks, extraterrestrial jacking rhythms, imaginative techno, acid house and more in a way that feels natural and challenging all at once. She has contributed mixes for Beats In Space, Crack, The Ransom Note, Mixmag and Cómeme as well as having radio appearances on Rinse, NTS and The Lot. Violet has played across Europe at parties such as Room 4 Resistance, Berlin Atonal and Field Maneuvers and embarked on her first US tour in 2018.",
           img: require("../../assets/artists/violet-live.jpg"),
           links: {
-            // tumblr: "sdd",
+            soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",
             // facebook: "kk",
             // website: ",,,"
@@ -159,7 +163,7 @@ export default {
           img: require("../../assets/artists/vok.jpg"),
           links: {
             // tumblr: "sdd",
-            // spotify: "...",
+            spotify: "https://open.spotify.com/artist/7oDTyDfeA2JE2jUZztkBj8?si=TtUiVVAfRya43LOO1zcysA"
             // facebook: "kk",
             // website: ",,,"
           }
@@ -176,7 +180,7 @@ export default {
           img: require("../../assets/artists/sturlaatlas.jpg"),
           links: {
             // tumblr: "sdd",
-            // spotify: "...",
+              spotify: "https://open.spotify.com/artist/7yuLFZmY5CuPf81al33Ot2?si=3fmTovQkQ3GK1s2SeMZQjg"
             // facebook: "kk",
             // website: ",,,"
           }
@@ -198,7 +202,7 @@ export default {
           img: require("../../assets/artists/fruit.jpg"),
           links: {
             // tumblr: "sdd",
-            // spotify: "...",
+            spotify: "https://open.spotify.com/album/5pBPl9a0ck739rKSSq8wln?si=Aw9fzKzXSvGA4DgNyXuIYg"
             // facebook: "kk",
             // website: ",,,"
           }
@@ -220,8 +224,8 @@ export default {
           img: require("../../assets/artists/b1b2.jpg"),
           links: {
             // tumblr: "sdd",
-            // spotify: "...",
-            // facebook: "kk",
+            spotify: "https://open.spotify.com/track/3HFFBfoTdd0TOlvMgq3Lzc?si=1A43L0_RS9CTBD0x9fNTcQ",
+            facebook: "https://www.facebook.com/djb1b2/"
             // website: ",,,"
           }
         }
