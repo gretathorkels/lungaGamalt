@@ -21,7 +21,27 @@
           <div class="text-body">
           {{$t("aboutlunga.para3")}}
           </div>
-
+          <div class="text-body">
+              {{$t("aboutlunga.themeintro")}}
+          </div>
+          <div class="headline">
+              {{$t("aboutlunga.theme")}}
+          </div>
+          <div class="sub-line">
+              {{$t("aboutlunga.themeheadline")}}
+          </div>
+          <div class="text-body">
+              {{$t("aboutlunga.themepara1")}}
+          </div>
+          <div class="text-body">
+              {{$t("aboutlunga.themepara2")}}
+          </div>
+          <div class="text-body">
+              {{$t("aboutlunga.themepara3")}}
+          </div>
+          <div class="text-body">
+              {{$t("aboutlunga.themepara4")}}
+          </div>
 
          <div class="sub-line">
                         {{$t("aboutlunga.lastline")}}
@@ -62,6 +82,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.headline {
+    text-align: center;
+}
 .sub-line{
 text-align:center;
 }

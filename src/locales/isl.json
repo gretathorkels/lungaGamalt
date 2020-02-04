@@ -79,13 +79,18 @@
     "para1":"Um er að ræða listahátíð þar sem sköpun, listum og menningu er fagnað með námskeiðum, fyrirlestrum og öðrum viðburðum sem lýkur með uppskeruhelgi: sýningum og tónleikum.",
     "para2":"Hátíðin er frábær blanda af listum, sköpun, tjáningu og stórbrotinni náttúru. Hún hefur getið sér gott orðspor, bæði á Ísland og út fyrir landsteinana fyrir frábært andrúmsloft, námskeið af miklum gæðum og með mikilli virkni þátttakenda. Ennfremur færir hátíðin gleði, sjálfsþekkingu, elskendur, nýja vini og góðar minningar fyrir þá sem sækja hátíðina heim.",
     "para3":"LungA „fjölskyldan“ samanstendur nú bæði af árlegri listahátíð og skóla. Dagsdaglega er þetta tvennt rekið sitt í hvoru lagi, en heitið, gildin og hugmyndafræðin eru af sama meiði.",
-    "themeheadline":"ATFERLI – Hvers vegna gerum við það sem við gerum, orsök og afleiðing.",
+   "themeintro":"Þema ársins 2020 er:",
+    "theme":"ATFERLI",
+    "themeheadline":"Hvers vegna gerum við það sem við gerum, orsök og afleiðing.",
     "themepara1":"Með þema LungA í ár munum við leitast við að kanna hegðun okkar og atferli. Við skoðum betur hvort við erum í raun og veru meðvituð um eigin hegðun. Hvort persónuleikinn sé afgerandi í hegðunarmynstri okkar eða hvort samfélagsleg viðmið og reglur séu honum yfirsterkari?",
+    "themepara2":"Að rannsaka eigið atferli og sjálfið auðveldar okkur að skilja náungann og sýna honum samkennd. Við skiljum betur hegðun annara. Ástand heimsmála í dag kallar á að við ræktum samlíðan með öðrum og verðum meðvitaðri um eigin fordóma. Þannig meðtökum við að þjóðfélagsleg viðmið okkar séu ekki endilega algild. Fólk sem mótast hefur í öðrum og ólíkum samfélögum getur haft allt önnur gildi og skoðanir.",
+    "themepara3":"Samfélagslegur þrýstingur hefur oft veruleg áhrif á velferð okkar. Hvernig mótar uppbyggjandi og eyðileggjandi hegðun geðheilsu fólks? Hvaða áhrif hefur fíkn á hegðun og er hún orsök eða afleiðing?",
+    "themepara4":"Höfuðtilgangurinn er að að auka skilning á áhrifaþáttum atferlis okkar.  Erum við í raun að taka meðvitaðar ákvarðanir eða fylgjum við forrituðu handriti samfélagsins? Meginmarkmið smiðjunnar er því að reyna að skilja náungann af hreinskilni og forvitni",
     "lastline":"Við vonumst til þess að sjá ykkur sem flest á LungA í ár.",
     "footer": "Ást! LungA"
   },
   "workshops":{
-    "firstline":"Listasmiðjur LungA 2020 eru 9 talsins: átta (8) vikulangar listasmiðjur og ein (1) föstudags-listasmiðja.",
+    "firstline":"Listasmiðjur LungA 2020 eru átta talsins: sjö (7) vikulangar listasmiðjur og ein (1) föstudags-listasmiðja.",
     "tba":"Listasmiðjur verða birtar í Maí 2020 og þá opnast einnig fyrir umsóknir",
     "applyhere":"Sæktu um",
     "weekinfo":"Vikusmiðja: Innifalið í verðinu er þátttaka í listasmiðju, gisting í svefnpoka plássi, fullt fæði og aðgangur að öllum viðburðum hátíðarinnar. Það er einnig möguleiki að skrá sig á LungA tjaldsvæði eða þitt eigið húsnæði.",
@@ -94,7 +99,7 @@
 
   "lungalab":{
     "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
-    "para1":"Ár hvert veljum við þema, í ár er það Hegðun, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
+    "para1":"Ár hvert veljum við þema, í ár er það Atferli, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
     "para2":"Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
     "tba":"Fyrirlesarar verða tilkynntir í Maí 2020.",
     "sponsors":"LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."

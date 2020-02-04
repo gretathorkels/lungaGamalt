@@ -25,12 +25,12 @@
       <div class="skew-container main-con">
         <div v-bind:class="{right: this.$i18n.locale=='isl', rightalign: this.$i18n.locale=='en'}">
           <router-link v-if="this.$i18n.locale=='isl'" class="nav-link main-con" to="/lungalab">
-            <span class="subtitle icelandic">{{$t('links.lungalab2')}}</span>
+            <!--<span class="subtitle icelandic">{{$t('links.lungalab2')}}</span>-->
             <span class="main-container">{{ $t('links.lungalab') }}</span>
           </router-link>
           <router-link v-else class="nav-link main-con" to="/lungalab">
             <span class="main-container">{{ $t('links.lungalab') }}</span>
-            <span class="subtitle  english">{{$t('links.lungalab2')}}</span>
+            <!--<span class="subtitle  english">{{$t('links.lungalab2')}}</span>-->
           </router-link>
         </div>
       </div>
@@ -88,9 +88,9 @@ export default {
   methods: {
     toggle() {
       this.menuActive = !this.menuActive;
-      if (this.title === "x") {
+      if (this.title === "×") {
         this.title = "links.menu";
-      } else this.title = "x";
+      } else this.title = "×";
     }
   }
 };
@@ -152,6 +152,7 @@ export default {
   font-size: 48px;
   color: #000000;
   border-bottom: #000 2px solid;
+  align-items: center;
 }
 .navigation {
   font-size: 3.5rem;
@@ -166,4 +167,16 @@ export default {
 /* .logo-container > img {
   width: 80%;
 } */
+
+  .nav-menu {
+    background-color: transparent;
+    color: black;
+    font-size: 48px;
+  }
+.nav-menu:hover {
+  background-color: transparent;
+  color: #00FF38;
+  font-size: 48px;
+
+}
 </style>

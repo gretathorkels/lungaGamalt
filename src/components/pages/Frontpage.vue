@@ -14,12 +14,12 @@
        <div class="skew-container link-container main-con">
         <div v-bind:class="{right: this.$i18n.locale=='isl', rightalign: this.$i18n.locale=='en'}">
           <router-link v-if="this.$i18n.locale=='isl'" class="nav-link main-con" to="/lungalab">
-            <span class="subtitle icelandic">{{$t('links.lungalab2')}}</span>
+            <!--<span class="subtitle icelandic">{{$t('links.lungalab2')}}</span>-->
             <span class="main-container">{{ $t('links.lungalab') }}</span>
           </router-link>
           <router-link v-else class="nav-link main-con" to="/lungalab">
             <span class="main-container">{{ $t('links.lungalab') }}</span>
-            <span class="subtitle  english">{{$t('links.lungalab2')}}</span>
+           <!-- <span class="subtitle  english">{{$t('links.lungalab2')}}</span>-->
           </router-link>
         </div>
       </div>
