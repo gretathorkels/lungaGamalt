@@ -28,33 +28,22 @@ Vue.use(VueRouter);
 
 const routes = [  
   {path: '/', component: Frontpage },
-  {path: '/en', component: Frontpage },
-  {path: '/:lang/events', component: Events },
   {path: '/events', component: Events },
-  {path: '/:lang/workshops', component: Workshops },
   {path: '/workshops', component: Workshops },
-  {path: '/en/concerts', component: Concerts },
   {path: '/concerts', component: Concerts },
-  {path: '/en/lungalab', component: Lungalab },
   {path: '/lungalab', component: Lungalab },
-  {path: '/en/youthexchange', component: Youthexchange },
   {path: '/youthexchange', component: Youthexchange },
-  {path: '/en/eventindex', component: Eventindex },
   {path: '/eventindex', component: Eventindex },
-  {path: '/en/sponsors', component: Sponsors },
   {path: '/sponsors', component: Sponsors },
-  {path: '/en/about', component: About },
   {path: '/about', component: About },
-  {path: '/en/contact', component: Contact },
   {path: '/contact', component: Contact },
-  {path: '/en/applications', component: Applications },
   {path: '/applications', component: Applications },
  
   //{path: '/', component: Frontpage },
 ]
 const router = new VueRouter({
-  routes,
-  mode: 'history'
+  mode: 'history',
+  routes
 })
 
 new Vue({
