@@ -6,6 +6,9 @@
       <img src="../../assets/LungALogo2020.svg" />
     </div>
 
+      <div class="headline">
+          {{$t("frontpage.date")}}
+      </div>
 
    <div class="navigation"  >
        <div class="skew-container link-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}"><div ><router-link  class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/about">{{ $t('links.about') }}</router-link> </div></div>
@@ -70,6 +73,10 @@ export default {
 <style scoped>
 .main-con{
   width: 100%;
+}
+
+.headline{
+    text-align:center;
 }
 .subtitle {
   display: inline-block;
