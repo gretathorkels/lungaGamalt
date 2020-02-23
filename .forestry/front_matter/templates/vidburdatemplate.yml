@@ -58,6 +58,3 @@ fields:
 - type: text
   name: website
   label: website
-pages:
-- events/English/danceSurprise.md
-- events/Icelandic/danceSurprise.md
