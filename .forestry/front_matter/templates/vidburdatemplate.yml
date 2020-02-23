@@ -58,3 +58,5 @@ fields:
 - type: text
   name: website
   label: website
+pages:
+- events/Icelandic/danceSurprise.md
