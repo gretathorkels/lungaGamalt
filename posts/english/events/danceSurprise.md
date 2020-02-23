@@ -1,10 +1,10 @@
 ---
 timasetning: 19:00-20:00
 nafn: Dance Surprise
-tegund: Hreyfing
+tegund: Movement
 stadsetning: Herðubreið íþróttarsalur
 lysing: ''
-um_hofund: 'SAKANA er listamannanafn Sunnu Axelsdóttur. Þekkt meðal annars fyrir skapandi
+um_hofund: 'ENGLISJer listamannanafn Sunnu Axelsdóttur. Þekkt meðal annars fyrir skapandi
   dj-settin sín, filmu ljósmyndun, samklipp sem á innblástur sinn að rekja til Japan,
   myndbandsgerð og hljóðvarpið sitt Smá Pláss. '
 um_annan_hofund: Maríanna Eva Dúfa Sævarsdóttir er myndlistarmaður sem vinnur með
