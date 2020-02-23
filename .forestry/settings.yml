@@ -6,9 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: events
-  label: Events
+  label: Viðburðir
   create: all
   match: "**/*"
+  templates:
+  - vidburdatemplate
 - type: document
   path: _posts
   label: Blogs
