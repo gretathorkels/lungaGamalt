@@ -6,16 +6,32 @@ fields:
   name: timasetning
   label: timasetning
   description: Tímasetning á formi 00:00-00:00
+- name: ensk_timasetning
+  type: text
+  config:
+    required: false
+  label: ensk tímasetning
+  description: á formi 8-9PM
 - type: text
   name: nafn
   label: nafn
   description: Nafn á viðburðinum
+- name: enskt_nafn
+  type: text
+  config:
+    required: false
+  label: enskt nafn
 - name: tegund
   type: text
   config:
     required: false
   label: tegund
   description: Tegund viðburðs (td. sýning, athöfn..)
+- name: ensk_tegund
+  type: text
+  config:
+    required: false
+  label: ensk tegund
 - name: stadsetning
   type: text
   config:
@@ -24,7 +40,7 @@ fields:
   description: Staðsetning á viðburði
 - type: text
   name: lysing
-  label: lysing
+  label: ensk lysing
 - name: um_hofund
   type: textarea
   default: ''
@@ -35,6 +51,11 @@ fields:
       format: markdown
   label: um höfund
   description: Um höfund viðburðar
+- name: about_author
+  type: text
+  config:
+    required: false
+  label: about author
 - name: um_annan_hofund
   type: textarea
   default: ''
