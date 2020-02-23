@@ -16,7 +16,7 @@ sections:
   label: Blogs
 - type: directory
   path: workshops
-  label: Workshops
+  label: Listasmiðjur
   create: all
   match: "**/*"
   new_doc_ext: md
