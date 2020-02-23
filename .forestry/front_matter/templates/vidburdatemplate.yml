@@ -1,0 +1,40 @@
+---
+label: Viðburðatemplate
+hide_body: false
+fields:
+- type: text
+  name: lengd_a_workshoppi
+  label: lengd_a_workshoppi
+- type: text
+  name: nafn_a_workshoppi
+  label: nafn_a_workshoppi
+- type: text
+  name: hofundur
+  label: hofundur
+- type: text
+  name: annar_hofundur
+  label: annar_hofundur
+- type: text
+  name: lysing
+  label: lysing
+- type: text
+  name: mynd
+  label: mynd
+- type: textarea
+  name: um_hofundinn
+  label: um_hofundinn
+- type: textarea
+  name: um_annan_hofund
+  label: um_annan_hofund
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: instagram
+  label: instagram
+- type: text
+  name: website
+  label: website
+- type: text
+  name: annad
+  label: annad
