@@ -44,9 +44,11 @@ fields:
     schema:
       format: markdown
   label: Um annan höfund
-- type: text
-  name: mynd
-  label: mynd
+- name: vidburdarmynd
+  type: file
+  config:
+    maxSize: 250
+  label: viðburðarmynd
 - type: text
   name: twitter
   label: twitter
