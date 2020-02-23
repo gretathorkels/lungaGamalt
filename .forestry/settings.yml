@@ -5,28 +5,14 @@ admin_path: public/forestry
 webhook_url: 
 sections:
 - type: directory
-  path: posts/english/events
-  label: Events
-  create: all
-  match: "**/*"
-  templates:
-  - vidburdatemplate
-- type: directory
-  path: posts/icelandic/events
+  path: posts/events
   label: Viðburðir
   create: all
   match: "**/*"
   templates:
   - vidburdatemplate
 - type: directory
-  path: posts/english/workshops
-  label: Workshops
-  create: all
-  match: "**/*"
-  templates:
-  - workshops
-- type: directory
-  path: posts/icelandic/workshops
+  path: posts/workshops
   label: Listasmiðjur
   create: all
   match: "**/*"

@@ -89,5 +89,4 @@ fields:
   name: website
   label: website
 pages:
-- posts/english/events/danceSurprise.md
 - posts/icelandic/events/danceSurprise.md
