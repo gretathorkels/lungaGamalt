@@ -65,6 +65,15 @@ fields:
     schema:
       format: markdown
   label: Um annan höfund
+- name: about_other_author
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: about other author
 - name: vidburdarmynd
   type: file
   config:
