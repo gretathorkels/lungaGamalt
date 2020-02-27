@@ -3,7 +3,7 @@
         <h1>My blog posts</h1>
         <ul>
             <li v-for="workshop in workshops" :key="workshop.attributes.hofundur">
-            {{workshop.attributes.hofundur}}
+            {{workshop}}
             </li>
         </ul>
     </div>

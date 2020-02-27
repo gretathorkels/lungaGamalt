@@ -8,7 +8,7 @@ import VueRouter from 'vue-router'
 //Vue.config.productionTip = false
 Vue.use(VueRouter)
 
-import Events from './components/pages/Events';
+import EventindexTest from './components/pages/EventindexTest';
 import Frontpage from './components/pages/Frontpage';
 //import Navigation from './components/pages/navigation/Navigation';
 import Workshops from './components/pages/Workshops';
@@ -16,6 +16,7 @@ import Concerts from './components/pages/Concerts';
 import Lungalab from './components/pages/Lungalab';
 import Youthexchange from './components/pages/Youthexchange';
 import Eventindex from './components/pages/Eventindex';
+// import Events from './components/pages/Events';
 import Sponsors from './components/pages/Sponsors';
 import Contact from './components/pages/Contact';
 import Applications from './components/pages/Applications';
@@ -28,7 +29,8 @@ Vue.use(VueRouter);
 
 const routes = [  
   {path: '/', component: Frontpage },
-  {path: '/events', component: Events },
+  {path: '/eventstest', component: EventindexTest },
+  // {path: '/events', component: Events },
   {path: '/workshops', component: Workshops },
   {path: '/concerts', component: Concerts },
   {path: '/lungalab', component: Lungalab },

@@ -25,7 +25,10 @@ module.exports = {
        .loader('frontmatter-markdown-loader')
        .tap(options => {
          return {
-           mode: [Mode.VUE_COMPONENT, Mode.META]
+           mode: [Mode.VUE_COMPONENT],
+           vue: {
+            root: 'markdown-body'
+          }
          }
        })
  },
