@@ -47,7 +47,7 @@
       "title": "Hvað",
       "show": "Viltu sýna á LungA",
       "play": "Viltu spila á LungA?",
-      "host": "Viltu halda listasmiðju?",
+      "teach": "Viltu halda listasmiðju?",
       "participate": "Viltu taka þátt í listasmiðju?",
       "speak": "Viltu tala á lunga?"
     },
@@ -55,16 +55,20 @@
       "title": "Hlekkur",
       "show": "Sækja um að vera með sýningu, danssýningu, gjörning yfir hátíðina",
       "play": "Umsóknarform fyrir tónlistarfólk",
-      "host": "Umsóknarform fyrir listasmiðjukennara",
+      "teach": "Umsóknarform fyrir listasmiðjukennara",
       "participate": "Umsóknir fyrir þátttöku í listasmiðjum.",
       "speak": "Umsóknarform fyrir fyrirlesara"
     },
-    "applecationDeadline": {
-      "title": "Frestur",
-      "deadline": "20/02/2020",
-      "opensinfeb": "Opnar í febrúar",
-      "opensinmay": "Opnar í maí" 
-    },
+  "applicationDeadline": {
+    "title": "Frestur",
+    "show": "20/02/2020",
+    "play":"Opnar í mars",
+    "teach":"Opið",
+    "participate":"Opnar í maí",
+    "speak":"Opnar í apríl"
+  },
+
+
   "subtexts": {
     "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021.",
     "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
