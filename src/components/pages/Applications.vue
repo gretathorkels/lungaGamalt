@@ -13,16 +13,17 @@
         <th>{{$t("applicationLinks.title")}}</th>
         <th>{{$t("applicationDeadline.title")}}</th>
       </tr>
+        <tr>
+            <td class="link-container"><a class="nav-link" href="https://podio.com/webforms/24119149/1753108" target="_blank">
+                {{$t("applicationLinks.teach")}}</a></td>
+            <td>{{$t("applicationDeadline.teach")}}</td>
+        </tr>
       <tr>
         <td class="link-container"><a class="nav-link" href="https://podio.com/webforms/23952850/1741765?fbclid=IwAR1tD3HmG0pBpsFHloGldaNWJWK2bkG6XYofTbS1Pj7ksdyFzFZihbVLiPk" target="_blank">
         {{$t("applicationLinks.show")}}</a></td>
         <td>{{$t("applicationDeadline.show")}}</td>
       </tr>
-       <tr>
-           <td class="link-container"><a class="nav-link" href="https://podio.com/webforms/24119149/1753108" target="_blank">
-               {{$t("applicationLinks.teach")}}</a></td>
-           <td>{{$t("applicationDeadline.teach")}}</td>
-      </tr>
+
         <tr>
             <td>{{$t("applicationLinks.play")}}</td>
             <td>{{$t("applicationDeadline.play")}}</td>
