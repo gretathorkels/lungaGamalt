@@ -60,6 +60,9 @@
                   <div v-if="artist.links.instagram">
                       <a class="nav-link" :href="artist.links.instagram" target="_blank">Instagram</a>
                   </div>
+                <div v-if="artist.links.youtube">
+                    <a class="nav-link" :href="artist.links.youtube" target="_blank">Youtube</a>
+                </div>
 
               <div v-if="artist.links.facebook">
                 <a class="nav-link" :href="artist.links.facebook" target="_blank">Facebook</a>
@@ -108,9 +111,32 @@ export default {
       title: "title.concerts",
       opened: [],
       artists: [
-        {
-          id: 1,
-          id2: "1b",
+
+          {
+              id:1,
+              id2: "1b",
+              date: "TBA",
+              name: "Jessy Lanza CA",
+              stage: "TBA",
+              time: "TBA",
+              descr1:
+                      "Jessy Lanza is a producer, vocalist and DJ from Hamilton, Canada who currently lives in Queens New York. She has released two studio albums; Pull My Hair Back and Oh No on London's Hyperdub label . Both records were met with near universal praise and featured in The Guardian, New York Times, Pitchfork and more.",
+              descr2: "Jessy has toured across North America, Europe, Australia and Asia and performed on the BBC (where she had a year long show on Radio 1), KCRW, arte.tv in Europe and Channel 4 in the UK. Working alongside producer Jeremy Greenspan, Jessy has crafted a new and vibrant pop aesthetic that is both universal, energetic, yet personal and introspective. The material exists on a distinct polarity of big and small, global and local, populist and personal; and clarifies a modern and crucial voice in pop music.",
+              descr3:"Her new single Lick In Heaven drops on 20th February, followed by a European tour.",
+              img: require("../../assets/artists/jessylanza.jpg"),
+              links: {
+                  // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+                  // spotify: "...",
+                  // facebook: "kk",
+                  // website: ",,,"
+                  youtube: "https://www.youtube.com/watch?v=V3D7EEpdlY4",
+              }
+          },
+
+
+          {
+          id: 2,
+          id2: "2b",
           date: "TBA",
           name: "Lena Willikens",
           stage: "TBA",
@@ -125,13 +151,33 @@ export default {
           links: {
               soundcloud: "https://soundcloud.com/dkmntl/lena-willikens-at-dekmantel-festival-2017",
               spotify: "https://open.spotify.com/artist/6ut6UGbmxITsrTO3byNE2E",
-              instagram: "https://www.instagram.com/lena_willikens/"
+              instagram: "https://www.instagram.com/lena_willikens/",
           }
         },
 
+          {
+              id: 3,
+              id2: "3b",
+              date: "TBA",
+              name: "Svala",
+              stage: "TBA",
+              time: "TBA",
+              descr1:
+                      "....",
+              descr2: "....",
+              descr3:"...",
+              img: require("../../assets/artists/svala.jpg"),
+              links: {
+                  // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+                  // spotify: "...",
+                  // facebook: "kk",
+                  // website: ",,,"
+              }
+          },
+
         {
-          id: 2,
-          id2: "2b",
+          id: 4,
+          id2: "4b",
           date: "TBA",
           name: "Violet",
           stage: "TBA",
@@ -148,9 +194,10 @@ export default {
             // website: ",,,"
           }
         },
+
         {
-          id: 3,
-          id2: "3b",
+          id: 5,
+          id2: "5b",
           date: "TBA",
           name: "Vök",
           stage: "TBA",
@@ -169,8 +216,8 @@ export default {
           }
         },
         {
-          id: 4,
-          id2: "4b",
+          id: 6,
+          id2: "6b",
           date: "TBA",
           name: "Sturla Atlas",
           stage: "TBA",
@@ -185,9 +232,31 @@ export default {
             // website: ",,,"
           }
         },
+
+          {
+              id: 7,
+              id2: "7b",
+              date: "TBA",
+              name: "Hipsumhaps",
+              stage: "TBA",
+              time: "TBA",
+              descr1:
+                      "Hipsumhaps is an indie-pop project created in the suburbs of the Capital Area by two local friends, Fannar Ingi and Jökull Breki.",
+              descr2: "They became widely recognized last summer with their debut album 'Best gleymdu leyndarmálin,' including hit singles such as 'LSMLÍ (lífið sem mig langar í)' and 'Fyrsta ástin.'",
+              // descr3:"...",
+              img: require("../../assets/artists/hipsumhaps.jpeg"),
+              links: {
+                  // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+                  // spotify: "...",
+                  // facebook: "kk",
+                  // website: ",,,"
+              }
+          },
+
+
         {
-          id: 5,
-          id2: "5b",
+          id: 8,
+          id2: "8b",
           date: "TBA",
           name: "Fruit",
           stage: "TBA",
@@ -208,8 +277,8 @@ export default {
           }
         },
         {
- id: 6,
-          id2: "6b",
+ id: 9,
+          id2: "9b",
           date: "TBA",
           name: "B1B2",
           stage: "TBA",

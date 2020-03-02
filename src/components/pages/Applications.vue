@@ -85,7 +85,7 @@ th {
   font-size: 36px;
   font-weight: 600;
   padding-left: 20px;
-  
+
   text-align: left;
 }
 td {

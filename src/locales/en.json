@@ -61,10 +61,10 @@
   "applicationDeadline": {
     "title": "Deadline",
     "show": "20/02/2020",
-    "play":"Opens in March",
-    "teach":"Open",
-    "participate":"Opens in May",
-    "speak":"Opens in April"
+    "teach": "10/03/2020",
+    "play": "Opens in March",
+    "participate": "Opens in May",
+    "speak": "Opens in April"
   },
 
   "subtexts":{
