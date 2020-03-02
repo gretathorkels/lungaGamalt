@@ -53,11 +53,11 @@
     },
     "applicationLinks": {
       "title": "Hlekkur",
-      "show": "Sækja um að vera með sýningu, danssýningu, gjörning yfir hátíðina",
-      "play": "Umsóknarform fyrir tónlistarfólk",
-      "teach": "Umsóknarform fyrir listasmiðjukennara",
-      "participate": "Umsóknir fyrir þátttöku í listasmiðjum.",
-      "speak": "Umsóknarform fyrir fyrirlesara"
+      "show": "Viltu sýna á LungA? Sæktu um að vera með sýningu, danssýningu, gjörning yfir hátíðina.",
+      "teach": "Viltu kenna listasmiðju? Sæktu um hér.",
+      "play": "Viltu spila á LungA? Hér er umsóknarform fyrir tónlistarfólk.",
+      "participate": "Viltu taka þátt í listasmiðju? Sæktu um hér!",
+      "speak": "Viltu halda fyrirlestur eða sögustund á LungA LAB? Sendu inn umsóknina þína hér."
     },
   "applicationDeadline": {
     "title": "Frestur",
