@@ -116,7 +116,7 @@ export default {
               id:1,
               id2: "1b",
               date: "TBA",
-              name: "Jessy Lanza CA",
+              name: "Jessy Lanza",
               stage: "TBA",
               time: "TBA",
               descr1:
