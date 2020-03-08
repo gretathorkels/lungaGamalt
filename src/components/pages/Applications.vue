@@ -10,35 +10,31 @@
     </div>
     <table class="workshops-container">
       <tr>
-        <th>{{$t("applicationDesc.title")}}</th>
         <th>{{$t("applicationLinks.title")}}</th>
-        <th>{{$t("applecationDeadline.title")}}</th>
+        <th>{{$t("applicationDeadline.title")}}</th>
       </tr>
+        <tr>
+            <td class="link-container"><a class="nav-link" href="https://podio.com/webforms/24119149/1753108" target="_blank">
+                {{$t("applicationLinks.teach")}}</a></td>
+            <td>{{$t("applicationDeadline.teach")}}</td>
+        </tr>
       <tr>
-        <td>{{$t("applicationDesc.show")}}</td>
         <td class="link-container"><a class="nav-link" href="https://podio.com/webforms/23952850/1741765?fbclid=IwAR1tD3HmG0pBpsFHloGldaNWJWK2bkG6XYofTbS1Pj7ksdyFzFZihbVLiPk" target="_blank">
         {{$t("applicationLinks.show")}}</a></td>
-        <td>{{$t("applecationDeadline.deadline")}}</td>
+        <td>{{$t("applicationDeadline.show")}}</td>
+      </tr>
+
+        <tr>
+            <td>{{$t("applicationLinks.play")}}</td>
+            <td>{{$t("applicationDeadline.play")}}</td>
       </tr>
        <tr>
-        <td>{{$t("applicationDesc.play")}}</td>
-        <td>{{$t("applicationLinks.play")}}</td>
-        <td>{{$t("applecationDeadline.opensinfeb")}}</td>
-      </tr>
-       <tr>
-        <td>{{$t("applicationDesc.host")}}</td>
-        <td>{{$t("applicationLinks.host")}}</td>
-        <td>{{$t("applecationDeadline.opensinfeb")}}</td>
-      </tr>
-       <tr>
-        <td>{{$t("applicationDesc.participate")}}</td>
         <td>{{$t("applicationLinks.participate")}}</td>
-        <td>{{$t("applecationDeadline.opensinmay")}}</td>
+        <td>{{$t("applicationDeadline.participate")}}</td>
       </tr>
        <tr>
-        <td>{{$t("applicationDesc.speak")}}</td>
         <td>{{$t("applicationLinks.speak")}}</td>
-        <td>{{$t("applecationDeadline.opensinfeb")}}</td>
+        <td>{{$t("applicationDeadline.speak")}}</td>
       </tr>
     </table>
     <div class="footer-container">
@@ -84,7 +80,7 @@ th {
   font-size: 36px;
   font-weight: 600;
   padding-left: 20px;
-  
+
   text-align: left;
 }
 td {

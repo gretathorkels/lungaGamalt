@@ -47,24 +47,28 @@
       "title": "Hvað",
       "show": "Viltu sýna á LungA",
       "play": "Viltu spila á LungA?",
-      "host": "Viltu halda listasmiðju?",
+      "teach": "Viltu halda listasmiðju?",
       "participate": "Viltu taka þátt í listasmiðju?",
       "speak": "Viltu tala á lunga?"
     },
     "applicationLinks": {
       "title": "Hlekkur",
-      "show": "Sækja um að vera með sýningu, danssýningu, gjörning yfir hátíðina",
-      "play": "Umsóknarform fyrir tónlistarfólk",
-      "host": "Umsóknarform fyrir listasmiðjukennara",
-      "participate": "Umsóknir fyrir þátttöku í listasmiðjum.",
-      "speak": "Umsóknarform fyrir fyrirlesara"
+      "show": "Viltu sýna á LungA? Sæktu um að vera með sýningu, danssýningu, gjörning (eða eitthvað allt annað) yfir hátíðina.",
+      "teach": "Viltu kenna listasmiðju? Sæktu um hér.",
+      "play": "Viltu spila á LungA? Hér er umsóknarform fyrir tónlistarfólk.",
+      "participate": "Viltu taka þátt í listasmiðju? Sæktu um hér!",
+      "speak": "Viltu halda fyrirlestur eða sögustund á LungA LAB? Sendu inn umsóknina þína hér."
     },
-    "applecationDeadline": {
-      "title": "Frestur",
-      "deadline": "20/02/2020",
-      "opensinfeb": "Opnar í febrúar",
-      "opensinmay": "Opnar í maí" 
-    },
+  "applicationDeadline": {
+    "title": "Frestur",
+    "show": "20/02/2020",
+    "teach": "10/03/2020",
+    "play": "Opnar í mars",
+    "participate": "Opnar í maí",
+    "speak": "Opnar í apríl"
+  },
+
+
   "subtexts": {
     "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021.",
     "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."

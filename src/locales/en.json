@@ -42,27 +42,22 @@
     "graphics": "Graphic Design",
     "programming": "Programming"
   },
-  "applicationDesc":{
-    "title": "What",
-    "show": "You want to exhibit?",
-    "play": "You want to perform?",
-    "host": "You want to facilitate a workshop?",
-    "participate": "You want to participate in a workshop?",
-    "speak": "You want to hold a talk?"
-  },
+
   "applicationLinks": {
     "title": "Link",
-    "show": "Apply to exhibit, perform, whatever",
-    "play": "Application for musicians",
-    "host": "Application for workshop teachers",
-    "participate": "Application for participation in workshops",
-    "speak": "Application for lectures "
+    "show": "Do you want to exhibit? Apply here to exhibit, perform, whatever",
+    "play": "Do you want to perform a concert? Application for musicians",
+    "teach": "Do you want to facilitate a workshop? Apply here to be a workshop leader",
+    "participate": "Do you want to participate in a workshop? Apply here.",
+    "speak": "Do you want to speak at LungA LAB? Lecturers, apply here."
   },
-  "applecationDeadline": {
+  "applicationDeadline": {
     "title": "Deadline",
-    "deadline": "20/02/2020",
-    "opensinfeb": "Opens in February",
-    "opensinmay": "Opens in May" 
+    "show": "20/02/2020",
+    "teach": "10/03/2020",
+    "play": "Opens in March",
+    "participate": "Opens in May",
+    "speak": "Opens in April"
   },
 
   "subtexts":{
@@ -108,7 +103,7 @@
   "youthexchange": {
     "firstline":"Over the last decade we have offered a youth exchange program in collaboration with ERASMUS+.",
     "para1":"The Youth Exchange project is built around a three day workshop where youth from 3-4 European countries meet and dive into the yearly theme of the festival. From the theme and collaboration stems an array of interesting lectures which aims to activate a dialogue about social and individual responsibility.",
-    "para2":"The Youth Exchange groups will participate from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. We’re going to attempt to discuss future perspectives away from any pre-conditioned beliefs. Rather we’re going to take a deep look into future perspectives from all of the contemporary vantage points that have come to the surface recently. The discourse is based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
+    "para2":"The Youth Exchange groups will participate from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. The discourse is based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
 
   },
 
