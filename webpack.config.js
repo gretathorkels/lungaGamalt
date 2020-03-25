@@ -1,6 +1,25 @@
 // const path = require('path')
 // const VueLoaderPlugin = require('vue-loader/lib/plugin')
+module.exports = {
+    dev: {
+        assetsPublicPath: '/',
+        assetsSubDirectory: 'public',
 
+    },
+    build: {
+        // Template for index.html
+        index: path.resolve(__dirname, '../dist/index.html'),
+    
+        // Paths
+        assetsRoot: path.resolve(__dirname, '../dist/public'),
+        assetsSubDirectory: 'public',
+        assetsPublicPath: '/public',
+    
+        productionSourceMap: true,
+    
+        // skipping the rest ...
+      },   
+}
 // module.exports = {
 //   entry: './src/main.js',
 //   //outputDir: "docs",

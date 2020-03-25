@@ -7,7 +7,7 @@ module.exports = {
 
   publicPath: "/",
   runtimeCompiler: true,
-  
+  assetsDir: "public",
   pages: {
     index: {
       entry: 'src/main.js',
@@ -25,7 +25,7 @@ module.exports = {
        .loader('frontmatter-markdown-loader')
        .tap(options => {
          return {
-           mode: [Mode.VUE_COMPONENT],
+           mode: [Mode.VUE_COMPONENT, Mode.HTML],
            vue: {
             root: 'markdown-body'
           }
