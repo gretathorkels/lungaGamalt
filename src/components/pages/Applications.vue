@@ -2,12 +2,23 @@
   <div class="applications">
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title"/>
+
+
+      <div class="img-container">
+          <img class="img-child" src="../../assets/tumblr/17.jpg">
+      </div>
+
     <div class="head-container">
+        <div class="sub-header">
+            {{$t("workshops.applyhere")}}
+        </div>
 
       <div class="sub-text">
       {{$t("application.headertext")}}
       </div>
     </div>
+
+
     <table class="workshops-container">
       <tr>
         <th>{{$t("applicationLinks.title")}}</th>
@@ -24,14 +35,13 @@
         <td>{{$t("applicationDeadline.show")}}</td>
       </tr>
 
-        <tr>
-            <td>{{$t("applicationLinks.play")}}</td>
-            <td>{{$t("applicationDeadline.play")}}</td>
-      </tr>
+
        <tr>
         <td>{{$t("applicationLinks.participate")}}</td>
         <td>{{$t("applicationDeadline.participate")}}</td>
       </tr>
+
+
        <tr>
         <td>{{$t("applicationLinks.speak")}}</td>
         <td>{{$t("applicationDeadline.speak")}}</td>
@@ -45,11 +55,14 @@
       <div class="text">
       
         </div>
+
+
       <!-- <div>
         <div class="sub-header">Apply</div>
         <div class="sub-header">Here</div>
         </div> -->
     </div>
+
   </div>
 </template>
 
@@ -71,7 +84,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 table {
-  margin-top: 150px;
+  margin-top: 30px;
   border-spacing: 0;
   width: 100%;
 }
@@ -131,5 +144,21 @@ color: #000000;
 margin: 50px 0px 0 0px;
 text-align: left;
 
+}
+
+.img-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.img-child {
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+    margin:20px;
 }
 </style>
