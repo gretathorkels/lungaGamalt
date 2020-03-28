@@ -45,6 +45,8 @@ vidburdarmynd: img/upload/Capture.PNG
 twitter: https://twitter.com/gretathorkels
 instagram: instagram.com/gretathorkels/
 website: http://gretathorkels.net/
+ensk_lysing: ''
+facebook: ''
 
 ---
 SAKANA x DÚFA kynna með stolti sýninguna sína DARK GLITTER.  
