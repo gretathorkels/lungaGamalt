@@ -97,6 +97,12 @@ fields:
 - type: text
   name: instagram
   label: instagram
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: facebook
+  description: Linkur að facebook
 - type: text
   name: website
   label: website
