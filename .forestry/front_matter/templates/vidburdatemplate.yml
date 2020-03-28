@@ -32,15 +32,22 @@ fields:
   config:
     required: false
   label: ensk tegund
+- name: ensk_lysing
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing
+  description: Ensk lýsing á viðburði
 - name: stadsetning
   type: text
   config:
     required: false
   label: stadsetning
   description: Staðsetning á viðburði
-- type: text
-  name: lysing
-  label: ensk lysing
 - name: um_hofund
   type: textarea
   default: ''
@@ -52,10 +59,15 @@ fields:
   label: um höfund
   description: Um höfund viðburðar
 - name: about_author
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: about author
+  description: Um höfund á ensku
 - name: um_annan_hofund
   type: textarea
   default: ''
