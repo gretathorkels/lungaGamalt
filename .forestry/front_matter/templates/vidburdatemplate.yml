@@ -32,7 +32,7 @@ fields:
   config:
     required: false
   label: ensk tegund
-- name: ensk_lysing
+- name: ensk_lysing_1
   type: textarea
   default: ''
   config:
@@ -40,8 +40,38 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: ensk lýsing
+  label: ensk lýsing (1. málsgrein)
   description: Ensk lýsing á viðburði
+- name: ensk_lysing_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (2. málsgrein)
+  description: optional til að stíla enska lýsingu
+- name: ensk_lysing_3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (3. málsgrein)
+  description: optional til að stíla enska lýsingu
+- name: ensk_lysing_paragraph_4
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (4. málsgrein)
+  description: optional til að stíla enska lýsingu
 - name: stadsetning
   type: text
   config:
