@@ -89,8 +89,8 @@ fields:
 - name: vidburdarmynd
   type: file
   config:
-    maxSize: 250
-  label: viðburðarmynd
+    maxSize: 
+  label: vidburdarmynd
 - type: text
   name: twitter
   label: twitter
