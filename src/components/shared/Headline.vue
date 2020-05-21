@@ -20,7 +20,15 @@ export default {
 }
 </script>
 <style scoped>
-.subtitle{
-    font-size: 40px;
+/* .headline > *:hover{ */
+.headline:hover{
+    color: #fff !important;
+    background: #000 !important;
+    width: fit-content;
+
 }
+/* .link-container:hover{
+  color: #fff !important;
+  background: #000 !important;
+} */
 </style>

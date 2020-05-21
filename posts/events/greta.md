@@ -6,18 +6,7 @@ enskt_nafn: Awesome Dance
 tegund: Sýning
 ensk_tegund: Performance
 stadsetning: Herðubreið íþróttarsalur
-lysing: 'To be a body is to be effectuated (Bruno Latour).  During the workshop we will
-  dedicate our focus to the task of being bodies. We will apply methods and exercises
-  for fuelling our senses, stretching our nervous system and indulging as bodies:
-  raw, tender, absurd, sympathetic and unexpected bodies. We will explore different
-  impacts for movement: sound, breath, imagery, interaction, anarchy. We will bring
-  our awareness to body parts as if through a magnifying glass, we will roll and transform,
-  we will meditate through our bodies, explore and explode.  How does one breathe
-  and dance as a gooey tortoise, or rugged as a storm … or as subtle as a vanilla
-  soap bar?  Some of the explorations that will be shared in the workshop are drawn
-  from our on-going research related to our recent performance work THIS GRACE, a collaboration
-  with dancer Hannes Egilsson, the Iceland Dance Company and Reykjavik Art Museum
-  2019.'
+
 um_hofund: 'SAKANA er listamannanafn Sunnu Axelsdóttur. Þekkt meðal annars fyrir skapandi
   dj-settin sín, filmu ljósmyndun, samklipp sem á innblástur sinn að rekja til Japan,
   myndbandsgerð og hljóðvarpið sitt Smá Pláss. '
@@ -45,12 +34,31 @@ vidburdarmynd: img/upload/Capture.PNG
 twitter: https://twitter.com/gretathorkels
 instagram: instagram.com/gretathorkels/
 website: http://gretathorkels.net/
+ensk_lysing: ''
+facebook: ''
+ensk_lysing_1: To be a body is to be effectuated (Bruno Latour).
+ensk_lysing_2: "During the workshop we will\ndedicate our focus to the task of being
+  bodies. We will apply methods and exercises\nfor fuelling our senses, stretching
+  our nervous system and indulging as bodies:\nraw, tender, absurd, sympathetic and
+  unexpected bodies. We will explore different\nimpacts for movement: sound, breath,
+  imagery, interaction, anarchy. We will bring our awareness to body parts as if through
+  a magnifying glass, we will roll and transform, we will meditate through our bodies,
+  explore and explode. "
+ensk_lysing_3: |-
+  How does one breathe
+    and dance as a gooey tortoise, or rugged as a storm … or as subtle as a vanilla
+    soap bar?
+ensk_lysing_paragraph_4: |-
+  Some of the explorations that will be shared in the workshop are drawn
+    from our on-going research related to our recent performance work THIS GRACE, a collaboration
+    with dancer Hannes Egilsson, the Iceland Dance Company and Reykjavik Art Museum
+    2019.'
 
 ---
-SAKANA x DÚFA kynna með stolti sýninguna sína DARK GLITTER.  
-  
-DARK GLITTER á rætur sínar að rekja til LungA hátíðarinnar sem haldin var 2018 þar sem listamennirnir hófu samstarf undir leiðsögn Andrew Thomas Huang. Með sameiginlegan áhuga á áferðum, hljóðumhverfum og grotesque fegurð gengu þær saman inní myrkrið.  
-  
-Með tímanum hóf DARK GLITTER útþennslu sína og lak á gólf RÝMD sýningarrýmisins og snýr nú aftur til upphafsstöðva sinna.  
-  
+SAKANA x DÚFA kynna með stolti sýninguna sína DARK GLITTER.
+
+DARK GLITTER á rætur sínar að rekja til LungA hátíðarinnar sem haldin var 2018 þar sem listamennirnir hófu samstarf undir leiðsögn Andrew Thomas Huang. Með sameiginlegan áhuga á áferðum, hljóðumhverfum og grotesque fegurð gengu þær saman inní myrkrið.
+
+Með tímanum hóf DARK GLITTER útþennslu sína og lak á gólf RÝMD sýningarrýmisins og snýr nú aftur til upphafsstöðva sinna. 
+
 Sýningin mun standa til fimmtudags.

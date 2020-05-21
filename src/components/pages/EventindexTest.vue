@@ -13,6 +13,10 @@
           <th class="sub-text">13.07</th>
           <th class="sub-text" colspan="3">Mánudagur</th>
         </tr>
+        <!-- <tbody is="transition-group" name="fade"> -->
+
+          <tbody>
+
         <template v-for="(event, index) in events">
           <tr :key="index" @click="toggle(index)" :class="{ opened: opened.includes(index) }">
             <td class="border-bottom normal">{{event.attributes.timasetning}}</td>
@@ -29,7 +33,6 @@
               </div>
             </td>
             <td class="border-top" colspan="2">
-              {{imageLink(event.attributes.vidburdarmynd)}}
               <img class="img-child" :src="event.attributes.vidburdarmynd" />
               <div class="grid-container">
                 <div v-if="event.attributes.soundcloud">
@@ -42,6 +45,9 @@
                   <a class="nav-link" :href="event.attributes.instagram" target="_blank">Instagram</a>
                 </div>
 
+                <div v-if="event.attributes.twitter">
+                  <a class="nav-link" :href="event.attributes.twitter" target="_blank">Twitter</a>
+                </div>
                 <div v-if="event.attributes.facebook">
                   <a class="nav-link" :href="event.attributes.facebook" target="_blank">Facebook</a>
                 </div>
@@ -52,8 +58,61 @@
             </td>
           </tr>
         </template>
+          
+        </tbody>
       </table>
-      <table v-else></table>
+      <table v-else>
+<tr class="header__container">
+          <th class="sub-text">13.07</th>
+          <th class="sub-text" colspan="3">Mánudagur</th>
+        </tr>
+        <template v-for="(event, index) in events">
+          <tr :key="index" @click="toggle(index)" :class="{ opened: opened.includes(index) }">
+            <td class="border-bottom normal">{{event.attributes.ensk_timasetning}}</td>
+            <td class="border-bottom normal event__name">{{event.attributes.enskt_nafn}}</td>
+            <td class="border-bottom normal">{{event.attributes.ensk_tegund}}</td>
+            <td class="border-bottom normal">{{event.attributes.stadsetning}}</td>
+          </tr>
+          <tr class="border"  v-if="opened.includes(index)" v-bind:key="event.attributes.nafn">
+            <td class="border-top" colspan="2" >
+              <div class="html-container">{{event.attributes.ensk_lysing_1}}</div>
+              <br/>
+              <div class="html-container">{{event.attributes.ensk_lysing_2}}</div><br/>
+              <div class="html-container">{{event.attributes.ensk_lysing_3}}</div><br/>
+              <div class="html-container">{{event.attributes.ensk_lysing_4}}</div>
+              <div class="event__about-author">
+                <div>{{event.attributes.about_author}}</div>
+                <div>{{event.attributes.about_other_author}}</div>
+              </div>
+            </td>
+            <td class="border-top" colspan="2">
+              <img class="img-child" :src="event.attributes.vidburdarmynd" />
+              <div class="grid-container">
+                <div v-if="event.attributes.soundcloud">
+                  <a class="nav-link social" :href="event.attributes.soundcloud" target="_blank">Soundcloud</a>
+                </div>
+                <div v-if="event.attributes.spotify">
+                  <a class="nav-link social" :href="event.attributes.spotify" target="_blank">Spotify</a>
+                </div>
+                <div v-if="event.attributes.instagram">
+                  <a class="nav-link social" :href="event.attributes.instagram" target="_blank">Instagram</a>
+                </div>
+
+                <div v-if="event.attributes.twitter">
+                  <a class="nav-link social" :href="event.attributes.twitter" target="_blank">Twitter</a>
+                </div>
+                <div v-if="event.attributes.facebook">
+                  <a class="nav-link social" :href="event.attributes.facebook" target="_blank">Facebook</a>
+                </div>
+                <div v-if="event.attributes.website">
+                  <a class="nav-link social" :href="event.attributes.website" target="_blank">Website</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </template>
+
+      </table>
     </div>
     <br />
     <div class="footer-container">
@@ -87,7 +146,6 @@ export default {
     const imports = resolve.keys().map(key => {
       const [, name] = key.match(/\/(.+)\.md$/);
       console.log(name);
-      //console.log(key)
       return resolve(key);
     });
     return {
@@ -121,6 +179,7 @@ export default {
 .head-container {
   display: flex;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -130,10 +189,11 @@ export default {
   border-bottom: solid 2px #000000;
   padding-left: 40px;
   padding-bottom: 20px;
-  
 }
 td.border-bottom{
   padding-left: 40px;
+  cursor: pointer;
+
 }
 .event__name{
   font-size: 36px;
@@ -160,7 +220,12 @@ td.border-bottom{
 }
 td {
   width: 1%;
+  border-bottom: 2px solid #000000;
 }
+tr.opened > td {
+  border-bottom: unset;
+}
+
 .html-container {
   padding-left: 40px;
   line-height: 29px;
@@ -169,7 +234,6 @@ table {
   /* border-top: 2px solid #000000; */
   /* text-align: center; */
   border-spacing: 0;
-  border-bottom: 2px solid #000000;
   font-weight: 600;
   font-size: 24px;
   line-height: 43px;
@@ -202,11 +266,21 @@ table {
   justify-content: center;
   align-self: center;
 }
-
+.social{
+  font-size: 13px;
+}
+div > .social {
+  padding-left: 20px;
+}
+.grid-container{
+  display: flex;
+  margin-left: 20px;
+  width: 100%;
+}
 .img-child {
   max-width: 80%;
-  height: auto;
+  max-height: 500px;
   align-self: center;
-  margin: 20px;
+  margin-left: 20px;
 }
 </style>

@@ -53,10 +53,7 @@ a:link, :visited{
 .left-align {
     text-align: left;
 }
-.link-container:hover{
-  color: #fff !important;
-  background: #000 !important;
-}
+
 .text-container{
     max-width: 800px;
     flex-direction: column;
