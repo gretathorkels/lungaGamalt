@@ -58,7 +58,7 @@ export default {
   height: 51rem;
   background: rgb(255, 255, 255);
   padding: 1.5rem 2rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 255, 56, 0.1), 0 4px 6px -2px rgba(0, 255, 56, 0.05);
   text-align: center;
   border: 2px solid #00FF38;
 }
