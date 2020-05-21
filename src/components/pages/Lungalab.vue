@@ -12,9 +12,9 @@
               <div class="sub-line">
                     {{$t("lungalab.firstline")}}
                </div>
-              <div class="text-body">
+                    <!--<div class="text-body">
                     {{$t("lungalab.para1")}}
-                  </div>
+                    </div>-->
                   <div class="text-body">
                   {{$t("aboutlunga.para2")}}
                   </div>
