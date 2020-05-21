@@ -8,7 +8,7 @@
     <div class="head-container">
       <div>
         <div class="sub-header">
-              {{$t("workshops.applyhere")}}
+            <!--- {{$t("workshops.applyhere")}}--->
         </div>
       </div>
       <div class="sub-text">
@@ -31,7 +31,7 @@
         </div>
       <div>
                 <div class="sub-header">
-              {{$t("workshops.applyhere")}}
+              <!--- {{$t("workshops.applyhere")}}--->
         </div>
         </div>
     </div>

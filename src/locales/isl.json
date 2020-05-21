@@ -74,7 +74,7 @@
     "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
   },
   "application": {
-    "headertext": "Hér fyrir neðan er hægt að sækja um að taka þátt í LungA hátíðinni á ýmsa vegu.",
+    "headertext": "Vegna Covid-19 höfum við lokað fyrir umsóknir á LungA 2020. Sjáumst hress á næsta ári!",
     "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021."
   },
 
@@ -94,8 +94,8 @@
     "footer": "Ást! LungA"
   },
   "workshops":{
-    "firstline":"Listasmiðjur LungA 2020 eru átta talsins: sjö (7) vikulangar listasmiðjur og ein (1) föstudags-listasmiðja.",
-    "tba":"Listasmiðjur verða birtar í Maí 2020 og þá opnast einnig fyrir umsóknir",
+    "firstline":"Listasmiðjur LungA 2021 eru átta talsins: sjö (7) vikulangar listasmiðjur og ein (1) föstudags-listasmiðja.",
+    "tba":"Listasmiðjur verða birtar í Maí 2021 og þá opnast einnig fyrir umsóknir",
     "applyhere":"Sæktu um",
     "weekinfo":"Vikusmiðja: Innifalið í verðinu er þátttaka í listasmiðju, gisting í svefnpoka plássi, fullt fæði og aðgangur að öllum viðburðum hátíðarinnar. Það er einnig möguleiki að skrá sig á LungA tjaldsvæði eða þitt eigið húsnæði.",
     "fridayinfo":"Föstudagssmiðja: Innifalið í verðinu er þátttaka í listasmiðjuna, gisting, fæði á meðan námskeiðinu stendur og aðgangur að öllum viðburðum hátíðarinnar."
@@ -105,7 +105,7 @@
     "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
     "para1":"Ár hvert veljum við þema, í ár er það Atferli, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
     "para2":"Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
-    "tba":"Fyrirlesarar verða tilkynntir í Maí 2020.",
+    "tba":"Fyrirlesarar verða tilkynntir í Maí 2021.",
     "sponsors":"LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
   },
 
@@ -119,17 +119,17 @@
   },
 
   "concerts": {
-    "header": "17.–18. júlí mun LungA standa fyrir tveggja daga tónleikaveislu á Norðursíldar planinu á Seyðisfirði.",
+    "header": "Vegna Covid-19 verða ekki tónleikar í Norðursíld í ár. En þeir verða á næsta ári!.",
     "ticket":"Kaupa miða"
 
   },
 
   "eventindex":{
     "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-    "tba":"Viðburðir bætast hér við uppúr maí 2020"
+    "tba":"Viðburðir bætast hér við uppúr maí 2021"
   },
   "frontpage": {
-    "date": "11.–19. júlí 2020"
+    "date": "Frestað til 2021"
   }
 
 }

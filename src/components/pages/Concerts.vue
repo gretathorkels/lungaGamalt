@@ -13,18 +13,18 @@
     <div class="head-container">
 
       <div>
-        <div class="sub-header">
+        <!--<div class="sub-header">
            <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
             {{$t("concerts.ticket")}}
           </a>
-        </div>
+        </div>-->
       </div>
       <div class="sub-text">
         {{$t("concerts.header")}}
       </div>
     </div>
 
-
+<!--
     <table>
       <tr>
         <th>Date</th>
@@ -78,6 +78,8 @@
         </tr>
       </template>
     </table>
+
+    --->
     <div class="footer-container">
         <div class="text">
         <!--Upplýsingar um tónleikana:--->
@@ -88,11 +90,11 @@
          <div class="img-container">
              <img class="img-child" src="../../assets/tumblr/12.jpg">
          </div>
-      <div class="center sub-header nav-link">
+     <!-- <div class="center sub-header nav-link">
        <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
                    {{$t("concerts.ticket")}}
                  </a>
-      </div>
+      </div>-->
     </div>
 
 

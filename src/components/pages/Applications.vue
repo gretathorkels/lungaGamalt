@@ -4,21 +4,22 @@
     <Headline v-bind:title="title"/>
 
 
-      <div class="img-container">
-          <img class="img-child" src="../../assets/tumblr/17.jpg">
-      </div>
+
 
     <div class="head-container">
-        <div class="sub-header">
+        <!--<div class="sub-header">
             {{$t("workshops.applyhere")}}
-        </div>
+        </div>-->
 
       <div class="sub-text">
       {{$t("application.headertext")}}
       </div>
     </div>
+      <div class="img-container">
+          <img class="img-child" src="../../assets/tumblr/17.jpg">
+      </div>
 
-
+<!--
     <table class="workshops-container">
       <tr>
         <th>{{$t("applicationLinks.title")}}</th>
@@ -47,21 +48,23 @@
         <td>{{$t("applicationDeadline.speak")}}</td>
       </tr>
     </table>
+
     <div class="footer-container">
       <div class="text">
       {{$t("application.footertext")}}
 
       </div>
+
       <div class="text">
-      
+      hello
         </div>
 
 
-      <!-- <div>
+      <div>
         <div class="sub-header">Apply</div>
         <div class="sub-header">Here</div>
-        </div> -->
-    </div>
+        </div>
+    </div>--->
 
   </div>
 </template>
