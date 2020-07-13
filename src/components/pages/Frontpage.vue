@@ -53,19 +53,32 @@
       </div>
       <Footer />
     </div>
-    
+    <Modal :isOpen="open" :title="'Hæ'" @onClose="handleClose" />
   </div>
 </template>
 
 <script>
 import Header from "../shared/Header";
 import Footer from "../shared/Footer";
+import Modal from "../shared/Modal";
+
 export default {
   name: "Frontpage",
+  data() {
+   return {
+      open: true,
+
+   }
+  },
   props: {
     lang: String
   },
-  components: { Header, Footer }
+  components: { Header, Footer, Modal },
+  methods: {
+    handleClose(){
+      this.open = !this.open;
+    }
+  }
 };
 </script>
 

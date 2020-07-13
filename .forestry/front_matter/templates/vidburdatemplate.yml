@@ -1,0 +1,141 @@
+---
+label: Viðburðatemplate
+hide_body: false
+fields:
+- type: text
+  name: timasetning
+  label: timasetning
+  description: Tímasetning á formi 00:00-00:00
+- name: ensk_timasetning
+  type: text
+  config:
+    required: false
+  label: ensk tímasetning
+  description: á formi 8-9PM
+- type: text
+  name: nafn
+  label: nafn
+  description: Nafn á viðburðinum
+- name: enskt_nafn
+  type: text
+  config:
+    required: false
+  label: enskt nafn
+- name: tegund
+  type: text
+  config:
+    required: false
+  label: tegund
+  description: Tegund viðburðs (td. sýning, athöfn..)
+- name: ensk_tegund
+  type: text
+  config:
+    required: false
+  label: ensk tegund
+- name: ensk_lysing_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (1. málsgrein)
+  description: Ensk lýsing á viðburði
+- name: ensk_lysing_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (2. málsgrein)
+  description: optional til að stíla enska lýsingu
+- name: ensk_lysing_3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (3. málsgrein)
+  description: optional til að stíla enska lýsingu
+- name: ensk_lysing_paragraph_4
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ensk lýsing (4. málsgrein)
+  description: optional til að stíla enska lýsingu
+- name: stadsetning
+  type: text
+  config:
+    required: false
+  label: stadsetning
+  description: Staðsetning á viðburði
+- name: um_hofund
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: um höfund
+  description: Um höfund viðburðar
+- name: about_author
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: about author
+  description: Um höfund á ensku
+- name: um_annan_hofund
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Um annan höfund
+- name: about_other_author
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: about other author
+- name: vidburdarmynd
+  type: file
+  config:
+    maxSize: 
+  label: vidburdarmynd
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: instagram
+  label: instagram
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: facebook
+  description: Linkur að facebook
+- type: text
+  name: website
+  label: website
+pages:
+- posts/events/danceSurprise.md
+- posts/events/greta.md
