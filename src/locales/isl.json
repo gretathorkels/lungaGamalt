@@ -11,7 +11,9 @@
       "sponsors": "Samstarfsaðilar",
       "contact": "Hafðu samband",
       "menu": "Menu",
-      "home": "Heim"
+      "home": "Heim",
+      "shop": "Vefverslun"
+
 
     },
     "title": {
@@ -24,7 +26,10 @@
       "eventindex": "Viðburðarskrá",
       "applications": "Umsóknir",
       "sponsors": "Samstarfsaðilar",
-      "contact": "Hafðu samband"
+      "contact": "Hafðu samband",
+      "shop": "Vefverslun"
+
+
     },
 
     "roles": {

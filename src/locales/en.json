@@ -11,7 +11,8 @@
     "sponsors": "Sponsors",
     "contact": "Contact",
     "menu": "Menu",
-    "home": "Homepage"
+    "home": "Homepage",
+    "shop": "Shop"
   },
   "title": {
     "about": "About LungA",
@@ -23,7 +24,9 @@
     "eventindex": "Event Index",
     "applications": "Applications",
     "sponsors": "Sponsors",
-    "contact": "Contact"
+    "contact": "Contact",
+    "shop": "Shop"
+
   },
   "roles": {
     "director": "Festival Director",

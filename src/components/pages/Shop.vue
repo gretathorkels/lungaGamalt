@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-      <Header v-bind:menu="'menu'" />
+  <div class="shop">
+      <Header v-bind:menu="'shop'" />
       <Headline v-bind:title="title"/>
 
       <div class="img-container">
@@ -64,14 +64,14 @@ import Header from '../shared/Header'
 import Headline from '../shared/Headline'
 
 export default {
-  name: 'About',
+  name: 'Shop',
   components: {
       Header, 
       Headline
   },
   data(){
       return{
-          title: 'title.about'
+          title: 'title.shop'
       }
   }
 

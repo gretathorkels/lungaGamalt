@@ -14,6 +14,7 @@ import Frontpage from './components/pages/Frontpage';
 import Workshops from './components/pages/Workshops';
 import Concerts from './components/pages/Concerts';
 import Lungalab from './components/pages/Lungalab';
+import Shop from './components/pages/Shop';
 import Youthexchange from './components/pages/Youthexchange';
 import Eventindex from './components/pages/Eventindex';
 import Sponsors from './components/pages/Sponsors';
@@ -41,6 +42,7 @@ const routes = [
   {path: '/youthexchange', component: Youthexchange },
   {path: '/en/eventindex', component: Eventindex },
   {path: '/eventindex', component: Eventindex },
+  {path: '/shop', component: Shop },
   {path: '/en/sponsors', component: Sponsors },
   {path: '/sponsors', component: Sponsors },
   {path: '/en/about', component: About },
