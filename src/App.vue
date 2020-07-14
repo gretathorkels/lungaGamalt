@@ -39,6 +39,9 @@ body{
 .nav-link {
   text-decoration: none;
 }
+.nav-link:hover{
+  color: inherit;
+}
 .subtitle{
   font-size: 48px;
 }
@@ -49,6 +52,7 @@ body{
 }
 a:link, :visited{
   color: inherit;
+  text-decoration: none;
 }
 .left-align {
     text-align: left;

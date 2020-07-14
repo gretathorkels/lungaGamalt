@@ -40,6 +40,13 @@
           <router-link class="nav-link link-container" to="/eventindex">{{ $t('links.eventindex') }}</router-link>
         </div>
       </div>
+
+      <div class="skew-container">
+        <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
+          <router-link class="nav-link link-container" to="/shop">{{ $t('links.shop') }}</router-link>
+        </div>
+      </div>
+
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link

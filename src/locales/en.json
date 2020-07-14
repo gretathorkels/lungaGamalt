@@ -121,6 +121,12 @@
   },
   "frontpage":{
       "date":"Postponed to 2021"
+  },
+
+  "shop":{
+    "firstinfo":"Welcome to LungA's webshop – we finally went through our archives and here below is everything we have left",
+    "para1":"Skilmálar",
+    "para2":"Upplýsingar um shipping ofl."
   }
 
 }
