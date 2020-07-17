@@ -26,8 +26,6 @@
 					</td>
 	<td class="border-bottom name">{{item.name}}</td>
 
-	<td class="border-bottom normal" id="small">{{item.style}}</td>
-	<td class="border-bottom normal" id="small">{{item.color}}</td>
 	<td class="border-bottom normal" id="small">{{item.price}}</td>
 	<td class="border-bottom normal" id="small">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -514,15 +512,15 @@ export default {
                             index: 0,
 							id: 14,
 							id2: "14b",
-							color: "Ýmsir ⟡ Various",
+							color: "",
 							name: "The Power of Empathy",
-							style: "Taupoki ⟡ Totebag",
+							style: "",
 							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
+							descr1: "Taupoki frá 2015",
+							descr2: "Taupoki ⟡ Totebag",
+                            descr3: "Litir / Colour: Ýmsir ⟡ Various",
+							descr4: "2400 ISK",
 							mainImage: require("../../assets/webshop/15-totebag.png"),
 							images: [
 								{
