@@ -6,101 +6,123 @@
 			<div class="sub-line">{{$t("shop.firstinfo")}}</div>
 		</div>
 
-
 		<table>
 			<template v-for="shopitem in shopitems">
 				<tr v-bind:key="shopitem.id+100" class="shopitem__year">
 					<th>{{shopitem.year}}</th>
 				</tr>
 
+				<template v-for="item in shopitem.items">
+					<tr
+						v-bind:key="item.id"
+						@click="toggle(item.id, shopitem.id, item.index )"
+						:class="{ opened: opened.includes(item.id) }"
+					>
+						<td class="border-bottom normal">
+							<img :src="item.mainImage" width="50" />
+						</td>
+						<td class="border-bottom name">{{item.name}}</td>
 
-                <template v-for="item in shopitem.items">
-<tr
-					v-bind:key="item.id"
-					@click="toggle(item.id, shopitem.id, item.index )"
-					:class="{ opened: opened.includes(item.id) }"
-				>
+						<td class="border-bottom normal" id="small">{{item.price}}</td>
+						<td class="border-bottom normal" id="small">
+							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+								<input type="hidden" name="cmd" value="_s-xclick" />
+								<input type="hidden" name="hosted_button_id" :value="item.value" />
+								<table v-if="item.dropdownMenu">
+									<tr>
+										<td class="text dropdown">
+											<input type="hidden" name="on0" :value="item.dropdowndefaultText" />{{item.dropdowndefaultText}}
+										</td>
+									</tr>
+									<tr>
+										<td class="text dropdown">
+											<select name="os0">
+                                                <template v-for="option in item.dropdown">
+													<option value="option" v-bind:key="option+120">{{option}}</option>
+												</template>
+											</select>
+										</td>
+									</tr>
+								</table>
+								<input
+									type="image"
+									src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+									border="0"
+									name="submit"
+									alt="PayPal - The safer, easier way to pay online!"
+								/>
+								<img
+									alt
+									border="0"
+									src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+									width="1"
+									height="1"
+								/>
+							</form>
+						</td>
+					</tr>
 
-					<td class="border-bottom normal">
-						<img :src="item.mainImage" width="50" />
-					</td>
-	<td class="border-bottom name">{{item.name}}</td>
-
-	<td class="border-bottom normal" id="small">{{item.price}}</td>
-	<td class="border-bottom normal" id="small">
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-		<input type="hidden" name="cmd" value="_s-xclick" />
-		<input type="hidden" name="hosted_button_id" :value="item.value" />
-		<input
-				type="image"
-				src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-				border="0"
-				name="submit"
-				alt="PayPal - The safer, easier way to pay online!"
-		/>
-		<img
-				alt=""
-				border="0"
-				src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-				width="1"
-				height="1"
-				style="width: 10px; height: 10px;"
-		/>
-	</form></td>
-
-
-
-
-
-</tr>
-
-				<tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
-					<td class="border-top" colspan="2">
-						<div class="card-img">
-							<img :src="currentImage" />
-							<div v-if="item.images.length > 1" class="actions">
-								<span @click="prevImage" class="prev">
-									<i class="fa fa-chevron-left"></i>
-								</span>
-								<span @click="nextImage" class="next">
-									<i class="fa fa-chevron-right"></i>
-								</span>
+					<tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
+						<td class="border-top" colspan="2">
+							<div class="card-img">
+								<img :src="currentImage" />
+								<div v-if="item.images.length > 1" class="actions">
+									<span @click="prevImage" class="prev">
+										<i class="fa fa-chevron-left"></i>
+									</span>
+									<span @click="nextImage" class="next">
+										<i class="fa fa-chevron-right"></i>
+									</span>
+								</div>
 							</div>
-						</div>
 
-						<div class="text"> {{item.underImgText}}</div>
-					</td>
-					<td class="border-top" colspan="2">
-						{{item.descr1}}
-						<br />
-						<br />
-						{{item.descr2}}
-						<br />
-						<br />
-						{{item.descr3}}
-						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-							<input type="hidden" name="cmd" value="_s-xclick" />
-							<input type="hidden" name="hosted_button_id" :value="item.value" />
-							<input
-								type="image"
-								src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-								border="0"
-								name="submit"
-								alt="PayPal - The safer, easier way to pay online!"
-							/>
-							<img
-								alt=""
-								border="0"
-								src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-								width="1"
-								height="1"
-								style="width: 10px; height: 10px;"
-							/>
-						</form>
-					</td>
-				</tr>
-                </template>
-				
+							<div class="text">{{item.underImgText}}</div>
+						</td>
+						<td class="border-top" colspan="2">
+							{{item.descr1}}
+							<br />
+							<br />
+							{{item.descr2}}
+							<br />
+							<br />
+							{{item.descr3}}
+							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+								<input type="hidden" name="cmd" value="_s-xclick" />
+								<input type="hidden" name="hosted_button_id" :value="item.value" />
+								<table v-if="item.dropdownMenu">
+									<tr>
+										<td class="text_dropdown">
+											<input type="hidden" name="on0" :value="item.dropdowndefaultText" />{{item.dropdowndefaultText}}
+										</td>
+									</tr>
+									<tr>
+										<td classs="text_dropdown">
+											<select name="os0">
+                                                <template v-for="option in item.dropdown">
+													<option value="option" v-bind:key="option+120">{{option}}</option>
+												</template>
+											</select>
+										</td>
+									</tr>
+								</table>
+								<input
+									type="image"
+									src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+									border="0"
+									name="submit"
+									alt="PayPal - The safer, easier way to pay online!"
+								/>
+								<img
+									alt
+									border="0"
+									src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+									width="1"
+									height="1"
+								/>
+							</form>
+						</td>
+					</tr>
+				</template>
 			</template>
 		</table>
 
@@ -125,28 +147,28 @@ export default {
 		return {
 			title: "title.shop",
 			activeImage: 0,
-            activeItem: 0,
-            activeShop: 0,
+			activeItem: 0,
+			activeShop: 0,
 			opened: [],
 			shopitems: [
 				{
-                    year: 2020,
-                    id: 1,
+					year: 2020,
+					id: 1,
 					items: [
 						{
-                            index: 0,
+							index: 0,
 							id: 1,
 							id2: "1b",
 							color: "Apelsínugult ⟡ Orange",
 							name: "Vildi að ég væri á LungA",
 							style: "Taupoki ⟡ Totebag",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/20-totebag.png"),
 							images: [
 								{
@@ -161,22 +183,30 @@ export default {
 									id: 3,
 									img: require("../../assets/webshop/20-totebag.png")
 								}
+                            ],
+							dropdownMenu: true,
+									dropdowndefaultText: "Litur  – Colour | Stærð - Size",
+                            
+							dropdown: [
+										"Hvítur - White | M",
+										"Hvítur - White | L",
+										"Hvítur - White | XL"
 							]
 						},
 						{
-                            index: 1,
+							index: 1,
 							id: 2,
 							id2: "2b",
 							color: "Apelsínugult ⟡ Orange",
 							name: "Vildi að ég væri á LungA",
 							style: "Derhúfa ⟡ Baseball cap",
-							price:"3200 ISK",
+							price: "3200 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/20-cap.png"),
 							images: [
 								{
@@ -200,7 +230,7 @@ export default {
 							color: "Apelsínugult ⟡ Orange",
 							name: "Vildi að ég væri á LungA",
 							style: "Sokkar ⟡ Socks",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -230,7 +260,7 @@ export default {
 							color: "Apelsínugult ⟡ Orange",
 							name: "Vildi að ég væri á LungA",
 							style: "A3 Prent",
-							price:"10.000 ISK",
+							price: "10.000 ISK",
 
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
@@ -253,29 +283,29 @@ export default {
 									img: require("../../assets/webshop/20-socks.png")
 								}
 							]
-						},
+						}
 					]
 				},
 
 				{
-                    year: 2019,
-                    id: 2,
+					year: 2019,
+					id: 2,
 					items: [
 						{
-                            index: 0,
+							index: 0,
 							id: 5,
 							id2: "5b",
 							color: "Svartur ⟡ Black",
 							name: "Future Perspectives",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/19-tshirt-black.png"),
 							images: [
 								{
@@ -295,7 +325,7 @@ export default {
 							color: "Grænn ⟡ Green",
 							name: "Future Perspectives",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
@@ -317,25 +347,25 @@ export default {
 						}
 					]
 				},
-			
+
 				{
-                    year: 2018,
-                    id: 3,
+					year: 2018,
+					id: 3,
 					items: [
-                        {
-                            index: 0,
+						{
+							index: 0,
 							id: 7,
 							id2: "7b",
 							name: "Gender",
 							color: "Blár ⟡ Blue",
 							style: "Taupoki ⟡ Totebag",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "Totebag from 2018, available in the following colours:",
 							descr2: "Blue (solid), Peach (solid) and Peach (outline)",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/18-totebag-blue-solid.png"),
 							images: [
 								{
@@ -345,20 +375,20 @@ export default {
 							]
 						},
 						{
-                            index: 1,
+							index: 1,
 							id: 8,
 							id2: "8b",
 							name: "Gender",
 							color: "Bleikur ⟡ Peach",
 							style: "Taupoki ⟡ Totebag",
-							price:"2400 ISK",
+							price: "2400 ISK",
 
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/18-totebag-peach-solid.png"),
 							images: [
 								{
@@ -378,7 +408,7 @@ export default {
 							color: "Bleikur ⟡ Peach",
 							name: "Gender",
 							style: "Taupoki ⟡ Totebag",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -404,10 +434,11 @@ export default {
 							color: "Svartur ⟡ Black",
 							name: "Gender",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 
 							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt with black screenprint, available in: Solid and Outline.",
+							descr1:
+								"T-shirt with black screenprint, available in: Solid and Outline.",
 							descr2: "4000kr",
 							descr3: "",
 							underImgText: "Wow so pretty",
@@ -431,7 +462,7 @@ export default {
 							color: "Blár ⟡ Blue",
 							name: "Gender",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
@@ -455,23 +486,23 @@ export default {
 				},
 
 				{
-                    year: 2017,
-                    id: 4,
+					year: 2017,
+					id: 4,
 					items: [
 						{
-                            index: 0,
+							index: 0,
 							id: 12,
 							id2: "12b",
 							color: "Svart ⟡ Black",
 							name: "Ego",
 							style: "Taupoki ⟡ Totebag",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/17-totebag.png"),
 							images: [
 								{
@@ -481,19 +512,19 @@ export default {
 							]
 						},
 						{
-                            index: 1,
+							index: 1,
 							id: 13,
 							id2: "13b",
 							color: "Ýmsir ⟡ Various",
 							name: "Ego",
 							style: "Peysa ⟡ Sweatshirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/17-sweatshirt.png"),
 							images: [
 								{
@@ -505,21 +536,21 @@ export default {
 					]
 				},
 				{
-                    year: 2015,
-                    id: 5,
+					year: 2015,
+					id: 5,
 					items: [
 						{
-                            index: 0,
+							index: 0,
 							id: 14,
 							id2: "14b",
 							color: "",
 							name: "The Power of Empathy",
 							style: "",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "Taupoki frá 2015",
 							descr2: "Taupoki ⟡ Totebag",
-                            descr3: "Litir / Colour: Ýmsir ⟡ Various",
+							descr3: "Litir / Colour: Ýmsir ⟡ Various",
 							descr4: "2400 ISK",
 							mainImage: require("../../assets/webshop/15-totebag.png"),
 							images: [
@@ -542,7 +573,7 @@ export default {
 							color: "Ýmsir ⟡ Various",
 							name: "Creative Communities",
 							style: "Plakat ⟡ Poster",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -560,24 +591,24 @@ export default {
 				},
 
 				{
-                    year: 2011,
-                    id: 7,
+					year: 2011,
+					id: 7,
 					items: [
 						{
-                            index: 0,
+							index: 0,
 							id: 16,
 							id2: "16b",
 							date: "",
 							color: "2011",
 							name: "Out of the Box",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/11-tshirt.png"),
 							images: [
 								{
@@ -589,23 +620,23 @@ export default {
 					]
 				},
 				{
-                    year: 2010,
-                    id: 8,
+					year: 2010,
+					id: 8,
 					items: [
 						{
-                            index: 0,
+							index: 0,
 							id: 17,
 							id2: "17b",
 							color: "Hvítur ⟡ White",
 							name: "LungA Lengi Lifi!",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
+							descr3: "",
+							underImgText: "Wow so pretty",
+
 							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png"),
 							images: [
 								{
@@ -625,7 +656,7 @@ export default {
 							color: "Gulur ⟡ Yellow",
 							name: "LungA Lengi Lifi!",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -651,7 +682,7 @@ export default {
 							color: "Svartur ⟡ Black",
 							name: "LungA Lengi Lifi!",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -671,18 +702,18 @@ export default {
 							]
 						},
 						{
-                            index: 3,
+							index: 3,
 							id: 20,
 							id2: "20b",
 							color: "Hvítur ⟡ White",
 							name: "Hæ ég heiti LungA og ég er 10 ára",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
 							descr3: "",
-                            underImgText: "Wow so pretty",
+							underImgText: "Wow so pretty",
 
 							mainImage: require("../../assets/webshop/10-tshirt-10ara-white.png"),
 							images: [
@@ -703,7 +734,7 @@ export default {
 							color: "Gulur ⟡ Yellow",
 							name: "Hæ ég heiti LungA og ég er 10 ára",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -729,10 +760,12 @@ export default {
 							color: "Hvítur ⟡ White",
 							name: "Mér leið eins og baðkari …",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt available in black, yellow and grey from 2010, with the text:",
-							descr2: "Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
+							descr1:
+								"T-shirt available in black, yellow and grey from 2010, with the text:",
+							descr2:
+								"Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
 							descr3: "4000kr",
 							underImgText: "Wow so pretty",
 
@@ -755,10 +788,12 @@ export default {
 							color: "Gulur ⟡ Yellow",
 							name: "Mér leið eins og baðkari …",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt available in black, yellow and grey from 2010, with the text:",
-							descr2: "Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
+							descr1:
+								"T-shirt available in black, yellow and grey from 2010, with the text:",
+							descr2:
+								"Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
 							descr3: "4000kr",
 							underImgText: "Wow so pretty",
 
@@ -781,10 +816,12 @@ export default {
 							color: "Svartur ⟡ Black",
 							name: "Mér leið eins og baðkari …",
 							style: "T-Bolur ⟡ T-shirt",
-							price:"2400 ISK",
+							price: "2400 ISK",
 							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt available in black, yellow and grey from 2010, with the text:",
-							descr2: "Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
+							descr1:
+								"T-shirt available in black, yellow and grey from 2010, with the text:",
+							descr2:
+								"Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
 							descr3: "4000kr",
 							underImgText: "Wow so pretty",
 
@@ -799,7 +836,7 @@ export default {
 									img: require("../../assets/webshop/10-tshirt-badkar-black.png")
 								}
 							]
-						},
+						}
 					]
 				}
 			]
@@ -807,13 +844,18 @@ export default {
 	},
 	computed: {
 		currentImage() {
-			return this.shopitems[this.activeShop].items[this.activeItem].images[this.activeImage].img;
+			return this.shopitems[this.activeShop].items[this.activeItem].images[
+				this.activeImage
+			].img;
 		}
 	},
 	methods: {
 		nextImage() {
 			var active = this.activeImage + 1;
-			if (active >= this.shopitems[this.activeShop].items[this.activeItem].images.length) {
+			if (
+				active >=
+				this.shopitems[this.activeShop].items[this.activeItem].images.length
+			) {
 				active = 0;
 			}
 			this.activateImage(active);
@@ -821,7 +863,9 @@ export default {
 		prevImage() {
 			var active = this.activeImage - 1;
 			if (active < 0) {
-				active = this.shopitems[this.activeShop].items[this.activeItem].images.length - 1;
+				active =
+					this.shopitems[this.activeShop].items[this.activeItem].images.length -
+					1;
 			}
 			this.activateImage(active);
 		},
@@ -832,20 +876,19 @@ export default {
 			this.activeImage = 0;
 		},
 		updateActiveItem(item, inx) {
-            this.activeItem = inx;
-            this.activeShop = item - 1;
-            
+			this.activeItem = inx;
+			this.activeShop = item - 1;
 		},
 		toggle(id, item, inx) {
 			const index = this.opened.indexOf(id);
-            this.opened = [];
+			this.opened = [];
 			this.updateActiveItem(item, inx);
 			this.resetActiveImg();
 			if (index > -1) {
 				this.opened.splice(index, 1);
 			} else {
 				this.opened.push(id);
-            }
+			}
 		}
 	}
 };
@@ -860,22 +903,25 @@ export default {
 	text-align: center;
 }
 .shopitem__year > th {
-    padding-top: 10px;
-    font-size: 48px;
+	padding-top: 10px;
+	font-size: 48px;
 }
 .grid-container {
-    align-content: center;
+	align-content: center;
 }
-.text{
 
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-color: #000000;
-margin: 20px 0px 50px 0px;
-text-align: center;
 
+.text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+	margin: 20px 0px 50px 0px;
+	text-align: center;
+}
+.dropdown {
+    text-align: left;
 }
 img {
 	max-width: 500px;
@@ -966,6 +1012,13 @@ td.border-bottom {
 }
 
 .actions > span:hover {
-	color: #00FF38;
+	color: #00ff38;
+}
+.text_dropdown {
+	font-size: 24px;
+}
+td.text_dropdown  {
+    font-size: 24px;
+
 }
 </style>
