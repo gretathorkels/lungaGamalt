@@ -5,11 +5,15 @@
 		<div class="text-container">
 			<div class="sub-line">{{$t("shop.firstinfo")}}</div>
 		</div>
+
+
 		<table>
 			<template v-for="shopitem in shopitems">
 				<tr v-bind:key="shopitem.id+100" class="shopitem__year">
 					<th>{{shopitem.year}}</th>
 				</tr>
+
+
                 <template v-for="item in shopitem.items">
 <tr
 					v-bind:key="item.id"
@@ -20,9 +24,37 @@
 					<td class="border-bottom normal">
 						<img :src="item.mainImage" width="50" />
 					</td>
-					<td class="border-bottom name">{{item.name}}</td>
-					<td class="border-bottom normal">{{item.stage}}</td>
-				</tr>
+	<td class="border-bottom name">{{item.name}}</td>
+
+	<td class="border-bottom normal" id="small">{{item.style}}</td>
+	<td class="border-bottom normal" id="small">{{item.color}}</td>
+	<td class="border-bottom normal" id="small">{{item.price}}</td>
+	<td class="border-bottom normal" id="small">
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_s-xclick" />
+		<input type="hidden" name="hosted_button_id" :value="item.value" />
+		<input
+				type="image"
+				src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+				border="0"
+				name="submit"
+				alt="PayPal - The safer, easier way to pay online!"
+		/>
+		<img
+				alt=""
+				border="0"
+				src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+				width="1"
+				height="1"
+				style="width: 10px; height: 10px;"
+		/>
+	</form></td>
+
+
+
+
+
+</tr>
 
 				<tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
 					<td class="border-top" colspan="2">
@@ -59,7 +91,7 @@
 								alt="PayPal - The safer, easier way to pay online!"
 							/>
 							<img
-								alt
+								alt=""
 								border="0"
 								src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
 								width="1"
@@ -107,28 +139,29 @@ export default {
                             index: 0,
 							id: 1,
 							id2: "1b",
-							time: "2020",
+							color: "Apelsínugult ⟡ Orange",
 							name: "Vildi að ég væri á LungA",
-							stage: "Taupoki / Totebag",
+							style: "Taupoki ⟡ Totebag",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/10-tshirt-1-white.jpg"),
+							mainImage: require("../../assets/webshop/20-totebag.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/10-tshirt-1-white.jpg")
+									img: require("../../assets/webshop/20-totebag.png")
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-1-yellow.jpg")
+									img: require("../../assets/webshop/20-totebag.png")
 								},
 								{
 									id: 3,
-									img: require("../../assets/webshop/10-tshirt-1-white.jpg")
+									img: require("../../assets/webshop/20-totebag.png")
 								}
 							]
 						},
@@ -136,31 +169,93 @@ export default {
                             index: 1,
 							id: 2,
 							id2: "2b",
-							time: "2020",
+							color: "Apelsínugult ⟡ Orange",
 							name: "Vildi að ég væri á LungA",
-							stage: "Derhúfa / Baseball cap",
+							style: "Derhúfa ⟡ Baseball cap",
+							price:"3200 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/10-tshirt-1-white.jpg"),
+							mainImage: require("../../assets/webshop/20-cap.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/10-tshirt-1-white.jpg")
+									img: require("../../assets/webshop/20-cap.png")
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-1-yellow.jpg")
+									img: require("../../assets/webshop/20-cap.png")
 								},
 								{
 									id: 3,
-									img: require("../../assets/webshop/10-tshirt-1-white.jpg")
+									img: require("../../assets/webshop/20-cap.png")
 								}
 							]
-						}
+						},
+						{
+							index: 2,
+							id: 3,
+							id2: "3b",
+							color: "Apelsínugult ⟡ Orange",
+							name: "Vildi að ég væri á LungA",
+							style: "Sokkar ⟡ Socks",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/20-socks.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/20-socks.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/20-socks.png")
+								},
+								{
+									id: 3,
+									img: require("../../assets/webshop/20-socks.png")
+								}
+							]
+						},
+						{
+							index: 3,
+							id: 4,
+							id2: "4b",
+							color: "Apelsínugult ⟡ Orange",
+							name: "Vildi að ég væri á LungA",
+							style: "A3 Prent",
+							price:"10.000 ISK",
+
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/20-socks.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/20-socks.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/20-socks.png")
+								},
+								{
+									id: 3,
+									img: require("../../assets/webshop/20-socks.png")
+								}
+							]
+						},
 					]
 				},
 
@@ -170,11 +265,13 @@ export default {
 					items: [
 						{
                             index: 0,
-							id: 3,
-							id2: "3b",
-							time: "2019",
-							name: "wowowowo",
-							stage: "T-shirt",
+							id: 5,
+							id2: "5b",
+							color: "Svartur ⟡ Black",
+							name: "Future Perspectives",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -189,7 +286,34 @@ export default {
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/19-tshirt-green.jpg")
+									img: require("../../assets/webshop/19-tshirt-black-detail1.png")
+								}
+							]
+						},
+						{
+							index: 1,
+							id: 6,
+							id2: "6b",
+							color: "Grænn ⟡ Green",
+							name: "Future Perspectives",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/19-tshirt-green.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/19-tshirt-green.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/19-tshirt-green-detail1.png")
 								}
 							]
 						}
@@ -202,43 +326,130 @@ export default {
 					items: [
                         {
                             index: 0,
-							id: 4,
-							id2: "4b",
-							time: "2018",
-							name: "~~~~~",
-							stage: "Totebag",
+							id: 7,
+							id2: "7b",
+							name: "Gender",
+							color: "Blár ⟡ Blue",
+							style: "Taupoki ⟡ Totebag",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
+							descr1: "Totebag from 2018, available in the following colours:",
+							descr2: "Blue (solid), Peach (solid) and Peach (outline)",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/18-totebag-blue.jpg"),
+							mainImage: require("../../assets/webshop/18-totebag-blue-solid.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/18-totebag-blue.jpg")
+									img: require("../../assets/webshop/18-totebag-blue-solid.png")
 								}
 							]
 						},
 						{
                             index: 1,
-							id: 5,
-							id2: "5b",
-							time: "2018",
-							name: "~~~~~",
-							stage: "T-shirt",
+							id: 8,
+							id2: "8b",
+							name: "Gender",
+							color: "Bleikur ⟡ Peach",
+							style: "Taupoki ⟡ Totebag",
+							price:"2400 ISK",
+
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/18-totebag-blue.jpg"),
+							mainImage: require("../../assets/webshop/18-totebag-peach-solid.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/18-totebag-blue.jpg")
+									img: require("../../assets/webshop/18-totebag-peach-solid.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/18-totebag-peach-outline.png")
+								}
+							]
+						},
+						{
+							index: 2,
+							id: 9,
+							id2: "9b",
+							color: "Bleikur ⟡ Peach",
+							name: "Gender",
+							style: "Taupoki ⟡ Totebag",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/18-totebag-peach-outline.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/18-totebag-peach-outline.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/18-totebag-peach-outline.png")
+								}
+							]
+						},
+						{
+							index: 3,
+							id: 10,
+							id2: "10b",
+							color: "Svartur ⟡ Black",
+							name: "Gender",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt with black screenprint, available in: Solid and Outline.",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/18-tshirt-black-solid.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/18-tshirt-black-solid.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/18-tshirt-black-outline.png")
+								}
+							]
+						},
+						{
+							index: 4,
+							id: 11,
+							id2: "11b",
+							color: "Blár ⟡ Blue",
+							name: "Gender",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/18-tshirt-blue-solid.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/18-tshirt-blue-solid.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/18-tshirt-blue-outline.png")
 								}
 							]
 						}
@@ -251,44 +462,45 @@ export default {
 					items: [
 						{
                             index: 0,
-							id: 6,
-							id2: "6b",
-							time: "2017",
-							name: "Thumbs up",
-							stage: "Taupoki/Totebag",
+							id: 12,
+							id2: "12b",
+							color: "Svart ⟡ Black",
+							name: "Ego",
+							style: "Taupoki ⟡ Totebag",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/17-totebag.jpg"),
+							mainImage: require("../../assets/webshop/17-totebag.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/17-totebag.jpg")
+									img: require("../../assets/webshop/17-totebag.png")
 								}
 							]
 						},
 						{
-                            index: 0,
-							id: 7,
-							id2: "7b",
-							date: "",
-							time: "2017",
-							name: "Thumbs up",
-							stage: "Sweatshirt",
+                            index: 1,
+							id: 13,
+							id2: "13b",
+							color: "Ýmsir ⟡ Various",
+							name: "Ego",
+							style: "Peysa ⟡ Sweatshirt",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/17-sweatshirt.jpg"),
+							mainImage: require("../../assets/webshop/17-sweatshirt.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/17-sweatshirt.jpg")
+									img: require("../../assets/webshop/17-sweatshirt.png")
 								}
 							]
 						}
@@ -300,12 +512,12 @@ export default {
 					items: [
 						{
                             index: 0,
-							id: 8,
-							id2: "8b",
-							date: "",
-							time: "2015",
-							name: "2015 LungA",
-							stage: "Taupoki / Totebag",
+							id: 14,
+							id2: "14b",
+							color: "Ýmsir ⟡ Various",
+							name: "The Power of Empathy",
+							style: "Taupoki ⟡ Totebag",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
@@ -321,30 +533,58 @@ export default {
 						}
 					]
 				},
+				{
+					year: 2013,
+					id: 6,
+					items: [
+						{
+							index: 0,
+							id: 15,
+							id2: "15b",
+							color: "Ýmsir ⟡ Various",
+							name: "Creative Communities",
+							style: "Plakat ⟡ Poster",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+							mainImage: require("../../assets/webshop/13-poster.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/13-poster.png")
+								}
+							]
+						}
+					]
+				},
 
 				{
                     year: 2011,
-                    id: 6,
+                    id: 7,
 					items: [
 						{
                             index: 0,
-							id: 9,
-							id2: "9b",
+							id: 16,
+							id2: "16b",
 							date: "",
-							time: "2011",
-							name: "2011 LungA",
-							stage: "T-shirt",
+							color: "2011",
+							name: "Out of the Box",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/11-tshirt.jpg"),
+							mainImage: require("../../assets/webshop/11-tshirt.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/11-tshirt.jpg")
+									img: require("../../assets/webshop/11-tshirt.png")
 								}
 							]
 						}
@@ -352,97 +592,216 @@ export default {
 				},
 				{
                     year: 2010,
-                    id: 7,
+                    id: 8,
 					items: [
 						{
                             index: 0,
-							id: 10,
-							id2: "10b",
-							date: "",
-							time: "2010",
+							id: 17,
+							id2: "17b",
+							color: "Hvítur ⟡ White",
 							name: "LungA Lengi Lifi!",
-							stage: "T-shirt",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
                             descr3: "",
                             underImgText: "Wow so pretty",
                             
-							mainImage: require("../../assets/webshop/10-tshirt-3-yellow.jpg"),
+							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/10-tshirt-3-yellow.jpg")
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png")
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-3-black.jpg")
-								},
-								{
-									id: 3,
-									img: require("../../assets/webshop/10-tshirt-3-white.jpg")
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png")
 								}
 							]
 						},
 						{
-                            index: 1,
-							id: 11,
-							id2: "11b",
-							date: "",
-							time: "2010",
+							index: 1,
+							id: 18,
+							id2: "18b",
+							color: "Gulur ⟡ Yellow",
+							name: "LungA Lengi Lifi!",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png")
+								}
+							]
+						},
+						{
+							index: 2,
+							id: 19,
+							id2: "19b",
+							color: "Svartur ⟡ Black",
+							name: "LungA Lengi Lifi!",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-black.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-black.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-black.png")
+								}
+							]
+						},
+						{
+                            index: 3,
+							id: 20,
+							id2: "20b",
+							color: "Hvítur ⟡ White",
 							name: "Hæ ég heiti LungA og ég er 10 ára",
-							stage: "T-shirt",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
 							descr3: "",
                             underImgText: "Wow so pretty",
 
-							mainImage: require("../../assets/webshop/10-tshirt-1-yellow.jpg"),
+							mainImage: require("../../assets/webshop/10-tshirt-10ara-white.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/10-tshirt-1-yellow.jpg")
+									img: require("../../assets/webshop/10-tshirt-10ara-white.png")
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-1-white.jpg")
+									img: require("../../assets/webshop/10-tshirt-10ara-white.png")
 								}
 							]
 						},
 						{
-                            index: 2,
-							id: 12,
-							id2: "12b",
-							time: "2010",
-							name: "Mér leið eins og baðkari",
-							stage: "T-shirt",
+							index: 4,
+							id: 20,
+							id2: "20b",
+							color: "Gulur ⟡ Yellow",
+							name: "Hæ ég heiti LungA og ég er 10 ára",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
 							value: "4QV43PPAVP55Q",
-							descr1:
-								"T-shirt available in black, yellow and grey from 2010, with the text:",
-							descr2:
-								"Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
-                            descr3: "",
-                            underImgText: "Wow so pretty",
-                            
-							mainImage: require("../../assets/webshop/10-tshirt-2-white.jpg"),
+							descr1: "T-shirt, available in white and yellow from 2010",
+							descr2: "4000kr",
+							descr3: "",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/10-tshirt-10ara-yellow.png"),
 							images: [
 								{
 									id: 1,
-									img: require("../../assets/webshop/10-tshirt-2-white.jpg")
+									img: require("../../assets/webshop/10-tshirt-10ara-yellow.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/10-tshirt-10ara-yellow.png")
 								}
-								// {
-								//     id: 2,
-								//     img: require("../../assets/webshop/10-tshirt-2-white.jpg"),
-
-								// },
-								// {
-								//     id: 3,
-								//     img: require("../../assets/webshop/10-tshirt-2-white.jpg"),
-
-								// }
 							]
-						}
+						},
+						{
+							index: 5,
+							id: 21,
+							id2: "19b",
+							color: "Hvítur ⟡ White",
+							name: "Mér leið eins og baðkari …",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt available in black, yellow and grey from 2010, with the text:",
+							descr2: "Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
+							descr3: "4000kr",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/10-tshirt-badkar-white.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/10-tshirt-badkar-white.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/10-tshirt-badkar-white.png")
+								}
+							]
+						},
+						{
+							index: 6,
+							id: 21,
+							id2: "19b",
+							color: "Gulur ⟡ Yellow",
+							name: "Mér leið eins og baðkari …",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt available in black, yellow and grey from 2010, with the text:",
+							descr2: "Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
+							descr3: "4000kr",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/10-tshirt-badkar-yellow.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/10-tshirt-badkar-yellow.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/10-tshirt-badkar-yellow.png")
+								}
+							]
+						},
+						{
+							index: 7,
+							id: 21,
+							id2: "19b",
+							color: "Svartur ⟡ Black",
+							name: "Mér leið eins og baðkari …",
+							style: "T-Bolur ⟡ T-shirt",
+							price:"2400 ISK",
+							value: "4QV43PPAVP55Q",
+							descr1: "T-shirt available in black, yellow and grey from 2010, with the text:",
+							descr2: "Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
+							descr3: "4000kr",
+							underImgText: "Wow so pretty",
+
+							mainImage: require("../../assets/webshop/10-tshirt-badkar-black.png"),
+							images: [
+								{
+									id: 1,
+									img: require("../../assets/webshop/10-tshirt-badkar-black.png")
+								},
+								{
+									id: 2,
+									img: require("../../assets/webshop/10-tshirt-badkar-black.png")
+								}
+							]
+						},
 					]
 				}
 			]
@@ -557,9 +916,14 @@ table {
 }
 td {
 	padding-left: 20px;
-	font-size: 30px;
+	font-size: 2.5em;
 	font-weight: 600;
 }
+
+#small {
+	font-size: 1.5em;
+}
+
 td.border-bottom {
 	border-top: solid 2px #000;
 	padding-top: 10px;
@@ -579,31 +943,31 @@ td.border-bottom {
 
 .actions {
 	font-size: 1.5em;
-	height: 40px;
+	height: 2.5em;
 	position: absolute;
 	top: 50%;
-	margin-top: -20px;
+	margin-top: -10px;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	color: #585858;
+	color: #000;
 }
 
 .actions > span {
 	cursor: pointer;
-	transition: all 250ms;
+	transition: all 200ms;
 }
 
 .actions > span.prev {
-	margin-left: 5px;
+	margin-left: 0px;
 }
 
 .actions > span.next {
-	margin-right: 5px;
+	margin-right: 0px;
 }
 
 .actions > span:hover {
-	color: #eee;
+	color: #00FF38;
 }
 </style>
