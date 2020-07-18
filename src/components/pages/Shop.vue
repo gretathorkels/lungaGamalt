@@ -1,7 +1,19 @@
 <template>
 	<div class="shop">
+
 		<Header v-bind:menu="'menu'" />
 		<Headline v-bind:title="title" />
+		<div class="viewcartcontainer">
+			<div class="viewcartbutton">
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+			</div>
+		</div>
+
 		<div class="text-container">
 			<div class="sub-line">{{$t("shop.firstinfo")}}</div>
 		</div>
@@ -24,42 +36,6 @@
 						<td class="border-bottom name">{{item.name}}</td>
 
 						<td class="border-bottom normal" id="small">{{item.price}}</td>
-						<td class="border-bottom normal" id="small">
-							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-								<input type="hidden" name="cmd" value="_s-xclick" />
-								<input type="hidden" name="hosted_button_id" :value="item.value" />
-								<table v-if="item.dropdownMenu">
-									<tr>
-										<td class="text dropdown">
-											<input type="hidden" name="on0" :value="item.dropdowndefaultText" />{{item.dropdowndefaultText}}
-										</td>
-									</tr>
-									<tr>
-										<td class="text dropdown">
-											<select name="os0">
-                                                <template v-for="option in item.dropdown">
-													<option value="option" v-bind:key="option+120">{{option}}</option>
-												</template>
-											</select>
-										</td>
-									</tr>
-								</table>
-								<input
-									type="image"
-									src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-									border="0"
-									name="submit"
-									alt="PayPal - The safer, easier way to pay online!"
-								/>
-								<img
-									alt
-									border="0"
-									src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-									width="1"
-									height="1"
-								/>
-							</form>
-						</td>
 					</tr>
 
 					<tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
@@ -99,7 +75,7 @@
 										<td classs="text_dropdown">
 											<select name="os0">
                                                 <template v-for="option in item.dropdown">
-													<option value="option" v-bind:key="option+120">{{option}}</option>
+													<option value="option in item.dropdown" v-bind:key="option+120">{{option}}</option>
 												</template>
 											</select>
 										</td>
@@ -163,7 +139,7 @@ export default {
 							name: "Vildi að ég væri á LungA",
 							style: "Taupoki ⟡ Totebag",
 							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
+							value: "HWL9Q9Z9ADMTA",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
 							descr3: "",
@@ -190,7 +166,12 @@ export default {
 							dropdown: [
 										"Hvítur - White | M",
 										"Hvítur - White | L",
-										"Hvítur - White | XL"
+										"Hvítur - White | XL",
+										"Grár - Grey | L ",
+										"Gulur - Yellow | S",
+										"Gulur - Yellow | M",
+										"Gulur - Yellow | L",
+										"Gulur - Yellow | XL"
 							]
 						},
 						{
@@ -300,7 +281,7 @@ export default {
 							style: "T-Bolur ⟡ T-shirt",
 							price: "2400 ISK",
 
-							value: "4QV43PPAVP55Q",
+							value: "TY74Z2DF4CEAS",
 							descr1: "T-shirt, available in white and yellow from 2010",
 							descr2: "4000kr",
 							descr3: "",
@@ -316,6 +297,16 @@ export default {
 									id: 2,
 									img: require("../../assets/webshop/19-tshirt-black-detail1.png")
 								}
+							],
+							dropdownMenu: true,
+							dropdowndefaultText: "Color | Size",
+
+							dropdown: [
+								"Black | S",
+								"Black | L",
+								"Black | XL",
+								"Green | M",
+								"Green | L"
 							]
 						},
 						{
@@ -627,15 +618,13 @@ export default {
 							index: 0,
 							id: 17,
 							id2: "17b",
-							color: "Hvítur ⟡ White",
 							name: "LungA Lengi Lifi!",
-							style: "T-Bolur ⟡ T-shirt",
 							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
-							descr3: "",
-							underImgText: "Wow so pretty",
+							value: "HWL9Q9Z9ADMTA",
+							descr1: "The Art of having fun! Listaveisla á Seyðisfirði! LungA fyrir unga fólkið! LungA: A Huge Little Festival! ",
+							descr2: "Silkiþrykktur t-bolur. Til í hvítum, gulum og svörtum.",
+							descr3: "Silkscreened t-shirt. Available in white, yellow and black.",
+							underImgText: "The Art of Having Fun",
 
 							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png"),
 							images: [
@@ -645,8 +634,21 @@ export default {
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png")
+									img: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png")
 								}
+							],
+							dropdownMenu: true,
+							dropdowndefaultText: "Litur  – Colour | Stærð - Size",
+
+							dropdown: [
+								"Hvítur - White | M",
+								"Hvítur - White | L",
+								"Hvítur - White | XL",
+								"Grár - Grey | L ",
+								"Gulur - Yellow | S",
+								"Gulur - Yellow | M",
+								"Gulur - Yellow | L",
+								"Gulur - Yellow | XL"
 							]
 						},
 						{
@@ -1019,6 +1021,25 @@ td.border-bottom {
 }
 td.text_dropdown  {
     font-size: 24px;
-
 }
+.viewcartcontainer {
+	position: fixed;
+	width: auto;
+	height: 50px;
+	top: 10%;
+	right: 0;
+	margin: 0 auto;
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+
+	z-index: 1000;
+}
+
+.viewcartbutton {
+	flex: none;
+	align-self: center;
+}
+
 </style>
