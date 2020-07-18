@@ -84,6 +84,7 @@
 								<input
 									type="image"
 									src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+									style="height:40px;padding-top:5px"
 									border="0"
 									name="submit"
 									alt="PayPal - The safer, easier way to pay online!"
@@ -651,71 +652,20 @@ export default {
 								"Gulur - Yellow | XL"
 							]
 						},
+
 						{
 							index: 1,
 							id: 18,
 							id2: "18b",
-							color: "Gulur ⟡ Yellow",
-							name: "LungA Lengi Lifi!",
-							style: "T-Bolur ⟡ T-shirt",
-							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
-							descr3: "",
-							underImgText: "Wow so pretty",
-
-							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png"),
-							images: [
-								{
-									id: 1,
-									img: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png")
-								},
-								{
-									id: 2,
-									img: require("../../assets/webshop/10-tshirt-lungalengilifi-yellow.png")
-								}
-							]
-						},
-						{
-							index: 2,
-							id: 19,
-							id2: "19b",
-							color: "Svartur ⟡ Black",
-							name: "LungA Lengi Lifi!",
-							style: "T-Bolur ⟡ T-shirt",
-							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
-							descr3: "",
-							underImgText: "Wow so pretty",
-
-							mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-black.png"),
-							images: [
-								{
-									id: 1,
-									img: require("../../assets/webshop/10-tshirt-lungalengilifi-black.png")
-								},
-								{
-									id: 2,
-									img: require("../../assets/webshop/10-tshirt-lungalengilifi-black.png")
-								}
-							]
-						},
-						{
-							index: 3,
-							id: 20,
-							id2: "20b",
 							color: "Hvítur ⟡ White",
 							name: "Hæ ég heiti LungA og ég er 10 ára",
 							style: "T-Bolur ⟡ T-shirt",
 							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
-							descr3: "",
-							underImgText: "Wow so pretty",
+							value: "MXQJF6J7WFGUN",
+							descr1: "Hæ ég heiti LungA og ég er 10 ára ",
+							descr2: "Silkiþrykktur t-bolur. Til í hvítum og gulum.",
+							descr3: "Silkscreened t-shirt. Available in white and yellow.",
+							underImgText: "Hæ ég er 10 ára",
 
 							mainImage: require("../../assets/webshop/10-tshirt-10ara-white.png"),
 							images: [
@@ -725,45 +675,27 @@ export default {
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-10ara-white.png")
+									img: require("../../assets/webshop/10-tshirt-10ara-yellow.png")
 								}
-							]
-						},
-						{
-							index: 4,
-							id: 20,
-							id2: "20b",
-							color: "Gulur ⟡ Yellow",
-							name: "Hæ ég heiti LungA og ég er 10 ára",
-							style: "T-Bolur ⟡ T-shirt",
-							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1: "T-shirt, available in white and yellow from 2010",
-							descr2: "4000kr",
-							descr3: "",
-							underImgText: "Wow so pretty",
+							],
+							dropdownMenu: true,
+							dropdowndefaultText: "Litur-Colour | Stærð-Size",
 
-							mainImage: require("../../assets/webshop/10-tshirt-10ara-yellow.png"),
-							images: [
-								{
-									id: 1,
-									img: require("../../assets/webshop/10-tshirt-10ara-yellow.png")
-								},
-								{
-									id: 2,
-									img: require("../../assets/webshop/10-tshirt-10ara-yellow.png")
-								}
+							dropdown: [
+								"Hvítur-White | M",
+								"Hvítur-White | L",
+								"Gulur-Yellow | S",
+								"Gulur-Yellow | L",
+								"Gulur-Yellow | XL"
 							]
 						},
 						{
-							index: 5,
-							id: 21,
+							index: 2,
+							id: 19,
 							id2: "19b",
-							color: "Hvítur ⟡ White",
 							name: "Mér leið eins og baðkari …",
-							style: "T-Bolur ⟡ T-shirt",
 							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
+							value: "T8K9WD7UU76P8",
 							descr1:
 								"T-shirt available in black, yellow and grey from 2010, with the text:",
 							descr2:
@@ -779,66 +711,28 @@ export default {
 								},
 								{
 									id: 2,
-									img: require("../../assets/webshop/10-tshirt-badkar-white.png")
-								}
-							]
-						},
-						{
-							index: 6,
-							id: 21,
-							id2: "19b",
-							color: "Gulur ⟡ Yellow",
-							name: "Mér leið eins og baðkari …",
-							style: "T-Bolur ⟡ T-shirt",
-							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1:
-								"T-shirt available in black, yellow and grey from 2010, with the text:",
-							descr2:
-								"Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
-							descr3: "4000kr",
-							underImgText: "Wow so pretty",
-
-							mainImage: require("../../assets/webshop/10-tshirt-badkar-yellow.png"),
-							images: [
-								{
-									id: 1,
 									img: require("../../assets/webshop/10-tshirt-badkar-yellow.png")
 								},
 								{
-									id: 2,
-									img: require("../../assets/webshop/10-tshirt-badkar-yellow.png")
+									id: 3,
+									img: require("../../assets/webshop/10-tshirt-badkar-black.png")
 								}
-							]
-						},
-						{
-							index: 7,
-							id: 21,
-							id2: "19b",
-							color: "Svartur ⟡ Black",
-							name: "Mér leið eins og baðkari …",
-							style: "T-Bolur ⟡ T-shirt",
-							price: "2400 ISK",
-							value: "4QV43PPAVP55Q",
-							descr1:
-								"T-shirt available in black, yellow and grey from 2010, with the text:",
-							descr2:
-								"Mér leið einsog baðkari fullt af drullugu vatni er ég keyrði upp á fjallið frá Egilsstöðum í áttina til Seyðisfjarðar. Þegar ég kom niður hinn endann og sá fallegan sólbaðaðan bæinn bíða mín var eins og tappanum hefði skyndilega verið kippt úr",
-							descr3: "4000kr",
-							underImgText: "Wow so pretty",
+							],
+							dropdownMenu: true,
+							dropdowndefaultText: "Litur-Colour | Stærð-Size",
 
-							mainImage: require("../../assets/webshop/10-tshirt-badkar-black.png"),
-							images: [
-								{
-									id: 1,
-									img: require("../../assets/webshop/10-tshirt-badkar-black.png")
-								},
-								{
-									id: 2,
-									img: require("../../assets/webshop/10-tshirt-badkar-black.png")
-								}
+							dropdown: [
+									"Hvítur-White | S",
+								"Hvítur-White | M",
+								"Grár-Grey | L ",
+								"Gulur-Yellow | S",
+								"Gulur-Yellow | M",
+								"Gulur-Yellow | L",
+								"Gulur-Yellow | XL",
+								"Svartur-Black | XL",
 							]
 						}
+
 					]
 				}
 			]
@@ -962,7 +856,7 @@ table {
 }
 td {
 	padding-left: 20px;
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: 600;
 }
 
@@ -1017,10 +911,10 @@ td.border-bottom {
 	color: #00ff38;
 }
 .text_dropdown {
-	font-size: 24px;
+	font-size: 1em;
 }
 td.text_dropdown  {
-    font-size: 24px;
+    font-size: 1em;
 }
 .viewcartcontainer {
 	position: fixed;
@@ -1033,7 +927,6 @@ td.text_dropdown  {
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-
 	z-index: 1000;
 }
 
