@@ -75,7 +75,7 @@
 										<td classs="text_dropdown">
 											<select name="os0">
                                                 <template v-for="option in item.dropdown">
-													<option value="option in item.dropdown" v-bind:key="option+120">{{option}}</option>
+													<option :value="option" v-bind:key="option+120">{{option}}</option>
 												</template>
 											</select>
 										</td>
