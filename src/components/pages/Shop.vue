@@ -83,19 +83,13 @@
 								</table>
 								<input
 									type="image"
-									src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-									style="height:40px;padding-top:5px"
+									:src="addtocart"
+									style="height:60px;padding-top:5px"
 									border="0"
 									name="submit"
 									alt="PayPal - The safer, easier way to pay online!"
 								/>
-								<img
-									alt
-									border="0"
-									src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-									width="1"
-									height="1"
-								/>
+								
 							</form>
 						</td>
 					</tr>
@@ -126,7 +120,8 @@ export default {
 			activeImage: 0,
 			activeItem: 0,
 			activeShop: 0,
-			opened: [],
+            opened: [],
+            addtocart: require("../../assets/components/addtocart.png"),
 			shopitems: [
 				{
 					year: 2020,
