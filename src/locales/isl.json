@@ -137,10 +137,12 @@
     "date": "Frestað til 2021"
   },
   "shop":{
-    "firstinfo":"Velkomin á vefverslun LungA – við fórum loksins í gegnum geymsluna og hér er allt sem við eigum eftir",
+    "firstinfo":"Við fórum loksins í gegnum geymsluna og hér er allt sem við eigum eftir.",
     "para1":"Skilmálar",
     "para2":"Pantanir sem eru póstsendar eru sendar með Íslandspósti. Þá gilda afhendingar-, ábyrgðar- og flutningsskilmálar Íslandspósts um afhendingu vörunnar.",
-    "newcollection":"Vildi að ég væri á LungA 2020"
+    "newcollection":"Vildi að ég væri á LungA 2020",
+    "newcollectioninfo":"Nýja merchið okkar er til sölu hér að neðan. Við söknum LungA!",
+    "archiveinfo":"Og hér fyrir neðan er allt arkívið okkar til sölu"
 
   }
 

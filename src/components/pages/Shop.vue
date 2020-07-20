@@ -1,6 +1,5 @@
 <template>
     <div class="shop">
-
         <Header v-bind:menu="'menu'"/>
         <Headline v-bind:title="title"/>
         <div class="viewcartcontainer">
@@ -9,31 +8,56 @@
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="encrypted"
                            value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                    <input
-                            type="image"
-                            :src="addtocart"
-                            style="height:60px;padding-top:5px"
-                            border="0"
-                            name="submit"
-                            alt="PayPal - The safer, easier way to pay online!"
-                    />
+                    <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0" name="submit"
+                           alt="PayPal - The safer, easier way to pay online!"/>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                          height="1">
                 </form>
-
-
             </div>
         </div>
 
-        <div class="text-container">
-            <div class="text-body">{{$t("shop.firstinfo")}}</div>
-        </div>
 
         <div class="text-container">
             <div class="sub-line">{{$t("shop.newcollection")}}</div>
+            <div class="text-body">{{$t("shop.newcollectioninfo")}}</div>
         </div>
 
         <div class="newmerchcontainer">
+            <div class="newmerchchild">
+                <div class="text-container">
+                    <div class="sub-line" >Socks<br>€15</div>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="BRW3HJWT897H6">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="on0" value="Stærð-Size">
+                                    Stærð-Size
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="os0">
+                                        <option value="EU 35-38">EU 35-38</option>
+                                        <option value="EU 39-42">EU 39-42</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
+                               name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+                             height="1">
+                    </form>
+
+
+                    <div class="img-container">
+                        <img class="img-child" src="../../assets/webshop/20-socks.jpg">
+                    </div>
+
+                </div>
+            </div>
             <div class="newmerchchild">
                 <div class="text-container">
                     <div class="sub-line">Baseball Cap<br>€20
@@ -42,7 +66,8 @@
                             <input type="hidden" name="hosted_button_id" value="4MG9TYZDDWWNJ">
                             <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
                                    name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                                 width="1"
                                  height="1">
                         </form>
                     </div>
@@ -60,8 +85,8 @@
                             <input type="hidden" name="hosted_button_id" value="4MG9TYZDDWWNJ">
                             <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
                                    name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                 height="1">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                                 width="1" height="1">
                         </form>
                     </div>
                     <div class="img-container">
@@ -69,104 +94,122 @@
                     </div>
 
                 </div>
-
-                <div class="newmerchchild">
-                    <div class="text-container">
-                        <div class="sub-line">A3 Poster<br>€10
-                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="4MG9TYZDDWWNJ"><input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>
-                        </div>
-                        <div class="img-container"> <img class="img-child" src="../../assets/webshop/20-poster.jpg"></div>
+            </div>
+            <div class="newmerchchild">
+                <div class="text-container">
+                    <div class="sub-line">A3 Poster<br>€10
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="E9434GRQT6H8J">
+                            <input
+                                    type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
+                                    name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                                 width="1" height="1">
+                        </form>
+                    </div>
+                    <div class="img-container">
+                        <img class="img-child" src="../../assets/webshop/20-poster.jpg">
                     </div>
                 </div>
             </div>
+
+        </div>
+        <div class="text-container">
+
+            <div class="sub-line"><br>{{$t("shop.archiveinfo")}}</div>
+        </div>
+        <div class="text-container">
+            <div class="text-body">{{$t("shop.firstinfo")}}</div>
         </div>
 
 
         <table>
-                <template v-for="shopitem in shopitems">
-                    <tr v-bind:key="shopitem.id+100" class="shopitem__year">
-                        <th>{{shopitem.year}}</th>
+            <template v-for="shopitem in shopitems">
+                <tr v-bind:key="shopitem.id+100" class="shopitem__year">
+                    <th>{{shopitem.year}}</th>
+                </tr>
+
+                <template v-for="item in shopitem.items">
+                    <tr
+                            v-bind:key="item.id"
+                            @click="toggle(item.id, shopitem.id, item.index )"
+                            :class="{ opened: opened.includes(item.id) }"
+                    >
+                        <td class="border-bottom normal">
+                            <img :src="item.mainImage" width="50"/>
+                        </td>
+                        <td class="border-bottom name">{{item.name}}</td>
+
+                        <td class="border-bottom normal" id="small">{{item.price}}</td>
                     </tr>
 
-                    <template v-for="item in shopitem.items">
-                        <tr
-                                v-bind:key="item.id"
-                                @click="toggle(item.id, shopitem.id, item.index )"
-                                :class="{ opened: opened.includes(item.id) }"
-                        >
-                            <td class="border-bottom normal">
-                                <img :src="item.mainImage" width="50"/>
-                            </td>
-                            <td class="border-bottom name">{{item.name}}</td>
-
-                            <td class="border-bottom normal" id="small">{{item.price}}</td>
-                        </tr>
-
-                        <tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
-                            <td class="border-top" colspan="2">
-                                <div class="card-img">
-                                    <img :src="currentImage"/>
-                                    <div v-if="item.images.length > 1" class="actions">
+                    <tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
+                        <td class="border-top" colspan="2">
+                            <div class="card-img">
+                                <img :src="currentImage"/>
+                                <div v-if="item.images.length > 1" class="actions">
 									<span @click="prevImage" class="prev">
 										<i class="fa fa-chevron-left"></i>
 									</span>
-                                        <span @click="nextImage" class="next">
+                                    <span @click="nextImage" class="next">
 										<i class="fa fa-chevron-right"></i>
 									</span>
-                                    </div>
                                 </div>
+                            </div>
 
-                                <div class="text">{{item.underImgText}}</div>
-                            </td>
-                            <td class="border-top" colspan="2">
-                                {{item.descr1}}
-                                <br/>
-                                <br/>
-                                {{item.descr2}}
-                                <br/>
-                                <br/>
-                                {{item.price}}
-                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                    <input type="hidden" name="cmd" value="_s-xclick"/>
-                                    <input type="hidden" name="hosted_button_id" :value="item.value"/>
-                                    <table v-if="item.dropdownMenu">
-                                        <tr>
-                                            <td class="text_dropdown">
-                                                <input type="hidden" name="on0" :value="item.dropdowndefaultText"/>{{item.dropdowndefaultText}}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td classs="text_dropdown">
-                                                <select name="os0">
-                                                    <template v-for="option in item.dropdown">
-                                                        <option :value="option" v-bind:key="option+120">{{option}}
-                                                        </option>
-                                                    </template>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <input
-                                            type="image"
-                                            :src="addtocart"
-                                            style="height:60px;padding-top:5px"
-                                            border="0"
-                                            name="submit"
-                                            alt="PayPal - The safer, easier way to pay online!"
-                                    />
+                            <div class="text">{{item.underImgText}}</div>
+                        </td>
+                        <td class="border-top" colspan="2">
+                            {{item.descr1}}
+                            <br/>
+                            <br/>
+                            {{item.descr2}}
+                            <br/>
+                            <br/>
+                            {{item.price}}
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick"/>
+                                <input type="hidden" name="hosted_button_id" :value="item.value"/>
+                                <table v-if="item.dropdownMenu">
+                                    <tr>
+                                        <td class="text_dropdown">
+                                            <input type="hidden" name="on0" :value="item.dropdowndefaultText"/>{{item.dropdowndefaultText}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td classs="text_dropdown">
+                                            <select name="os0">
+                                                <template v-for="option in item.dropdown">
+                                                    <option :value="option" v-bind:key="option+120">{{option}}
+                                                    </option>
+                                                </template>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <input
+                                        type="image"
+                                        :src="addtocart"
+                                        style="height:60px;padding-top:5px"
+                                        border="0"
+                                        name="submit"
+                                        alt="PayPal - The safer, easier way to pay online!"
+                                />
 
-                                </form>
-                            </td>
-                        </tr>
-                    </template>
+                            </form>
+                        </td>
+                    </tr>
                 </template>
-            </table>
+            </template>
+        </table>
 
-            <div class="text-container">
-                <div class="sub-line">{{$t("shop.para1")}}</div>
-                <div class="text-body">{{$t("shop.para2")}}</div>
-            </div>
+        <div class="text-container">
+            <div class="sub-line">{{$t("shop.para1")}}</div>
+            <div class="text-body">{{$t("shop.para2")}}</div>
         </div>
+    </div>
+
 </template>
 
 <script>
@@ -198,6 +241,30 @@
                                 id2: "1b",
                                 name: "Vildi að ég væri á LungA",
                                 price: "€15",
+                                value: "BRW3HJWT897H6",
+                                descr1: "Hvítir og neon-appelsínugulir íþróttasokkar",
+                                descr2: "White and neon-orange tennis socks",
+                                mainImage: require("../../assets/webshop/20-socks.jpg"),
+                                images: [
+                                    {
+                                        id: 1,
+                                        img: require("../../assets/webshop/20-socks.jpg")
+                                    }
+                                ],
+                                dropdownMenu: true,
+                                dropdowndefaultText: " Stærð-Size",
+
+                                dropdown: [
+                                    "EU 35–38",
+                                    "EU 39–43"
+                                ]
+                            },
+                            {
+                                index: 1,
+                                id: 2,
+                                id2: "2b",
+                                name: "Vildi að ég væri á LungA",
+                                price: "€15",
                                 value: "4MG9TYZDDWWNJ",
                                 descr1: "Taupoki með neon-appelsínugulu silkiþrykki",
                                 descr2: "Totebag with neon orange screenprint",
@@ -210,9 +277,9 @@
                                 ]
                             },
                             {
-                                index: 1,
-                                id: 2,
-                                id2: "2b",
+                                index: 2,
+                                id: 3,
+                                id2: "3b",
                                 name: "Vildi að ég væri á LungA",
                                 price: "€20",
                                 value: "KALYZSM2YAB2C",
@@ -227,12 +294,12 @@
                                 ]
                             },
                             {
-                                index: 2,
-                                id: 3,
-                                id2: "3b",
+                                index: 3,
+                                id: 4,
+                                id2: "4b",
                                 name: "Vildi að ég væri á LungA",
                                 price: "€15",
-                                value: "KALYZSM2YAB2C",
+                                value: "E9434GRQT6H8J",
                                 descr1: "Digital prentað A3 plakat á neon-appelsínugulan límmiðapappír",
                                 descr2: "Digital printed A3 poster on neon-orange sticker paper",
                                 mainImage: require("../../assets/webshop/20-poster.jpg"),
@@ -737,6 +804,12 @@
 
     .sub-line {
         text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-body {
+        text-align: center;
     }
 
     .shopitem__year > th {
@@ -754,7 +827,7 @@
         font-size: 24px;
         line-height: 29px;
         color: #000000;
-        margin: 20px 0px 50px 0px;
+        margin: 0px 0px 0px 0px;
         text-align: center;
     }
 
