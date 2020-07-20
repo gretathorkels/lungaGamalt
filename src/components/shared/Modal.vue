@@ -10,7 +10,7 @@
       </div>
         <h1 class="modal-title" v-if="title">LungA Webshop Launch!!</h1>
       <div class="modal-body">
-        <p><a href="">→WEBSHOP←</a></p>
+        <p><router-link class="nav-link link-container" to="/shop">→WEBSHOP←</router-link></p>
         <p>LungA 2020 may have been cancelled because of Covid-19 – but we organized our merch archives and have at last set up a webshop! Here you can purchase merchandise from the last ten years. Take a look!</p>
 <p>Stay tuned on our social media as we will keep you updated with more information. 
 <br/> See you in 2021!</p>
