@@ -8,7 +8,7 @@
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="encrypted"
                            value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                    <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0" name="submit"
+                    <input type="image" :src="viewcart" style="height:60px;padding-top:5px" border="0" name="submit"
                            alt="PayPal - The safer, easier way to pay online!"/>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                          height="1">
@@ -26,10 +26,10 @@
             <div class="newmerchchild">
                 <div class="text-container">
                     <div class="sub-line" >Socks<br>€15</div>
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <form class="sock_form" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="BRW3HJWT897H6">
-                        <table>
+                        <table class="sock__table">
                             <tr>
                                 <td>
                                     <input type="hidden" name="on0" value="Stærð-Size">
@@ -45,7 +45,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
+                        <input type="image" :src="addtocart" style="height: 60px;align-self: center;padding-top: 5px;margin-left: 40px;" border="0"
                                name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                              height="1">
@@ -230,6 +230,7 @@
                 activeShop: 0,
                 opened: [],
                 addtocart: require("../../assets/components/addtocart.png"),
+                viewcart: require("../../assets/components/viewcart.png"),
                 shopitems: [
                     {
                         year: 2020,
@@ -801,7 +802,11 @@
     .headline {
         text-align: center;
     }
-
+.sock_form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
     .sub-line {
         text-align: center;
         margin: 0;
@@ -940,7 +945,9 @@
     td.text_dropdown {
         font-size: 1em;
     }
-
+.sock__table{
+    margin: 0;
+}
     .viewcartcontainer {
         position: fixed;
         width: auto;
