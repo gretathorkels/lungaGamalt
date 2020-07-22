@@ -125,8 +125,9 @@
 
   "shop":{
     "firstinfo":"We finally went through our archives and here below is everything we have left",
-    "para1":"Skilmálar",
-    "para2":"Upplýsingar um shipping ofl.",
+    "para1":"Shipping policies and",
+    "para2":"Orders are shipped with the Iceland Post.  ",
+    Pantanir sem eru póstsendar eru sendar með Íslandspósti. Þá gilda afhendingar-, ábyrgðar- og flutningsskilmálar Íslandspósts um afhendingu vörunnar.",
     "newcollection":"Wish I was at LungA 2020",
     "newcollectioninfo":"Our new merch is for sale here – we miss LungA!",
     "archiveinfo":"here is our entire archive from the last ten years for sale"

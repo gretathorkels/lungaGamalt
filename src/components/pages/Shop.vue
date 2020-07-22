@@ -79,15 +79,8 @@
             </div>
             <div class="newmerchchild">
                 <div class="text-container">
-                    <div class="sub-line">Totebag<br>€15
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="4MG9TYZDDWWNJ">
-                            <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
-                                   name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                                 width="1" height="1">
-                        </form>
+                    <div class="sub-line">Totebag<br>SOLD OUT
+
                     </div>
                     <div class="img-container">
                         <img class="img-child" src="../../assets/webshop/20-totebag.jpg">
@@ -245,7 +238,7 @@
                                 value: "BRW3HJWT897H6",
                                 descr1: "Hvítir og neon-appelsínugulir íþróttasokkar",
                                 descr2: "White and neon-orange tennis socks",
-                                mainImage: require("../../assets/webshop/20-socks.jpg"),
+                                mainImage: require("../../assets/webshop/small/20-socks.jpg"),
                                 images: [
                                     {
                                         id: 1,
@@ -269,7 +262,7 @@
                                 value: "4MG9TYZDDWWNJ",
                                 descr1: "Taupoki með neon-appelsínugulu silkiþrykki",
                                 descr2: "Totebag with neon orange screenprint",
-                                mainImage: require("../../assets/webshop/20-totebag.jpg"),
+                                mainImage: require("../../assets/webshop/small/20-totebag.jpg"),
                                 images: [
                                     {
                                         id: 1,
@@ -286,7 +279,7 @@
                                 value: "KALYZSM2YAB2C",
                                 descr1: "Hvít derhúfa með appelsínugulum ísaum",
                                 descr2: "White baseball cap with orange embroidery ",
-                                mainImage: require("../../assets/webshop/20-cap.jpg"),
+                                mainImage: require("../../assets/webshop/small/20-cap.jpg"),
                                 images: [
                                     {
                                         id: 1,
@@ -303,7 +296,7 @@
                                 value: "E9434GRQT6H8J",
                                 descr1: "Digital prentað A3 plakat á neon-appelsínugulan límmiðapappír",
                                 descr2: "Digital printed A3 poster on neon-orange sticker paper",
-                                mainImage: require("../../assets/webshop/20-poster.jpg"),
+                                mainImage: require("../../assets/webshop/small/20-poster.jpg"),
                                 images: [
                                     {
                                         id: 1,
@@ -311,57 +304,7 @@
                                     }
                                 ]
                             }
-                            //{
-                            //	index: 2,
-                            //	id: 3,
-                            //	id2: "3b",
-                            //	name: "Vildi að ég væri á LungA",
-                            //	price: "€15",
-                            //	value: "BRW3HJWT897H6",
-                            //	descr1: "Hvítir og neon-appelsínugulir íþróttasokkar",
-                            //	descr2: "White and neon-orange tennis socks",
-                            //	mainImage: require("../../assets/webshop/20-socks.png"),
-                            //	images: [
-                            //		{
-                            //			id: 1,
-                            //			img: require("../../assets/webshop/20-socks.png")
-                            //		}
-                            //	],
-                            //	dropdownMenu: true,
-                            //	dropdowndefaultText: "Stærð-Size",
-                            //
-                            //	dropdown: [
-                            //		"EU 35-38",
-                            //		"EU 39-42"
-                            //	]
-                            //}
-                            //{
-                            //	index: 3,
-                            //	id: 4,
-                            //	id2: "4b",
-                            //	name: "Vildi að ég væri á LungA",
-                            //	price: "€10",
-                            //value: "4QV43PPAVP55Q",
-                            //	descr1: "",
-                            //	descr2: "",
-                            //	descr3: "",
-                            //	underImgText: "Wow so pretty",
-                            //	mainImage: require("../../assets/webshop/20-socks.png"),
-                            //	images: [
-                            //		{
-                            //			id: 1,
-                            //			img: require("../../assets/webshop/20-socks.png")
-                            //		},
-                            //		{
-                            //			id: 2,
-                            //			img: require("../../assets/webshop/20-socks.png")
-                            //		},
-                            //		{
-                            //			id: 3,
-                            //			img: require("../../assets/webshop/20-socks.png")
-                            //		}
-                            //	]
-                            //}
+
                         ]
                     },
 
@@ -426,7 +369,7 @@
                                 value: "9QZSMDAETZ9G6",
                                 descr1: "Taupoki, með bláu eða ljós-bleiku silkiþrykki frá 2018.",
                                 descr2: "Totebag, with blue or peach screenprint from 2018.",
-                                mainImage: require("../../assets/webshop/18-totebag-blue-solid.png"),
+                                mainImage: require("../../assets/webshop/small/18-totebag-blue-solid.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -461,7 +404,7 @@
                                 value: "BJTWDHQ4BLGUG",
                                 descr1: "T-bolur, með bláu eða svörtu silkiþrykki frá 2018.",
                                 descr2: "T-shirt, with blue or black screenprint from 2018.",
-                                mainImage: require("../../assets/webshop/18-tshirt-black-solid.png"),
+                                mainImage: require("../../assets/webshop/small/18-tshirt-black-solid.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -513,7 +456,7 @@
                                 descr1: "Silkiþrykktur taupoki frá 2017.",
                                 descr2: "Silkscreen printed totebag from 2017",
                                 descr3: "2000 ISK",
-                                mainImage: require("../../assets/webshop/17-totebag.png"),
+                                mainImage: require("../../assets/webshop/small/17-totebag.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -531,7 +474,7 @@
                                 descr1: "Silkiþrykkt peysa frá 2017",
                                 descr2: "Screenprinted sweatshirt from 2017",
                                 descr3: "3000 ISK",
-                                mainImage: require("../../assets/webshop/17-sweatshirt.png"),
+                                mainImage: require("../../assets/webshop/small/17-sweatshirt.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -561,7 +504,7 @@
                                 value: "LCXMHLAPKEQ4E",
                                 descr1: "Silkiþrykktur taupoki frá 2015",
                                 descr2: "Screenprinted totebag from 2015",
-                                mainImage: require("../../assets/webshop/15-totebag.png"),
+                                mainImage: require("../../assets/webshop/small/15-totebag.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -584,7 +527,7 @@
                                 value: "Q8FVEF8T5NM7W",
                                 descr1: "Offset prentað A3 plakat frá 2013",
                                 descr2: "Offset printed A3 poster from 2013",
-                                mainImage: require("../../assets/webshop/13-poster.png"),
+                                mainImage: require("../../assets/webshop/small/13-poster.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -608,7 +551,7 @@
                                 value: "Y85H3AKW34F72",
                                 descr1: "Silkiþrykktur t-bolur frá 2011.",
                                 descr2: "Silkscreen printed t-shirt from 2011.",
-                                mainImage: require("../../assets/webshop/11-tshirt.png"),
+                                mainImage: require("../../assets/webshop/small/11-tshirt.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -640,7 +583,7 @@
                                 value: "HWL9Q9Z9ADMTA",
                                 descr1: "Silkiþrykktur t-bolur. Til í hvítum, gulum og svörtum.",
                                 descr2: "Silkscreened t-shirt. Available in white, yellow and black.",
-                                mainImage: require("../../assets/webshop/10-tshirt-lungalengilifi-white.png"),
+                                mainImage: require("../../assets/webshop/small/10-tshirt-lungalengilifi-white.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -679,7 +622,7 @@
                                 value: "MXQJF6J7WFGUN",
                                 descr1: "Silkiþrykktur t-bolur from 2010. Til í hvítum og gulum.",
                                 descr2: "Silkscreened t-shirt from 2010. Available in white and yellow.",
-                                mainImage: require("../../assets/webshop/10-tshirt-10ara-white.png"),
+                                mainImage: require("../../assets/webshop/small/10-tshirt-10ara-white.png"),
                                 images: [
                                     {
                                         id: 1,
@@ -710,7 +653,7 @@
                                 value: "T8K9WD7UU76P8",
                                 descr1: "Silkiþrykktur t-bolur from 2010. Til í hvítum, gulum og svörtum.",
                                 descr2: "Silkscreened t-shirt from 2010. Available in white and yellow.",
-                                mainImage: require("../../assets/webshop/10-tshirt-badkar-white.png"),
+                                mainImage: require("../../assets/webshop/small/10-tshirt-badkar-white.png"),
                                 images: [
                                     {
                                         id: 1,
