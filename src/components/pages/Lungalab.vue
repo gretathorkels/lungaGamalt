@@ -35,7 +35,7 @@
                     <img class="img-child" src="../../assets/tumblr/13.jpg">
                 </div>
 
-
+<Footer />
 </div>
 
 </template>
@@ -43,10 +43,11 @@
 <script>
 import Header from '../shared/Header'
 import Headline from '../shared/Headline'
+import Footer from "../shared/Footer";
 
 export default {
   name: 'LungaLab',
-  components: {Header,  Headline},
+  components: {Header,  Headline, Footer},
   data() {
      return{
          isActive: [true, false],

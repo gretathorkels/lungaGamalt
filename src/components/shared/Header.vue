@@ -97,7 +97,7 @@ export default {
 }
 @media (max-width: 909px) {
             .language-options {
-            font-size: 48px;
+            font-size: 20px;
             }
             .header{
               margin-top: -40px;

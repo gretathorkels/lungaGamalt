@@ -32,19 +32,21 @@
              <img class="img-child" src="../../assets/euf/1.jpg">
 
              </div>
-
+<Footer />
   </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
 import Headline from '../shared/Headline'
+import Footer from '../shared/Footer'
 
 export default {
   name: 'youthexchange',
   components: {
       Header,
-      Headline
+      Headline,
+      Footer
   },
   data(){
       return{

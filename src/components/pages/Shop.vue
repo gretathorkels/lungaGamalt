@@ -196,32 +196,32 @@
                                         name="submit"
                                         alt="PayPal - The safer, easier way to pay online!"
                                 />
-
                             </form>
                         </td>
                     </tr>
                 </template>
             </template>
+
         </table>
 
         <div class="text-container">
             <div class="sub-line">{{$t("shop.para1")}}</div>
             <div class="text-body">{{$t("shop.para2")}}</div>
         </div>
+        <Footer />
     </div>
+
 
 </template>
 
 <script>
     import Header from "../shared/Header";
     import Headline from "../shared/Headline";
+    import Footer from "../shared/Footer";
 
     export default {
         name: "Shop",
-        components: {
-            Header,
-            Headline
-        },
+        components: { Header, Headline, Footer },
         data() {
             return {
                 title: "title.shop",

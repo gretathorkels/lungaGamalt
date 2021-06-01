@@ -22,30 +22,34 @@
       </div>
     </div>
     <div class="footer-container">
-      <div class="text">
-                    {{$t("workshops.weekinfo")}}
-      </div>
-      <div class="text">
-                          {{$t("workshops.fridayinfo")}}
+        <!-- <div class="text">
+                      {{$t("workshops.weekinfo")}}
+        </div>
+        <div class="text">
+                            {{$t("workshops.fridayinfo")}}
 
+          </div>
+        <div>
+                  <div class="sub-header">
+                 {{$t("workshops.applyhere")}}
         </div>
-      <div>
-                <div class="sub-header">
-              <!--- {{$t("workshops.applyhere")}}--->
-        </div>
-        </div>
+        </div>--->
+
     </div>
+      <Footer />
   </div>
+
 </template>
 
 <script>
 import Header from "../shared/Header";
 import Headline from "../shared/Headline";
+import Footer from "../shared/Footer";
 
 //import Workshops from "../../test.md"
 export default {
   name: "workshops",
-  components: { Header, Headline },
+  components: { Header, Headline, Footer },
   // props: {
   //   msg: String
   // },

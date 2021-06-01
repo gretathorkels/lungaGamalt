@@ -2,7 +2,7 @@
     "links" : {
       "about": "Um LungA",
       "workshops": "Listasmiðjur",
-      "concerts": "Tónleikar í Norðursíld",
+      "concerts": "Tónleikar",
       "lungalab": "LungA LAB",
       "lungalab2": "Fyrirlestrarröð",
       "youthexchange": "Ungmennaskipti Erasmus+",
@@ -19,7 +19,7 @@
     "title": {
       "about": "Um LungA",
       "workshops": "Listasmiðjur",
-      "concerts": "Tónleikar í Norðursíld",
+      "concerts": "Tónleikar",
       "lungalab": "LungA LAB",
       "lungalab2": "Fyrirlestrarröð",
       "youthexchange": "Ungmennaskipti Erasmus+",
@@ -79,8 +79,8 @@
     "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
   },
   "application": {
-    "headertext": "Vegna Covid-19 höfum við lokað fyrir umsóknir á LungA 2020. Sjáumst hress á næsta ári!",
-    "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021."
+    "headertext": "Opið verður fyrir umsóknir á LungA 2021 í júní!",
+    "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022."
   },
 
   "aboutlunga": {
@@ -99,8 +99,8 @@
     "footer": "Ást! LungA"
   },
   "workshops":{
-    "firstline":"Listasmiðjur LungA 2021 eru átta talsins: sjö (7) vikulangar listasmiðjur og ein (1) föstudags-listasmiðja.",
-    "tba":"Listasmiðjur verða birtar í Maí 2021 og þá opnast einnig fyrir umsóknir",
+    "firstline":"Listasmiðjur LungA 2021 eru þrjár (3) þriggja daga listasmiðjur.",
+    "tba":"Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
     "applyhere":"Sæktu um",
     "weekinfo":"Vikusmiðja: Innifalið í verðinu er þátttaka í listasmiðju, gisting í svefnpoka plássi, fullt fæði og aðgangur að öllum viðburðum hátíðarinnar. Það er einnig möguleiki að skrá sig á LungA tjaldsvæði eða þitt eigið húsnæði.",
     "fridayinfo":"Föstudagssmiðja: Innifalið í verðinu er þátttaka í listasmiðjuna, gisting, fæði á meðan námskeiðinu stendur og aðgangur að öllum viðburðum hátíðarinnar."
@@ -124,7 +124,7 @@
   },
 
   "concerts": {
-    "header": "Vegna Covid-19 verða ekki tónleikar í Norðursíld í ár. En þeir verða á næsta ári!.",
+    "header": "LungA tónleikarnr verða haldnir þann 17. júlí næstkomandi! Hér munu birtast upplýsingar um miðakaup og dagskrá.",
     "ticket":"Kaupa miða"
 
   },
@@ -134,7 +134,7 @@
     "tba":"Viðburðir bætast hér við uppúr maí 2021"
   },
   "frontpage": {
-    "date": "Frestað til 2021"
+    "date": "14.–17. júlí"
   },
   "shop":{
     "firstinfo":"Við fórum loksins í gegnum geymsluna og hér er allt sem við eigum eftir.",

@@ -7,8 +7,12 @@
             </li>
         </ul>
     </div>
+
+
 </template>
 <script>
+
+
 export default {
   data() {
    const resolve = require.context("../../../workshops", true, /\.md$/);

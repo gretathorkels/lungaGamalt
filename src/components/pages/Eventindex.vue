@@ -25,7 +25,7 @@
             <img class="img-child" src="../../assets/tumblr/15.jpg">
         </div>
 
-
+<Footer />
 
 </div>
 </template>
@@ -34,12 +34,13 @@
 //import marked from 'marked'
 import Header from '../shared/Header'
 import Headline from '../shared/Headline'
+import Footer from "../shared/Footer";
 
 //import md from 'markdown-it';
 export default {
   name: 'Eventindex',
   components: {
-    Header, Headline
+    Header, Headline, Footer
   },
   data(){
     return {

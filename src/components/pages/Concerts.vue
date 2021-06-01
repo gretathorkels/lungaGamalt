@@ -13,11 +13,13 @@
     <div class="head-container">
 
       <div>
+
         <!--<div class="sub-header">
            <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
             {{$t("concerts.ticket")}}
           </a>
         </div>-->
+
       </div>
       <div class="sub-text">
         {{$t("concerts.header")}}
@@ -97,17 +99,18 @@
       </div>-->
     </div>
 
-
+     <Footer />
   </div>
 </template>
 
 <script>
 import Header from "../shared/Header";
 import Headline from "../shared/Headline";
+import Footer from "../shared/Footer";
 
 export default {
   name: "Concerts",
-  components: { Header, Headline },
+  components: { Header, Headline, Footer },
   data() {
     return {
       title: "title.concerts",
@@ -418,7 +421,6 @@ text-align: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-
   color: #000000;
   margin: 50px 0px 0 0px;
   text-align: left;
@@ -439,4 +441,20 @@ text-align: center;
     margin:20px;
 }
 
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-weight: 600;
+    background-color: white;
+    font-size: 26px;
+    color: #000000;
+
+
+}
+.footer-item {
+    text-align: center;
+    flex-grow: 1;
+    padding: 10px;
+}
 </style>

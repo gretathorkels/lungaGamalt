@@ -13,7 +13,7 @@
         <td>{{ $t('roles.director') }}<br/>{{ $t('roles.exhangeprogram') }}</td>
         <td>Björt Sigfinnsdóttir</td>
         <td>bjort@lunga.is</td>
-        <td>(+45) 28993633</td>
+        <td>(+354) 8663046</td>
       </tr>
       <tr>
         <td>{{ $t('roles.curator') }}<br>{{ $t('roles.events') }}</td>
@@ -151,12 +151,10 @@ color: #000000;
 
 }
 .text{
-
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 29px;
-
 color: #000000;
 margin: 50px 0px 0 0px;
 text-align: left;

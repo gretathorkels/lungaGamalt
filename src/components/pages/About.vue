@@ -56,18 +56,23 @@
         <img class="img-child" src="../../assets/tumblr/5.jpg">
     </div>
 
+      <Footer />
+
+
   </div>
 </template>
 
 <script>
-import Header from '../shared/Header'
-import Headline from '../shared/Headline'
+import Header from '../shared/Header';
+import Headline from '../shared/Headline';
+import Footer from "../shared/Footer";
 
 export default {
   name: 'About',
   components: {
       Header, 
-      Headline
+      Headline,
+      Footer
   },
   data(){
       return{

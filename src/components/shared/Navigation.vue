@@ -1,7 +1,11 @@
 <template>
+
   <div class="navigation" :class="{open: !this.menuActive}">
     <div v-if="menu === 'menu'" class="nav-menu" @click="toggle()">{{ $t(title )}}</div>
+
     <div class="navigation-container" :class="{hidden: this.menuActive}" @click.prevent="toggle">
+
+
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/">{{ $t('links.home') }}</router-link>
@@ -34,7 +38,11 @@
           </router-link>
         </div>
       </div>
-      <div class="skew-container"><div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"><router-link class="nav-link link-container" to="/youthexchange">{{ $t('links.youthexchange') }}</router-link></div></div>
+      <div class="skew-container">
+        <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
+          <router-link class="nav-link link-container" to="/youthexchange">{{ $t('links.youthexchange') }}</router-link>
+        </div>
+      </div>
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/eventindex">{{ $t('links.eventindex') }}</router-link>
@@ -49,42 +57,31 @@
 
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
-          <router-link
-            class="nav-link link-container"
-            to="/applications"
-          >{{ $t('links.applications') }}</router-link>
+          <router-link class="nav-link link-container" to="/applications">{{ $t('links.applications') }}</router-link>
         </div>
       </div>
-      <div class="little-nav">
-        <div class="grid-container">
-          <!-- <div class="skew-container">
-            <div
-              v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
-            >
-              <router-link class="nav-link link-container" to="/sponsors">{{ $t('links.sponsors') }}</router-link>
-            </div>
-          </div> -->
-          <Footer v-if="this.$i18n.locale=='en'" />
 
-          <div class="skew-container">
-            <div
-              v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}"
-            >
-              <router-link class="nav-link link-container" to="/contact">{{ $t('links.contact') }}</router-link>
-            </div>
-          </div>
-          <Footer v-if="this.$i18n.locale=='isl'" class="divider"/>
+      <div class="skew-container">
+        <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
+          <router-link class="nav-link link-container" to="/contact">{{ $t('links.contact') }}</router-link>
         </div>
       </div>
+     <!-- <div class="skew-container">
+        <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
+          <router-link class="nav-link link-container" to="/sponsors">{{ $t('links.sponsors') }}</router-link>
+        </div>
+      </div>-->
+
     </div>
   </div>
 </template>
 
 <script>
-import Footer from '../shared/Footer'
-export default {
+
+
+  export default {
   name: "Navigation",
-  components: {Footer},
+  components: {  },
   props: {
     menu: String
   },
@@ -101,6 +98,8 @@ export default {
     }
   }
 };
+
+
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -139,51 +138,49 @@ export default {
 }
 .skew-container {
   border-top: 2px solid #000;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right:0px;
   max-width: 99.9%;
   text-decoration: none;
   box-sizing: border-box;
   font-weight: 600;
-
-  /* text-align: left; */
   color: black;
 }
-/* .skew-container .skew {
-    -ms-transform: skew(10deg, 0); 
-    -webkit-transform: skew(10deg, 0); 
-    transform: skew(10deg, 0);  
-} */
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
   font-weight: 600;
-  font-size: 48px;
   color: #000000;
   border-bottom: #000 2px solid;
   align-items: center;
 }
 .navigation {
-  font-size: 3.5rem;
+  font-size: 30px;
   margin-left: 70%;
   width: fit-content;
   align-self: flex-end;
+  background-color: white;
+}
+
+.navigation-container{
+  overflow: scroll;
 }
 .open {
   width: 100%;
   margin-left: 0;
 }
-/* .logo-container > img {
-  width: 80%;
-} */
 
   .nav-menu {
     background-color: transparent;
     color: black;
     font-size: 48px;
+
   }
 .nav-menu:hover {
   background-color: transparent;
   color: #00FF38;
   font-size: 48px;
-
 }
 </style>

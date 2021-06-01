@@ -66,17 +66,23 @@
         </div>
     </div>--->
 
+    <Footer />
+
+
   </div>
 </template>
 
 <script>
 import Header from '../shared/Header'
 import Headline from '../shared/Headline'
+import Footer from "../shared/Footer";
+
+
 export default {
   name: 'Applications',
   components: {
     Header,
-    Headline
+    Headline, Footer
   },
   data(){
      return {title: 'title.applications'}
@@ -113,8 +119,8 @@ td {
   justify-content: space-between;
   margin: 0 10px 0 10px;
 }
-.sub-text{
 
+.sub-text{
 /* Headline 2 */
 font-weight: 600;
 font-size: 48px;
@@ -137,12 +143,10 @@ color: #000000;
 
 }
 .text{
-
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 29px;
-
 color: #000000;
 margin: 50px 0px 0 0px;
 text-align: left;
