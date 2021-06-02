@@ -110,7 +110,7 @@
     "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
     "para1":"Ár hvert veljum við þema, í ár er það Atferli, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
     "para2":"Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
-    "tba":"Fyrirlesarar verða tilkynntir í Maí 2021.",
+    "tba":"LungA LAB verður í fríi þetta árið, sjáumst 2022",
     "sponsors":"LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
   },
 
@@ -118,13 +118,15 @@
 
   "youthexchange": {
     "firstline":"Frá árinu 2006 hefur LungA skipulagt ungmennaskipti á Seyðisfirði í samstarfi við Erasmus+.",
-    "para1":"Í ár senda eftirtaldir skólar nemendur sína á LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
-    "para2":"Í ungmennaskiptunum er leitast við að bæta hæfni þátttakenda til þess að vinna í hópi með ólíku fólki  með mismunandi þarfir og frá ólíkum menningarheimum í gegnum samtöl og samvinnu út frá þema sem valið er hverju sinni. Þema ársins 2020 er Atferli: Hvers vegna gerum við það sem við gerum? Orsök og afleiðing.",
+    "para1":"Af sökum Covid-19 sjáu við okkur ekki fært að bjóða upp á hefðbundið ungmennaskiptiverkefni en stefnum á að koma sterk inn á næsta ári.",
+    "para2":"Undanfarin ár hafa  eftirtaldir skólar sent nemendur sína í ungmennaskiptiverkefni LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
     "para3": "Ungmennaskiptin eru mikil sjálfsskoðun og í þeim fær hver þátttakandi einstakt tækifæri til að líta inn á við og að kynnast sýnum styrk- og veikleikum og öðlast hugrekki til að takast á við áskoranir."
   },
 
   "concerts": {
-    "header": "LungA tónleikarnr verða haldnir þann 17. júlí næstkomandi! Hér munu birtast upplýsingar um miðakaup og dagskrá.",
+    "header": "LungA tónleikar & partý 2021 verða haldnir þann 17. júlí næstkomandi!",
+    "info1":"Miðaverð er 8.900kr í forsölu, 10.900 kr í hurð. Um er að ræða eitt kvöld; tónleika og partý frá kl 21:00—03:30.",
+    "info2":"Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
     "ticket":"Kaupa miða"
 
   },

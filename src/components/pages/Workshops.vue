@@ -34,7 +34,6 @@
                  {{$t("workshops.applyhere")}}
         </div>
         </div>--->
-
     </div>
       <Footer />
   </div>

@@ -87,8 +87,8 @@
     "footer":"Love! LungA"
   },
   "workshops":{
-    "firstline":"There will be eight workshops at LungA festival 2021: seven (7) week-long workshops and one (1) Friday workshop.",
-    "tba":"Workshops will be announced in May 2021 – applications for the workshops will open then as well.",
+    "firstline":"There will be three three days-long workshops at LungA festival 2021.",
+    "tba":"Workshops will be announced in June 2021 – applications for the workshops will open then as well.",
     "applyhere":"Apply here",
     "weekinfo":"The fee for the week-long workshop includes the following: Participation in a workshop, dormitory-style accommodation, three meals a day and access to all of the festival’s events. There is also an option to arrange your own accommodation or camping.",
     "fridayinfo":"The fee for the Friday workshop includes the following: participation in the Friday workshop, dormitory-style accommodation from Thursday–Sunday, meals for the period of the workshop and access to all of the festival’s events."
@@ -98,25 +98,27 @@
     "firstline": "LungA LAB is what we call our informative experimental laboratory.",
     "para1":"Each year we choose a theme. This year it is “Behaviour” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
     "para2":"This is LungA’s way to contribute to the awareness of social responsibility on individual and collective level, in hope to effect and inspire those involved to take action and be more open towards the diversity of others in general.",
-    "tba":"Speakers will be announced in May 2020",
+    "tba":"LungA LAB will take a year off. See you there in 2022",
     "sponsors":"LungA LAB is made in collaboration with Erasmus+, Kaospilot, Hyper Island, University of Brighton, Myndlistarskóli Reykjavíkur."
 
   },
   "youthexchange": {
     "firstline":"Over the last decade we have offered a youth exchange program in collaboration with ERASMUS+.",
-    "para1":"The Youth Exchange project is built around a three day workshop where youth from 3-4 European countries meet and dive into the yearly theme of the festival. From the theme and collaboration stems an array of interesting lectures which aims to activate a dialogue about social and individual responsibility.",
-    "para2":"The Youth Exchange groups will participate from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. The discourse is based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
-
+    "para1":"We will not be able to offer a youth exchange this year (2021) due to Covid-19, but we aim to redeem our selves next year.",
+    "para2":"The Youth Exchange groups that have been participating the last years came from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. ",
+  "para3":"The discourse was based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
   },
 
   "concerts": {
     "header": "The LungA concert will be held on 17. July! Stay tuned for tickets and more info.",
+    "info1":"The ticket price is 8.900 ISK online, 10.900 ISK at the door. We are talking about one night and one night only; concert & party from 21:00—03:00.",
+    "info2":"Stay tuned for further announcements here on our website and the festival's social media",
     "ticket":"Buy ticket"
   },
 
   "eventindex":{
-    "para1":"LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the Concerts at NordMarina.",
-    "tba":"Events will be accessible here in May 2021"
+    "para1":"LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the final concerts.",
+    "tba":"Events will be accessible here in June 2021"
   },
   "frontpage":{
       "date":"14–17 July"

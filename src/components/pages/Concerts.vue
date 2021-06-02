@@ -7,24 +7,28 @@
 
 
  <div class="img-container">
-                <img class="img-child" src="../../assets/tumblr/10.jpg">
-              </div>
+     <img class="img-child" src="../../assets/tumblr/10.jpg">
+ </div>
 
-    <div class="head-container">
-
-      <div>
-
-        <!--<div class="sub-header">
-           <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
-            {{$t("concerts.ticket")}}
-          </a>
-        </div>-->
-
+      <div class="head-container">
+        <div class="sub-header">
+            <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
+                {{$t("concerts.ticket")}}
+            </a>
+        </div>
       </div>
-      <div class="sub-text">
-        {{$t("concerts.header")}}
+
+      <div class="footer-container">
+          <div class="sub-text">
+              {{$t("concerts.header")}}
+          </div>
+          <div class="text">
+              {{$t("concerts.info1")}}
+          </div><br>
+          <div class="text">
+              {{$t("concerts.info2")}}
+          </div>
       </div>
-    </div>
 
 <!--
     <table>
@@ -82,22 +86,20 @@
     </table>
 
     --->
-    <div class="footer-container">
-        <div class="text">
-        <!--Upplýsingar um tónleikana:--->
-        </div>
-      <div class="text">
-        <!--Upplýsingar um tónleikana:-->
+
+
+
+      <div class="img-container">
+          <img class="img-child" src="../../assets/tumblr/12.jpg">
       </div>
-         <div class="img-container">
-             <img class="img-child" src="../../assets/tumblr/12.jpg">
-         </div>
-     <!-- <div class="center sub-header nav-link">
-       <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
-                   {{$t("concerts.ticket")}}
-                 </a>
-      </div>-->
-    </div>
+
+
+      <div class="center sub-header nav-link">
+          <a class="nav-link" href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/" target="_blank">
+              {{$t("concerts.ticket")}}
+          </a>
+      </div>
+
 
      <Footer />
   </div>
@@ -392,7 +394,7 @@ td.border-bottom {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 10px 0 10px;
+  margin: 10px;
 }
 .sub-text {
   /* Headline 2 */
@@ -401,11 +403,12 @@ td.border-bottom {
   margin-left: 40px;
   width: 80%;
   text-align: left;
-  margin-top: 20px;
   color: #000000;
+    padding:20px;
 }
 .sub-header{
 text-align: center;
+    padding:20px;
 }
 .table {
   border-top: 2px solid #000000;
@@ -422,7 +425,7 @@ text-align: center;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
-  margin: 50px 0px 0 0px;
+  Padding: 20px;
   text-align: left;
 }
 
@@ -441,20 +444,5 @@ text-align: center;
     margin:20px;
 }
 
-.footer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    font-weight: 600;
-    background-color: white;
-    font-size: 26px;
-    color: #000000;
 
-
-}
-.footer-item {
-    text-align: center;
-    flex-grow: 1;
-    padding: 10px;
-}
 </style>
