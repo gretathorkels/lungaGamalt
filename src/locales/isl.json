@@ -13,9 +13,8 @@
       "menu": "Menu",
       "home": "Heim",
       "shop": "Vefverslun"
-
-
     },
+  
     "title": {
       "about": "Um LungA",
       "workshops": "Listasmiðjur",
@@ -28,8 +27,6 @@
       "sponsors": "Samstarfsaðilar",
       "contact": "Hafðu samband",
       "shop": "Vefverslun"
-
-
     },
 
     "roles": {
@@ -48,6 +45,7 @@
       "graphics": "Grafísk hönnun",
       "programming": "Forritun"
     },
+
     "applicationDesc":{
       "title": "Hvað",
       "show": "Viltu sýna á LungA",
@@ -79,7 +77,7 @@
     "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
   },
   "application": {
-    "headertext": "Opið verður fyrir umsóknir á LungA 2021 í júní!",
+    "headertext": "Opnað verður fyrir umsóknir á LungA 2021 í júní!",
     "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022."
   },
 
@@ -118,7 +116,7 @@
 
   "youthexchange": {
     "firstline":"Frá árinu 2006 hefur LungA skipulagt ungmennaskipti á Seyðisfirði í samstarfi við Erasmus+.",
-    "para1":"Af sökum Covid-19 sjáu við okkur ekki fært að bjóða upp á hefðbundið ungmennaskiptiverkefni en stefnum á að koma sterk inn á næsta ári.",
+    "para1":"Af sökum Covid-19 sjáum við okkur ekki fært að bjóða upp á hefðbundið ungmennaskiptiverkefni en stefnum á að koma sterk inn á næsta ári.",
     "para2":"Undanfarin ár hafa  eftirtaldir skólar sent nemendur sína í ungmennaskiptiverkefni LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
     "para3": "Ungmennaskiptin eru mikil sjálfsskoðun og í þeim fær hver þátttakandi einstakt tækifæri til að líta inn á við og að kynnast sýnum styrk- og veikleikum og öðlast hugrekki til að takast á við áskoranir."
   },
