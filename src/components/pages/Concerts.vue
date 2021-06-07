@@ -30,7 +30,7 @@
           </div>
       </div>
 
-<!--
+
     <table>
       <tr>
         <th>Date</th>
@@ -77,15 +77,13 @@
                 <a class="nav-link" :href="artist.links.website" target="_blank">Website</a>
               </div>
 
-
-
             </div>
           </td>
         </tr>
       </template>
     </table>
 
-    --->
+
 
 
 
@@ -122,21 +120,20 @@ export default {
           {
               id:1,
               id2: "1b",
-              date: "TBA",
-              name: "Jessy Lanza",
+              date: "17. July",
+              name: "GusGus",
               stage: "TBA",
               time: "TBA",
-              descr1:
-                      "Jessy Lanza is a producer, vocalist and DJ from Hamilton, Canada who currently lives in Queens New York. She has released two studio albums; Pull My Hair Back and Oh No on London's Hyperdub label . Both records were met with near universal praise and featured in The Guardian, New York Times, Pitchfork and more.",
-              descr2: "Jessy has toured across North America, Europe, Australia and Asia and performed on the BBC (where she had a year long show on Radio 1), KCRW, arte.tv in Europe and Channel 4 in the UK. Working alongside producer Jeremy Greenspan, Jessy has crafted a new and vibrant pop aesthetic that is both universal, energetic, yet personal and introspective. The material exists on a distinct polarity of big and small, global and local, populist and personal; and clarifies a modern and crucial voice in pop music.",
-              descr3:"Her new single Lick In Heaven drops on 20th February, followed by a European tour.",
-              img: require("../../assets/artists/jessylanza.jpg"),
+              descr1:"Tastemakers of the scene for a quarter of a century, GusGus are one of the most beloved and longstanding electronic acts hailing from Iceland. Offering much more than just unparalleled musical mastery, the group have had their feet firmly spread across various sectors of the creative space since their inception and would sooner be classified as a multi-media art collective above all else.",
+              descr2:"World-renowned for their genre-defying style and must-see live show, the troupe’s eclectic infusion of modern club culture and echoes of the past have seen them remix iconic acts such as Depeche Mode, Björk, and Sigur Rós. With the near-constant presence of Biggi Veira and Daníel Ágúst, recently re-joined (behind the scenes) by founding member Siggi Kinski and the newly recruited Margrét Rán, the collective has seen a rotating cast of members, all of whom have contributed to the artistic vibrancy that has defined the group and its production output over its 25 year-long careers.",
+              descr3:"GusGus is now unfolding into a new era with their upcoming 11th studio album, Mobile Home. Rejuvenated and replete with creative aspiration, the collective welcome Vök’s Margrét Rán as the newest member of the circus, calling upon her illustrious dream-pop vocals to launch a new chapter in the GusGus saga. Offering an immersive montage of short stories that will serve as their most ambitious and forward-thinking LP to date, “Mobile Home” echoes the world’s forgotten purpose, lost between screens of distraction and material consciousness. This conceptual manifesto is the embodiment of GusGus and their world; a virtuous blend of masterful compositions and profound ideologies.",
+              img: require("../../assets/artists/gusgus.png"),
               links: {
-                  // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
-                  // spotify: "...",
-                  // facebook: "kk",
+                  spotify: "https://open.spotify.com/artist/5sL9uDMwceYHPknnCLAAwJ?si=fLpYCO1DRuiwmqVDWev5Iw",
+                  facebook: "https://www.facebook.com/GusGusOfficial/",
+                  instagram: "https://www.instagram.com/officialgusgus/",
                   // website: ",,,"
-                  youtube: "https://www.youtube.com/watch?v=V3D7EEpdlY4",
+                  youtube: "https://www.youtube.com/user/GusGusOfficial",
               }
           },
 
@@ -144,58 +141,55 @@ export default {
           {
           id: 2,
           id2: "2b",
-          date: "TBA",
-          name: "Lena Willikens",
+          date: "17. July",
+          name: "DJ Yamaho",
           stage: "TBA",
           time: "TBA",
-          img: require("../../assets/artists/lenawillikens.jpg"),
-          descr1:
-            "Lena Willikens doesn’t play the hits. When she’s behind the decks, even her biggest fans often have no idea exactly what she’s playing, and that’s part of the magic. Like all DJs, Willikens of course has a passion for records, but she’s also after something bigger, something that’s truly transportive for those on the dancefloor.",
-	descr2:
-"Born and raised in Germany, Willikens first honed her unique approach during a long residency at Düsseldorf’s beloved Salon des Amateurs. These days, however, she’s based in Amsterdam, where her transportative impulses have been plugged into a variety of outlets with a global reach. On the radio, she pilots the monthly Lightning Conductor program on NTS. On record, she recently curated the fifth installment of Dekmantel’s acclaimed Selectors compilation series, and she’s also been tapped to remix the likes of Lena Platonos, S U R V I V E, rRoxymore, Simian Mobile Disco and Ana Helder, amongst others. On stage, Willikens works with artist Sarah Szczesny on Phantom Kino Ballett, an immersive audio-visual performance art project that defies routine explanation.",
-	descr3:
-"Still, it’s in the DJ booth where Willikens continues to make the biggest impact. Whether she’s playing alone or in tandem with fellow sonic explorer and Salon des Amateurs alum Vladimir Ivkovic, Willikens nimbly navigates electronic music’s darkest and most bizarre corners, sampling different temperatures, different moods and a dollop of chaos, just to keep things interesting. And although she herself doesn’t always know the final destination, when Willikens is at the helm, there’s no question that the journey is bound to be thrilling.",
+          img: require("../../assets/artists/djyamaho.jpg"),
+            descr1:"DJ Yamaho  Natalie G. Gunnarsdóttir, a DJ from Reykjavik who began playing around 2000 at the legendary city bar Sirkus. She has remained in high demand ever since having also played in Ibiza, Barcelona (Razzmatazz) Berlin (Berghain) to name a few.",
+            descr2:"Her sets typically oscillate between the eminent pillars of Techno/House, Chicago house and Detroit techno, and from where she weaves her hypnotic and technically minded sets. She has an upcoming Ep release this summer on Either Recordings collaborating with Jamie Clarke.",
+            descr3:" ",
           links: {
-              soundcloud: "https://soundcloud.com/dkmntl/lena-willikens-at-dekmantel-festival-2017",
-              spotify: "https://open.spotify.com/artist/6ut6UGbmxITsrTO3byNE2E",
-              instagram: "https://www.instagram.com/lena_willikens/",
+              // soundcloud: "https://soundcloud.com/dkmntl/lena-willikens-at-dekmantel-festival-2017",
+              // spotify: "https://open.spotify.com/artist/6ut6UGbmxITsrTO3byNE2E",
+              // instagram: "https://www.instagram.com/lena_willikens/",
           }
         },
 
           {
               id: 3,
               id2: "3b",
-              date: "TBA",
-              name: "Svala",
+              date: "17. July",
+              name: "Vök",
               stage: "TBA",
               time: "TBA",
-              descr1:
-                      "....",
-              descr2: "....",
-              descr3:"...",
-              img: require("../../assets/artists/svala.jpg"),
+              img: require("../../assets/artists/vok.jpg"),
+              descr1: "Icelandic trio Vök have shared their dynamic new single Lost in the Weekend, which is out now through Nettwerk Records.",
+              descr2: "Following the release of their acclaimed 2019 album In the Dark, which was written and recorded by the band in collaboration with producer James Earp (Bipolar Sunshine, Fickle Friends, Lewis Capaldi), Vök have been nestled away in their Reykjavík studios working on new material. The result is some of their most atmospheric work yet and Lost in the Weekend is an early taste of their progressive alt-pop sound.",
+              descr3: "Through their unique and lushly layered sound that blends electro and indie with forward-thinking pop and a self-assured aesthetic, that is just as striking as their sound, Vök continue to cement their position as one of the most exciting alternative bands right now. Following two critically acclaimed albums, Lost in the Weekend is just the first musical moment in an exciting year for Vök, with further new music announced soon.",
               links: {
-                  // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
-                  // spotify: "...",
-                  // facebook: "kk",
-                  // website: ",,,"
+                soundcloud: "https://soundcloud.com/vokmusic",
+                spotify: "https://open.spotify.com/artist/7oDTyDfeA2JE2jUZztkBj8?si=a1JIQBMsSd20L_nrjXGp7Q",
+                instagram:"https://www.instagram.com/vokmusic/",
+                facebook: "https://www.facebook.com/Vokband",
+                youtube:"https://www.youtube.com/channel/UChMp2yW0NNOA62MGi6db7Nw/videos",
+                website: "https://www.vok.is/"
               }
           },
 
         {
           id: 4,
           id2: "4b",
-          date: "TBA",
-          name: "Violet",
+          date: "17. July",
+          name: "Inspector Spacetime",
           stage: "TBA",
           time: "TBA",
-          descr1:
-            "In her home city Lisbon, Violet is contributing to her local scene from different angles. She’s co-founder of online radio station Rádio Quântica and also resident at mina – a queer rave in unexpected venues. This work permeates Violet’s work as an artist, as she thoughtfully expresses the political history of dance music through her voice and her music.",
-  descr2: "As a producer, she has released music on One Eyed Jacks and LoveOn The Rocks, self-released collaborations with artists likes Elles, DEBONAIR and Nightwave for International Women’s Day, remixed on Cómeme and established her own label – Naive. The first self-released EP on it, “Togetherness” resonated widely, using the sound of familiar breaks and twisting them into new contexts with dub-inspired bass, brass flourishes and dreamy chords. Eris Drew played the title track on her widely appraised RA podcast as well as choosing it as the featured track in a short film about her DJing.",
-	descr3:"Violet incorporates similar sounds from her production process into her DJing, melding breaks, extraterrestrial jacking rhythms, imaginative techno, acid house and more in a way that feels natural and challenging all at once. She has contributed mixes for Beats In Space, Crack, The Ransom Note, Mixmag and Cómeme as well as having radio appearances on Rinse, NTS and The Lot. Violet has played across Europe at parties such as Room 4 Resistance, Berlin Atonal and Field Maneuvers and embarked on her first US tour in 2018.",
-          img: require("../../assets/artists/violet-live.jpg"),
+          descr1:"Reykjavík based pop group Inspector Spacetime, an offspring of the first coronavirus lockdown, has been shaking things up in the Icelandic music scene since their debut single ‘Hvað sem er’ last summer.",
+          descr2: "Reminiscent of the disco scene, the band also draws inspiration from the bops around them; French electro, the UK garage scene, the exciting hyper-pop movement, and fellow scandi-pop acts.",
+          descr3:"With their self-titled debut album released this January, all Inspector asks of you is to dance … and bounce, at home, at the club, and now finally at LungA 2021!!",
+          img: require("../../assets/artists/inspectorspacetime.jpg"),
           links: {
-            soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+            // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",
             // facebook: "kk",
             // website: ",,,"
@@ -205,19 +199,17 @@ export default {
         {
           id: 5,
           id2: "5b",
-          date: "TBA",
-          name: "Vök",
+          date: "17. July",
+          name: "VILL",
           stage: "TBA",
           time: "TBA",
-          descr1:
-            "Icelandic electronic dream-pop trio Vök have just released their sophomore full-length LP In The Dark. The trio are on the heels of a string of highly successful live dates, including 32 gigs in Europe to their U.S. debut with several concerts in select cities as well as support for Editors in Germany & Poland.",
-	descr2:
-            "The band first gained recognition within months of forming when they won Iceland’s prestigious Músíktilraunir (‘Music Experiments’), Their triumph soon led to the recording and release of their debut EP Tension through local Icelandic label Record Records. Soon they began to further mark themselves out as rising innovators of smart, atmospheric jams on their second EP Circles. Hailed by Noisey as “channelling the Beach soundtrack via 1980s synth pop and the modern sexiness of The Knife.”",
-	descr3:"Vök has toured extensively through Europe, supporting the likes of Goldfrapp and Asgeir, and performing at festivals including Roskilde, Green Man and Into the Woods. Winning numerous new fans along the way with their brand of dreamy electronics with melodic vocals, the band soon caught the attention of Nettwerk Music Group (Angus & Julia Stone, Boxed In, The Veils), who instantly signed them for an international record deal. 2017 saw the release of their highly anticipated debut LP ‘Figure’ to critical acclaim. Produced by Jack Garrett’s collaborator Brett Cox, The Line of Best Fit hailed it a \"brilliant debut album”. ‘Figure’ won Album of the Year in the Electronic Music category at this year’s Icelandic Music Awards.",
-          img: require("../../assets/artists/vok.jpg"),
+          descr1:"VILL byrjaði sem samstarfsverkefni Ísidórs, JóaPé og Muna en bætti fljótt við sig fleira listafólki, sem öll eiga það sameiginlegt að vera illa haldin af sköpunaráráttu. Tónlist þeirra tvinnar saman angist smáborgarlífsins og losta ungdómsins, á hugljúfan og orkuríkan hátt. Afraksturinn mun heyrast í sumar, þegar hópurinn gefur út sína fyrstu plötu.",
+	descr2:"Við viljum öll mismunandi hluti í lífinu, en á LungA vill VILL að þú njótir þín meðan tónlistin seiðar hljóðhimnurnar.",
+	descr3:"  ",
+          img: require("../../assets/artists/vill.jpg"),
           links: {
             // tumblr: "sdd",
-            spotify: "https://open.spotify.com/artist/7oDTyDfeA2JE2jUZztkBj8?si=TtUiVVAfRya43LOO1zcysA"
+            // spotify: "https://open.spotify.com/artist/7oDTyDfeA2JE2jUZztkBj8?si=TtUiVVAfRya43LOO1zcysA"
             // facebook: "kk",
             // website: ",,,"
           }
@@ -225,16 +217,17 @@ export default {
         {
           id: 6,
           id2: "6b",
-          date: "TBA",
-          name: "Sturla Atlas",
+          date: "17. July",
+          name: "SAKANA",
           stage: "TBA",
           time: "TBA",
-          descr1:
-            "Sturla Atlas stepped on the Icelandic music scene back in 2015 and immediately made noise. One of that memorable summers’ highlights was without doubt his set at LungA. The energy and interaction with the young crowd signaled a new era of Icelandic hip-hop and pop in general. The 2016 Newcomer of the year at the Icelandic Music Awards continued to release mixtapes and singles to critical acclaim and sure enough the world noticed. Having conquered every stage available in Iceland, performances at Sónar Barcelona, Eurosonic and a support slot at Justin Bieber’s Purpose World Tour in Reykjavík have solidified Sturla Atlas’ status as a seasoned and entertaining performer. Now returning to Seyðisfjörður five years later and embarking on a new chapter in his career, the only thing certain is that everyone is in for a good time.",
-          img: require("../../assets/artists/sturlaatlas.jpg"),
+          descr1:"   ",
+          descr2:" ",
+          descr3: "",
+          img: require("../../assets/artists/sakana.jpg"),
           links: {
             // tumblr: "sdd",
-              spotify: "https://open.spotify.com/artist/7yuLFZmY5CuPf81al33Ot2?si=3fmTovQkQ3GK1s2SeMZQjg"
+            //  spotify: "https://open.spotify.com/artist/7yuLFZmY5CuPf81al33Ot2?si=3fmTovQkQ3GK1s2SeMZQjg"
             // facebook: "kk",
             // website: ",,,"
           }
@@ -243,15 +236,14 @@ export default {
           {
               id: 7,
               id2: "7b",
-              date: "TBA",
-              name: "Hipsumhaps",
+              date: "17. July",
+              name: "DJ Unnur Birna",
               stage: "TBA",
               time: "TBA",
-              descr1:
-                      "Hipsumhaps is an indie-pop project created in the suburbs of the Capital Area by two local friends, Fannar Ingi and Jökull Breki.",
-              descr2: "They became widely recognized last summer with their debut album 'Best gleymdu leyndarmálin,' including hit singles such as 'LSMLÍ (lífið sem mig langar í)' and 'Fyrsta ástin.'",
-              // descr3:"...",
-              img: require("../../assets/artists/hipsumhaps.jpeg"),
+              descr1: "Unnur Birna er leiklistarnemi og tónlistargramsari sem nýtur sín best í góðra vina hópi á dansgólfum landsins. Eins og góðum grömsurum sæmir sækist hún í faldar og exotískar gersemar tónheimsins, sem fá nú að líta dagsins ljós í seyðandi sumarstemningu á LungA! ",
+              descr2: " ",
+              descr3:" ",
+              img: require("../../assets/artists/unnur_birna.jpg"),
               links: {
                   // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
                   // spotify: "...",
@@ -259,55 +251,6 @@ export default {
                   // website: ",,,"
               }
           },
-
-
-        {
-          id: 8,
-          id2: "8b",
-          date: "TBA",
-          name: "Fruit",
-          stage: "TBA",
-          time: "TBA",
-          descr1:
-            "Fruit is a Copenhagen based producer and a DJ from Iceland. His sound is a blend of club and experimental music with inspirations drawing from balearic house and 90's trance. To date his productions have drawn on atmospheric ambience, breakbeat & the lush melancholy of balearic house.",
-	descr2:
-            "His first release on Øen Records was an intimate world full of naive melodies, Icelandic wikipedia text and meticulous textures where he explores his quiet side. His second release was through the label Coastal Haze where Fruit managed to jump in between melodic dance floor trance, 2step breakbeat and island ambience.",
-	descr3:
-	"He’s known both for his excellent DJ skills as well as his eclectic live shows.",
-
-          img: require("../../assets/artists/fruit.jpg"),
-          links: {
-            // tumblr: "sdd",
-            spotify: "https://open.spotify.com/album/5pBPl9a0ck739rKSSq8wln?si=Aw9fzKzXSvGA4DgNyXuIYg"
-            // facebook: "kk",
-            // website: ",,,"
-          }
-        },
-        {
- id: 9,
-          id2: "9b",
-          date: "TBA",
-          name: "B1B2",
-          stage: "TBA",
-          time: "TBA",
-          descr1:
-            "Icelandic DJ duo B1B2 creates unique performative club experience playing sets with a mix of afro house and ethno techno beats.",
-	descr2:
-            "The duo has played at various underground events in Denmark and Cape Town as well as Iceland Airwaves & LungA.",
-	descr3:
-	"Playing on all your senses, B1B2 aims to create a dancefloor for you to feel free to dance while feeling loved and respected!!",
-
-          img: require("../../assets/artists/b1b2.jpg"),
-          links: {
-            // tumblr: "sdd",
-            spotify: "https://open.spotify.com/track/3HFFBfoTdd0TOlvMgq3Lzc?si=1A43L0_RS9CTBD0x9fNTcQ",
-            facebook: "https://www.facebook.com/djb1b2/"
-            // website: ",,,"
-          }
-        }
-
-
-
       ]
     };
   },
