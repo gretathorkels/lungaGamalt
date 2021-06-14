@@ -67,14 +67,18 @@ a:link, :visited{
     display: flex;
     justify-content: center;
     margin: 0 25% 0 25%;
-    
+
 }
 .headline{
     max-width: 99%;
     font-size: 144px;
     font-weight: 600;
-    
-    
+    hyphens: auto;
+}
+@media (max-width: 800px) {
+  .headline {
+    font-size: 80px;
+  }
 }
 .center {
   text-align: center;
@@ -92,6 +96,7 @@ a:link, :visited{
 .sub-header{
   font-size: 96px;
   font-weight: 600;
+  text-align: center;
 }
 .sub-line{
     font-size: 48px;
@@ -105,7 +110,7 @@ a:link, :visited{
     margin: 10px 0 10px 0;
 }
 .content-img img{
-    
+
     width: 674px;
     height: 402px;
 }

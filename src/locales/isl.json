@@ -97,12 +97,75 @@
     "footer": "Ást! LungA"
   },
   "workshops":{
-    "firstline":"Listasmiðjur LungA 2021 eru þrjár (3) þriggja daga listasmiðjur.",
+    "firstline":"Listasmiðjur LungA 2021 eru sex talsins: fjórar (4) þriggja daga listasmiðjur, ein (1) barnasmiðja og ein (1) netsmiðja.",
     "tba":"Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
-    "applyhere":"Sæktu um",
-    "weekinfo":"Vikusmiðja: Innifalið í verðinu er þátttaka í listasmiðju, gisting í svefnpoka plássi, fullt fæði og aðgangur að öllum viðburðum hátíðarinnar. Það er einnig möguleiki að skrá sig á LungA tjaldsvæði eða þitt eigið húsnæði.",
-    "fridayinfo":"Föstudagssmiðja: Innifalið í verðinu er þátttaka í listasmiðjuna, gisting, fæði á meðan námskeiðinu stendur og aðgangur að öllum viðburðum hátíðarinnar."
+    "applyhere":"Sæktu um hér!",
+    "weekinfo":"Þriggja daga smiðja: 30.000kr. Innifalið í verðinu er þátttaka í listasmiðju, aðgangur að öllum viðburðum hátíðarinnar og miði á lokatónleika hátíðarinnar.",
+    "onlineinfo":"Netsmiðja: 17.900kr. Netsmiðjan fer fram á Zoom. Innifalið í verðinu er þátttaka í listasmiðjuna, aðgangur að öllum viðburðum hátíðarinnar og miði á lokatónleika LungA.",
+    "childreninfo":"Barnasmiðja: 8.000kr.",
+    "generalinfo":"Vegna Covid-19 getur LungA hvorki boðið upp á gistingu né fæði fyrir þáttakendur í ár."
   },
+
+  "workshop1":{
+    "title":"Handan hæfileika",
+    "teacher1":"Eva Dögg Rúnarsdóttir",
+    "teacher2":"Dagný Berglind Gísladóttir",
+    "type":"Þriggja daga smiðja",
+    "about1":"Tvíeykið Rvk ritual mun kenna þriggja daga workshop þar sem kennd eru tól til daglegrar iðkunar og rituala sem styðja við hvaða skapandi grein sem er. Til að vera skapandi frumkvöðull eða listamaður og koma verkum frá sér þarf maður að fylla á eiginn tank og finna jafnvægi sem virkar: hlaða sig/gefa frá sér. Möguleikar mannsins eru án takmarkana og hreyfast í spíral. Við getum annað hvort snúist upp eða niður í spíralnum. Það tekur sömu orku að að fara upp og niður. Hvaða átt velur þú? Á þessu námskeiði munum við skoða hvernig þú getur búið til daglega iðkun sem styður þig í að færast upp spíralinn., hvað er að standa í vegi fyrir þér og hvernig yfirstíga skal það.",
+    "about2":"Í skapandi greinum er oft mikil áhersla á meðfædda hæfileika. En í raun skipta hæfileikar alls ekki eins miklu máli og trúað er. Það eru einstaklingarnir sem mæta, gera og halda áfram sem ná oftast lengst á sínu sviði. Það skiptir því í raun minnsta máli hversu hæfileikaríkur þú ert! Það skiptir máli er að hætta að standa í vegi fyrir sjálfum sér eða leyfa kvíða að stjórna ferðinni. Á vinnustofunni munum við rannsaka frestunaráráttu, sjálfstraust, kaos vs skipulag, ótta við álit annarra, óttan við að vera sýnilegur og taka pláss og vinna í að losa um stíflur sem standa í vegi fyrir þér. Þú lærir ólíkar hugleiðslutæknir, áhrifaríka djúpöndun, skrifandi flæði, leiðir til sjálfsskoðunar, praktíska stjörnuspeki, ýmislegt um orkustöðvar og orkuskipti, að setja mörk, alls kyns rituala og að búa til skýra og stóra framtíðarsýn.",
+    "aboutteacher1":"Eva Dögg Rúnarsdóttir er menntaður fatahönnuður frá Teko og jógakennari. Hún var um tíma yfirhönnuður hjá Samso & Samso, hefur unnið lengi fyrir mismunandi dönsk merki og er frumkvöðull af guðs náð.",
+    "aboutteacher2":" Dagný Berglind Gísladóttir, er menntuð í skapandi skrifum og útgáfu. Hún er fyrrum framkvæmdastjóri Gló og ritstýra Í boði náttúrunnar en starfar nú sem skapandi ráðgjafi og hugleiðslu & djúpöndunar kennari."
+  },
+
+  "workshop2":{
+      "title":"Ímyndað hljóð",
+      "teacher1":"Ívar Pétur",
+      "teacher2":"Guðmundur Úlfarsson",
+      "type":"Þriggja daga smiðja",
+      "about":"Hvernig mynd verður til við að slá í trommu? Hvaða litur myndast þegar við hristum gorm í gítarmagnara? Hvernig má samþætta hljóð og mynd í lifandi flutning þannig að hvor þáttur í upplifuninni skyggi ekki á hinn heldur myndi þeir heildstæða og annars konar upplifun? Tveir þættir í sömu upplifuninni sem tala saman og hafa bein áhrif hvort á annað. Þátttakendur munu skoða það hvernig mismunandi hljóðgjafar geta glætt tónlist lífi á myndrænan hátt.",
+      "aboutteacher1":"Ívar Pétur er tónlistarmaður og plötusnúður m.a. í hljómsveitunum FM Belfast, Benna Hemm Hemm, Miri auk Good Moon Deer. Með þessum hljómsveitum hefur Ívar spilað og komið fram um allan heim um, allt frá listasöfnum í Arkansas til útihátíða í Ástralíu til klúbba í Barcelona, Berlín og Brussel og flest þar á milli. Ívar semur einnig tónlist fyrir stuttmyndir og auglýsingar fyrir fyrirtæki á borð við Sony og Billabong og gert heimildarþætti um áhrif plötusnúða á tónlistarþróun 20. aldar fyrir Rás 2.",
+      "aboutteacher2":" Guðmundur Úlfarsson er grafískur hönnuður sem hefur einnig starfað um árabil sem tónlistarmaður. Auk þess að gera allt myndefni fyrir tónlistarverkefnið sitt, Good Moon Deer, hefur hann undanfarið unnið að verðlaunasýningunni Eyður með sviðslistaflokknum Marmarabörn og að tónlistarmyndbandi fyrir lagið Stay the Ride með Gusgus."
+    },
+    "workshop3":{
+      "title":"Rural Ways of Paint and Print",
+      "teacher1":"Laura Tack",
+      "teacher2":"Linus Lohmann",
+      "type":"Þriggja daga smiðja",
+      "about":"Hvernig mynd verður til við að slá í trommu? Hvaða litur myndast þegar við hristum gorm í gítarmagnara? Hvernig má samþætta hljóð og mynd í lifandi flutning þannig að hvor þáttur í upplifuninni skyggi ekki á hinn heldur myndi þeir heildstæða og annars konar upplifun? Tveir þættir í sömu upplifuninni sem tala saman og hafa bein áhrif hvort á annað. Þátttakendur munu skoða það hvernig mismunandi hljóðgjafar geta glætt tónlist lífi á myndrænan hátt.",
+      "aboutteacher1":"Laura Tack (she/they), born 1988, is a Belgian painter and sound artist, living in Seyðisfjörður, Iceland. Tack's work invites the viewer into a lush, timeless world that is at the same time familiar and fantastic - an utopia full of longing. Melancholic and mystical, Tack's paintings deal with themes of transition, duality, longing and still life. Laura Tack has exhibited their paintings in Ghent (BE), Berlin (DE), Marrakech (MO), New York (USA), Copenhagen (DK) and Seyðisfjörður(IS). Their work is owned by various art collectors, friends and family. They have performed live in The Netfactory, Seyðisfjörður (IS), Queens Collective, Marrakech (MO) and Kvit Galleri, Kopenhagen (DK). She released a limited edition of her soundscapes on CD and shares her work on Soundcloud. She also sends them to close friends to be experienced. And they have been collaborating with Maxwell Sterling (UK, musician), Whitney Vangrin (US, performer), Stand up Dance (CAN, dancer) and Emma Kallan (DK, artist) as an exchange project. She occasionally DJ’s at events.",
+      "aboutteacher2":"Linus Lohmann (1982, Hannover, Germany) studied Fine Arts at Hannover University of Applied sciences and Arts and concluded with a Master's degree with honors at Weissensee Academy of Art Berlin 2012. He has been living and working in Seyðisfjörður since. His work focuses on drawing and experimental print making and derived from a practise in painting and sculpting. The work focuses on a visualization of distorted, modified and rearranged impressions inspired by technical processes and explorations into the obscure."
+    },
+    "workshop4":{
+      "title":"Nýjar hreyfingar",
+      "teacher":"Margrét Bjarnadóttir",
+      "type":"Þriggja daga smiðja",
+      "about":"Á námskeiðinu munum við miða að því að teygja, stækka og dýpka brunninn sem við sækjum hreyfingar okkar og tjáningu í. Þá verður tónlist, myndir, litir, áferð og tilfinningar á meðal þess sem við sækjum innblástur í. Þátttakendur þurfa ekki að búa yfir tæknilegri danskunnáttu en æskilegt er að hafa áhuga á að dansa og vilja til að ögra sjálfum sér.",
+      "aboutteacher":"Margrét Bjarnadóttir útskrifaðist af danshöfundadeild ArtEZ Hogeschool voor de Kunsten í Arnhem, Hollandi, árið 2006 og stundaði meistaranám í ritlist við HÍ árið 2012 – 2015. Hún vinnur í ýmis form og ólíka miðla, einna helst á sviði dans, myndlistar og skrifa. Margrét á fjölmörg sviðsverk að baki en meðal nýjustu verka hennar er gítarballettinn No Tomorrow sem hún vann í samstarfi við Ragnar Kjartansson, tónskáldið Bryce Dessner og Íslenska dansflokkinn. Verkið hlaut Grímuna „Sýning ársins“ árið 2017 auk þess sem þau Ragnar hlutu verðlaunin „Danshöfundar ársins“. Þá samdi Margrét sviðshreyfingar fyrir Utopiu og nú síðast Cornucopiu, tónleikasýningu Bjarkar sem frumsýnd var í The Shed í New York, vorið 2019."
+    },
+
+    "workshop5":{
+      "title":"Dance for Camera & Kinetic Cinema",
+      "teacher1":"Victoria Sendra",
+      "teacher2":"Samantha Shay",
+      "type":"Netsmiðja",
+      "about":"Dance for Camera & Kinetic Cinema is a workshop designed to integrate knowledge of cinema, movement, and dance both behind and in front of the camera, as well as explore adapting stage works to film in an era as digital programming emerges in the live performance landscape. This course is designed for dance, theatre, and movement artists interested in deepening their work in the dimension and medium of film, and open to all levels. This course will not only be rooted in cinematic knowledge, but a multi layered and embodied approach. This course is led by Victoria Sendra & Samantha Shay, and will include classes and talks with guest artists.",
+      "aboutteacher1":"Victoria Sendra has worked as an on stage camera operator in Network on Broadway, filmmaker/producer for Lincoln Center for the Performing Arts, Red Creek Productions, cinematographer for Source Material Collective, and has documented countless live performances. Her dance films have screened at Lincoln Center, The Getty Museum, Village East Cinema, Anthology Film Archives, and REDCAT. She has hosted film screenings and workshops for the Movement Invention Project and for Pentacle Movement Media, was interviewed for the Drone Girl blog, and has had several of her photographs published in the New York Times. Sendra graduated from the California Institute of the Arts in 2012 with a BFA in Film/Video and a minor in Creative Writing",
+      "aboutteacher2":"Samantha Shay is a multidisciplinary artist, performer, and director of theatre and film, and movement artist. As a creative instigator, catalyzer and master collaborator, her acclaimed body of work challenges traditional boundaries, creates new connections, and dances across the fault lines between disciplines. She is currently a guest artist and researcher at the Tanztheater Wuppertal Pina Bausch, carrying an agenda in alignment with the company to discover how Pina Bausch's artistic legacy radiates out into the world today. Her theatrical work has been produced at The Grotowski Institute, the Theatre Olympics, RedCat, HERE Arts (New York), Tjarnarbio (Iceland), LungA (Iceland), and the Edinburgh International Fringe. As a filmmaker, she has made ambitious music videos for KÁRYYN, JFDR, Sóley, and Katie Gately, among others. Her films have screened at San Francisco Dance Film Festival, Portland Dance Film Festival, CAPITOL Dance & Cinema Festival, Thessaloniki Cinedance International, and BAFTA and Academy Award qualifying festivals such as Flickers Rhode Island International Film Festival, HollyShorts, and CineQuest."
+    },
+
+    "workshop6":{
+      "title":"Lautarferð",
+      "teacher1":"Anna Margrét",
+      "teacher2":"Signý Jónsdóttir",
+      "type":"Barnasmiðja",
+      "about1":"Vinnusmiðjan snýr að því að undirbúa lautarferð sem farið verður í í lok vikunnar þar sem gestum verður boðið að vera með. Undirbúningurinn snýr að því að plana lautarferðina frá a til ö og mun hópurinn skapa sér upplifun og búa til allt það sem þarf. Á þessari viku sem vinnusmiðjan mun fara fram verður farið í gönguferðir, hráefni verður sótt, sóst verður eftir upplýsingum og þekkingu úr bæjarfélaginu, gripið verður í efnivið úr nærumhverfinu, tilraunir verða gerðar í eldamennsku, farið verður í skapandi leiki og áhöld búin til. Með öðrum orðum verður lautarferð skipulögð í heild sinni af hálfu barnanna með leikgleði og listsköpun að leiðarljósi.",
+      "about2":"Saman hafa Signý og Anna Margrét unnið saman að listrænum verkefnum til að mynda farandveitingahúsi sem kallast Forréttir úr firðinum þar sem einungis var unnið með hráefni nærumhverfisins og spurningunni ,,Hvað hefur fjörðurinn fram að færa?” velt upp. Haldnir voru viðburðir á Stöðvarfirði, Breiðdalsvík og Seyðisfirði sumarið 2020. Signý og Anna Margrét hafa búið á Seyðisfirði síðastliðinn vetur þar sem Anna Margrét vann sem leiðbeinandi á leikskólanum og Signý vann sem smíðakennari í grunnskólanum og sá einnig um félagsmiðstöðina.",
+      "aboutteacher1":"Signý Jónsdóttir (f. 1996) útskrifaðist með BA gráðu í vöruhönnun frá Listaháskóla Íslands vorið 2019. Í verkum sínum varpar hún ljósi á uppbyggingu, nýtingu og sjálfbærni svæða með það að markmiði að virkja áhorfandann á tímum sem umbreytinga er þörf. Signý hefur tekið að sér margvísleg verkefni fyrir sveitarfélög víðs vegar á landinu við það að glæða vannýtt svæði lífi. Á meðal verkefna hafa verið viðburðir og uppbygging samkomustaða á borð við leikvöll og gufubað. Signý starfar ásamt Írisi Indriðadóttur vöruhönnuði í teymi sem fæst við það að auka verðmætasköpun auðlinda á Íslandi og efla menningu og tækifæri fólks til samveru og samtals. Á meðal verkefna þeirra eru rannsókn á íslenska æðarfuglinum, kortlagning á auðlindum íslenskra sanda og hönnun á óhefðbundnum samkomustöðum utandyra.",
+      "aboutteacher2":"Anna Margrét (f.1992) útskrifaðist frá Myndlistardeild Listaháskóla Íslands vorið 2019. Á öðru ári stundaði hún nám við École Supérieure d'Art de La Réunion í eina önn. Eftir námið flutti hún til Helsinki þar sem hún var starfsnemi hjá finnsku listakonunni Pilvi Takala og vann að undirbúningi fyrir verk hennar á Feneyjartværingnum 2022. Í verkum sínum vinnur Anna Margrét með myndbirtingar neyslusamfélagsins. Með því að umbreyta ýmsum hversdagslegum viðfangsefnum inn í listsamhengið, rannsakar hún hvernig þau koma fyrir í tilverunni okkar. Hún veltir fyrir sér hvernig nútímaeinstaklingurinn skapar ímynd sína í samhengi við tilætlanir neyslusamfélagsins og setur þær pælingar fram á írónískan og kómískan hátt. Anna Margrét hefur tekið að sér ýmis verkefni sem snúa að börnum, samfélagi og matargerð. Hún stofnaði pop-up veisluþjónustuna AMO Crepes sem hefur starfað síðan 2016."
+    },
+
+
+
 
   "lungalab":{
     "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
