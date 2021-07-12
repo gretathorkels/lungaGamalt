@@ -221,11 +221,12 @@ export default {
           name: "SAKANA",
           stage: "TBA",
           time: "TBA",
-          descr1:"   ",
-          descr2:" ",
-          descr3: "",
+          descr1:"SAKANA is the dj name of the versatile Icelandic visual artist, creative director and project manager Sunna Axels.",
+          descr2:"SAKANA has performed at numerous local art festivals and international events. With passion for J-pop, techno-pop and exploring the boundaries of guilty pleasure, SAKANA creates epic dj-sets that are guaranteed to get people to show off their best dance moves.",
+          descr3: "After hosting the opening exhibition at LungA in 2019, DARK GLITTER, SAKANA is returning to Seyðisfjörður - promising a night you don’t want to miss.",
           img: require("../../assets/artists/sakana.jpg"),
           links: {
+            instagram:"https://www.instagram.com/sunna_sakana_/",
             // tumblr: "sdd",
             //  spotify: "https://open.spotify.com/artist/7yuLFZmY5CuPf81al33Ot2?si=3fmTovQkQ3GK1s2SeMZQjg"
             // facebook: "kk",
