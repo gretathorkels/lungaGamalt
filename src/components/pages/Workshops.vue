@@ -5,7 +5,7 @@
 
     <div class="head-container">
       <div class="sub-text">
-      {{$t("workshops.firstline")}} {{$t("workshops.generalinfo")}}
+      {{$t("workshops.firstline")}}<br><br>{{$t("workshops.generalinfo")}}
       </div>
     </div>
 
@@ -22,7 +22,7 @@
       <div class="col">
         <div class="text">{{$t("workshops.childreninfo")}}</div>
       </div>
-      
+
     </div>
 
     <div class="sub-header">
