@@ -243,7 +243,7 @@ export default {
             "Much has changed since you last saw us. This time around 2/3 of the collective is inviting you to enjoy Filipino hospitality which always involves food and our entertainment of choice; karaoke. So sige na! Let's eat before the flies get to the food and the food gets cold. ",
           descr3:
             "Daghan na ang nausab sukad sa niagi nato na panagkita. Sa karon panahona, 2/3 sa koliktibo naga imbitar kaninyo na malingaw mo sa Pilipinhong panagsama nga adunay pirmi kalakip na pagkaon ug kasadya na pinakagusto sa tanan; Karaoke. Unsa paman and inyong gehuwat, sige na! Tara mangaon nata sa dili pa ni malangawan ug mubugnaw ang atong mga pagkaon.",
-          // img: require("../../assets/artists/inspectorspacetime.jpg"),
+            img: require("../../assets/eventindex/luckyme.png"),
           links: {
             // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",
@@ -258,13 +258,12 @@ export default {
           date: "15.07",
           name: "Countess Malaise LIVE – Þrennu party!",
           stage: "Kaffi Lára",
-          time: "21:00",
+          time: "22:00",
           descr1:
-            "Fimmtudagspartý á Lárunni! Countess Malaise spilar live, og KRÖNS dj-ar. Í boði Þrennunar.",
+            "Fimmtudagspartý á Lárunni í boði Þrennunar! Countess Malaise spilar live, og KRÖNS dj-ar.",
           descr2:
-            "Thursday party at Café Láran! Countess Malaise performs live, and KRÖNS DJs. Sponsored by Þrennan.",
-          descr3:
-            "  ",
+            "Thursday party at Café Lára sponsored by Þrenna! Countess Malaise performs live, and KRÖNS DJs.",
+          descr3:"  ",
             img: require("../../assets/eventindex/countessmalaise.jpeg"),
           links: {
             // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
@@ -281,12 +280,12 @@ export default {
           stage: "Herðubreið",
           time: "13:00",
           descr1:
-            "BMX sýning og námskeið fyrir alla sem vilja.",
+            "BMX sýning og námskeið fyrir alla sem vilja. BMX BRÓS urðu til í hinum geysivinsæla sjónvarpsþætti Ísland Got Talent árið 2015 þegar þeir höfnuðu í 2.sæti. Þar voru þeir Benedikt og Magnús í fyrsta skiptið að gera listir á BMX hjólunum fyrir framan áhorfendur, fyrir keppnina höfðu þeir einungis horft á þetta hættulega en magnaða sport sem áhugamál. Í kjölfarið opnuðust dyr inn í heim sýninga og kennslu. Síðan þá hafa þeir verið ötulir við að sýna og kenna listir á hátíðum um land allt. Vegna mikillar eftirspurnar var honum Antoni bætt við í teymið og eru BMX bræðurnir nú þrír. Sex árum síðar eru sýningarnar og kennslan upp á sitt besta, því æfingin skapar jú meistarann. Það sem við bjóðum upp á er að koma á hátíðina eða viðburðinn ykkar, hvort sem það er skóli, fyrirtæki, bæjarhátíð, og vera með sýningu og/eða kennslu. Við mætum þá með stökkpalla, hátalara og allar þær græjur sem þarf til að gera góða sýningu eða kennslu.",
           descr2:
             "BMX show and workshop for all who want to watch and learn.",
           descr3:
             "  ",
-          // img: require("../../assets/artists/inspectorspacetime.jpg"),
+           img: require("../../assets/eventindex/bmxbros.jpg"),
           links: {
             // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",
@@ -321,14 +320,14 @@ export default {
           date: "16.07",
           name: "Karókí!",
           stage: "Láran",
-          time: "21:00",
+          time: "23:00",
           descr1:
-            "Hin SVAKALEGA Sigrún Gyða stýrir karókí með STÆL",
+            "Hin SVAKALEGA Sigrún Gyða stýrir karókí með STÆL. Karíókínu lýkur kl 01:00 en þá taka frábærir plötusnúðar við og halda uppi stuðinu til lokunar.",
           descr2:
-            "Hosted by the HOSTESS with the MOSTESS: Sigrún Gyða",
+            "Hosted by the HOSTESS with the MOSTESS: Sigrún Gyða. The karaoke ends at 01:00 – and amazing DJs take the reigns for the night",
           descr3:
             "  ",
-        // img: require("../../assets/eventindex/vikram.jpg"),
+            img: require("../../assets/eventindex/karaoke.jpg"),
           links: {
             // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",
@@ -342,14 +341,14 @@ export default {
           date: "16.07",
           name: "DJ SET",
           stage: "Láran",
-          time: "00:00",
+          time: "01:00",
           descr1:
-            "Line-up kvöldsins verður tilkynnt seinna.",
+            "Plötusnúðar þeyta skífum fyrir dansgólf til lokunar kl 03:30. Heyrst hefur að þetta verður alveg tryllt! Line-up kvöldsins verður tilkynnt seinna.",
           descr2:
-            "The line-up will be announced later.",
+            "DJs will spin records until closing, at 03:30.  We've heard whispers that it will be incredible! The line-up will be announced later.",
           descr3:
-            "  ",
-      //  img: require("../../assets/eventindex/vikram.jpg"),
+            "",
+       img: require("../../assets/eventindex/djset.jpg"),
           links: {
             // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",

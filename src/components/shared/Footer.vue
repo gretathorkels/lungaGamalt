@@ -3,7 +3,7 @@
         <div class="footer-item link-container"><a class="nav-link" href="https://www.lungaschool.is" target="_blank">LungA School</a></div>
         <div class="footer-item link-container"><a class="nav-link" href="https://www.instagram.com/lunga.festival/" target="_blank">Instagram</a></div>
         <div class="footer-item link-container"><a class="nav-link" href="https://www.facebook.com/lunga.festival/" target="_blank">Facebook</a></div>
-        <div class="footer-item link-container"><a class="nav-link" href="https://lunga19.tumblr.com" target="_blank">Tumblr</a></div>
+        <div class="footer-item link-container"><a class="nav-link" href="https://lunga21.tumblr.com" target="_blank">Tumblr</a></div>
     </div>
 </template>
 
