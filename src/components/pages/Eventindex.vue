@@ -272,30 +272,10 @@ export default {
             // website: ",,,"
           },
         },
+
         {
           id: 8,
           id2: "8b",
-          date: "16.07",
-          name: "BMX Brós",
-          stage: "Herðubreið",
-          time: "13:00",
-          descr1:
-            "BMX sýning og námskeið fyrir alla sem vilja. BMX BRÓS urðu til í hinum geysivinsæla sjónvarpsþætti Ísland Got Talent árið 2015 þegar þeir höfnuðu í 2.sæti. Þar voru þeir Benedikt og Magnús í fyrsta skiptið að gera listir á BMX hjólunum fyrir framan áhorfendur, fyrir keppnina höfðu þeir einungis horft á þetta hættulega en magnaða sport sem áhugamál. Í kjölfarið opnuðust dyr inn í heim sýninga og kennslu. Síðan þá hafa þeir verið ötulir við að sýna og kenna listir á hátíðum um land allt. Vegna mikillar eftirspurnar var honum Antoni bætt við í teymið og eru BMX bræðurnir nú þrír. Sex árum síðar eru sýningarnar og kennslan upp á sitt besta, því æfingin skapar jú meistarann. Það sem við bjóðum upp á er að koma á hátíðina eða viðburðinn ykkar, hvort sem það er skóli, fyrirtæki, bæjarhátíð, og vera með sýningu og/eða kennslu. Við mætum þá með stökkpalla, hátalara og allar þær græjur sem þarf til að gera góða sýningu eða kennslu.",
-          descr2:
-            "BMX show and workshop for all who want to watch and learn.",
-          descr3:
-            "  ",
-           img: require("../../assets/eventindex/bmxbros.jpg"),
-          links: {
-            // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
-            // spotify: "...",
-            // facebook: "kk",
-            // website: ",,,"
-          },
-        },
-        {
-          id: 9,
-          id2: "9b",
           date: "16.07",
           name: "Screening – Vikram Pradhan",
           stage: "Herðubreið Cinema",
@@ -315,8 +295,8 @@ export default {
           },
         },
         {
-          id: 10,
-          id2: "10b",
+          id: 9,
+          id2: "9b",
           date: "16.07",
           name: "Karókí!",
           stage: "Láran",
@@ -336,16 +316,37 @@ export default {
           },
         },
         {
+          id: 10,
+          id2: "10b",
+          date: "16.07",
+          name: "CGFC is DJ",
+          stage: "Láran",
+          time: "01:00",
+          descr1:
+            "CGFC (Arnar Geir Gústafsson, Birnir Jón Sigurðsson, Hallveig Eiríksdóttir og Ýr Jóhannsdóttir) spila ljúfa tóna fyrir trylltan dans á Lárunni! ",
+          descr2:
+            "CGFC (Arnar Geir Gústafsson, Birnir Jón Sigurðsson, Hallveig Eiríksdóttir og Ýr Jóhannsdóttir) will DJ amazing tunes for cute dances at Café Lára!",
+          descr3:
+            "",
+       img: require("../../assets/eventindex/cgfc.jpg"),
+          links: {
+            // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+            // spotify: "...",
+            // facebook: "kk",
+            // website: ",,,"
+          },
+        },
+        {
           id: 11,
           id2: "11b",
           date: "16.07",
           name: "DJ SET",
           stage: "Láran",
-          time: "01:00",
+          time: "02:00",
           descr1:
-            "Plötusnúðar þeyta skífum fyrir dansgólf til lokunar kl 03:30. Heyrst hefur að þetta verður alveg tryllt! Line-up kvöldsins verður tilkynnt seinna.",
+            "Plötusnúðar þeyta skífum fyrir dansgólf til lokunar kl 03:30. Heyrst hefur að þetta verður alveg tryllt! Line-up kvöldsins verður tilkynnt seinna. ",
           descr2:
-            "DJs will spin records until closing, at 03:30.  We've heard whispers that it will be incredible! The line-up will be announced later.",
+            "DJs will spin records until closing, at 03:30. We've heard whispers that it will be incredible! The line-up will be announced later. ",
           descr3:
             "",
        img: require("../../assets/eventindex/djset.jpg"),
@@ -382,6 +383,28 @@ export default {
         {
           id: 13,
           id2: "13b",
+          date: "16.07",
+          name: "BMX Brós",
+          stage: "Herðubreið",
+          time: "13:00",
+          descr1:
+            "BMX sýning og námskeið fyrir alla sem vilja. BMX BRÓS urðu til í hinum geysivinsæla sjónvarpsþætti Ísland Got Talent árið 2015 þegar þeir höfnuðu í 2.sæti. Þar voru þeir Benedikt og Magnús í fyrsta skiptið að gera listir á BMX hjólunum fyrir framan áhorfendur, fyrir keppnina höfðu þeir einungis horft á þetta hættulega en magnaða sport sem áhugamál. Í kjölfarið opnuðust dyr inn í heim sýninga og kennslu. Síðan þá hafa þeir verið ötulir við að sýna og kenna listir á hátíðum um land allt. Vegna mikillar eftirspurnar var honum Antoni bætt við í teymið og eru BMX bræðurnir nú þrír. Sex árum síðar eru sýningarnar og kennslan upp á sitt besta, því æfingin skapar jú meistarann. Það sem við bjóðum upp á er að koma á hátíðina eða viðburðinn ykkar, hvort sem það er skóli, fyrirtæki, bæjarhátíð, og vera með sýningu og/eða kennslu. Við mætum þá með stökkpalla, hátalara og allar þær græjur sem þarf til að gera góða sýningu eða kennslu.",
+          descr2:
+            "BMX show and workshop for all who want to watch and learn.",
+          descr3:
+            "  ",
+           img: require("../../assets/eventindex/bmxbros.jpg"),
+          links: {
+            // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+            // spotify: "...",
+            // facebook: "kk",
+            // website: ",,,"
+          },
+        },
+
+        {
+          id: 14,
+          id2: "14b",
           date: "17.07",
           name: "Hér er LungA – This is LungA",
           stage: "Herðubreið",
@@ -402,8 +425,8 @@ export default {
         },
 
         {
-          id: 14,
-          id2: "14b",
+          id: 15,
+          id2: "15b",
           date: "17.07",
           name: "LungA Fjölskyldu fjör / Family Féte",
           stage: "Herðubreið",
@@ -423,8 +446,8 @@ export default {
           },
         },
         {
-          id: 15,
-          id2: "15b",
+          id: 16,
+          id2: "16b",
           date: "17.07",
           name: "Listasmiðjusýningar / Workshop exhibitions",
           stage: "Allstaðar! / Everywhere!",
@@ -444,8 +467,8 @@ export default {
           },
         },
         {
-          id: 16,
-          id2: "16b",
+          id: 17,
+          id2: "17b",
           date: "17.07",
           name: "Ör / Micro",
           stage: "HEIMA",
@@ -466,8 +489,8 @@ export default {
         },
 
 {
-          id: 17,
-          id2: "17b",
+          id: 18,
+          id2: "18b",
           date: "17.07",
           name: "Tónleikaveisla! Concerts!",
           stage: "Íþróttahúsið / Gymnasium",
