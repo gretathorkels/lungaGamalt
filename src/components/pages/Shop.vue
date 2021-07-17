@@ -77,7 +77,7 @@
 
                 </div>
             </div>
-            <div class="newmerchchild">
+          <!--  <div class="newmerchchild">
                 <div class="text-container">
                     <div class="sub-line">Totebag<br>€15
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -112,7 +112,7 @@
                         <img class="img-child" src="../../assets/webshop/20-poster.jpg">
                     </div>
                 </div>
-            </div>
+            </div>-->
 
         </div>
         <div class="text-container">

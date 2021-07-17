@@ -272,10 +272,31 @@ export default {
             // website: ",,,"
           },
         },
-
         {
           id: 8,
           id2: "8b",
+          date: "16.07",
+          name: "BMX Brós",
+          stage: "Herðubreið",
+          time: "16:00",
+          descr1:
+            "BMX sýning og námskeið fyrir alla sem vilja. BMX BRÓS urðu til í hinum geysivinsæla sjónvarpsþætti Ísland Got Talent árið 2015 þegar þeir höfnuðu í 2.sæti. Þar voru þeir Benedikt og Magnús í fyrsta skiptið að gera listir á BMX hjólunum fyrir framan áhorfendur, fyrir keppnina höfðu þeir einungis horft á þetta hættulega en magnaða sport sem áhugamál. Í kjölfarið opnuðust dyr inn í heim sýninga og kennslu. Síðan þá hafa þeir verið ötulir við að sýna og kenna listir á hátíðum um land allt. Vegna mikillar eftirspurnar var honum Antoni bætt við í teymið og eru BMX bræðurnir nú þrír. Sex árum síðar eru sýningarnar og kennslan upp á sitt besta, því æfingin skapar jú meistarann. Það sem við bjóðum upp á er að koma á hátíðina eða viðburðinn ykkar, hvort sem það er skóli, fyrirtæki, bæjarhátíð, og vera með sýningu og/eða kennslu. Við mætum þá með stökkpalla, hátalara og allar þær græjur sem þarf til að gera góða sýningu eða kennslu.",
+          descr2:
+            "BMX show and workshop for all who want to watch and learn.",
+          descr3:
+            "  ",
+           img: require("../../assets/eventindex/bmxbros.jpg"),
+          links: {
+            // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
+            // spotify: "...",
+            // facebook: "kk",
+            // website: ",,,"
+          },
+        },
+
+        {
+          id: 9,
+          id2: "9b",
           date: "16.07",
           name: "Screening – Vikram Pradhan",
           stage: "Herðubreið Cinema",
@@ -295,8 +316,8 @@ export default {
           },
         },
         {
-          id: 9,
-          id2: "9b",
+          id: 10,
+          id2: "10b",
           date: "16.07",
           name: "Karókí!",
           stage: "Láran",
@@ -316,14 +337,14 @@ export default {
           },
         },
         {
-          id: 10,
-          id2: "10b",
+          id: 11,
+          id2: "11b",
           date: "16.07",
           name: "CGFC is DJ",
           stage: "Láran",
           time: "01:00",
           descr1:
-            "CGFC (Arnar Geir Gústafsson, Birnir Jón Sigurðsson, Hallveig Eiríksdóttir og Ýr Jóhannsdóttir) spila ljúfa tóna fyrir trylltan dans á Lárunni! ",
+            "CGFC (Arnar Geir Gústafsson, Birnir Jón Sigurðsson, Hallveig Eiríksdóttir og Ýr Jóhannsdóttir) spila ljúfa tóna fyrir dans á Lárunni! ",
           descr2:
             "CGFC (Arnar Geir Gústafsson, Birnir Jón Sigurðsson, Hallveig Eiríksdóttir og Ýr Jóhannsdóttir) will DJ amazing tunes for cute dances at Café Lára!",
           descr3:
@@ -337,19 +358,19 @@ export default {
           },
         },
         {
-          id: 11,
-          id2: "11b",
+          id: 12,
+          id2: "12b",
           date: "16.07",
-          name: "DJ SET",
+          name: "DJ ALEXJEAN b2b DJ THAISON",
           stage: "Láran",
           time: "02:00",
           descr1:
-            "Plötusnúðar þeyta skífum fyrir dansgólf til lokunar kl 03:30. Heyrst hefur að þetta verður alveg tryllt! Line-up kvöldsins verður tilkynnt seinna. ",
+            "Plötusnúðar þeyta skífum fyrir dansgólf til lokunar kl 03:30. Heyrst hefur að þetta verður alveg tryllt! ",
           descr2:
-            "DJs will spin records until closing, at 03:30. We've heard whispers that it will be incredible! The line-up will be announced later. ",
+            "DJs will spin records until closing, at 03:30. We've heard whispers that it will be incredible!  ",
           descr3:
             "",
-       img: require("../../assets/eventindex/djset.jpg"),
+       img: require("../../assets/eventindex/alex.jpg"),
           links: {
             // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
             // spotify: "...",
@@ -359,8 +380,8 @@ export default {
         },
 
         {
-          id: 12,
-          id2: "12b",
+          id: 13,
+          id2: "13b",
           date: "17.07",
           name: "Fjölskyldudagurinn settur! / Family day set!",
           stage: "Herðubreið",
@@ -380,27 +401,6 @@ export default {
           },
         },
 
-        {
-          id: 13,
-          id2: "13b",
-          date: "16.07",
-          name: "BMX Brós",
-          stage: "Herðubreið",
-          time: "13:00",
-          descr1:
-            "BMX sýning og námskeið fyrir alla sem vilja. BMX BRÓS urðu til í hinum geysivinsæla sjónvarpsþætti Ísland Got Talent árið 2015 þegar þeir höfnuðu í 2.sæti. Þar voru þeir Benedikt og Magnús í fyrsta skiptið að gera listir á BMX hjólunum fyrir framan áhorfendur, fyrir keppnina höfðu þeir einungis horft á þetta hættulega en magnaða sport sem áhugamál. Í kjölfarið opnuðust dyr inn í heim sýninga og kennslu. Síðan þá hafa þeir verið ötulir við að sýna og kenna listir á hátíðum um land allt. Vegna mikillar eftirspurnar var honum Antoni bætt við í teymið og eru BMX bræðurnir nú þrír. Sex árum síðar eru sýningarnar og kennslan upp á sitt besta, því æfingin skapar jú meistarann. Það sem við bjóðum upp á er að koma á hátíðina eða viðburðinn ykkar, hvort sem það er skóli, fyrirtæki, bæjarhátíð, og vera með sýningu og/eða kennslu. Við mætum þá með stökkpalla, hátalara og allar þær græjur sem þarf til að gera góða sýningu eða kennslu.",
-          descr2:
-            "BMX show and workshop for all who want to watch and learn.",
-          descr3:
-            "  ",
-           img: require("../../assets/eventindex/bmxbros.jpg"),
-          links: {
-            // soundcloud: "https://soundcloud.com/violet/sets/bed-of-roses-190754229"
-            // spotify: "...",
-            // facebook: "kk",
-            // website: ",,,"
-          },
-        },
 
         {
           id: 14,
