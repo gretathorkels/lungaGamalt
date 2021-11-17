@@ -3,11 +3,15 @@
     <Header v-bind:menu="'nomenu'" />
 
     <div class="logo-container">
-      <img src="../../assets/lungalogo2021.svg" />
+      <img src="../../assets/lunga-noyear.svg" />
     </div>
 
+      <!--<div class="headline">
+          {{$t("frontpage.date")}} →Hér er LungA!←
+      </div>-->
+
       <div class="headline">
-          {{$t("frontpage.date")}}
+          <p><router-link class="nav-link link-container" to="/shop">{{$t("frontpage.book")}}</router-link></p>
       </div>
 
    <div class="navigation"  >
@@ -110,6 +114,7 @@
 <script>
 import Header from "../shared/Header";
 import Footer from "../shared/Footer";
+
 
 
 export default {

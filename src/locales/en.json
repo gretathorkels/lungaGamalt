@@ -67,7 +67,7 @@
     "concerts": "Bringing music to the fjord for the 20th time! Go explore the artists for our 20th anniversary and buy your tickets here "
   },
   "application":{
-    "headertext": "We will open the applications for LungA 2021 in June!",
+    "headertext": "We will open the applications for LungA 2022 in June!",
     "footertext":"Applications sent after the deadline will be moved to the next year's submissions."
 
   },
@@ -87,7 +87,7 @@
     "footer":"Love! LungA"
   },
   "workshops":{
-    "firstline":"There will be three three days-long workshops at LungA festival 2021.",
+    "firstline":"Workshops will be announced in June 2021 – applications for the workshops will open then as well.",
     "tba":"Workshops will be announced in June 2021 – applications for the workshops will open then as well.",
     "applyhere":"Apply here",
     "weekinfo":"Three day workshop: 30.000 ISK. Included in the price is the workshop, admission to all LungA events, and a ticket to the final LungA concert.",
@@ -174,28 +174,34 @@
   },
 
   "concerts": {
-    "header": "The LungA concert will be held on 17. July! Stay tuned for tickets and more info.",
-    "info1":"The ticket price is 8.900 ISK online, 10.900 ISK at the door. We are talking about one night and one night only; concert & party from 21:00—03:00.",
+    "header": "Information about the next LungA concert will come in May 2022",
+    "info1":"Until then, below are the artists that played at LungA 2021",
     "info2":"Stay tuned for further announcements here on our website and the festival's social media",
     "ticket":"Buy ticket"
   },
 
   "eventindex":{
     "para1":"LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the final concerts.",
-    "tba":"Events will be accessible here in June 2021"
+    "tba":"Events will be accessible here in June 2022"
   },
   "frontpage":{
-      "date":"14–17 July"
+      "date":"July 2022",
+      "book":"→This is LungA←"
   },
 
   "shop":{
+    "book":"This is LungA",
     "firstinfo":"We finally went through our archives and here below is everything we have left",
-    "para1":"Skilmálar",
-    "para2":"Upplýsingar um shipping ofl.",
+    "para1":"Terms and conditions: Orders are sent with Íslandspóstur. The terms of delivery, warranty and transport of Íslandspóstur apply to the delivery of the product.",
     "newcollection":"Wish I was at LungA 2020",
     "newcollectioninfo":"Our new merch is for sale here – we miss LungA!",
-    "archiveinfo":"here is our entire archive from the last ten years for sale"
-
+    "archiveinfo":"here is our entire archive from the last ten years for sale",
+    "info1":"This is LungA, about LungA, from LungA, to LungA for more than 20 years.",
+    "info2":"Each year young Icelanders and gests from afar flock to Seyðisfjörður; creating, experiencing, enjoying, researching, and learning. The festival has become an essential part in the Icelandic art scene as one of the most energetic events of the Icelandic summer. Through words and images, graphic designers Gréta Þorkelsdóttir and Guðmundur Úlfarsson have compiled the colorful history of the festival into this beautiful publication.",
+    "info3":"Through hundreds of photographs documenting the energy during the festival, and written words by Jónas Reynir Gunnarsson, Fríða Ísberg, Marteinn Sindri Jónsson and Björt Sigfinnsdóttir the book gives a cross section of LungA as we know it.",
+    "info4":"The book is 288 pages and was published by LungA in 300 numbered copies in the summer of 2021.",
+    "quote":"No one creates the zeitgeist apart from the young. It is their job to create the future, and each generation must create their form. You cannot make the perfect chair, because people change the way they sit.",
+    "name":"Goddur"
   }
 
 }

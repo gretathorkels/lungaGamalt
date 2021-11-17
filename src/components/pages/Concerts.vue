@@ -4,10 +4,10 @@
     <Headline v-bind:title="title" />
 
     <div class="img-container">
-      <img class="img-child" src="../../assets/tumblr/10.jpg" />
+      <img class="img-child" src="../../assets/tumblr/2021-5.jpg" />
     </div>
 
-    <div class="head-container">
+    <!-- <div class="head-container">
       <div class="sub-header">
         <a
           class="nav-link"
@@ -17,7 +17,7 @@
           {{ $t("concerts.ticket") }}
         </a>
       </div>
-    </div>
+    </div>-->
 
     <div class="footer-container">
       <div class="sub-text">
@@ -35,7 +35,7 @@
     <table>
       <tr>
         <!-- Breyttir Headurum hér:
-              Ef þú villt taka út dálka þá tekuru út þá sem eru samsvarandi, ss date væri nr 1.. etc          
+              Ef þú villt taka út dálka þá tekuru út þá sem eru samsvarandi, ss date væri nr 1.. etc
            -->
         <th></th><!--1-->
         <th>Time</th><!--2-->
@@ -111,10 +111,10 @@
     </table>
 
     <div class="img-container">
-      <img class="img-child" src="../../assets/tumblr/12.jpg" />
+      <img class="img-child" src="../../assets/tumblr/2021-6.jpg" />
     </div>
 
-    <div class="center sub-header nav-link">
+  <!--  <div class="center sub-header nav-link">
       <a
         class="nav-link"
         href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/"
@@ -122,7 +122,7 @@
       >
         {{ $t("concerts.ticket") }}
       </a>
-    </div>
+    </div>-->
 
     <Footer />
   </div>

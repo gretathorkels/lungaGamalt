@@ -5,11 +5,13 @@
 
     <div class="head-container">
       <div class="sub-text">
-      {{$t("workshops.firstline")}}<br><br>{{$t("workshops.generalinfo")}}
+      {{$t("workshops.firstline")}}
       </div>
     </div>
-
-
+    <div class="img-container">
+                 <img class="img-child" src="../../assets/tumblr/2021-1.jpg">
+             </div>
+<!--
     <div class="flex-grid">
       <div class="col">
         <div class="text">{{$t("workshops.weekinfo")}}</div>
@@ -32,11 +34,11 @@
     </div>
 
 
+--->
 
+<!--- WORKSHOPS
 
-<!--- WORKSHOPS --->
-
-<!--- WORKSHOP 1 --->
+WORKSHOP 1
 <div class="seperator"></div>
     <div class="flex-grid">
       <div class="col"><div class="workshop-title">{{$t("workshop1.title")}}</div></div>
@@ -53,9 +55,9 @@
     </div>
 
 
+--->
 
-
-    <!--- WORKSHOP 2 --->
+    <!--- WORKSHOP 2
     <div class="seperator"></div>
         <div class="flex-grid">
           <div class="col"><div class="workshop-title">{{$t("workshop2.title")}}</div></div>
@@ -68,8 +70,8 @@
           <div class="col"><div class="workshop-about">{{$t("workshop2.about")}}</div></div>
           <div class="col"><div class="workshop-info">{{$t("workshop2.aboutteacher1")}}<br><br>{{$t("workshop2.aboutteacher2")}}</div></div>
         </div>
-
-        <!--- WORKSHOP 3 --->
+        --->
+        <!--- WORKSHOP 3
         <div class="seperator"></div>
 
             <div class="flex-grid">
@@ -83,8 +85,8 @@
               <div class="col"><div class="workshop-about">{{$t("workshop3.about")}}</div></div>
               <div class="col"><div class="workshop-info">{{$t("workshop3.aboutteacher1")}}<br><br>{{$t("workshop3.aboutteacher2")}}</div></div>
             </div>
-
-            <!--- WORKSHOP 4 --->
+--->
+            <!--- WORKSHOP 4
             <div class="seperator"></div>
 
                 <div class="flex-grid">
@@ -98,8 +100,8 @@
                   <div class="col"><div class="workshop-about">{{$t("workshop4.about")}}</div></div>
                   <div class="col"><div class="workshop-info">{{$t("workshop4.aboutteacher")}}</div></div>
                 </div>
-
-                <!--- WORKSHOP 5 --->
+--->
+                <!--- WORKSHOP 5
                 <div class="seperator"></div>
 
                     <div class="flex-grid">
@@ -113,9 +115,9 @@
                       <div class="col"><div class="workshop-about">{{$t("workshop5.about")}}</div></div>
                       <div class="col"><div class="workshop-info">{{$t("workshop5.aboutteacher1")}}<br><br>{{$t("workshop5.aboutteacher2")}}</div></div>
                     </div>
+--->
 
-
-                                    <!--- WORKSHOP 6 --->
+                                    <!--- WORKSHOP 6
                                     <div class="seperator"></div>
 
                                         <div class="flex-grid">
@@ -131,7 +133,7 @@
                                         </div>
                                         <div class="seperator"></div>
 
-
+--->
 
       <Footer />
   </div>

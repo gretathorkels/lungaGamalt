@@ -10,10 +10,10 @@
       </div>
         <h1 class="modal-title" v-if="title">LungA Webshop Launch!!</h1>
       <div class="modal-body">
-        <p><router-link class="nav-link link-container" to="/shop">→WEBSHOP←</router-link></p>
-        <p>LungA 2020 may have been cancelled because of Covid-19 – but we organized our merch archives and have at last set up a webshop! Here you can purchase merchandise from the last ten years. Take a look!</p>
-<p>Stay tuned on our social media as we will keep you updated with more information. 
-<br/> See you in 2021!</p>
+        <p><router-link class="nav-link link-container" to="/shop">→Hér er LungA!←</router-link></p>
+        <p>Hey!</p>
+<p> We just put for sale the book we made, and it's available on the webshop here!
+<br/> See you in 2022!</p>
 
 <p>Love, <br/>
 Team LungA </p>
@@ -86,7 +86,7 @@ export default {
 }
 .modal-button {
   font-weight: 600;
-  font-size: 9rem; 
+  font-size: 9rem;
 }
 .modal-body {
   color: #000;

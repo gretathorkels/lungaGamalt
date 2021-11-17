@@ -73,11 +73,11 @@
 
 
   "subtexts": {
-    "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2021.",
+    "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022.",
     "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
   },
   "application": {
-    "headertext": "Opnað verður fyrir umsóknir á LungA 2021 í júní!",
+    "headertext": "Opnað verður fyrir umsóknir á LungA 2022 í júní!",
     "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022."
   },
 
@@ -96,7 +96,7 @@
     "footer": "Ást! LungA"
   },
   "workshops":{
-    "firstline":"Listasmiðjur LungA 2021 eru sex talsins: fjórar (4) þriggja daga listasmiðjur, ein (1) barnasmiðja og ein (1) netsmiðja.",
+    "firstline":"Listasmiðjur LungA munu birtast hér í maí 2022 og þá opnast einnig fyrir umsóknir.",
     "tba":"Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
     "applyhere":"Sæktu um hér!",
     "weekinfo":"Þriggja daga smiðja: 30.000kr. Innifalið í verðinu er þátttaka í listasmiðju, aðgangur að öllum viðburðum hátíðarinnar og miði á lokatónleika hátíðarinnar.",
@@ -184,8 +184,8 @@
   },
 
   "concerts": {
-    "header": "LungA tónleikar & partý 2021 verða haldnir þann 17. júlí næstkomandi!",
-    "info1":"Miðaverð er 8.900kr í forsölu, 10.900 kr í hurð. Um er að ræða eitt kvöld; tónleika og partý frá kl 21:00—03:30.",
+    "header": "Upplýsingar um næstu tónleika LungA birtast hér í maí 2022.",
+    "info1":"En hér fyrir neðan eru listamennirnir sem spiluðu 2021!",
     "info2":"Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
     "ticket":"Kaupa miða"
 
@@ -193,18 +193,25 @@
 
   "eventindex":{
     "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-    "tba":"Viðburðir bætast hér við uppúr maí 2021"
+    "tba":"Viðburðir bætast hér við uppúr maí 2022"
   },
   "frontpage": {
-    "date": "14.–17. júlí"
+    "date": "júlí 2022",
+    "book":"→Hér er LungA!←"
   },
   "shop":{
+    "book":"Hér er LungA",
     "firstinfo":"Við fórum loksins í gegnum geymsluna og hér er allt sem við eigum eftir.",
-    "para1":"Skilmálar",
-    "para2":"Pantanir sem eru póstsendar eru sendar með Íslandspósti. Þá gilda afhendingar-, ábyrgðar- og flutningsskilmálar Íslandspósts um afhendingu vörunnar.",
+    "para1":"Skilmálar: Pantanir sem eru póstsendar eru sendar með Íslandspósti. Þá gilda afhendingar-, ábyrgðar- og flutningsskilmálar Íslandspósts um afhendingu vörunnar.",
     "newcollection":"Vildi að ég væri á LungA 2020",
     "newcollectioninfo":"Nýja merchið okkar er til sölu hér að neðan. Við söknum LungA!",
-    "archiveinfo":"Og hér fyrir neðan er allt arkívið okkar til sölu"
+    "archiveinfo":"Og hér fyrir neðan er allt arkívið okkar til sölu",
+    "info1":"Hér er LungA, um LungA, frá LungA, til LungA, í 20 ár og rétt rúmlega það.",
+    "info2":"Árlega flykkjast ungir listhneigðir íslendingar og erlendir gestir til Seyðisfjarðar, skapa, upplifa, njóta, rannsaka og læra. Hátíðin hefur skipað sér ómissandi sess í Íslensku listalífi sem einn af kraftmestu viðburðum íslenska sumarsins. Í orðum og myndum draga Gréta Þorkelsdóttir og Guðmundur Úlfarsson saman litríka sögu hátíðarinnar í þessari eigulega bók.",
+    "info3":"Hundruðir ljósmynda frá hátíðinni og texta verk eftir Jónas Reyni Gunnarsson, Fríðu Ísberg, Martein Sindra Jónsson og Björt Sigfinnsdóttur prýða síður þessa þverskurðar hátíðarinnar.",
+    "info4":"Bókin er 288 blaðsíður og gefin út af LungA í 300 tölusettum eintökum, sumarið 2021.",
+    "quote":"Það býr enginn til tíðaranda nema ungt fólk. Það er þeirra verkefni að búa til framtíðina og eðli hverrar kynslóðar að skapa sér form. Það er ekki hægt að búa til fullkominn stól því fólk fer bara að sitja öðruvísi.",
+    "name":"Goddur"
 
   }
 

@@ -15,198 +15,99 @@
                 </form>
             </div>
         </div>
+        <div class="newmerchcontainer">
+          <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_1.png">
+          </div>
+          </div>
+        <div class="sub-line">
+          {{$t("shop.book")}}<br>€37
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="9WAJR53Z6W7P2">
+                <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
+                       name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                     width="1"
+                     height="1">
+            </form>
+            </div>
 
+            <div class="text-container">
+                <div class="text-body">{{$t("shop.info1")}}</div>
+                <div class="text-body">{{$t("shop.info2")}}
+                </div>
+                <div class="text-body">{{$t("shop.info3")}}
+                </div>
+                <div class="text-body">{{$t("shop.info4")}}
+                </div>
+            </div>
+
+
+
+
+        <div class="newmerchcontainer">
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_2.png">
+            </div>
+          </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_3.png">
+            </div>
+          </div>
+
+
+        </div>
 
         <div class="text-container">
-            <div class="sub-line">{{$t("shop.newcollection")}}</div>
-            <div class="text-body">{{$t("shop.newcollectioninfo")}}</div>
+            <div class="sub-line">{{$t("shop.quote")}}</div>
+            <div class="text-body">{{$t("shop.name")}}</div>
         </div>
 
         <div class="newmerchcontainer">
-            <div class="newmerchchild">
-                <div class="text-container">
-                    <div class="sub-line" >Socks<br>€15</div>
-                    <form class="sock_form" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="BRW3HJWT897H6">
-                        <table class="sock__table">
-                            <tr>
-                                <td>
-                                    <input type="hidden" name="on0" value="Stærð-Size">
-                                    Stærð-Size
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <select name="os0">
-                                        <option value="EU 35-38">EU 35-38</option>
-                                        <option value="EU 39-42">EU 39-42</option>
-                                    </select>
-                                </td>
-                            </tr>
-                        </table>
-                        <input type="image" :src="addtocart" style="height: 60px;align-self: center;padding-top: 5px;margin-left: 40px;" border="0"
-                               name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                             height="1">
-                    </form>
-
-
-                    <div class="img-container">
-                        <img class="img-child" src="../../assets/webshop/20-socks.jpg">
-                    </div>
-
-                </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_4.png">
             </div>
             <div class="newmerchchild">
-                <div class="text-container">
-                    <div class="sub-line">Baseball Cap<br>€20
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="4MG9TYZDDWWNJ">
-                            <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
-                                   name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                                 width="1"
-                                 height="1">
-                        </form>
-                    </div>
-                    <div class="img-container">
-                        <img class="img-child" src="../../assets/webshop/20-cap.jpg">
-                    </div>
-
-                </div>
+              <div class="img-container">
+                <img class="img-child" src="../../assets/webshop/_5.png">
+              </div>
             </div>
-          <!--  <div class="newmerchchild">
-                <div class="text-container">
-                    <div class="sub-line">Totebag<br>€15
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="4MG9TYZDDWWNJ">
-                            <input type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
-                                   name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                                 width="1" height="1">
-                        </form>
-                    </div>
-                    <div class="img-container">
-                        <img class="img-child" src="../../assets/webshop/20-totebag.jpg">
-                    </div>
-
-                </div>
+          </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_6.png">
             </div>
-            <div class="newmerchchild">
-                <div class="text-container">
-                    <div class="sub-line">A3 Poster<br>€10
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="E9434GRQT6H8J">
-                            <input
-                                    type="image" :src="addtocart" style="height:60px;padding-top:5px" border="0"
-                                    name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                                 width="1" height="1">
-                        </form>
-                    </div>
-                    <div class="img-container">
-                        <img class="img-child" src="../../assets/webshop/20-poster.jpg">
-                    </div>
-                </div>
-            </div>-->
-
-        </div>
-        <div class="text-container">
-
-            <div class="sub-line"><br>{{$t("shop.archiveinfo")}}</div>
-        </div>
-        <div class="text-container">
-            <div class="text-body">{{$t("shop.firstinfo")}}</div>
+          </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_7.png">
+            </div>
+          </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_8.png">
+            </div>
+          </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_9.png">
+            </div>
+          </div>
+          <div class="newmerchchild">
+            <div class="img-container">
+              <img class="img-child" src="../../assets/webshop/_10.png">
+            </div>
+          </div>
         </div>
 
 
-        <table>
-            <template v-for="shopitem in shopitems">
-                <tr v-bind:key="shopitem.id+100" class="shopitem__year">
-                    <th>{{shopitem.year}}</th>
-                </tr>
-
-                <template v-for="item in shopitem.items">
-                    <tr
-                            v-bind:key="item.id"
-                            @click="toggle(item.id, shopitem.id, item.index )"
-                            :class="{ opened: opened.includes(item.id) }"
-                    >
-                        <td class="border-bottom normal">
-                            <img :src="item.mainImage" width="50"/>
-                        </td>
-                        <td class="border-bottom name">{{item.name}}</td>
-
-                        <td class="border-bottom normal" id="small">{{item.price}}</td>
-                    </tr>
-
-                    <tr class="border" v-if="opened.includes(item.id)" v-bind:key="item.id2">
-                        <td class="border-top" colspan="2">
-                            <div class="card-img">
-                                <img :src="currentImage"/>
-                                <div v-if="item.images.length > 1" class="actions">
-									<span @click="prevImage" class="prev">
-										<i class="fa fa-chevron-left"></i>
-									</span>
-                                    <span @click="nextImage" class="next">
-										<i class="fa fa-chevron-right"></i>
-									</span>
-                                </div>
-                            </div>
-
-                            <div class="text">{{item.underImgText}}</div>
-                        </td>
-                        <td class="border-top" colspan="2">
-                            {{item.descr1}}
-                            <br/>
-                            <br/>
-                            {{item.descr2}}
-                            <br/>
-                            <br/>
-                            {{item.price}}
-                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                <input type="hidden" name="cmd" value="_s-xclick"/>
-                                <input type="hidden" name="hosted_button_id" :value="item.value"/>
-                                <table v-if="item.dropdownMenu">
-                                    <tr>
-                                        <td class="text_dropdown">
-                                            <input type="hidden" name="on0" :value="item.dropdowndefaultText"/>{{item.dropdowndefaultText}}
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td classs="text_dropdown">
-                                            <select name="os0">
-                                                <template v-for="option in item.dropdown">
-                                                    <option :value="option" v-bind:key="option+120">{{option}}
-                                                    </option>
-                                                </template>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <input
-                                        type="image"
-                                        :src="addtocart"
-                                        style="height:60px;padding-top:5px"
-                                        border="0"
-                                        name="submit"
-                                        alt="PayPal - The safer, easier way to pay online!"
-                                />
-                            </form>
-                        </td>
-                    </tr>
-                </template>
-            </template>
-
-        </table>
 
         <div class="text-container">
-            <div class="sub-line">{{$t("shop.para1")}}</div>
-            <div class="text-body">{{$t("shop.para2")}}</div>
+            <div class="text-body">{{$t("shop.para1")}}</div>
         </div>
         <Footer />
     </div>
@@ -841,7 +742,7 @@
     }
 
     img {
-        max-width: 500px;
+        max-width: 1000px;
     }
 
     .img-container {
