@@ -54,15 +54,15 @@ export default {
          title: 'title.lungalab',
          subtitle: 'title.lungalab2',
 
-     }       
+     }
   },
-  
+
   methods: {
     shiftLanguage: function (){
       this.isActive.forEach((element, index) => {
         return this.$set(this.isActive, index, !this.isActive[index] )
       });
-      
+
     }
   }
 }
@@ -81,7 +81,7 @@ export default {
 }
 .language-container {
   display: flex;
- 
+
 }
 .checkbox{
   margin: 0 4px 0 15px;
