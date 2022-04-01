@@ -13,9 +13,14 @@
           {{$t("frontpage.date")}} →Hér er LungA!←
       </div>-->
 
-      <!--<div class="headline">
-          <p><router-link class="nav-link link-container" to="/shop">{{$t("frontpage.book")}}</router-link></p>
-      </div>-->
+    <div class="center sub-header">
+      <a
+          href="https://tix.is/is/event/13027/"
+          target="_blank"
+      >
+        {{ $t("concerts.ticket") }}
+      </a>
+    </div>
 
    <div class="navigation"  >
        <div class="skew-container link-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}">
@@ -154,6 +159,24 @@ export default {
   font-size: 3rem;
   width: 38%;
 }
+
+.center {
+  text-align: center;
+}
+
+.center a:hover{
+  color: #00FF38;
+}
+
+.center a:visited{
+  color: #000000;
+}
+
+.sub-header {
+  text-align: center;
+  padding: 20px;
+}
+
 .rightalign {
   text-align: right;
 }

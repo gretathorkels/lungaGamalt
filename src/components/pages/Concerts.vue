@@ -18,22 +18,23 @@
       </div>
 
     </div>
-    <!--<div class="center sub-header nav-link">
+
+ <div class="center sub-header nav-link">
       <a
           class="nav-link"
-          href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/"
+          href="https://tix.is/is/event/13027/"
           target="_blank"
       >
         {{ $t("concerts.ticket") }}
       </a>
-    </div>-->
+    </div>
     <table>
       <tr>
         <!-- Breyttir Headurum hér:
               Ef þú villt taka út dálka þá tekuru út þá sem eru samsvarandi, ss date væri nr 1.. etc
            -->
         <th>Artist</th><!--1-->
-        <th>Place</th>
+        <th>Place</th><!-- 2 -->
       </tr>
       <template v-for="artist in artists">
         <tr
@@ -44,7 +45,7 @@
 
           <td class="border-bottom name">{{ artist.name }}</td><!--1-->
 
-          <td class="border-bottom Width">{{ artist.time }}</td>
+          <td class="border-bottom Width">{{ artist.time }}</td> <!--2 -->
 
         </tr>
         <tr
@@ -108,20 +109,22 @@
       </template>
     </table>
 <br><br>
+
+
+
+    <div class="center sub-header nav-link">
+      <a
+          class="nav-link"
+          href="https://tix.is/is/event/13027/"
+          target="_blank"
+      >
+        {{ $t("concerts.ticket") }}
+      </a>
+    </div>
+
     <div class="img-container">
       <img class="img-child" src="../../assets/tumblr/2021-6.jpg"/>
     </div>
-
-    <!--  <div class="center sub-header nav-link">
-        <a
-          class="nav-link"
-          href="https://tix.is/is/event/9612/lunga-20-ara-afm-listonleikar/"
-          target="_blank"
-        >
-          {{ $t("concerts.ticket") }}
-        </a>
-      </div>-->
-
     <Footer/>
   </div>
 </template>
@@ -144,8 +147,8 @@ export default {
           id2: "1b",
           date: "  ",
           name: "Skatebård",
-          stage: "T.B.A.",
-          time: "T.B.A.",
+          stage: "TBA",
+          time: "TBA",
           descr1:
               "Skatebård, the Norwegian producer of all things electronic. Connoisseurs know that his catalogue oscillates between emotional techno, neo-italo, electro from an alternative future and a Scando-cosmic reinterpretation of pure Detroitian house. Skatebård releases on labels like Digitalo Enterprises, Radius Records, Supersoul Recordings, Tellè Records, Keys of Life Finland, Luna Flicks, Totally and Sex Tags Mania. ",
           descr2:
@@ -394,7 +397,13 @@ tr:hover {
 .center a:hover{
   color: #00FF38;
 }
-
+.center a:visited{
+  color: #000000;
+}
+.sub-header {
+  text-align: center;
+  padding: 20px;
+}
 .footer-container {
   display: flex;
   justify-content: space-between;
