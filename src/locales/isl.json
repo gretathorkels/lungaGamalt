@@ -110,8 +110,8 @@
     "teacher1":"Eva Dögg Rúnarsdóttir",
     "teacher2":"Dagný Berglind Gísladóttir",
     "type":"Þriggja daga smiðja",
-    "about1":"Tvíeykið Rvk ritual mun kenna þriggja daga workshop þar sem kennd eru tól til daglegrar iðkunar og rituala sem styðja við hvaða skapandi grein sem er. Til að vera skapandi frumkvöðull eða listamaður og koma verkum frá sér þarf maður að fylla á eiginn tank og finna jafnvægi sem virkar: hlaða sig/gefa frá sér. Möguleikar mannsins eru án takmarkana og hreyfast í spíral. Við getum annað hvort snúist upp eða niður í spíralnum. Það tekur sömu orku að að fara upp og niður. Hvaða átt velur þú? Á þessu námskeiði munum við skoða hvernig þú getur búið til daglega iðkun sem styður þig í að færast upp spíralinn., hvað er að standa í vegi fyrir þér og hvernig yfirstíga skal það.",
-    "about2":"Í skapandi greinum er oft mikil áhersla á meðfædda hæfileika. En í raun skipta hæfileikar alls ekki eins miklu máli og trúað er. Það eru einstaklingarnir sem mæta, gera og halda áfram sem ná oftast lengst á sínu sviði. Það skiptir því í raun minnsta máli hversu hæfileikaríkur þú ert! Það skiptir máli er að hætta að standa í vegi fyrir sjálfum sér eða leyfa kvíða að stjórna ferðinni. Á vinnustofunni munum við rannsaka frestunaráráttu, sjálfstraust, kaos vs skipulag, ótta við álit annarra, óttan við að vera sýnilegur og taka pláss og vinna í að losa um stíflur sem standa í vegi fyrir þér. Þú lærir ólíkar hugleiðslutæknir, áhrifaríka djúpöndun, skrifandi flæði, leiðir til sjálfsskoðunar, praktíska stjörnuspeki, ýmislegt um orkustöðvar og orkuskipti, að setja mörk, alls kyns rituala og að búa til skýra og stóra framtíðarsýn.",
+    "about1":"Tvíeykið Rvk ritual mun kenna þriggja daga workshop þar sem kennd eru tól til daglegrar iðkunar og rituala sem styðja við hvaða skapandi grein sem er.",
+    "about2":"Í skapandi greinum er oft mikil áhersla á meðfædda hæfileika. En í raun skipta hæfileikar alls ekki eins miklu máli og trúað er.",
     "aboutteacher1":"Eva Dögg Rúnarsdóttir er menntaður fatahönnuður frá Teko og jógakennari. Hún var um tíma yfirhönnuður hjá Samso & Samso, hefur unnið lengi fyrir mismunandi dönsk merki og er frumkvöðull af guðs náð.",
     "aboutteacher2":" Dagný Berglind Gísladóttir, er menntuð í skapandi skrifum og útgáfu. Hún er fyrrum framkvæmdastjóri Gló og ritstýra Í boði náttúrunnar en starfar nú sem skapandi ráðgjafi og hugleiðslu & djúpöndunar kennari."
   },
@@ -170,7 +170,7 @@
     "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
     "para1":"Ár hvert veljum við þema, í ár er það Atferli, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
     "para2":"Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
-    "tba":"LungA LAB verður í fríi þetta árið, sjáumst 2022",
+    "tba":"Sjáumst í ár!",
     "sponsors":"LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
   },
 
@@ -178,14 +178,14 @@
 
   "youthexchange": {
     "firstline":"Frá árinu 2006 hefur LungA skipulagt ungmennaskipti á Seyðisfirði í samstarfi við Erasmus+.",
-    "para1":"Af sökum Covid-19 sjáum við okkur ekki fært að bjóða upp á hefðbundið ungmennaskiptiverkefni en stefnum á að koma sterk inn á næsta ári.",
+    "para1":"Ungmennaskiptin fara fram í ár í fyrsta skipti síðan 2019. Fylgist með hér er við bætum inn upplýsingum um þema og eðli verkefnisins í ár",
     "para2":"Undanfarin ár hafa  eftirtaldir skólar sent nemendur sína í ungmennaskiptiverkefni LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
     "para3": "Ungmennaskiptin eru mikil sjálfsskoðun og í þeim fær hver þátttakandi einstakt tækifæri til að líta inn á við og að kynnast sýnum styrk- og veikleikum og öðlast hugrekki til að takast á við áskoranir."
   },
 
   "concerts": {
-    "header": "Upplýsingar um næstu tónleika LungA birtast hér í maí 2022.",
-    "info1":"En hér fyrir neðan eru listamennirnir sem spiluðu 2021!",
+    "header": "Hér að neðan eru fyrstu 6 tónlistaratriði sem kynnt hafa verið fyrir LungA 2022!",
+    "info1":"Fylgist með fleiri tilkynningum hér!",
     "info2":"Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
     "ticket":"Kaupa miða"
 
@@ -193,7 +193,7 @@
 
   "eventindex":{
     "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-    "tba":"Viðburðir bætast hér við uppúr maí 2022"
+    "tba":"Á meðan við vinnum hörðum höndum að viðburðum sumarsins, þá getið þið skoðað viðburðina frá 2021."
   },
   "frontpage": {
     "date": "júlí 2022",

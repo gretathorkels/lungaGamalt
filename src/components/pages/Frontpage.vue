@@ -1,18 +1,21 @@
 <template>
   <div class="frontpage">
     <Header v-bind:menu="'nomenu'" />
-
     <div class="logo-container">
       <img src="../../assets/lunga-noyear.svg" />
     </div>
+    <div class="logo-container">
+      <img src="../../assets/lungabanner.png" />
+    </div>
+
 
       <!--<div class="headline">
           {{$t("frontpage.date")}} →Hér er LungA!←
       </div>-->
 
-      <div class="headline">
+      <!--<div class="headline">
           <p><router-link class="nav-link link-container" to="/shop">{{$t("frontpage.book")}}</router-link></p>
-      </div>
+      </div>-->
 
    <div class="navigation"  >
        <div class="skew-container link-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}">

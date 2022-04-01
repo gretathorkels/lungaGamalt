@@ -9,32 +9,32 @@
       </div>
     </div>
     <div class="img-container">
-                 <img class="img-child" src="../../assets/tumblr/2021-1.jpg">
+                 <img class="img-child" src="../../assets/tumblr/2021-4.jpg">
              </div>
-<!--
-    <div class="flex-grid">
-      <div class="col">
-        <div class="text">{{$t("workshops.weekinfo")}}</div>
-      </div>
 
-      <div class="col">
-        <div class="text">{{$t("workshops.onlineinfo")}}</div>
-      </div>
+    <!--- <div class="flex-grid">
+       <div class="col">
+         <div class="text">{{$t("workshops.weekinfo")}}</div>
+       </div>
 
-      <div class="col">
-        <div class="text">{{$t("workshops.childreninfo")}}</div>
-      </div>
+       <div class="col">
+         <div class="text">{{$t("workshops.onlineinfo")}}</div>
+       </div>
 
-    </div>
+       <div class="col">
+         <div class="text">{{$t("workshops.childreninfo")}}</div>
+       </div>
 
-    <div class="sub-header">
-        <a class="nav-link" href="https://podio.com/webforms/26303914/1984824" target="_blank">
-            {{$t("workshops.applyhere")}}
-        </a>
-    </div>
+     </div>--->
+
+     <!---<div class="sub-header">
+         <a class="nav-link" href="https://podio.com/webforms/26303914/1984824" target="_blank">
+             {{$t("workshops.applyhere")}}
+         </a>
+     </div> --->
 
 
---->
+
 
 <!--- WORKSHOPS
 
