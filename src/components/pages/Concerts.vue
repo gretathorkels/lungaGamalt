@@ -36,70 +36,70 @@
         <th>Artist</th><!--1-->
         <th>Place</th><!-- 2 -->
       </tr>
-      <template v-for="artist in artists">
+      <template v-for="concert in concerts">
         <tr
-            v-bind:key="artist.id"
-            @click="toggle(artist.id)"
-            :class="{ opened: opened.includes(artist.id) }"
+            v-bind:key="concert.attributes.name"
+            @click="toggle(concert.attributes.id)"
+            :class="{ opened: opened.includes(concert.attributes.id) }"
         >
 
-          <td class="border-bottom name">{{ artist.name }}</td><!--1-->
+          <td class="border-bottom name">{{ concert.attributes.name }}</td><!--1-->
 
-          <td class="border-bottom Width">{{ artist.time }}</td> <!--2 -->
+          <td class="border-bottom Width">{{ concert.attributes.time }}</td> <!--2 -->
 
         </tr>
         <tr
             class="border"
-            v-if="opened.includes(artist.id)"
-            v-bind:key="artist.id2"
+            v-if="opened.includes(concert.attributes.id)"
+            v-bind:key="concert.attributes.id2"
         >
           <td class="border-top" colspan="1">
-            {{ artist.descr1 }} <br/>
+            {{ concert.attributes.descr1 }} <br/>
             <br/>
-            {{ artist.descr2 }} <br/>
+            {{ concert.attributes.descr2 }} <br/>
             <br/>
-            {{ artist.descr3 }}
+            {{ concert.attributes.descr3 }}
           </td>
           <td class="border-top" colspan="1">
-            <img :src="artist.img"/>
+            <img :src="concert.attributes.img"/>
             <div class="grid-container">
-              <div v-if="artist.links.soundcloud">
+              <div v-if="!!concert.attributes.soundcloud">
                 <a
                     class="nav-link"
-                    :href="artist.links.soundcloud"
+                    :href="concert.attributes.soundcloud"
                     target="_blank"
                 >Soundcloud</a
                 >
               </div>
-              <div v-if="artist.links.spotify">
-                <a class="nav-link" :href="artist.links.spotify" target="_blank"
+              <div v-if="!!concert.attributes.spotify">
+                <a class="nav-link" :href="concert.attributes.spotify" target="_blank"
                 >Spotify</a
                 >
               </div>
-              <div v-if="artist.links.instagram">
+              <div v-if="!!concert.attributes.instagram">
                 <a
                     class="nav-link"
-                    :href="artist.links.instagram"
+                    :href="concert.attributes.instagram"
                     target="_blank"
                 >Instagram</a
                 >
               </div>
-              <div v-if="artist.links.youtube">
-                <a class="nav-link" :href="artist.links.youtube" target="_blank"
+              <div v-if="!!concert.attributes.youtube">
+                <a class="nav-link" :href="concert.attributes.youtube" target="_blank"
                 >Youtube</a
                 >
               </div>
 
-              <div v-if="artist.links.facebook">
+              <div v-if="!!concert.attributes.facebook">
                 <a
                     class="nav-link"
-                    :href="artist.links.facebook"
+                    :href="concert.attributes.facebook"
                     target="_blank"
                 >Facebook</a
                 >
               </div>
-              <div v-if="artist.links.website">
-                <a class="nav-link" :href="artist.links.website" target="_blank"
+              <div v-if="!!concert.attributes.website">
+                <a class="nav-link" :href="concert.attributes.website" target="_blank"
                 >Website</a
                 >
               </div>
@@ -109,9 +109,6 @@
       </template>
     </table>
 <br><br>
-
-
-
     <div class="center sub-header nav-link">
       <a
           class="nav-link"
@@ -138,7 +135,22 @@ export default {
   name: "Concerts",
   components: {Header, Headline, Footer},
   data() {
+    let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/concerts/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
+     
+    const imports = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
     return {
+      prefix: "concerts",
+      concerts: imports,
+      //HENDA
       title: "title.concerts",
       opened: [],
       artists: [
