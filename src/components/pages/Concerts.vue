@@ -298,7 +298,32 @@ export default {
         this.opened.push(id);
       }
     },
+    getContent(){
+      let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/concerts/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
+     
+    this.concerts = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
+    }
   },
+  watch: {
+    '$i18n.locale': {
+      
+      handler() {
+        this.getContent();
+      }
+    }
+  },
+  mounted(){
+    this.getContent();
+  }
 };
 </script>
 

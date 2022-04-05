@@ -94,6 +94,33 @@ export default {
       workshops: imports
 
     };
+  },
+  methods: {
+    getWorkshops(){
+      let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/workshops/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/workshops/en", true, /\.md$/);
+     
+    this.workshops = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
+    }
+  },
+  watch: {
+    '$i18n.locale': {
+      
+      handler() {
+        this.getWorkshops();
+      }
+    }
+  },
+  mounted(){
+    this.getWorkshops();
   }
 };
 </script>
