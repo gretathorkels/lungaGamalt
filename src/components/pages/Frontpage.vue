@@ -2,12 +2,8 @@
   <div class="frontpage">
     <Header v-bind:menu="'nomenu'" />
     <div class="logo-container">
-      <img src="../../assets/lunga-noyear.svg" />
+      <img src="../../assets/22-banner.png" />
     </div>
-    <div class="logo-container">
-      <img src="../../assets/lungabanner.png" />
-    </div>
-
 
       <!--<div class="headline">
           {{$t("frontpage.date")}} →Hér er LungA!←
@@ -207,7 +203,7 @@ export default {
   border-bottom: #000 2px solid;
 }
 .logo-container > img {
-  max-width: 70%;
+  max-width: 90%;
 }
 .logo-container {
   text-align: center;

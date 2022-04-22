@@ -8,7 +8,6 @@
      </div> -->
 
 
-
     <div class="footer-container">
       <div class="sub-text">
         {{ $t("concerts.header") }}
@@ -19,7 +18,7 @@
 
     </div>
 
- <div class="center sub-header nav-link">
+    <div class="center sub-header nav-link">
       <a
           class="nav-link"
           href="https://tix.is/is/event/13027/"
@@ -108,7 +107,7 @@
         </tr>
       </template>
     </table>
-<br><br>
+    <br><br>
     <div class="center sub-header nav-link">
       <a
           class="nav-link"
@@ -136,15 +135,14 @@ export default {
   components: {Header, Headline, Footer},
   data() {
     let resolve
-    if(this.$i18n.locale == 'isl'){
+    if (this.$i18n.locale == 'isl') {
       resolve = require.context("../../../content/concerts/isl", true, /\.md$/);
-    }
-    else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
-     
+    } else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
+
     const imports = resolve.keys().map(key => {
       // const [, name] = key.match(/\/(.+)\.md$/);
       // console.log(name)
-     
+
       return resolve(key);
     })
     return {
@@ -153,140 +151,7 @@ export default {
       //HENDA
       title: "title.concerts",
       opened: [],
-      artists: [
-        {
-          id: 1,
-          id2: "1b",
-          date: "  ",
-          name: "Skatebård",
-          stage: "TBA",
-          time: "TBA",
-          descr1:
-              "Skatebård, the Norwegian producer of all things electronic. Connoisseurs know that his catalogue oscillates between emotional techno, neo-italo, electro from an alternative future and a Scando-cosmic reinterpretation of pure Detroitian house. Skatebård releases on labels like Digitalo Enterprises, Radius Records, Supersoul Recordings, Tellè Records, Keys of Life Finland, Luna Flicks, Totally and Sex Tags Mania. ",
-          descr2:
-              " ",
-          descr3:
-              " ",
-          img: require("../../assets/artists/skatebard.png"),
-          links: {
-            // spotify: " ",
-            // facebook: " ",
-            // instagram: " ",
-            // website: " "
-            // youtube: " ",
-          },
-        },
 
-        {
-          id: 2,
-          id2: "2b",
-          date: " ",
-          name: "Bríet",
-          stage: "TBA",
-          time: "TBA",
-          img: require("../../assets/artists/briet.png"),
-          descr1: "Bríet is an award-winning Icelandic singer known for her songs ‘Esjan’, ‘Feimin(n)’ and ‘Rólegur kúreki’.  She is a multi-instrumentalist who writes and performs her own songs but also loves to collaborate with others. Most of her work is done with her longtime musical partner, writer and producer, Pálmi Ragnar Ásgeirsson. Her album ‘Kveðja, Bríet’ was selected as album of the year at the 2021 Icelandic Music Awards. That year she also won singer of the year and lyricist of the year.",
-          descr2:
-              " ",
-          descr3: "  ",
-          links: {
-            // spotify: " ",
-            // facebook: " ",
-            // instagram: " ",
-            // website: " "
-            // youtube: " ",
-          },
-        },
-
-        {
-          id: 3,
-          id2: "3b",
-          date: " ",
-          name: "Birnir",
-          stage: "TBA",
-          time: "TBA",
-          img: require("../../assets/artists/birnir.png"),
-          descr1:
-              "Birnir has been one of Iceland's most popular rappers since his debut in 2017. Last year he released the critically acclaimed album Bushido which cemented his spot as both the top dog of Icelandic rap and a pop icon. Birnir's catalogue is diverse and Lunga guests can expect a high energy epic performance. ",
-          descr2:
-              " ",
-          descr3: "  ",
-          links: {
-            // spotify: " ",
-            // facebook: " ",
-            // instagram: " ",
-            // website: " "
-            // youtube: " ",,
-          },
-        },
-
-        {
-          id: 4,
-          id2: "4b",
-          date: " ",
-          name: "russian.girls",
-          stage: "TBA",
-          time: "TBA",
-          descr1:
-              "russian.girls started out as a solo project of Guðlaugur Hörðdal Einarsson in 2011, but later became a platform for him and his friends to make music. Today russian.girls is known as a trio, as Tatjana Dís Aldísar and Gylfi Freeland Sigurðsson joined the project in 2016. Together they've released four EP’s, most recently under the Icelandic/German techno label bbb recors. As once described, russian.girls make music that is “entirely their own,“ surprising their listeners with each release. ",
-          descr2:
-              " ",
-          descr3: "  ",
-          img: require("../../assets/artists/russiangirls.png"),
-          links: {
-            // spotify: " ",
-            // facebook: " ",
-            // instagram: " ",
-            // website: " "
-            // youtube: " ",
-          },
-        },
-
-        {
-          id: 5,
-          id2: "5b",
-          date: " ",
-          name: "Cyber",
-          stage: "TBA",
-          time: "TBA",
-          descr1:
-              "Even though originally formed in 2012 as a thrash metal/disco concept, CYBER is now known as the ongoing experimental hip-hop and electronic project of Salka Valsdóttir and Jóhanna Rakel. The band was named after a lipstick that Salka and Jóhanna both found themselves rocking when they became best friends at sixteen. Even though the lipstick is now totally lame the band has flourished. Releasing 5 projects in the last 5 years, CYBER has now established themselves as a leading force of fun and experimental live performances. For their latest album ´VACATION´ CYBER won the Icelandic Music Awards for best hip-hop/rap album.",
-          descr2:
-              " ",
-          descr3: "  ",
-          img: require("../../assets/artists/cyber.png"),
-          links: {
-            // spotify: " ",
-            // facebook: " ",
-            // instagram: " ",
-            // website: " "
-            // youtube: " ",
-          },
-        },
-        {
-          id: 6,
-          id2: "6b",
-          date: " ",
-          name: "gugusar",
-          stage: "TBA",
-          time: "TBA",
-          descr1:
-              "gugusar is an eighteen year old singer, producer and a songwriter from Reykjavík, Iceland. She started producing her own music only at fourteen years old and has been doing since",
-          descr2:
-              " ",
-          descr3:
-              "",
-          img: require("../../assets/artists/gugusar2.png"),
-          links: {
-            // spotify: " ",
-            // facebook: " ",
-            // instagram: " ",
-            // website: " "
-            // youtube: " ",
-          },
-        },
-
-      ],
     };
   },
   methods: {
@@ -298,30 +163,29 @@ export default {
         this.opened.push(id);
       }
     },
-    getContent(){
+    getContent() {
       let resolve
-    if(this.$i18n.locale == 'isl'){
-      resolve = require.context("../../../content/concerts/isl", true, /\.md$/);
-    }
-    else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
-     
-    this.concerts = resolve.keys().map(key => {
-      // const [, name] = key.match(/\/(.+)\.md$/);
-      // console.log(name)
-     
-      return resolve(key);
-    })
+      if (this.$i18n.locale == 'isl') {
+        resolve = require.context("../../../content/concerts/isl", true, /\.md$/);
+      } else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
+
+      this.concerts = resolve.keys().map(key => {
+        // const [, name] = key.match(/\/(.+)\.md$/);
+        // console.log(name)
+
+        return resolve(key);
+      })
     }
   },
   watch: {
     '$i18n.locale': {
-      
+
       handler() {
         this.getContent();
       }
     }
   },
-  mounted(){
+  mounted() {
     this.getContent();
   }
 };
@@ -342,18 +206,23 @@ export default {
 @media (max-width: 800px) {
   .flex-grid {
     display: block;
+
   .col {
     width: 100%;
     margin: 10px;
   }
 }
-
 }
 .grid-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  /* margin-top: 20px; */
+}
+
+.Width {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .border-top {
@@ -363,41 +232,30 @@ export default {
 .grid-container,
 tr {
   vertical-align: top;
-  /* padding-top: 20px; */
+  padding:5px;
+}
+tr {
+  cursor: pointer;
+}
+td.border-bottom.name:hover {color: #a3ffa3}
+td.border-top {
+  cursor: auto;
 }
 
-.grid-container,
-tr,
-td {
-  padding-top: 10px;
-}
-
-.grid-container.nav-link {
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.Width {
-  width: 69rem;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: left;
-}
 
 img {
   width: 67rem;
 }
 
-.head-container {
-  display: flex;
-}
 
 .name {
   font-size: 36px;
   font-weight: 600;
   text-align: center;
 }
-
+.nav-link:hover{
+  color: #a3ffa3;
+}
 
 th {
   font-size: 24px;
@@ -423,24 +281,24 @@ td.border-bottom {
   padding-top: 10px;
 }
 
-tr:hover {
-  color: #00FF38;
-}
 
 .center {
   text-align: center;
 }
 
-.center a:hover{
+.center a:hover {
   color: #00FF38;
 }
-.center a:visited{
+
+.center a:visited {
   color: #000000;
 }
+
 .sub-header {
   text-align: center;
   padding: 20px;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -454,25 +312,11 @@ tr:hover {
   margin-left: 40px;
   width: 80%;
   text-align: left;
-  color: #000000;
   padding: 20px;
   line-height: 105%;
 }
 
-.sub-header {
-  text-align: center;
-  padding: 20px;
-}
 
-.table {
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
-  padding: 15px 0 15px 0;
-  color: #000000;
-}
 
 .text {
   font-style: normal;

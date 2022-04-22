@@ -1,5 +1,5 @@
 ---
-name: Skatebård1
+name: Skatebård
 id: 1
 id2: 1b
 stage: TBA
@@ -8,10 +8,7 @@ descr1: Skatebård, the Norwegian producer of all things electronic. Connoisseur
 descr2:
 descr3:
 img: /images/concert/skatebard.png
-facebook:  www.spotify.com
-instagram:  www.spotify.com
-website:  www.spotify.com
-youtube:  www.spotify.com
-spotify:  www.spotify.com
-
+instagram:  https://www.instagram.com/skatebard/
+youtube:  https://www.youtube.com/channel/UCosXIBCSNVAxQz6Qn6oUEkw?feature=gws_kp_artist&feature=gws_kp_artist
+spotify:  https://open.spotify.com/artist/54CS7wTXpIfstKRMkHHM9Q?autoplay=true
 ---

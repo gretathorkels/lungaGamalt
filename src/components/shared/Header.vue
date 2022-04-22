@@ -1,35 +1,34 @@
 <template>
+  <div>
+    <div class="header">
+      <Navigation v-bind:menu="menu"/>
+    </div>
 
-<div>
-  <div class="header">
-
-
-
-    <Navigation v-bind:menu="menu"/>
-  </div>
-
-  <div class="language-thing">
-     <div class="language-options pointer-mouse" >
-          <div v-bind:class="{active: this.$i18n.locale == 'isl'}" @click="changeLang('isl')" class="checkbox"></div>
-            <span class="text"  @click="changeLang('isl')">Íslenska</span>
-            <div v-bind:class="{ active: this.$i18n.locale == 'en' }" @click="changeLang('en')" class="checkbox" ></div>
-            <span class="text" @click="changeLang('en')">English</span>
+    <div class="language-thing">
+      <div class="language-options pointer-mouse">
+        <div v-bind:class="{active: this.$i18n.locale == 'isl'}" @click="changeLang('isl')" class="checkbox"></div>
+        <span class="text" @click="changeLang('isl')">Íslenska</span>
+        <div v-bind:class="{ active: this.$i18n.locale == 'en' }" @click="changeLang('en')" class="checkbox"></div>
+        <span class="text" @click="changeLang('en')">English</span>
       </div>
-  </div>
+
+
+    </div>
   </div>
 </template>
 
 <script>
 import Navigation from './Navigation.vue';
+
 export default {
   name: "Header",
   components: {Navigation},
   props: {
-      //isActive: Array,
-      menu: String
+    //isActive: Array,
+    menu: String
   },
   methods: {
-    changeLang(lang){
+    changeLang(lang) {
       this.$i18n.locale = lang
     }
 
@@ -39,9 +38,10 @@ export default {
 </script>
 <style>
 
-.text{
+.text {
   font-size: 1em;
 }
+
 .header {
   width: 100%;
   display: flex;
@@ -49,7 +49,7 @@ export default {
   position: fixed;
   margin-top: -30px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   z-index: 999;
 }
 
@@ -62,6 +62,7 @@ export default {
   z-index: 999;
 
 }
+
 .nav-menu {
   font-size: 30px;
   font-weight: 600;
@@ -75,6 +76,7 @@ export default {
   background-color: black;
   color: white;
 }
+
 .checkbox {
   margin: 0 4px 0 15px;
   border: 2px solid #000000;
@@ -82,9 +84,11 @@ export default {
   width: 1.25em;
   height: 1.25em;
 }
+
 .active {
   background: #00FF38;
 }
+
 .language-options {
   display: flex;
   background-color: white;
@@ -93,14 +97,15 @@ export default {
   font-size: 16px;
 
 
-
 }
+
 @media (max-width: 909px) {
-            .language-options {
-            font-size: 20px;
-            }
-            .header{
-              margin-top: -40px;
-            }
-    }
+  .language-options {
+    font-size: 20px;
+  }
+
+  .header {
+    margin-top: -40px;
+  }
+}
 </style>

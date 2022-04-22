@@ -4,8 +4,6 @@
     <div v-if="menu === 'menu'" class="nav-menu" @click="toggle()">{{ $t(title )}}</div>
 
     <div class="navigation-container" :class="{hidden: this.menuActive}" @click.prevent="toggle">
-
-
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/">{{ $t('links.home') }}</router-link>
