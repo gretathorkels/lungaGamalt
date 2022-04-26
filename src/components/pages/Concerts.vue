@@ -8,32 +8,13 @@
      </div> -->
 
 
-    <div class="footer-container">
-      <div class="sub-text">
-        {{ $t("concerts.header") }}
-      </div>
-      <div class="text">
-        {{ $t("concerts.info1") }}
-      </div>
-
-    </div>
-
-    <div class="center sub-header nav-link">
-      <a
-          class="nav-link"
-          href="https://tix.is/is/event/13027/"
-          target="_blank"
-      >
-        {{ $t("concerts.ticket") }}
-      </a>
-    </div>
     <table>
       <tr>
         <!-- Breyttir Headurum hér:
               Ef þú villt taka út dálka þá tekuru út þá sem eru samsvarandi, ss date væri nr 1.. etc
            -->
-        <th>Artist</th><!--1-->
-        <th>Place</th><!-- 2 -->
+        <th style="text-align: center"> {{ $t("concerts.artist") }}</th><!--1-->
+        <th style="text-align: center"> {{ $t("concerts.place") }}</th><!-- 2 -->
       </tr>
       <template v-for="concert in concerts">
         <tr
@@ -102,6 +83,14 @@
                 >Website</a
                 >
               </div>
+              <div v-if="!!concert.attributes.mixcloud">
+                <a
+                    class="nav-link"
+                    :href="concert.attributes.mixcloud"
+                    target="_blank"
+                >Mixcloud</a
+                >
+              </div>
             </div>
           </td>
         </tr>
@@ -116,6 +105,15 @@
       >
         {{ $t("concerts.ticket") }}
       </a>
+    </div>
+    <div class="footer-container">
+      <div class="sub-text">
+        {{ $t("concerts.header") }}
+      </div>
+      <div class="text">
+        {{ $t("concerts.info1") }}
+      </div>
+
     </div>
 
     <div class="img-container">

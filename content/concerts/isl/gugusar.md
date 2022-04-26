@@ -1,7 +1,7 @@
 ---
 name: Gugusar
-id: 6
-id2: 6b
+id: 91
+id2: 91b
 stage: TBA
 time: TBA
 descr1: gugusar er átján ára gömul tónlistarkona sem semur alla sína tónlist sjálf í stúdíóinu sínu. Hún byrjaði að pródúsera sína eigin tónlist þegar hún var einungis fjórtán ára og hefur gert það síðan.

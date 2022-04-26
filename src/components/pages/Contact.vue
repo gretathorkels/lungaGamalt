@@ -35,6 +35,13 @@
       </tr>
       <tr>
         <td>{{ $t('roles.volunteers') }}</td>
+        <td>Unnur Birna  J. Backmann</td>
+        <td>unnur@lunga.is</td>
+        <td> </td>
+      </tr>
+
+      <tr>
+        <td>{{ $t('roles.creativeproductionfamilyfestival') }}</td>
         <td>Lama-sea Dear</td>
         <td>lama@lunga.is</td>
         <td>(+354) 7848746</td>
@@ -69,8 +76,15 @@
         <td>Ýmir Gíslason</td>
         <td>ymir@lunga.is</td>
         <td></td>
-      </tr> 
-       <tr>
+      </tr>
+
+      <tr>
+        <td>{{ $t('roles.photographer') }}</td>
+        <td>Melkorka Embla Hjartardóttir</td>
+        <td> </td>
+        <td></td>
+      </tr>
+      <tr>
         <td>{{ $t('roles.graphics') }}</td>
         <td>Gréta Þorkelsdóttir</td>
         <td>greta@lunga.is</td>

@@ -51,6 +51,7 @@ export default {
 body {
   margin-top: 50px;
   margin-left: 0;
+  background-color: #F6FFF7;
   margin-right: 0;
 }
 .divider {
@@ -79,7 +80,7 @@ body {
   font-size: 48px;
 }
 ::selection {
-  color: #fff;
+  color: #F6FFF7;
   background: #000;
   opacity: 1;
 }
@@ -92,7 +93,7 @@ a:link,
   text-align: left;
 }
 .link-container:hover {
-  color: #fff !important;
+  color:#F6FFF7 !important;
   background: #000 !important;
 }
 .text-container {

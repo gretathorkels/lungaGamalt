@@ -8,18 +8,18 @@
 
     </div>
 
-
+<!---
 
     <div class="eventindex-container">
       <table v-if="ready">
         <tr>
-          <!-- Breyttir Headurum hér:
+          Breyttir Headurum hér:
               Ef þú villt taka út dálka þá tekuru út þá sem eru samsvarandi, ss date væri nr 1, stage nr. 3 etc
-           -->
-          <th>Dagur</th> <!-- 1 -->
-          <th>Klukkan</th>    <!-- 2 -->
-          <th>Hvað</th> <!-- 3 -->
-          <th>Hvar</th> <!-- 4 -->
+
+          <th>Dagur</th>
+          <th>Klukkan</th>
+          <th>Hvað</th>
+          <th>Hvar</th>
         </tr>
         <template v-for="event in eventlist">
           <tr
@@ -27,10 +27,10 @@
               @click="toggle(event.attributes.id)"
               :class="{ opened: opened.includes(event.attributes.id) }"
           >
-            <td class="border-bottom normal">{{ event.attributes.date }}</td><!-- 1 -->
-            <td class="border-bottom normal">{{ event.attributes.time }}</td><!-- 4 -->
-            <td class="border-bottom name">{{ event.attributes.name }}</td>  <!-- 2 -->
-            <td class="border-bottom normal">{{ event.attributes.stage }}</td><!-- 3 -->
+            <td class="border-bottom normal">{{ event.attributes.date }}</td>
+            <td class="border-bottom normal">{{ event.attributes.time }}</td>
+            <td class="border-bottom name">{{ event.attributes.name }}</td>
+            <td class="border-bottom normal">{{ event.attributes.stage }}</td>
           </tr>
           <tr
               class="border"
@@ -50,7 +50,7 @@
 
               <img :src="event.attributes.img"/>
 
-              <!-- Uncomment ef þú villt social media hlekki! Annars, taktu þetta út  -->
+               Uncomment ef þú villt social media hlekki! Annars, taktu þetta út
               <div class="grid-container">
                 <div v-if="event.attributes.soundcloud">
                   <a class="nav-link" :href="event.attributes.soundcloud" target="_blank">Soundcloud</a>
@@ -77,7 +77,7 @@
           </tr>
         </template>
       </table>
-    </div>
+    </div>-->
     <br/>
     <div class="footer-container">
       <!--<div class="text">
@@ -586,6 +586,7 @@ export default {
   margin-left: 40px;
   text-align: left;
   color: #000000;
+  line-height: 110%;
 }
 
 th {

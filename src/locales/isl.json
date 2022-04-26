@@ -37,11 +37,13 @@
       "workshops": "Listasmiðjur",
       "production": "Verkstjórn",
       "concerts": "Tónleikar",
-      "volunteers": "Volunteers",
+      "volunteers": "Sjálfboðaliðar og miðasala",
+      "creativeproductionfamilyfestival": "Framleiðsla og fjölskylduhátíð",
       "sponsors": "Styrktaraðilar",
       "socialmedia": "Samfélagsmiðlafulltrúi",
       "pr": "Fjölmiðlafulltrúi",
       "booking": "Bókanir",
+      "photographer": "Ljósmyndari",
       "graphics": "Grafísk hönnun",
       "programming": "Forritun"
     },
@@ -184,16 +186,17 @@
   },
 
   "concerts": {
-    "header": "Hér að neðan eru fyrstu 6 tónlistaratriði sem kynnt hafa verið fyrir LungA 2022!",
+    "header": "",
     "info1":"Fylgist með fleiri tilkynningum hér!",
     "info2":"Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
-    "ticket":"Kaupa miða"
-
+    "ticket":"Kaupa miða",
+    "artist": "Tónlistarmaður",
+    "place": "Staðsetning"
   },
 
   "eventindex":{
     "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-    "tba":"Á meðan við vinnum hörðum höndum að viðburðum sumarsins, þá getið þið skoðað viðburðina frá 2021."
+    "tba":"Bíðið spennt, við erum að vinna í viðburðum sumarsins!"
   },
   "frontpage": {
     "date": "júlí 2022",

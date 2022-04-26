@@ -1,7 +1,7 @@
 ---
 name: russian.girls
-id: 4
-id2: 4b
+id: 93
+id2: 93b
 stage: TBA
 time: TBA
 descr1: Hljómsveitin russian.girls samanstendur af þeim Guðlaugi Hörðdal, Tatjönu Dís og Gylfa Freeland. Tríóið hefur gefið út fjórar plötur og spilað um víðan völl.

@@ -5,9 +5,6 @@
       <img src="../../assets/22-banner.png" />
     </div>
 
-      <!--<div class="headline">
-          {{$t("frontpage.date")}} →Hér er LungA!←
-      </div>-->
 
     <div class="center sub-header">
       <a

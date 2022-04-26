@@ -125,14 +125,14 @@
   max-height: 20px;
 }
 .skew-container>div>a{
-  background-color: #fff;
+  background-color: #F6FFF7;
 }
 .skew-container>div>a>span{
-  background-color: #fff;
+  background-color: #F6FFF7;
 }
 .skew-container>div>a>span:hover{
   background-color: #000;
-  color: white;
+  background-color: #F6FFF7;
 }
 .skew-container {
   border-top: 2px solid #000;
@@ -159,7 +159,7 @@
   margin-left: 70%;
   width: fit-content;
   align-self: flex-end;
-  background-color: white;
+  background-color: #F6FFF7;
 }
 
 .navigation-container{

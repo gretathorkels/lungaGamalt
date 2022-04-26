@@ -48,7 +48,6 @@ export default {
   justify-content: space-between;
   position: fixed;
   margin-top: -30px;
-  display: flex;
   flex-direction: column;
   z-index: 999;
 }
@@ -58,7 +57,6 @@ export default {
   justify-content: space-between;
   position: fixed;
   margin-top: -30px;
-  display: flex;
   z-index: 999;
 
 }
@@ -66,7 +64,7 @@ export default {
 .nav-menu {
   font-size: 30px;
   font-weight: 600;
-  background-color: white;
+  background-color: #F6FFF7;
   text-align: right;
 }
 
@@ -74,7 +72,8 @@ export default {
   font-size: 30px;
   font-weight: 600;
   background-color: black;
-  color: white;
+  color: #F6FFF7;
+
 }
 
 .checkbox {
@@ -91,7 +90,7 @@ export default {
 
 .language-options {
   display: flex;
-  background-color: white;
+  background-color: #F6FFF7;
   font-weight: 600;
   max-height: 20px;
   font-size: 16px;
