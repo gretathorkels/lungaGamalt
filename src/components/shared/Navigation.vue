@@ -4,8 +4,6 @@
     <div v-if="menu === 'menu'" class="nav-menu" @click="toggle()">{{ $t(title )}}</div>
 
     <div class="navigation-container" :class="{hidden: this.menuActive}" @click.prevent="toggle">
-
-
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/">{{ $t('links.home') }}</router-link>
@@ -127,14 +125,14 @@
   max-height: 20px;
 }
 .skew-container>div>a{
-  background-color: #fff;
+  background-color: #F6FFF7;
 }
 .skew-container>div>a>span{
-  background-color: #fff;
+  background-color: #F6FFF7;
 }
 .skew-container>div>a>span:hover{
   background-color: #000;
-  color: white;
+  background-color: #F6FFF7;
 }
 .skew-container {
   border-top: 2px solid #000;
@@ -161,7 +159,7 @@
   margin-left: 70%;
   width: fit-content;
   align-self: flex-end;
-  background-color: white;
+  background-color: #F6FFF7;
 }
 
 .navigation-container{

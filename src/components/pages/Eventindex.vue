@@ -8,67 +8,67 @@
 
     </div>
 
-
+<!---
 
     <div class="eventindex-container">
       <table v-if="ready">
         <tr>
-          <!-- Breyttir Headurum hér:
+          Breyttir Headurum hér:
               Ef þú villt taka út dálka þá tekuru út þá sem eru samsvarandi, ss date væri nr 1, stage nr. 3 etc
-           -->
-          <th>Dagur</th> <!-- 1 -->
-          <th>Klukkan</th>    <!-- 2 -->
-          <th>Hvað</th> <!-- 3 -->
-          <th>Hvar</th> <!-- 4 -->
+
+          <th>Dagur</th>
+          <th>Klukkan</th>
+          <th>Hvað</th>
+          <th>Hvar</th>
         </tr>
-        <template v-for="event in events">
+        <template v-for="event in eventlist">
           <tr
-              v-bind:key="event.id"
-              @click="toggle(event.id)"
-              :class="{ opened: opened.includes(event.id) }"
+              v-bind:key="event.attributes.id"
+              @click="toggle(event.attributes.id)"
+              :class="{ opened: opened.includes(event.attributes.id) }"
           >
-            <td class="border-bottom normal">{{ event.date }}</td><!-- 1 -->
-            <td class="border-bottom normal">{{ event.time }}</td><!-- 4 -->
-            <td class="border-bottom name">{{ event.name }}</td>  <!-- 2 -->
-            <td class="border-bottom normal">{{ event.stage }}</td><!-- 3 -->
+            <td class="border-bottom normal">{{ event.attributes.date }}</td>
+            <td class="border-bottom normal">{{ event.attributes.time }}</td>
+            <td class="border-bottom name">{{ event.attributes.name }}</td>
+            <td class="border-bottom normal">{{ event.attributes.stage }}</td>
           </tr>
           <tr
               class="border"
-              v-if="opened.includes(event.id)"
-              v-bind:key="event.id2"
+              v-if="opened.includes(event.attributes.id)"
+              v-bind:key="event.attributes.id2"
           >
             <td class="border-top" colspan="2">
-              {{ event.descr1 }} <br/>
+              {{ event.attributes.descr1 }} <br/>
               <br/>
-              {{ event.descr2 }} <br/>
+              {{ event.attributes.descr2 }} <br/>
               <br/>
-              {{ event.descr3 }}
+              {{ event.attributes.descr3 }}
             </td>
 
 
             <td class="border-top" colspan="2">
 
-              <img :src="event.img"/>
+              <img :src="event.attributes.img"/>
 
-              <!-- Uncomment ef þú villt social media hlekki! Annars, taktu þetta út  -->
+               Uncomment ef þú villt social media hlekki! Annars, taktu þetta út
               <div class="grid-container">
-                <div v-if="event.links.soundcloud">
-                  <a class="nav-link" :href="event.links.soundcloud" target="_blank">Soundcloud</a>
+                <div v-if="event.attributes.soundcloud">
+                  <a class="nav-link" :href="event.attributes.soundcloud" target="_blank">Soundcloud</a>
                 </div>
-                <div v-if="event.links.spotify">
-                  <a class="nav-link" :href="event.links.spotify" target="_blank">Spotify</a>
+                <div v-if="event.attributes.spotify">
+                  <a class="nav-link" :href="event.attributes.spotify" target="_blank">Spotify</a>
                 </div>
-                <div v-if="event.links.instagram">
-                  <a class="nav-link" :href="event.links.instagram" target="_blank">Instagram</a>
+                <div v-if="event.attributes.instagram">
+                  <a class="nav-link" :href="event.attributes.instagram" target="_blank">Instagram</a>
                 </div>
-                <div v-if="event.links.youtube">
-                  <a class="nav-link" :href="event.links.youtube" target="_blank">Youtube</a>
+                <div v-if="event.attributes.youtube">
+                  <a class="nav-link" :href="event.attributes.youtube" target="_blank">Youtube</a>
                 </div>
-                <div v-if="event.links.facebook">
-                  <a class="nav-link" :href="event.links.facebook" target="_blank">Facebook</a>
+                <div v-if="event.attributes.facebook">
+                  <a class="nav-link" :href="event.attributes.facebook" target="_blank">Facebook</a>
                 </div>
-                <div v-if="event.links.website">
-                  <a class="nav-link" :href="event.links.website" target="_blank">Website</a>
+                <div v-if="event.attributes.website">
+                  <a class="nav-link" :href="event.attributes.website" target="_blank">Website</a>
                 </div>
               </div>
             </td>
@@ -77,7 +77,7 @@
           </tr>
         </template>
       </table>
-    </div>
+    </div>-->
     <br/>
     <div class="footer-container">
       <!--<div class="text">
@@ -110,7 +110,22 @@ export default {
     Footer,
   },
   data() {
+    let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/events/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/events/en", true, /\.md$/);
+     
+    const imports = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
     return {
+      prefix: "eventlist",
+      eventlist: imports,
+      //HENDA 
       title: "title.eventindex",
       opened: [],
 
@@ -521,8 +536,35 @@ export default {
       } else {
         this.opened.push(id);
       }
+      
     },
+    getContent(){
+      let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/concerts/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/concerts/en", true, /\.md$/);
+     
+    this.eventlist = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
+    }
   },
+ watch: {
+    '$i18n.locale': {
+      
+      handler() {
+        this.getContent();
+      }
+    }
+  },
+  mounted(){
+    this.getContent();
+  }
+
 };
 </script>
 
@@ -544,6 +586,7 @@ export default {
   margin-left: 40px;
   text-align: left;
   color: #000000;
+  line-height: 110%;
 }
 
 th {

@@ -11,8 +11,13 @@
     <div class="img-container">
                  <img class="img-child" src="../../assets/tumblr/2021-4.jpg">
              </div>
+           <ul>
+            <li v-for="workshop in workshops" :key="workshop.attributes.hofundur">
+            {{workshop.attributes.hofundur}}
+            </li>
+        </ul>
 
-    <!--- <div class="flex-grid">
+    <div class="flex-grid">
        <div class="col">
          <div class="text">{{$t("workshops.weekinfo")}}</div>
        </div>
@@ -25,115 +30,33 @@
          <div class="text">{{$t("workshops.childreninfo")}}</div>
        </div>
 
-     </div>--->
+     </div>
 
-     <!---<div class="sub-header">
+    <div class="sub-header">
          <a class="nav-link" href="https://podio.com/webforms/26303914/1984824" target="_blank">
              {{$t("workshops.applyhere")}}
          </a>
-     </div> --->
-
-
-
-
+     </div> 
 <!--- WORKSHOPS
 
-WORKSHOP 1
+WORKSHOP 1--->
+<div v-for="workshop in workshops" :key="workshop.attributes.hofundur" >
 <div class="seperator"></div>
     <div class="flex-grid">
-      <div class="col"><div class="workshop-title">{{$t("workshop1.title")}}</div></div>
-    <div class="col"><div class="workshop-about">{{$t("workshop1.teacher1")}}<br>{{$t("workshop1.teacher2")}}</div></div>
-      <div class="col"><div class="workshop-about">{{$t("workshop1.type")}}</div></div>
+      <div class="col"><div class="workshop-title">{{workshop.attributes.title}}</div></div>
+    <div class="col"><div class="workshop-about">{{workshop.attributes.teacher1}}<br>{{workshop.attributes.teacher2}}</div></div>
+      <div class="col"><div class="workshop-about">{{workshop.attributes.type}}</div></div>
     </div>
-    <div class="img-container"><img class="img-child" src="../../assets/workshop/beyond1.png"></div>
+    <div class="img-container"><img class="img-child" :src="workshop.attributes.mynd"></div>
 
     <div class="flex-grid">
-      <div class="col"><div class="workshop-about">{{$t("workshop1.about1")}}
+      <div class="col"><div class="workshop-about">{{workshop.attributes.about1}}
       <br><br>
-    {{$t("workshop1.about2")}}</div></div>
-      <div class="col"><div class="workshop-info">{{$t("workshop1.aboutteacher1")}}<br><br>{{$t("workshop1.aboutteacher2")}}</div></div>
+    {{workshop.attributes.about2}}</div></div>
+      <div class="col"><div class="workshop-info">{{workshop.attributes.aboutteacher1}}<br><br>{{workshop.attributes.aboutteacher2}}</div></div>
     </div>
+</div>
 
-
---->
-
-    <!--- WORKSHOP 2
-    <div class="seperator"></div>
-        <div class="flex-grid">
-          <div class="col"><div class="workshop-title">{{$t("workshop2.title")}}</div></div>
-        <div class="col"><div class="workshop-about">{{$t("workshop2.teacher1")}}<br>{{$t("workshop2.teacher2")}}</div></div>
-          <div class="col"><div class="workshop-about">{{$t("workshop2.type")}}</div></div>
-        </div>
-        <div class="img-container"><img class="img-child" src="../../assets/workshop/imaginingsounds.jpg"></div>
-
-        <div class="flex-grid">
-          <div class="col"><div class="workshop-about">{{$t("workshop2.about")}}</div></div>
-          <div class="col"><div class="workshop-info">{{$t("workshop2.aboutteacher1")}}<br><br>{{$t("workshop2.aboutteacher2")}}</div></div>
-        </div>
-        --->
-        <!--- WORKSHOP 3
-        <div class="seperator"></div>
-
-            <div class="flex-grid">
-              <div class="col"><div class="workshop-title">{{$t("workshop3.title")}}</div></div>
-            <div class="col"><div class="workshop-about">{{$t("workshop3.teacher1")}}<br>{{$t("workshop3.teacher2")}}</div></div>
-              <div class="col"><div class="workshop-about">{{$t("workshop3.type")}}</div></div>
-            </div>
-            <div class="img-container"><img class="img-child" src="../../assets/workshop/ruralwaysofpaintandprint.jpeg"></div>
-
-            <div class="flex-grid">
-              <div class="col"><div class="workshop-about">{{$t("workshop3.about")}}</div></div>
-              <div class="col"><div class="workshop-info">{{$t("workshop3.aboutteacher1")}}<br><br>{{$t("workshop3.aboutteacher2")}}</div></div>
-            </div>
---->
-            <!--- WORKSHOP 4
-            <div class="seperator"></div>
-
-                <div class="flex-grid">
-                  <div class="col"><div class="workshop-title">{{$t("workshop4.title")}}</div></div>
-                <div class="col"><div class="workshop-about">{{$t("workshop4.teacher")}}</div></div>
-                  <div class="col"><div class="workshop-about">{{$t("workshop4.type")}}</div></div>
-                </div>
-                <div class="img-container"><img class="img-child" src="../../assets/workshop/newmovement1.png"></div>
-
-                <div class="flex-grid">
-                  <div class="col"><div class="workshop-about">{{$t("workshop4.about")}}</div></div>
-                  <div class="col"><div class="workshop-info">{{$t("workshop4.aboutteacher")}}</div></div>
-                </div>
---->
-                <!--- WORKSHOP 5
-                <div class="seperator"></div>
-
-                    <div class="flex-grid">
-                      <div class="col"><div class="workshop-title">{{$t("workshop5.title")}}</div></div>
-                    <div class="col"><div class="workshop-about">{{$t("workshop5.teacher1")}}<br>{{$t("workshop5.teacher2")}}</div></div>
-                      <div class="col"><div class="workshop-about">{{$t("workshop5.type")}}</div></div>
-                    </div>
-                    <div class="img-container"><img class="img-child" src="../../assets/workshop/danceforcameraandkineticcinema1.jpg"></div>
-
-                    <div class="flex-grid">
-                      <div class="col"><div class="workshop-about">{{$t("workshop5.about")}}</div></div>
-                      <div class="col"><div class="workshop-info">{{$t("workshop5.aboutteacher1")}}<br><br>{{$t("workshop5.aboutteacher2")}}</div></div>
-                    </div>
---->
-
-                                    <!--- WORKSHOP 6
-                                    <div class="seperator"></div>
-
-                                        <div class="flex-grid">
-                                          <div class="col"><div class="workshop-title">{{$t("workshop6.title")}}</div></div>
-                                        <div class="col"><div class="workshop-about">{{$t("workshop6.teacher1")}}<br>{{$t("workshop6.teacher2")}}</div></div>
-                                          <div class="col"><div class="workshop-about">{{$t("workshop6.type")}}</div></div>
-                                        </div>
-                                        <div class="img-container"><img class="img-child" src="../../assets/workshop/lautarferd1.jpg"></div>
-
-                                        <div class="flex-grid">
-                                          <div class="col"><div class="workshop-about">{{$t("workshop6.about1")}}<br>{{$t("workshop6.about2")}}</div></div>
-                                          <div class="col"><div class="workshop-info">{{$t("workshop6.aboutteacher1")}}<br><br>{{$t("workshop6.aboutteacher2")}}</div></div>
-                                        </div>
-                                        <div class="seperator"></div>
-
---->
 
       <Footer />
   </div>
@@ -153,9 +76,51 @@ export default {
   //   msg: String
   // },
   data() {
+    let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/workshops/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/workshops/en", true, /\.md$/);
+     
+    const imports = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
     return {
-      title: "title.workshops"
+      title: "title.workshops",
+      prefix: "workshops",
+      workshops: imports
+
     };
+  },
+  methods: {
+    getWorkshops(){
+      let resolve
+    if(this.$i18n.locale == 'isl'){
+      resolve = require.context("../../../content/workshops/isl", true, /\.md$/);
+    }
+    else resolve = require.context("../../../content/workshops/en", true, /\.md$/);
+     
+    this.workshops = resolve.keys().map(key => {
+      // const [, name] = key.match(/\/(.+)\.md$/);
+      // console.log(name)
+     
+      return resolve(key);
+    })
+    }
+  },
+  watch: {
+    '$i18n.locale': {
+      
+      handler() {
+        this.getWorkshops();
+      }
+    }
+  },
+  mounted(){
+    this.getWorkshops();
   }
 };
 </script>
