@@ -76,13 +76,13 @@
           </div>
       </div>
 
-       <div class="skew-container link-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}">
+       <!--<div class="skew-container link-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}">
            <div>
                <router-link class="nav-link" v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}" to="/applications">
                    {{ $t('links.applications') }}
                </router-link>
            </div>
-       </div>
+       </div>-->
 
        <div class="skew-container link-container" v-bind:class="{ rightalign: this.$i18n.locale=='en'}">
            <div>

@@ -53,11 +53,11 @@
         </div>
       </div>
 
-      <div class="skew-container">
+      <!--<div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/applications">{{ $t('links.applications') }}</router-link>
         </div>
-      </div>
+      </div>-->
 
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
