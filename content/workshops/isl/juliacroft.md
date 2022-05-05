@@ -1,6 +1,6 @@
 ---
-title: Chaos, comedy and materiality
-teacher1: Julie Lænkholm
+title: Kaos, gamanleikur og efnissemi
+teacher1: Julia Croft
 about1: Leikum okkur á mörkum kaos, sælu, viðbjóðs og fegurðar. Búum til fallega ringulreið og sköpum óreiðu.
 about2: Julia Croft mun leiða tilraunakennda vinnusmiðju um efnisleik sem undirstöðu í gjörning. Þessi smiðja er fædd út frá löngun til að verða ástfanginn af óreiðu. Í smiðjunni munum við búa til slím, sýkingu, goo, loft tegundir, föst efni og vökva sem standast stjórn og kanna hvernig þessi breytilegu og villtu efni geta orðið hvatning að gjörning. Með því að byggja upp slíka flæðandi og óreglulega heima sem eru að breytast og umbreytast, getum við leyft þeim að leiða okkur inn í mismunandi víddir? Getum við byggt heima úr efnum? Getum við unnið með efni á hreyfingu?
 about3: Í vikunni munum við reyna að byggja upp þennan nýja heim með því að umbreyta og byggja upp landslag og búa til stutta gjörninga sem leita að kaos, stjórn og breytilegu ástandi.
