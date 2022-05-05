@@ -8,14 +8,7 @@
       {{$t("workshops.firstline")}}
       </div>
     </div>
-    <div class="img-container">
-                 <img class="img-child" src="../../assets/tumblr/2021-4.jpg">
-             </div>
-           <ul>
-            <li v-for="workshop in workshops" :key="workshop.attributes.hofundur">
-            {{workshop.attributes.hofundur}}
-            </li>
-        </ul>
+
 
     <div class="flex-grid">
        <div class="col">
@@ -33,32 +26,66 @@
      </div>
 
     <div class="sub-header">
-         <a class="nav-link" href="https://podio.com/webforms/26303914/1984824" target="_blank">
+         <a class="nav-link" href="https://podio.com/webforms/27465134/2125633" target="_blank">
              {{$t("workshops.applyhere")}}
          </a>
      </div> 
-<!--- WORKSHOPS
 
-WORKSHOP 1--->
+
+
 <div v-for="workshop in workshops" :key="workshop.attributes.hofundur" >
 <div class="seperator"></div>
     <div class="flex-grid">
       <div class="col"><div class="workshop-title">{{workshop.attributes.title}}</div></div>
-    <div class="col"><div class="workshop-about">{{workshop.attributes.teacher1}}<br>{{workshop.attributes.teacher2}}</div></div>
-      <div class="col"><div class="workshop-about">{{workshop.attributes.type}}</div></div>
+    <div class="col"><div class="workshop-about2">{{workshop.attributes.teacher1}}<br>{{workshop.attributes.teacher2}}<br>{{workshop.attributes.teacher3}}</div></div>
+      <div class="col"><div class="workshop-about2">
+        <div v-if="!!workshop.attributes.applyhere">
+          <a
+              class="nav-link"
+              :href="workshop.attributes.applyhere"
+              target="_blank"
+          >{{$t("workshops.applyhere")}}</a
+          >
+        </div>
+        <div v-if="!!workshop.attributes.instagram">
+        <a
+            class="nav-link"
+            :href="workshop.attributes.instagram"
+            target="_blank"
+        >Instagram</a
+        >
+      </div>
+        <div v-if="!!workshop.attributes.website">
+          <a
+              class="nav-link"
+              :href="workshop.attributes.website"
+              target="_blank"
+          >{{$t("workshops.website")}}</a
+          >
+        </div>
+
+      </div></div>
     </div>
     <div class="img-container"><img class="img-child" :src="workshop.attributes.mynd"></div>
 
     <div class="flex-grid">
       <div class="col"><div class="workshop-about">{{workshop.attributes.about1}}
       <br><br>
-    {{workshop.attributes.about2}}</div></div>
+    {{workshop.attributes.about2}}<br><br>
+        {{workshop.attributes.about3}}</div></div>
       <div class="col"><div class="workshop-info">{{workshop.attributes.aboutteacher1}}<br><br>{{workshop.attributes.aboutteacher2}}</div></div>
     </div>
 </div>
 
+    <div class="seperator"></div>
 
-      <Footer />
+    <div class="sub-header">
+      <a class="nav-link" href="https://podio.com/webforms/27465134/2125633" target="_blank">
+        {{$t("workshops.applyhere")}}
+      </a>
+    </div>
+
+    <Footer />
   </div>
 
 </template>
@@ -168,6 +195,7 @@ font-size: 48px;
 margin-left: 40px;
 text-align: center;
 color: #000000;
+  line-height: 120%;
 }
 
 
@@ -191,22 +219,31 @@ text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  align-text: center;
-
+  line-height: 90%;
 }
 
 .workshop-about {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-
+  line-height: 120%;
+  margin: 30px;
 }
+
+  .workshop-about2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 0px;
+  }
 
 .workshop-info {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-
+  line-height: 120%;
+  margin: 30px;
 }
 
 a:hover {
@@ -216,14 +253,13 @@ a:hover {
 
 
 .text{
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-color: #000000;
-margin: 50px 50px 0 0px;
-text-align: left;
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+  margin: 50px;
+  text-align: left;
+  line-height: 115%;
 }
 
 .img-container {
@@ -238,7 +274,7 @@ align-self: center;
 max-width: 70%;
 height: auto;
 align-self: center;
-margin:20px;
+margin:30px;
 }
 
 </style>

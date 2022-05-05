@@ -21,7 +21,7 @@ export default {
         flex-flow: row wrap;
         justify-content: space-around;
         font-weight: 600;
-        background-color: #F6FFF7;
+        background-color: #FFF;
         font-size: 26px;
         color: #000000;
     }

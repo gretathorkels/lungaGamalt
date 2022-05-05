@@ -53,11 +53,11 @@
         </div>
       </div>
 
-      <div class="skew-container">
+      <!--<div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
           <router-link class="nav-link link-container" to="/applications">{{ $t('links.applications') }}</router-link>
         </div>
-      </div>
+      </div>-->
 
       <div class="skew-container">
         <div v-bind:class="{icelandic: this.$i18n.locale=='isl', english: this.$i18n.locale=='en'}">
@@ -125,14 +125,14 @@
   max-height: 20px;
 }
 .skew-container>div>a{
-  background-color: #F6FFF7;
+  background-color: #FFF;
 }
 .skew-container>div>a>span{
-  background-color: #F6FFF7;
+  background-color: #FFF;
 }
 .skew-container>div>a>span:hover{
   background-color: #000;
-  background-color: #F6FFF7;
+  background-color: #FFF;
 }
 .skew-container {
   border-top: 2px solid #000;
@@ -159,7 +159,7 @@
   margin-left: 70%;
   width: fit-content;
   align-self: flex-end;
-  background-color: #F6FFF7;
+  background-color: #FFF;
 }
 
 .navigation-container{

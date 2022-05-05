@@ -11,8 +11,6 @@
         <div v-bind:class="{ active: this.$i18n.locale == 'en' }" @click="changeLang('en')" class="checkbox"></div>
         <span class="text" @click="changeLang('en')">English</span>
       </div>
-
-
     </div>
   </div>
 </template>
@@ -64,7 +62,7 @@ export default {
 .nav-menu {
   font-size: 30px;
   font-weight: 600;
-  background-color: #F6FFF7;
+  background-color: #FFF;
   text-align: right;
 }
 
@@ -72,7 +70,7 @@ export default {
   font-size: 30px;
   font-weight: 600;
   background-color: black;
-  color: #F6FFF7;
+  color: #FFF;
 
 }
 
@@ -90,7 +88,7 @@ export default {
 
 .language-options {
   display: flex;
-  background-color: #F6FFF7;
+  background-color: #FFF;
   font-weight: 600;
   max-height: 20px;
   font-size: 16px;
