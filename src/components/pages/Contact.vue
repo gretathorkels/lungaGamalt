@@ -44,7 +44,7 @@
         <td>{{ $t('roles.creativeproductionfamilyfestival') }}</td>
         <td>Lama-sea Dear</td>
         <td>lama@lunga.is</td>
-        <td>(+354) 7848746</td>
+        <td>(+354) 7758882</td>
       </tr>
       <tr>
         <td>{{ $t('roles.exhangeprogram') }} </td>
