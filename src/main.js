@@ -1,12 +1,6 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
-//import VueResource from "vue-resource";
-
-//import VueShowdown from 'vue-showdown' 
-
-//Vue.config.productionTip = false
-Vue.use(VueRouter)
 
 import Events from './components/pages/Events';
 import Frontpage from './components/pages/Frontpage';
@@ -58,4 +52,4 @@ new Vue({
   components: {App},
   i18n,
   router
-}).$mount('#app')
+}).use(router).$mount('#app')
