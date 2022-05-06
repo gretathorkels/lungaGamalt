@@ -3,9 +3,8 @@ title: ramma fyrir ramma fyrir ramma
 teacher1: Stilla
 teacher2: Atli Arnarsson
 teacher3: Sólrún Ylfa Ingimarsdóttir
-type: Þriggja daga smiðja
-about1: Hreyfimyndadúóið Stilla býður upp á námskeið í stillumyndagerð (stop-motion). Kannað verður hvernig hægt er að nota stillumyndaformið á skapandi hátt með áherslu á endurnýtingu. Þátttakendur verða hvattir til að hugsa út fyrir rammann; nýta hluti og efni úr nærumhverfinu og vekja til lífs, ramma fyrir ramma. Námskeiðið er ætlað öllum og engar kröfur eru um reynslu.
-aboutteacher1: Atli Arnarsson og Sólrún Ylfa Ingimarsdóttir mynda saman stillumyndadúóið Stillu. Þau hafa gert tvær stuttmyndir, Marglitu marglyttuna (2018) og Eldhús eftir máli (2020). Sú síðarnefnda hefur verið sýnd á kvikmyndahátíðum víðs vegar um heiminn og hlotið nokkur verðlaun, t.a.m. Sprettfiskinn á Stockfish 2021. Þess utan eru Atli og Sólrún bæði með bakgrunn í tónlist, og leggja stund á nám í Kaupmannahöfn. Atli er að læra hljóðhönnun í Den Danske Filmskole auk þess sem hann vinnur að og gefur út eigin tónlist. Sólrún er í meistaranámi í fiðluleik við Det Kongelige Danske Musikkonservatorium, en hefur einnig verið virkur myndskreytir síðustu ár.
+about1: The animation duo Stilla invites you to a stop-motion workshop. We will explore how the medium can be used in a creative way, with an emphasis on recycling materials and everyday objects and making them come to life, one frame at a time. The workshop is suitable for anybody and no experience is required.
+aboutteacher1: Together, Atli Arnarsson and Sólrún Ylfa Ingimarsdóttir, form the Icelandic animation duo Stilla. They have made two short films, Marglita marglyttan (2018) and the award winning Kitchen by Measure (2020). Atli and Sólrún both have a background in music and they are currently studying in Copenhagen. Atli is studying sound design at the National Film School of Denmark, as well as writing and releasing his own music, and Sólrún is studying violin performance at the Royal Danish Academy of Music, but she has also been an active illustrator in the recent years.
 mynd: '/images/workshop/framebyframe.png'
 instagram: https://www.instagram.com/stillakynnir/
 applyhere: https://podio.com/webforms/27465134/2125633
