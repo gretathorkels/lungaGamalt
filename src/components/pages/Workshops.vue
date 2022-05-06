@@ -73,7 +73,7 @@
       <br><br>
     {{workshop.attributes.about2}}<br><br>
         {{workshop.attributes.about3}}</div></div>
-      <div class="col"><div class="workshop-info">{{workshop.attributes.aboutteacher1}}<br><br>{{workshop.attributes.aboutteacher2}}</div></div>
+      <div class="col"><div class="workshop-info">{{workshop.attributes.aboutteacher1}}<br><br>{{workshop.attributes.aboutteacher2}}<br><br>{{workshop.attributes.aboutteacher3}}</div></div>
     </div>
 </div>
 
