@@ -7,6 +7,26 @@
        <img class="img-child" src="../../assets/tumblr/2021-5.jpg"/>
      </div> -->
 
+    <div class="center sub-header nav-link">
+      <a
+          class="nav-link"
+          href="https://tix.is/is/event/13027/"
+          target="_blank"
+      >
+        {{ $t("concerts.ticket") }}
+      </a>
+    </div>
+
+
+  <div class="footer-container">
+    <div class="sub-text">
+      {{ $t("concerts.header") }}
+    </div>
+    <div class="text">
+      {{ $t("concerts.info1") }}
+    </div>
+    </div>
+
 
     <table>
       <tr>
@@ -106,15 +126,7 @@
         {{ $t("concerts.ticket") }}
       </a>
     </div>
-    <div class="footer-container">
-      <div class="sub-text">
-        {{ $t("concerts.header") }}
-      </div>
-      <div class="text">
-        {{ $t("concerts.info1") }}
-      </div>
 
-    </div>
 
     <div class="img-container">
       <img class="img-child" src="../../assets/tumblr/2021-6.jpg"/>

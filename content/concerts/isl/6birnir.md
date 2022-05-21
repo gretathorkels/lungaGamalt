@@ -4,7 +4,7 @@ id: 6
 id2: 6b
 stage: TBA
 time: TBA
-descr1: Birnir has been one of Iceland's most popular rappers since his debut in 2017. Last year he released the critically acclaimed album Bushido which cemented his spot as both the top dog of Icelandic rap and a pop icon. Birnir's catalogue is diverse and Lunga guests can expect a high energy epic performance.
+descr1: Birnir hefur verið einn vinsælasti rappari íslensku þjóðarinnar síðan hann gaf út sitt fyrsta lag árið 2017. Á síðasta ári gaf hann út plötuna Bushido sem hlaut lofsamlega dóma gagnrýnenda. Þannig stimplaði Birnir sig inn sem einn helsti rapp/popp tónlistarmaður Íslands. Birnir flytur margháttaða tónlist og því mega tónleikagestir eiga von á kraftmiklum tónleikum hjá rapparanum.
 descr2:
 descr3:
 img: /images/concert/birnir.png

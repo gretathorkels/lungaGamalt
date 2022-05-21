@@ -4,9 +4,9 @@ id: 2
 id2: 2b
 stage: TBA
 time: TBA
-descr1: Primarily known for his work as ‘Perko’, Fergus Jones is a Scottish Producer and DJ living and working in Copenhagen. He first appeared on Glasgow based label Numbers in 2018 with his debut ‘NV Auto’, which was followed up in 2020 by his second release ‘The City Rings.’ 2020 also saw him release his album ‘Galerie’ on Copenhagen based label Posh Isolation. Known for his textural productions and off-kilter remixes that draw as much from sound art as they do from modern club music; his sound is characterised by layers of subtly shifting chords, blown out drum machines, space echo and field recordings. As a monthly host on Rinse France, his selections and guest mix curation further push his singular brand of experimental electronic music.
-descr2:
-descr3:
+descr1: Fergus Jones, betur þekktur sem „Perko“ er skoskur framleiðandi og DJ, búsettur í Kaupmannahöfn“.  Perko kom fyrst fram tónlistarhátíðinni Numbers, í Glasgow, árið 2018. Sama ár gaf hann út sína fyrstu plötu „NV Auto“.
+descr2: Seinna árið 2020 gaf hann út tvær plötur, þær „The City Rings“ og  „Galerie“. Perko er þekktur fyrir að sækja innblástur jafnframt í heim hljóðlistar sem og nútíma klúbbatónlistar; hljóðheimur hans einkennist hárfínum hljómadansi, öflugri trommuvél, geimómun og vettvangsupptökum.
+descr3: Einnig hefur umsjón hans með þættinum Rinse France vakið athygli fyrir val hans og sýn á tilraunakenndri raftónlist.
 img: /images/concert/perko.jpg
 soundcloud: https://soundcloud.com/perkopair
 instagram: https://www.instagram.com/perkopair/

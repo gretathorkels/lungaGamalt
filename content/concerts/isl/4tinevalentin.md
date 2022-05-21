@@ -4,7 +4,7 @@ id: 4
 id2: 4b
 stage: TBA
 time: TBA
-descr1: Tine Valentin is a Copenhagen-based DJ who constructs her sets around an electro foundation, though it is not unusual for them to span genres like techno, house and breaks among others. Inspired by the music she loves, she tries to find her own way to make the dance floor a good place to be. Not a promoter, no producer, just a music nut lucky enough to get to play her favourite music out loud.
+descr1: Tine Valentin býr og starfar í Kaupmannahöfn. Tine byggir settin sín aðallega á raftónlist en kannar einnig lendur teknó, house og breaks -tónlistar. Innblásin af tónlistinni sem hún elskar leitast Tine eftir að finna sinn eiginn hljóm fyrir ákaft dansgólfið.
 descr2:
 descr3:
 img: /images/concert/tinevalentin.jpg

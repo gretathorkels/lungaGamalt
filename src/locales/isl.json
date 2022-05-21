@@ -128,11 +128,11 @@
   },
 
   "concerts": {
-    "header": "",
-    "info1":"Fylgist með fleiri tilkynningum hér!",
+    "header": "Hér að neðan eru fyrstu 13 tónlistaratriði LungA 2022!",
+    "info1":"Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum  okkar",
     "info2":"Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
     "ticket":"Kaupa miða",
-    "artist": "Tónlistarmaður",
+    "artist": "Tónlistatriði",
     "place": "Staðsetning"
   },
 

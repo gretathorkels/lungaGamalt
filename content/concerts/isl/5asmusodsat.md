@@ -4,8 +4,9 @@ id: 5
 id2: 5b
 stage: TBA
 time: TBA
-descr1: Asmus Odsat (he/him) is a DJ/Producer from Copenhagen. Asmus has hosted many music- and other cultural events in his hometown as a part of the BULK collective. They brought acts such as Rrose, Oni Ayhun, and Dasha Rush to the city, while also creating a space for local talent to break through. Asmus has also been part of the Malmö-based Ritual collective and label, throwing no-nonsense techno parties that garnered a unique, extremely floor-focused crowd. He currently holds a residency at the INKONST Studio, producing breakbeat and electro-flavoured music focused on the the dance floor. He released his first EP on the Icelandic FALK records, and has been performing with Reykjavik locals, building musical bridges across the Nordics. Apart from FALK, Asmus has released music on Fever AM, Bispebjerg records, Of Paradise, and Dusk & Haze.
-descr2:
+descr1: Asmus Odsat er DJ/framleiðandi frá Kaupmannahöfn. Asmus komið að fjölmörgum  tónleikum og menningarviðburðum í Kaupmannahöfn með BULK hópnum svokallaða. Asmus var einnig meðlimur í Ritual plötuútgáfunni, sem er þekkt fyrir ósvikul teknópartý sem drógu til sín einstakan hóp fólks.
+descr2: Nú um stundir er Asmus í vinnustofudvöl hjá Ritual hópnum í Malmö, þar sem hann skapar breakbeat og rafkennda tónlist fyrir dansgólfið. Hann gaf út sína fyrstu EP plötu hjá íslenska plötufyrirtækinu FALK records og hefur spilað víða í Reykjavík. Fyrir utan FALK hefur Asmus gefið út tónlist hjá Fever AM, Bispebjerg records, Of Paradise og Dusk & Haze.
+
 descr3:
 img: /images/concert/asmus.jpg
 soundcloud: https://soundcloud.com/asmus
