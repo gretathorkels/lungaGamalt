@@ -19,7 +19,9 @@
 
        <div class="col">
          <div class="text">{{$t("workshops.3day")}}</div>
-         <div class="textsmall">{{$t("workshops.3dayprice")}}</div><br>
+         <div class="textsmall">{{$t("workshops.3dayprice1")}}</div>
+         <div class="textsmall">{{$t("workshops.3dayprice2")}}</div><br>
+
          <div class="textsmall">{{$t("workshops.3dayinfo")}}</div>
        </div>
 
