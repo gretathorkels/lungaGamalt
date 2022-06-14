@@ -98,11 +98,17 @@
     "footer": "Ást! LungA"
   },
   "workshops":{
-    "firstline":"Listasmiðjur LungA eru 5 talsins í ár!",
+    "firstline":"Listasmiðjur LungA eru 6 talsins í ár!",
     "tba":"Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
     "applyhere":"Sæktu um hér!",
     "weekinfo":"Smiðjurnar eru 5 dagar. Verð: 50.000kr.",
-    "onlineinfo":"Innifalið í verðinu er þátttaka í listasmiðju, gisting, morgunmatur, hádegismatur og kvöldmatur og miði á lokatónleika LungA",
+    "onlineinfo":"",
+    "5day":"5 daga listasmiðja",
+    "5dayprice":"50.000 kr.",
+    "5dayinfo":"Innifalið í verðinu er þátttaka í listasmiðju, gisting, morgunmatur, hádegismatur og kvöldmatur og miði á lokatónleika LungA",
+    "3day":"3 daga listasmiðja.",
+    "3dayprice":"30.000 kr.",
+    "3dayinfo":"Innifalið í verðinu er þátttaka í smiðjunni, gisting, morgunmatur, hádegismatur og kvöldmatur, bátsferð og miði á lokatónleika LungA.",
     "childreninfo":"Barnasmiðja LungA verður kynnt síðar.",
     "generalinfo":"Vegna slökun á takmarkönum bjóðum við upp á svefnpokapláss í ár. Hafið samband við sessa@lunga.is fyrir frekari upplýsinga.",
     "website": "Vefsíða"

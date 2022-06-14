@@ -3,20 +3,24 @@
     <Header v-bind:menu="'menu'" />
     <Headline v-bind:title="title" />
 
-    <div class="head-container">
+    <!--<div class="head-container">
       <div class="sub-text">
       {{$t("workshops.firstline")}}
       </div>
-    </div>
+    </div>-->
 
 
     <div class="flex-grid">
        <div class="col">
-         <div class="text">{{$t("workshops.weekinfo")}}</div>
+         <div class="text">{{$t("workshops.5day")}}</div>
+         <div class="textsmall">{{$t("workshops.5dayprice")}}</div><br>
+         <div class="textsmall">{{$t("workshops.5dayinfo")}}</div>
        </div>
 
        <div class="col">
-         <div class="text">{{$t("workshops.onlineinfo")}}</div>
+         <div class="text">{{$t("workshops.3day")}}</div>
+         <div class="textsmall">{{$t("workshops.3dayprice")}}</div><br>
+         <div class="textsmall">{{$t("workshops.3dayinfo")}}</div>
        </div>
 
        <div class="col">
@@ -26,7 +30,7 @@
      </div>
 
     <div class="sub-header">
-         <a class="nav-link" href="https://podio.com/webforms/27465134/2125633" target="_blank">
+         <a class="nav-link" href="https://podio.com/webforms/27609545/2144502" target="_blank">
              {{$t("workshops.applyhere")}}
          </a>
      </div> 
@@ -38,6 +42,8 @@
     <div class="flex-grid">
       <div class="col"><div class="workshop-title">{{workshop.attributes.title}}</div></div>
     <div class="col"><div class="workshop-about2">{{workshop.attributes.teacher1}}<br>{{workshop.attributes.teacher2}}<br>{{workshop.attributes.teacher3}}</div></div>
+      <div class="col"><div class="workshop-about2">{{workshop.attributes.length}}</div></div>
+
       <div class="col"><div class="workshop-about2">
         <div v-if="!!workshop.attributes.applyhere">
           <a
@@ -65,7 +71,9 @@
         </div>
 
       </div></div>
+
     </div>
+
     <div class="img-container"><img class="img-child" :src="workshop.attributes.mynd"></div>
 
     <div class="flex-grid">
@@ -80,7 +88,7 @@
     <div class="seperator"></div>
 
     <div class="sub-header">
-      <a class="nav-link" href="https://podio.com/webforms/27465134/2125633" target="_blank">
+      <a class="nav-link" href="https://podio.com/webforms/27609545/2144502" target="_blank">
         {{$t("workshops.applyhere")}}
       </a>
     </div>
@@ -257,10 +265,21 @@ a:hover {
   font-weight: 600;
   font-size: 24px;
   color: #000000;
-  margin: 50px;
   text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
   line-height: 115%;
 }
+  .textsmall{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 115%;
+  }
 
 .img-container {
 display:flex;

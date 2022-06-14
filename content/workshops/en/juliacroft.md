@@ -1,6 +1,7 @@
 ---
 title: Chaos, comedy and materiality
 teacher1: Julia Croft
+length: 5 day workshop
 about1: Playing at the edges of wildness, euphoria, disgust and sublime. Let’s make some beautiful chaos, let’s make a mess.
 about2: Julia Croft will lead an experimental labs into materiality, object and slimy substances as performance material. This exploration is born out of a desire to fall in love with chaos. Over the lab we will create slime, ooze, goo, gases, solids and liquids that resist control and explore ways these shifting and wild materials can become the instigator for task based performance material. Building worlds that are shifting and transforming, can we allow these leaky and messy worlds lead us into performance worlds and body states? Can we build worlds out of materials? Can we duet with moving materials?
 about3: Over the course of the week we will attemopt to build a new world by transforming and building landscapes, and create short performance works in response, looking for the edges of wildness, control and states of change.
