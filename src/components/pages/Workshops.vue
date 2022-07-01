@@ -79,7 +79,8 @@
     <div class="img-container"><img class="img-child" :src="workshop.attributes.mynd"></div>
 
     <div class="flex-grid">
-      <div class="col"><div class="workshop-about">{{workshop.attributes.about1}}
+      <div class="col">
+        <div class="workshop-about">{{workshop.attributes.about1}}
       <br><br>
     {{workshop.attributes.about2}}<br><br>
         {{workshop.attributes.about3}}</div></div>

@@ -144,7 +144,9 @@
 
   "eventindex":{
     "para1":"LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-    "tba":"Bíðið spennt, við erum að vinna í viðburðum sumarsins!"
+    "tba":"Bíðið spennt, við erum að vinna í viðburðum sumarsins!",
+    "photocredit":"Ljósmynd eftir"
+
   },
   "frontpage": {
     "date": "júlí 2022",
